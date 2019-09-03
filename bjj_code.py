@@ -134,14 +134,13 @@ data_q2 =  data_q[['Q67','country_list','nationality']]
 #############  pie chart visualising the answers  #####################
 
 def pie_chart_generator(question):
-
-    data[question][data[question] == ''] = 'No answer'
+    question_list = data[question][data[question] != '']
+    #data[question][data[question] == ''] = 'No answer'
     
-    counts = Counter(data[question][2:].tolist())
+    counts = Counter(question_list[2:].tolist())
     plt.pie([int(v) for v in counts.values()], labels=[str(k) for k in counts.keys()],
              autopct='%.1f%%')
     plt.show()
-
 
 ################## Q55 - gender ##################
 #print(colnames_dict['Q55'])
@@ -151,9 +150,10 @@ pie_chart_generator('Q55')
 #print(colnames_dict['Q56'])
 
 def bar_plot(question):
-    data[question][data[question] == ''] = 'No answer'
+    question_list = data[question][data[question] != '']
+    #data[question][data[question] == ''] = 'No answer'
     
-    counts = OrderedDict(Counter(data[question][2:]).most_common())
+    counts = OrderedDict(Counter(question_list[2:]).most_common())
     
     plt.barh(range(len(counts)), list(counts.values()), align='center')
     plt.yticks(range(len(counts)), list(counts.keys()))
@@ -161,24 +161,45 @@ def bar_plot(question):
     plt.show()
     
 bar_plot('Q56')
+
 ################## Q57 - age ##################
 #print(colnames_dict['Q57'])
 age_data = data['Q57'][data['Q57'] != '']
 data['age_data'] = age_data[2:].apply(int) 
 
-# more categories
-#(['What is your age?', '{"ImportId":"QID54"}', '40', '38', '28',
-#       '44', '31', '34', '43', '25', '33', '35', '29', '18', '32', '45',
-#       '41', '36', '37', '22', '27', '39', '30', '24', 'No answer', '42',
-#       '21', '23', '19', '20', '26', '46', '54', '51', '55', '59', '48',
-#       '62', '47', '49', '52', '50', '56', '66', '60', '75', '53'],
+def age_categories(x):
+    if 18 <= x < 21:
+        return '18-21'
+    elif 21 <= x < 25:
+        return '21-25'
+    elif 25 <= x < 30:
+        return '25-30'
+    elif 30 <= x < 35:
+        return '30-35'
+    elif 35 <= x < 40:
+        return '35-40'
+    elif 40 <= x < 45:
+        return '40-45'
+    elif 45 <= x < 50:
+        return '45-50'
+    elif 50 <= x:
+        return '50+'
+    else:
+        return ''
     
-bar_plot('age_data')
+data['age_category'] = data['age_data'][2:].apply(age_categories)  
+
+pie_chart_generator('age_category')
+
 ################## Q57.1 - income ################
 #print(colnames_dict['Q57.1'])
-pie_chart_generator('Q57.1')
+bar_plot('Q57.1')
 
 ################## Q59 - race / ethnicity #################
 #print(colnames_dict['Q59'])
 pie_chart_generator('Q59')
 
+# what techniques are preffered by higher belts?
+# belt promotion time Kaplan Meier
+# do BJJ people buy naitonal brands?
+# do higher belts compete more often?
