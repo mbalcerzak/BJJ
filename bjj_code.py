@@ -5,6 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter, OrderedDict
 
+
+
 path = 'C:/Users/malgo_000/Desktop/BJJ/'
 
 # getting the data and deleting unimportant columns
@@ -108,11 +110,9 @@ def clean_text(string):
         string = string.replace(replacement[0],replacement[1])
 
     check = '(@[A-Za-z]+)|([^A-Za-z \t\&])|(\w+:\/\/\S+)'
-    return ' '.join(re.sub(check, ' ', string).split())
+    return (' '.join(re.sub(check, ' ', string).split())).split(' ')
 
 data_q['country_list'] = [clean_text(x) for x in data_q['Q67']]
-data_q['country_list'] = data_q['country_list'].str.split(' ')
- 
 
 def country_get(word_list):
     nationalities = []
@@ -130,147 +130,43 @@ def country_get(word_list):
         
 data_q['nationality'] = [country_get(x) for x in data_q['country_list']] 
   
-data_q2 =  data_q[['Q67','country_list','nationality']]
-
-#############  pie chart visualising the answers  #####################
-
-def pie_chart_generator(question):
-    question_list = data[question][data[question] != '']
-    #data[question][data[question] == ''] = 'No answer'
-    
-    counts = Counter(question_list[2:].tolist())
-    plt.pie([int(v) for v in counts.values()], labels=[str(k) for k in counts.keys()],
-             autopct='%.1f%%')
-    plt.show()
-
-################## Q55 - gender ##################
-#print(colnames_dict['Q55'])
-pie_chart_generator('Q55')
-
-################## Q56 - education - barchart ##################
-#print(colnames_dict['Q56'])
-
-def bar_plot(question):
-    question_list = data[question][data[question] != '']
-    #data[question][data[question] == ''] = 'No answer'
-    
-    counts = OrderedDict(Counter(question_list[2:]).most_common())
-    
-    plt.barh(range(len(counts)), list(counts.values()), align='center')
-    plt.yticks(range(len(counts)), list(counts.keys()))
-    
-    plt.show()
-    
-bar_plot('Q56')
-
-bar_plot('Q2')
 
 ################## Q57 - age ##################
-#print(colnames_dict['Q57'])
+
 age_data = data['Q57'][data['Q57'] != '']
 data['age_data'] = age_data[2:].apply(int) 
 
-def age_categories(x):
-    if 18 <= x < 21:
-        return '18-21'
-    elif 21 <= x < 25:
-        return '21-25'
-    elif 25 <= x < 30:
-        return '25-30'
-    elif 30 <= x < 35:
-        return '30-35'
-    elif 35 <= x < 40:
-        return '35-40'
-    elif 40 <= x < 45:
-        return '40-45'
-    elif 45 <= x < 50:
-        return '45-50'
-    elif 50 <= x:
-        return '50+'
-    else:
-        return ''
+def age_categories(x):    
+    return '{}-{}'.format(int(x//5*5),int(x//5*5+5)) if x == x else ''
     
 data['age_category'] = data['age_data'][2:].apply(age_categories)  
 
-pie_chart_generator('age_category')
 
-################## Q57.1 - income ################
-#print(colnames_dict['Q57.1'])
-bar_plot('Q57.1')
-
-################## Q59 - race / ethnicity #################
-#print(colnames_dict['Q59'])
-pie_chart_generator('Q59')
-
-# what techniques are preffered by higher belts?
-# belt promotion time Kaplan Meier
-# do BJJ people buy naitonal brands?
-# do higher belts compete more often?
+# Overall, do not split into belts or gender:
+# [57, 59, 67, 56, 57.1, 22]
 
 
-data[['Q55','Q2']].groupby(['Q55','Q2']).size()
-
-#############  pie chart visualising the answers  #####################
-
-belt_colours = ['White belt','Blue Belt','Purple Belt','Brown Belt','Black Belt']
-
-def pie_chart_by(question, gender = False, belt = False):
-   
-    if gender != False: 
-        for gender_ in ('Female','Male'):
-            question_list = data[question][(data[question] != '') & (data['Q55'] == gender_)]
-            
-            n = sum([1 for x in data['Q55'] if x == gender])
-            
-            counts = Counter(question_list[2:].tolist())
-            plt.pie([int(v) for v in counts.values()], 
-                     labels=[str(k) for k in counts.keys()],
-                     autopct='%.1f%%')
-            plt.title(gender_ + " (" + str(n) + ")")
-            plt.show()
-     
-    if belt != False: 
-        for belt_ in list(belt_colours.values()):
-            question_list = data[question][(data[question] != '') & (data['Q2'] == belt_)]
-            
-            n = sum([1 for x in data['Q2'] if x == belt_])
-            
-            counts = Counter(question_list[2:].tolist())
-            plt.pie([int(v) for v in counts.values()], 
-                     labels=[str(k) for k in counts.keys()],
-                     autopct='%.1f%%')
-            plt.title(belt_ + " (" + str(n) + ")")
-            plt.show()   
-            
-            
-pie_chart_by('Q2', gender = True)
-
-pie_chart_by('Q67.1', gender = True)   
-
-pie_chart_by('Q67.1', belt = True)
+############### [18,19,20,28],  Wordcloud ##############
 
 
-cross = pd.crosstab(data['Q2'][data['Q2'].isin(belt_colours)], data['Q67.1'][data['Q67.1'] != ''])
-cross_perc = cross.divide(cross.sum(axis=1), axis = 0)
-cross_perc2 = pd.DataFrame(cross_perc, index = belt_colours)
 
-cross2 = pd.DataFrame(cross, index = belt_colours)
-techniques = ['Closed guard', 'Leg locking', 'Open Guard', 'Pressure Passing']
-# Do preferences change over time?
+#[39,40,41, 43] Gi i NoGi ulubione ciuchy
 
-# Make the plot
-plt.stackplot(belt_colours, cross_perc['Closed guard'],cross_perc['Leg locking'],cross_perc['Open Guard'],cross_perc['Pressure Passing'], labels=techniques)
-plt.legend(loc='upper left')
-#plt.xticks(belt_colours)
-plt.title('Favourite techniques vs. belt colour')
-plt.show()
+#[13,66, 27,66.1] Academies
 
-# Make the plot
-plt.stackplot(belt_colours, cross_perc2['Closed guard'],cross_perc2['Leg locking'],cross_perc2['Open Guard'],cross_perc2['Pressure Passing'], labels=techniques)
-plt.legend(loc='upper left')
-#plt.xticks(belt_colours)
-plt.title('Favourite techniques vs. belt colour')
-plt.show()
+#61.1 watching sport BJJ
 
 
+#26 competition
+# 28 most popular injuries
+
+# 50, 65 blogs and podcasts
+
+# let's leave a question about politics...
+
+# 63,68]
+
+# 68 favourite submission
+
+# 63 favourite athletes
 
