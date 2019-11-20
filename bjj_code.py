@@ -7,10 +7,12 @@ from collections import Counter, OrderedDict
 
 
 
-path = 'C:/Users/malgo_000/Desktop/BJJ/'
+#path = 'C:/Users/malgo_000/Desktop/BJJ/'
+path = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
+
 
 # getting the data and deleting unimportant columns
-data = pd.read_csv(path + 'BJJ1.csv')
+data = pd.read_csv(path + '\BJJ1.csv')
 data = data.drop(columns = ['RecipientEmail','RecipientFirstName',
                             'RecipientLastName','IPAddress',
                             'ExternalReference', 'DistributionChannel'])
@@ -130,43 +132,118 @@ def country_get(word_list):
         
 data_q['nationality'] = [country_get(x) for x in data_q['country_list']] 
   
-
 ################## Q57 - age ##################
 
-age_data = data['Q57'][data['Q57'] != '']
-data['age_data'] = age_data[2:].apply(int) 
-
-def age_categories(x):    
-    return '{}-{}'.format(int(x//5*5),int(x//5*5+5)) if x == x else ''
+def age_categories(x):   
+    if x == x and x != '':
+        return '{}-{}'.format(round(int(x)//5*5),round(int(x)//5*5+5))
     
-data['age_category'] = data['age_data'][2:].apply(age_categories)  
+data_q['age_category'] = data_q['Q57'].apply(age_categories)  
 
-
-# Overall, do not split into belts or gender:
-# [57, 59, 67, 56, 57.1, 22]
-
+##### Overall, do not split into belts or gender:
+data_all = data_q[["Q57", "Q55", "age_category", "nationality", "Q59", "Q56", "Q57.1", "Q22"]]
 
 ############### [18,19,20,28],  Wordcloud ##############
 
 
 
-#[39,40,41, 43] Gi i NoGi ulubione ciuchy
 
-#[13,66, 27,66.1] Academies
+# Gi i NoGi ulubione ciuchy
 
-#61.1 watching sport BJJ
+data_gi = data_q[["Q39","Q40","Q41", "Q43"]]
+
+# Academies
+
+data_acedmy = data_q[["Q13","Q66","Q27","Q66.1"]]
 
 
 #26 competition
-# 28 most popular injuries
-
-# 50, 65 blogs and podcasts
-
 # let's leave a question about politics...
+# add number of answers taken into account for each quesion
 
-# 63,68]
+#  65 blogs and podcasts
+
+data_media = data_q[["Q50","Q61.1","Q65", "Q63"]]
+
 
 # 68 favourite submission
 
-# 63 favourite athletes
+submission_dictionary = {
+         'triangle':['triangle'],
+         'kimura':['kimura','kimora','kamra','kmrr'] ,
+         'armbar':['armbar', 'armbars','arm entanglement'],
+         'bow and arrow':['arrow'],
+         'americana':['americana','anericana'],
+         'rear naked choke':['rear naked choke','rnc','rear naked'],
+         'armbar':['arm bar', 'armbar'],
+         'omoplata':['omoplata','omaplata','omo plata','omplata'],
+         'guillotine':['guillotine','guilotine'],
+         'heel hook':['heel hook'],
+         'ezekiel':['ezekiel','ezkiel','ezikiel'],
+         'cross collar choke':['cross','cros side','collar'],
+         'darce':['darce'],
+         'ankle lock':['ankle'],
+         'heel hook':['heel hook'],
+         'gogoplata':['gogoplata','gogo plata'],
+         'crucifix':['crucifix'],
+         'wristlock':['wristlock','wrist lock'],
+         'anaconda':['anaconda'],
+         'leg lock':['leg lock','texas clover leaf'],
+         'armlock':['armlock','arm lock','armlocks'],
+         'brabo choke':['brabo'],
+         'head and arm choke':['head and arm','head&arm','kata gatame','katagatami'],
+         'baseball choke':['baseball choke'],
+         'foot lock':['foot lock'],
+         'toe hold':['toe hold','toehold'],
+         'twister':['twister'],
+         'peruvian necktie':['north south','paruvian','n s choke'],
+         'japanese necktie / papercutter':['japanese necktie','paper cutter','papercutter'],
+         'lapel chokes':['lapel chokes'],
+         'sorcerer':['sorceror']
+        }
 
+ 'loop choke', 'choke','chokes', 'knee bar'
+ 'kneebar' ,  , 'electric chair',
+ 'front choke', 
+ 'chokes any',  'gi chokes', 
+ 'abc always be chokin',   , ,
+  'cuck', 'calf slicer', 'rickson choke', 
+ , 'juji gatame', , 'choke from back',
+   , 'russian knee knot' 'clock choke', 'any choke',  'chocke',
+  'bread cutter choke',   'key lock', 'best friend choke triangle', 
+ 'kata hajime single wing choke', 'gi choke'
+
+submission_list = data_q['Q68'][data_q['Q68'] != ''].tolist()
+
+
+def clean_sub(string):
+    string= string.lower()
+    list_replacements = [['\''',''],[' & ','&']]
+    
+    for replacement in list_replacements:
+        string = string.replace(replacement[0],replacement[1])
+
+    check = '(@[A-Za-z]+)|([^A-Za-z \t\&])|(\w+:\/\/\S+)'
+    return ' '.join(re.sub(check, ' ', string).split())
+
+
+def create_submissions():
+    sub_list = []
+    
+    for row in submission_list:
+        sub_list.append(clean_sub(row))
+        
+    return sub_list
+    
+sub_list2 = create_submissions()
+    
+    
+def most_frequent(List): 
+    occurence_count = Counter(List) 
+    return [x[0] for x in occurence_count.most_common()]
+    
+print(most_frequent(sub_list2))     
+    
+    
+    
+    
