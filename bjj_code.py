@@ -8,8 +8,8 @@ from nltk.corpus import stopwords
 sw = stopwords.words("english")
 
 
-#path = 'C:/Users/malgo_000/Desktop/BJJ/'
-path = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
+path = 'C:/Users/malgo_000/Desktop/BJJ/'
+#path = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
 
 
 # getting the data and deleting unimportant columns
@@ -503,7 +503,7 @@ def create_academy_list(dataset, columns):
 
 media_list = create_academy_list(data_q,["Q50","Q61.1","Q65", "Q63"])
 
-#%%
+
 media_dict = {
          '10th planet':['10th planet','10thplanet'],
          'reddit':['r/','reddit'],
@@ -594,21 +594,9 @@ media_dict = {
          'damian maia':['damian maia'],
          'otm':['otm'],
          'friends compete':['teammate','friend'],
-         'grappling central':['grappling central', 'grapplingcentral']
+         'grappling central':['grappling central', 'grapplingcentral'],
+         'bjj over 40':['bjj over 40']
         }
-
-
-list_do_dict = [
-        'bjj over 40', 
-        ]
-
-
-for elem in list_do_dict:
-    media_dict[elem] = [elem]
-
-media_dict
-
-#%%
 
 
 
@@ -620,4 +608,78 @@ def most_frequent(List):
 unsorted = most_frequent(media_list)
 #print(sorted(unsorted))
 
+althetes_list = data_q["Q63"].tolist()
+
+
+def clean_sub3(string):
+    string= string.lower()
+    list_replacements = [['\'s','']]
     
+    for replacement in list_replacements:
+        string = string.replace(replacement[0],replacement[1])
+
+    check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
+    
+    return re.sub(check, ' ', string).strip()
+
+athletes = []
+for row in althetes_list:
+    athletes += [clean_sub3(x) for x in row.replace('.',',').replace('/',',').replace(' and ',',').split(',') if x != '']
+
+
+
+
+
+check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
+
+althletes_megastring = ''.join([re.sub(check,'',x).lower() for x in athletes])
+
+#%%
+def iterative_levenshtein(s, t):
+    """ 
+        iterative_levenshtein(s, t) -> ldist
+        ldist is the Levenshtein distance between the strings 
+        s and t.
+        For all i and j, dist[i,j] will contain the Levenshtein 
+        distance between the first i characters of s and the 
+        first j characters of t
+    """
+    rows = len(s)+1
+    cols = len(t)+1
+    dist = [[0 for x in range(cols)] for x in range(rows)]
+    # source prefixes can be transformed into empty strings 
+    # by deletions:
+    for i in range(1, rows):
+        dist[i][0] = i
+    # target prefixes can be created from an empty source string
+    # by inserting the characters
+    for i in range(1, cols):
+        dist[0][i] = i
+        
+    for col in range(1, cols):
+        for row in range(1, rows):
+            if s[row-1] == t[col-1]:
+                cost = 0
+            else:
+                cost = 1
+            dist[row][col] = min(dist[row-1][col] + 1,      # deletion
+                                 dist[row][col-1] + 1,      # insertion
+                                 dist[row-1][col-1] + cost) # substitution
+
+    return dist[row][col]
+
+correct = "keenan cornelious"
+incorrect = "kennnan kornelius"
+#%%
+iterative_levenshtein('honda', 'hondda kjh uyg uf u')
+#%%   reading in the wikipedia list
+
+with open('wiki_list.txt', encoding='utf8') as f:
+    bjj_athletes_wiki = f.readlines()
+# you may also want to remove whitespace characters like `\n` at the end of each line
+bjj_athletes_wiki = [x.strip().lower() for x in content] 
+
+
+#%% 
+
+for name in content
