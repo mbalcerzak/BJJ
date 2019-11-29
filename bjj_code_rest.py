@@ -7,13 +7,26 @@ from collections import Counter, OrderedDict
 from nltk.corpus import stopwords
 sw = stopwords.words("english")
 
+#### My own python scripts from dictionary folder:
 
-path = 'C:/Users/malgo_000/Desktop/BJJ/'
-#path = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
+from Dictionaries.country_dictionary import country_dict
 
+#%%
+######
 
+while True:
+    try:
+        path = r"C:\Users\malgo_000\Desktop\BJJ\BJJ1.csv"
+    except FileNotFoundError:
+        pass
+    else:
+        path = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset\BJJ1.csv"
+        print("dataset loaded")
+        break
+
+#%%
 # getting the data and deleting unimportant columns
-data = pd.read_csv(path + '\BJJ1.csv')
+data = pd.read_csv(path)
 data = data.drop(columns = ['RecipientEmail','RecipientFirstName',
                             'RecipientLastName','IPAddress',
                             'ExternalReference', 'DistributionChannel'])
@@ -33,77 +46,16 @@ data_q = data[qestions_order][2:]
 ################## 1. Country Q67 --> "nationality"  #################
 
 def generate_country_dict():
-    country_dict = {
-            'USA':['US','USA','States','American','america','Murrica','Murika',
-                   'Murica','Virginia','Texan','Merica','Merican','Merkin'],
-            'UK':['English','England','Scottish','Britain','British','Kingdom',
-                  'Welsh','Scotland','UK'],
-            'Netherlands':['NL','Dutch','Netherlands','Netherland',],
-            'Ireland':['Irish','Ireland'],
-            'Italy':['Italian','Italy'],
-            'Germany':['German','Deutsch','getman','DE','Germany'],
-            'Australia':['Australian', 'Austtalian','Australia'],
-            'India':['Indian','India'],
-            'Canada':['Canadian','Canada'],
-            'Phillipines':['Filipino','Phillipines','Philippines'],
-            'France':['French','France'],
-            'Poland':['Polish','Poland'],
-            'Japan':['Japanese','Okinawan','Japan'],
-            'Brazil':['Brazilian','Brazillian', 'Brazil'],
-            'Israel':['Israeli','Israel'],
-            'Portugal':['Portuguese','Portugal'],
-            'Iceland':['Icelandic','Iceland'],
-            'Lithuania':['Lithuanian','Lithuania'],
-            'Singapore':['Singaporean','Singapore'],
-            'New Zealand':['NewZealander','NewZealand'],
-            'Norway':['Norwegian','Norway'],
-            'Colombia':['Colombian','Colombia'],
-            'Vietnam':['Vietnamese','Vietnam'],
-            'Denmark':['Danish','DK','Denmark'],
-            'Sweden':['Swedish','Sweden'],
-            'Uruguay':['Uruguayan','Uruguay'],
-            'Pakistan':['Pakistani','Pakistan'],
-            'Austria':['Austria','Austrian'],
-            'Nicaragua':['Nicaragua'],
-            'Russia':['Russian','Russia'],
-            'China':['Chinese','China'],
-            'Switzerland':['Swiss','Switzerland'],
-            'Hungary':['Hungary','Hungarian'],
-            'Serbia':['Serbian','serb','Serbia'],
-            'Romania':['Romanian','Romania'],
-            'Finland':['Finnish','Finland'],
-            'Croatia':['Croatian','Croatia','cro'],
-            'Bosnia':['Bosniak','Bosnian','Bosnia'],
-            'South Africa':['SouthAfrican','SouthAfrica','SouthAfrican'],
-            'Mexico':['Mexican','Mexico'],
-            'Malaysia':['Malaysian','Malaysia'],
-            'Greece':['Greek','Greece'],
-            'South Korea':['Korean','Korea','SouthKorea'],
-            'Egypt':['Egyptian','Egypt'],
-            'Ecuador':['Ecuadorian','Ecuador'],
-            'Spain':['Spanish','Spain'],
-            'Czech Republic':['Czech'],
-            'Ukraine':['Ukranian','Ukraine'],
-            'Chile':['Chile'],
-            'Turkey':['Turkish','Turkey'],
-            'Indonesia':['Indonesia'],
-            'Jamaica':['Jamaica'],
-            'Cuba':['Cuban','Cuba'],
-            'Macedonia':['Macedonian','Macedonia'],
-            'Malta':['Maltese','Malta'],
-            'Montenegro':['Montenegrin'],
-            'Other':['Other'],
-            'watch bjj':['watch bjj','watchbjj']
-            }
+    country_dict1 = country_dict
     
     country_dict2 = {}  
-    for c_list, country in zip(list(country_dict.values()), country_dict.keys()):
+    for c_list, country in zip(list(country_dict1.values()), country_dict1.keys()):
         for c in c_list:
             country_dict2[c.lower()] = country
     
     return country_dict2
 
-country_dict = generate_country_dict()
+country_dict3 = generate_country_dict()
 
 
 def clean_text(string):
@@ -123,8 +75,8 @@ def country_get(word_list):
     
     for word in word_list:
         nationality = ''
-        if word.lower() in country_dict.keys():
-            nationality = country_dict[word.lower()]
+        if word.lower() in country_dict3.keys():
+            nationality = country_dict3[word.lower()]
         if nationality != '' and nationality not in nationalities:
             nationalities.append(nationality)      
         if nationality == 'Other':
@@ -508,18 +460,12 @@ media_dict = {
          '10th planet':['10th planet','10thplanet'],
          'reddit':['r/','reddit'],
          'budo':['budo'],
-         'stephan kesting': ['stephan kesting'],
-         'roy dean': ['roy dean'],
          'adcc': ['adcc'],
          'youtube': ['youtube','you tube'],
-         'adam benayoun': ['adam benayoun'],
          '40plusbjjsuccess': ['40plusbjjsuccess'],
          'ebi': ['ebi'],
          'bjj scout': ['bjj scout', 'bjjscout'],
-         'bj penn': ['bj penn'],
-         'bjj eastern europe': ['bjj eastern europe','bjj ee', 'bjj easter europe',
-                                'bjj eastern eirope','bjjee','eastern eu','eebjj',
-                                'bjjeastern', 'bjjeasteneurope'],
+         'bjj eastern europe': ['bjj eastern europe','bjj ee', 'bjj easter europe','bjj eastern eirope','bjjee','eastern eu','eebjj','bjjeastern', 'bjjeasteneurope'],
          'bjj geek': ['bjj geek'],
          'bjj news': ['bjj news','bjjnews'],
          'bjj globtrotters': ['bjj globtrotters'],
@@ -530,17 +476,10 @@ media_dict = {
          'bjjnews': ['bjjnews'],
          'xande ribeiro': ['xande'],
          'the grumpy grappler': ['the grumpy grappler'],
-         'kurt osiander': ['kurt osiander','ocieander','oisander','kurt o'],
-         'joe rogan': ['rogan'],
-         'saulo': ['saulo','saul'],
          'sherdog': ['sherdog'],
-         'rickson': ['rickson','ricks on'],
-         'ryan hall': ['ryan hall'],
          'savagekitsune': ['savagekitsune'],
          'sharkgirlbjj': ['sharkgirlbjj'],
          'tristargym': ['tristargym'],
-         'tom barlow': ['tom barlow'],
-         'rafael lovato': ['rafael lovato'],
          'lexfridman': ['lexfridman'],
          'chewjitsu': ['chewjitsu'],
          'grapplearts': ['grapplearts'],
@@ -551,26 +490,10 @@ media_dict = {
          'metamoris': ['metamoris','mentamoris','meramoris'],
          'ainec': ['ainec'],
          'mma mania': ['mma mania'],
-         'john danaher': ['john danaher'],
-         'mendes bros':['mendez','mendes'],
-         'marcelo garcia': ['marcelo garcia','marcello garcia'],
-         'aj azagarm': ['aj azagarm'],
-         'andre galvao': ['andre galvao'],
-         'eddie bravo': ['eddie bravo'],
-         'marcus buchecha': ['buchecha'],
-         'kron gracie': ['kron gracie'],
-         'keenan cornelious': ['keenan cornelious','kennnan kornelius', 
-                               'keenan cornelius','keenan cornielius',
-                               'keenan kornelius','kennen cornelius','keenan'],
-         'roger gracie':['roger gracie'],
-         'miyao brothers':['miao bros','miyao'],
-         'renzo gracie': ['renzo gracie'],
          'bjj brick': ['bjj brick','bjjbrick'],
          'mixedmartialarts': ['mixedmartialarts'],
-         'mackenzie dern': ['mackenzie dern','mckenzie dern','meckenzie dern'],
          'fight to win':['fight to win','fight 2 win','fight2win'],
          'meerkatsu blog': ['meerkatsu blog'],
-         'eddie cummings': ['eddie cummings','eddie cummins'],
          'flo grapplimg': ['flo grapplimg','flograpplimg'],
          'flow grappling': ['flow grappling','flowgrappling', 'flo'],
          'mma junkie': ['mma junkie'],
@@ -579,11 +502,6 @@ media_dict = {
          'live':['live'],
         'fightpass':['fightpass'],
         'white belt bjj':['white belt'],
-        'royce gracie':['royce'],
-        'rickson gracie':['rickson gracie', 'ricks on gracie', 'rickson'],
-        'michael langhi':['michael langhi'],
-        'rodolfo vieira':['rodolfo vieira','rodolpho viera','rodalfo vierrea', 'rodoflo viera','rodolfo', 'rodolfo vieira', 'rodolfo viera'],
-        'cobrinha':['cobrinha'],
         'maxbjj':['maxbjj'],
         'bjj library':['bjjlibrary', 'bjj library'],
         'jiu jitsu style': ['jiu jitsu style'],
@@ -591,14 +509,144 @@ media_dict = {
          'instagram': ['instagram'],
          'inverted gear': ['inverted gear'],
          'insidebjj': ['insidebjj'],
-         'damian maia':['damian maia'],
          'otm':['otm'],
          'friends compete':['teammate','friend'],
          'grappling central':['grappling central', 'grapplingcentral'],
          'bjj over 40':['bjj over 40']
         }
 
+athlete_dict = {
+'Adam Benayoun':['adam benayoun'],
+'AJ Azagarm':['aj azagarm'],
+'Alexandre "Soca" Freitas':['alexandre "soca" freitas'],
+'Aloisio Silva':['aloisio silva'],
+'Alvaro Barreto':['alvaro barreto'],
+'André Galvão':['andré galvão','andre galvao'],
+'Armando Wridt':['armando wridt'],
+'Arthur Virgílio Neto':['arthur virgílio neto'],
+'B.J. Penn':['b.j. penn','bj penn'],
+'Braulio Estima':['braulio estima'],
+'Brian Ortega':['brian ortega'],
+'Carley Gracie':['carley gracie'],
+'Carlos "Bagana" Lima':['carlos "bagana" lima'],
+'Carlos "Caique" Elias':['carlos "caique" elias'],
+'Carlos Antonio Rosado':['carlos antonio rosado'],
+'Carlos Gracie':['carlos gracie'],
+'Carlos Gracie, Jr.':['carlos gracie, jr.'],
+'Carlos Machado':['carlos machado'],
+'Carlos Valente':['carlos valente'],
+'Carlson Gracie':['carlson gracie'],
+'Charles Gracie':['charles gracie'],
+'Chris Haueter':['chris haueter'],
+'cobrinha':['cobrinha'],
+'Demian Maia':['demian maia'],
+'Derval Luciano Rêgo (Mestre Morcego)':['derval luciano rêgo (mestre morcego)'],
+'Eddie Bravo':['eddie bravo'],
+'Eddie Cummings':['eddie cummings', 'eddie cummins'],
+'Fabio Gurgel':['fabio gurgel'],
+'Fabricio Martins Costa':['fabricio martins costa'],
+'Fabrício Werdum':['fabrício werdum'],
+'Flavio Behring':['flavio behring'],
+'Francisco Mansor':['francisco mansor'],
+'Francisco Sá (Sazinho)':['francisco sá (sazinho)'],
+'Fábio Santos (fighter)':['fábio santos (fighter)'],
+'Gastão Gracie':['gastão gracie'],
+'Geny Rebello':['geny rebello'],
+'Gilbert Burns':['gilbert burns'],
+'Glover Teixeira':['glover teixeira'],
+'Gordon Ryan':['gordon ryan'],
+'Hélio Gracie':['hélio gracie'],
+'Jean Jacques Machado':['jean jacques machado'],
+'Joaquim Valente':['joaquim valente'],
+'Joe Moreira':['joe moreira'],
+'Joe Rogan':['joe rogan'],
+'John Danaher':['john danaher', 'danaher'],
+'Jorge (George) Gracie':['jorge (george) gracie'],
+'Jorge Pereira':['jorge pereira'],
+'João Alberto Barreto':['joão alberto barreto'],
+'Keenan Cornelius':['keenan cornelious', 'kennnan kornelius', 'keenan cornelius', 'keenan cornielius', 'keenan kornelius', 'kennen cornelius'],
+'Ken Gabrielson':['ken gabrielson'],
+'Kenny Florian':['kenny florian'],
+'Kron Gracie':['kron gracie', 'kron'],
+'Kurt Osiander':['kurt osiander', 'ocieander', 'oisander', 'kurt osiander'],
+'Luis Carlos Guedes de Castro':['luis carlos guedes de castro'],
+'Luis Franca':['luis franca'],
+'Luiz França Filho':['luiz frança filho'],
+'Luiz Fux':['luiz fux'],
+'Luiz Palhares':['luiz palhares'],
+'Léo Vieira':['léo vieira'],
+'Mackenzie Dern':['mackenzie dern', 'mckenzie dern', 'meckenzie dern'],
+'Marcelo Garcia':['marcelo garcia','marcello garcia'],
+'Marcus "Buchecha" Almeida':['marcus "buchecha" almeida'],
+'Marcus Buchecha':['buchecha'],
+'Marcus Soares':['marcus soares'],
+'Mauricio Motta Gomes':['mauricio motta gomes'],
+'Mendes Bros':['mendez', 'mendes', 'mendes bros', 'mendes brothers'],
+'Michael Langhi':['michael langhi'],
+'Mickey Gall':['mickey gall'],
+'Miyao Brothers':['miao bros', 'miyao', 'miyao brothers'],
+'Moises Muradi':['moises muradi'],
+'Murilo Bustamante':['murilo bustamante'],
+'Márcio Stambowsky':['márcio stambowsky'],
+'Nate Diaz':['nate diaz'],
+'Nelson Monteiro':['nelson monteiro'],
+'Nick Diaz':['nick diaz'],
+'Osvaldo Alves':['osvaldo alves'],
+'Oswaldo Fadda':['oswaldo fadda'],
+'Oswaldo Gracie':['oswaldo gracie'],
+'Pablo Popovitch':['pablo popovitch'],
+'Patrice Poissant':['patrice poissant'],
+'Pedro Diaz':['pedro diaz'],
+'Pedro Hemeterio':['pedro hemeterio'],
+'Pedro Sauer':['pedro sauer'],
+'Pedro Valente Sr.':['pedro valente sr.'],
+'Rafael Lovato Jr.':['rafael lovato jr.','rafael lovato'],
+'Rafael Mendes':['rafael mendes'],
+'Relson Gracie':['relson gracie'],
+'Renato Paquet':['renato paquet'],
+'Renzo Gracie':['renzo gracie'],
+'Reyson Gracie':['reyson gracie'],
+'Ricardo De La Riva':['ricardo de la riva'],
+'Ricardo Murgel':['ricardo murgel'],
+'Ricardo Vieira':['ricardo vieira'],
+'Rickson Gracie':['rickson gracie', 'ricks on gracie'],
+'Rigan Machado':['rigan machado'],
+'Rilion Gracie':['rilion gracie'],
+'Roberto "Cyborg" Abreu':['roberto "cyborg" abreu','cyborg'],
+'Robson Gracie (Carlos Robson Gracie)':['robson gracie (carlos robson gracie)'],
+'Robson Moura':['robson moura'],
+'Rodolfo Vieira':['rodolfo vieira', 'rodolpho viera', 'rodalfo vierrea', 'rodoflo viera', 'rodolfo', 'rodolfo vieira', 'rodolfo viera'],
+'Roger Gracie':['roger gracie'],
+'Rolker Gracie':['rolker gracie'],
+'Rolls Gracie':['rolls gracie'],
+'Romero "Jacare" Cavalcanti':['romero "jacare" cavalcanti'],
+'Ronaldo Souza':['ronaldo souza'],
+'Rorion Gracie':['rorion gracie'],
+'Roy Dean':['roy dean'],
+'Royce Gracie':['royce gracie'],
+'Royler Gracie':['royler gracie'],
+'Rubens "Cobrinha" Charles':['rubens "cobrinha" charles',"cobrinha"],
+'Ryan Hall':['ryan hall'],
+'Saulo Ribeiro':['saulo ribeiro'],
+'Sergio "Malibu" Jardim':['sergio "malibu" jardim'],
+'Shamil Gamzatov':['shamil gamzatov'],
+'Stephan Kesting':['stephan kesting'],
+'Sylvio Behring':['sylvio behring'],
+'Sérgio Penha':['sérgio penha'],
+'Tom Barlow':['tom barlow'],
+'Vinny Magalhães':['vinny magalhães'],
+'Vitor Ribeiro':['vitor ribeiro'],
+'Wellington "Megaton" Dias':['wellington "megaton" dias'],
+'Wilson Mattos':['wilson mattos'],
+'Xande Ribeiro':['xande ribeiro'],
+'Yvonne Duarte':['yvonne duarte']
+ }
 
+
+#%%
+#for i in sorted(athlete_dict, key=str.lower):
+#    print ('\'{}\':{},'.format(i, athlete_dict[i]))
+#%%
 
 def most_frequent(List): 
     occurence_count = Counter(List)
@@ -625,8 +673,6 @@ def clean_sub3(string):
 athletes = []
 for row in althetes_list:
     athletes += [clean_sub3(x) for x in row.replace('.',',').replace('/',',').replace(' and ',',').split(',') if x != '']
-
-
 
 
 
@@ -668,18 +714,60 @@ def iterative_levenshtein(s, t):
 
     return dist[row][col]
 
-correct = "keenan cornelious"
-incorrect = "kennnan kornelius"
-#%%
-iterative_levenshtein('honda', 'hondda kjh uyg uf u')
 #%%   reading in the wikipedia list
 
-with open('wiki_list.txt', encoding='utf8') as f:
-    bjj_athletes_wiki = f.readlines()
+
+'''
 # you may also want to remove whitespace characters like `\n` at the end of each line
-bjj_athletes_wiki = [x.strip().lower() for x in content] 
+bjj_athletes_wiki = [x.strip().lower() for x in bjj_athletes_wiki] 
 
+athletes_my_dict = [x for y in athlete_dict.values() for x in y]
 
+bjj_athletes_wiki += athletes_my_dict
+'''
 #%% 
 
-for name in content
+out_file = "unmatched.xlsx"
+unmatched_athletes = []
+
+def leven_score(name):
+    
+    '''
+    New idea for checking:
+        if 2 words - check for 2 words,
+        if 1 check each word
+        if more than 3 - check if string exists within long string
+    '''
+    name_ = name.lower()
+    min_ = len(name)
+    closest = ""
+    
+    for athlete in athlete_dict:
+        if iterative_levenshtein(athlete, name_) < min_:
+            min_ = iterative_levenshtein(athlete, name_)
+            closest = athlete
+    return [name,closest,min_] if min_ > 0 else ''
+        
+for athlete in athletes:
+    if len(athlete) > 0:
+        x = leven_score(athlete)
+        if len(x) > 0: unmatched_athletes.append(x)
+    
+#%%
+
+with pd.ExcelWriter(out_file) as writer:
+    
+    df = pd.DataFrame(unmatched_athletes)
+    #df = df.transpose()
+    df.columns = ["Athlete", "Closest", "Min"]
+    df.to_excel(writer)
+    
+    workbook = writer.book
+    format = workbook.add_format({'text_wrap': True})	
+    
+    writer.sheets['Sheet1'].set_column("B:B",75, format)	
+    writer.sheets['Sheet1'].set_column("C:C",40, format)	
+    
+writer.save()
+writer.close()    
+#%%       
