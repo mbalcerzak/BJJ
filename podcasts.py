@@ -7,21 +7,20 @@ from collections import Counter, OrderedDict
 from nltk.corpus import stopwords
 sw = stopwords.words("english")
 
-#### My own python scripts from dictionary folder:
-
-from Dictionaries.country_dictionary import country_dict
+path_w = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
+path_h = r"C:\Users\malgo_000\Desktop\BJJ"
 
 #%%
-######
+out_file = "unmatched.xlsx"
 
 while True:
     try:
-        path = r"C:\Users\malgo_000\Desktop\BJJ\BJJ1.csv"
+        path = path_h + '\BJJ1.csv'
+        break
     except FileNotFoundError:
         pass
     else:
-        path = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset\BJJ1.csv"
-        print("dataset loaded")
+        path = path_w + '\BJJ1.csv'
         break
 
 #%%
