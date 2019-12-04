@@ -771,3 +771,19 @@ with pd.ExcelWriter(out_file) as writer:
 writer.save()
 writer.close()    
 #%%       
+
+'''  
+new_gi_dict = {}
+
+for elem in gi_dict:
+    new_gi_dict[elem] = gi_dict[elem]
+
+    if elem not in new_gi_dict[elem]:
+       new_gi_dict[elem].append(elem)
+ 
+
+for key, value in sorted(new_gi_dict.items()):
+    print("\'{}\':{},".format(key,value))
+'''
+
+

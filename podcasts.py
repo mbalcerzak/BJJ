@@ -7,6 +7,9 @@ from collections import Counter, OrderedDict
 from nltk.corpus import stopwords
 sw = stopwords.words("english")
 
+from Functions.functions import iterative_levenshtein as lev
+from Dictionaries.media_dictionary import media_dictionary
+
 path_w = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
 path_h = r"C:\Users\malgo_000\Desktop\BJJ"
 
@@ -44,7 +47,7 @@ data_q = data[qestions_order][2:]
 
 data_media = data_q[["Q50","Q61.1","Q65", "Q63"]]
 
-def clean_sub2(string):
+def clean_sub(string):
     string= string.lower()
     list_replacements = [['\'',''],[' & ','&']]
     
@@ -69,61 +72,3 @@ def create_academy_list(dataset, columns):
 media_list = create_academy_list(data_q,["Q50","Q61.1","Q65", "Q63"])
 
 
-media_dict = {
-         '10th planet':['10th planet','10thplanet'],
-         'reddit':['r/','reddit'],
-         'budo':['budo'],
-         'adcc': ['adcc'],
-         'youtube': ['youtube','you tube'],
-         '40plusbjjsuccess': ['40plusbjjsuccess'],
-         'ebi': ['ebi'],
-         'bjj scout': ['bjj scout', 'bjjscout'],
-         'bjj eastern europe': ['bjj eastern europe','bjj ee', 'bjj easter europe','bjj eastern eirope','bjjee','eastern eu','eebjj','bjjeastern', 'bjjeasteneurope'],
-         'bjj geek': ['bjj geek'],
-         'bjj news': ['bjj news','bjjnews'],
-         'bjj globtrotters': ['bjj globtrotters'],
-         'live matches': ['live matches'],
-         'ibjjf': ['ibjjf','ibjff'],
-         'bjjscandinavia': ['bjjscandinavia'],
-         'jiujitsutimes': ['jiujitsutimes', 'jiujutsu times','jiujitsu times','jiu jitsu time','jujitsutimes'],
-         'bjjnews': ['bjjnews'],
-         'xande ribeiro': ['xande'],
-         'the grumpy grappler': ['the grumpy grappler'],
-         'sherdog': ['sherdog'],
-         'savagekitsune': ['savagekitsune'],
-         'sharkgirlbjj': ['sharkgirlbjj'],
-         'tristargym': ['tristargym'],
-         'lexfridman': ['lexfridman'],
-         'chewjitsu': ['chewjitsu'],
-         'grapplearts': ['grapplearts'],
-         'pro jitsu': ['pro jitsu'],
-         'polaris': ['polaris'],
-         'subf15teen': ['subf15teen'],
-         'flo grappling': ['flo grappling'],
-         'metamoris': ['metamoris','mentamoris','meramoris'],
-         'ainec': ['ainec'],
-         'mma mania': ['mma mania'],
-         'bjj brick': ['bjj brick','bjjbrick'],
-         'mixedmartialarts': ['mixedmartialarts'],
-         'fight to win':['fight to win','fight 2 win','fight2win'],
-         'meerkatsu blog': ['meerkatsu blog'],
-         'flo grapplimg': ['flo grapplimg','flograpplimg'],
-         'flow grappling': ['flow grappling','flowgrappling', 'flo'],
-         'mma junkie': ['mma junkie'],
-         'bloody elbow': ['bloody elbow'],
-         'ppv':['ppv'],
-         'live':['live'],
-        'fightpass':['fightpass'],
-        'white belt bjj':['white belt'],
-        'maxbjj':['maxbjj'],
-        'bjj library':['bjjlibrary', 'bjj library'],
-        'jiu jitsu style': ['jiu jitsu style'],
-         'grapplers guide': ['grapplers guide','grapplersguide'],
-         'instagram': ['instagram'],
-         'inverted gear': ['inverted gear'],
-         'insidebjj': ['insidebjj'],
-         'otm':['otm'],
-         'friends compete':['teammate','friend'],
-         'grappling central':['grappling central', 'grapplingcentral'],
-         'bjj over 40':['bjj over 40']
-        }

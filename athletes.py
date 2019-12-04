@@ -189,8 +189,10 @@ writer.close()
 
 #%%
 '''
-for key, value in sorted(athlete_dict.items()):
+for key, value in sorted(new_gi_dict.items()):
     print("\'{}\':{},".format(key,value))
+    
+    
 
 #%%
 

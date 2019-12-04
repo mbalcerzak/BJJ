@@ -9,7 +9,8 @@ sw = stopwords.words("english")
 
 #### My own python scripts from dictionary folder:
 
-from Dictionaries.country_dictionary import country_dict
+
+from Functions.functions import iterative_levenshtein as lev
 
 path_w = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
 path_h = r"C:\Users\malgo_000\Desktop\BJJ"
@@ -65,208 +66,107 @@ def create_gi_company_list(dataset, columns):
         column = dataset[col][dataset[col] != ''].tolist()
         
         for row in column:
+            row = row.replace('and',',').replace('(',',').replace('/',',').replace('.',',')
             gi_list += row.split(',')
     
     return [clean_sub(x) for x in gi_list if clean_sub(x) not in sw]
         
 gi_list = create_gi_company_list(data_q, ["Q39","Q40","Q41","Q43"])
-
-'''
-def most_frequent(List): 
-    occurence_count = Counter(List)
-    #print(occurence_count.most_common())
-    return [x[0] for x in occurence_count.most_common()]
-'''
+gi_list = [x.strip() for x in gi_list if x != '']
+  
+#%% 
+from Dictionaries.gi_dictionary import gi_dictionary
+gi_list_from_dict = [y for x in gi_dictionary.values() for y in x] 
+new_gi_dict = {}
+#%%
+def leven_score(name, elem_list, min_ = 1):
+    min_score = len(name)
+    closest = ""
+    
+    for elem in elem_list:
+        score = lev(elem, name)
+        
+        if score < min_score:
+            min_score = score
+            closest = elem
    
-#print(most_frequent(gi_list))     
+    return [name,closest,min_score] if len(name)>1 and len(closest)>1 else ''
+
+new_gi_dict = gi_dictionary
+
+#%%
+
+stop_words = ['wings','anything','aslso',
+              'really','none','dont','favourite','http','com','none'] + sw
+
+#%% 
+def get_key(val): 
+    for key, value in new_gi_dict.items(): 
+         for elem in value:
+             if val == elem: 
+                 return key 
+ 
+lista_do_sprawdzenia = list()
+         
+for gi in gi_list:
+    closest = leven_score(gi, gi_list_from_dict)
+ 
+    if len(closest) > 0:        
+        if closest[2] in [1,2]:
+            print(closest)
     
-    
-gi_dict = {
-        'tatami':['tatami','tatame','tatiama','roots','tank'],
-        'scramble':['scramble','scrable'], 
-        'toro':['toro','torro','tora','tori'], 
-        'fuji':['fuji','fugi','fujji','mission 22','victory'], 
-        '93 brand':['93'], 
-        'shoyoroll':['shoyoroll','shoyaroll','shoyroll','shoyo','syr','97'],
-        'atama':['atama','atami'],
-        'venum':['venum','venom','venu'],
-        'manto':['manto','manti'], 
-        'hayabusa':['hayabusa','haybusa','hyubasa','hayabusha'],
-        'newaza':['newaza'],
-        'gameness':['gameness','air'],
-        'kingz':['kingz','kings'],
-        'hyperfly':['hyperfly','hyper fly','hyperlyte','doordie'],
-        'adidas':['adidas'],
-        'underarmour':['underarmor','underarmour','under armor',' ua '],
-        'globetrotters':['globetrotters'],
-        'hypnotic':['hypnotic','hypnotik'],
-        'valor':['valor','valot'],
-        'meerkatsu':['meerkatsu'],
-        'cageside':['cageside'],
-        'fightwear':['fightwear'],
-        'vulkan':['vulkan','vulcan'],
-        'ctrl':['ctrl','ctr ','cntrl'],
-        'storm':['storm'],
-        'nike':['nike'],
-        'jaco':['jaco'],
-        'quicksilver':['quicksilver'],
-        'lanky fightgear':['lanky'],
-        'break point':['breakpoint'],
-        'datsusara':['datsusara'],
-        'inverted gear':['inverted'],
-        'koral':['koral'],
-        'cageside ':['cageside'],
-        'keiko':['keiko','keiki'],
-        'rvca':['rvca'],
-        'phalanx':['phalanx'],
-        'tapout':['tapout'],
-        'fushida':['fushida'],
-        'rip stop':['rip stop','ripstop'],
-        'billabong':['billabong'],
-        'sprawl':['sprawl','spawl'],
-        'on the mat':['otm'],
-        'keiko raca':[ 'keiko raca','kenka'],
-        'padilla and sons':['padilla and sons','padillo and sons','padilla&sons'],
-        'double weave judo gi':['double weave', 'judo gi'],
-        'wallmart':[ 'walmart','wallmart','wal mart'],
-        'gi pants':['gi pants'],
-        'academy / tournaments':['school','gym','club','seminars','tournaments','competition','in house'],
-        'message':['comedic','message','goku','puns','stuff that says'],
-        'travel & shopping':['travel'],
-        'gracie':['gracie'],
-        'sanabul':['sanabu'],
-        'war tribe':['war tribe'],
-        'deus':['deus'],
-        '10th planet':['10th planet'],
-        'raven':['raven'],
-        'flow':['flow'],
-        'dragao':['dragao'],
-        'fluid surf':['fluid surf'],
-        'do or die':['do or die'],
-        'killer bee':['killer bee'],
-        'da firma':['da firma','dafirma','dkfc'],
-        'xguard':['xguard','x guard'],
-        'xarmor':['xarmor'],
-        'lycan':['lycan'],
-        'champion':['champion'],
-        'budo':['budo'],
-        'american top team':['att'],
-        'jiujiteiro':['jiujiteiro','jiujitero','jiujitiero','jiu jiteiro'],
-        'braus fight':['braus','braus fight'],
-        'igear':['igear'],
-        'grab & pull':['grab pull','grab&pull'],
-        'grips':['grips'],
-        'isami':['isami'],
-        'devine':['devine'],
-        'strike fightwear':['strike fight wear','strike','strikefightwear'],
-        'combat corner':['combatcorner'],
-        'fairtex':['fairtex'],
-        'origin':['origin'],
-        'bad boy':['bad boy','badboy','babboy'],
-        'progress':['progress'],
-        'sub apparel':['sub apparel'],
-        'lucky gi':['lucky','lucki'],
-        'scartissue':['scartissue'],
-        'phantom':['phantom'],
-        'reversal':['reversal'],
-        'oss clothing':['oss'],
-        'high type':['hightype'],
-        'throwdown':['throwdown'],
-        'tokyo five':['tokyo five','tokyo 5'],
-        'choke aloha':['choke aloha','chokealoha','choke'],
-        'ecko':['ecko'],
-        'furia':['furia'],
-        'redstar':['redstar'],
-        'roots of fight':['roots of fight'],
-        'torque':['torque'],
-        'takedown nation':['takedown nation'],
-        'open guard apparel':['open guard apparel'],
-        'blank kimonos':['blank'],
-        'brazilian fightwaer':['brazilian fightware','brazilian '],
-        'vhts':['vhts'],
-        'triangle athletics':['triangle athletics'],
-        'sub sport':['sub sport','amazon','sub sports'],
-        'rios gear':['rios'],
-        'ouano':['ouano','ouani'],
-        'nogi industries':['nogi industries','nogi brand'],
-        'bc kimonos':['bc kimonos'],
-        'illest':['illest'],
-        'vambora fight gear':['vambora fight gear','vamborabjj'],
-        'warrior kimonos':['warrior'],
-        'grapplers quest':['grapplers quest'],
-        'bamboo':['bamboo break'],
-        'gorilla fight gear':['gorilla fight gear'],
-        'gawakoto':['gawakoto'],
-        'last resort fightwear':['last resort fightwear'],
-        'eastbay':['eastbay'],
-        'arm bar soap':['soap'],
-        'fokai':['fokai'],
-        'affliction':['affliction'],
-        'dokebi combat outfitters':['dokebi bros'],
-        'fabulous gi':['fabulous gi'],
-        'ck fight life':['contract killer'],
-        'doguera':['dogueira'],
-        'forty thieves':['forty thieves'],
-        'ground fighter':['ground fighter'],
-        'kipsta':['kipsta'],
-        'kauai':['kauai'],
-        'krugans':['krugans'],
-        'kraken':['kraken'],
-        'koa mill':['koa mill'],
-        'infiniti':['infiniti'],
-        'inspirit':['inspirit'],
-        'fusion':['fusion'],
-        'jotunn':['jotunn'],
-        'bull terrier':['bull terrier','peel'],
-        'buffalo combat':['buffalo'],
-        'your jiu jitsu gear':['yourbjjgear'],
-        'virus':['virus'],
-        'brazil combat':['brazil combat'],
-        'dethrone royalty brand':['dethrone'],
-        'prana':['prana'],
-        'reevo':['reevo'],
-        'tribos':['tribos'],
-        'toraki':['toraki'],
-        'punch town':['punch town'],
-        'shiroi':['shiroi'],
-        'submission sniper':['submission sniper'],
-        'triumph united':['triumph united'],
-        'tuff fightwear':['tuff'],
-        'studio 540':['studio 540'],
-        'megami':['megami'],
-        'mizuno':['mizuno'],
-        'jiu jitsu progear':['jiu jitsu progear'],
-        'holdfast':['holdfast'],
-        'revgear':['rev gear'],
-        'tatsumi':['tatsumi'],
-        'ok! kimonos':['ok kimonos'],
-        'lonsdale':['lonsdale'],
-        'moka hardware':['moka'],
-        'predator':['predotor gi'],
-        'alma':['alma'],
-        'bj penn':['bj penn'],
-        'sirius':['sirius'],
-        'senor kimonos':['senor kimonos'],
-        'old man jiu jitsu':['omjj'],
-        'isso apparel':['isso apparel'],
-        'nor cal fight shop':['norcal fight shop'],
-        'ronin brank kimonos':['ronin'],
-        'springroll fightwear':['springroll'],
-        'platinum jiujitsu':['platinum'],
-        'hylete':['hylete'],
-        'sinister':['sinister'],
-        'nine lives':['9 lives'],
-        '31fifty':['31fifty'],
-        'mvnt brand':['mvnt'],
-        'muae':['muae'],
-        'moy':['moy'],
-        'macaco branco':['macaco branco'],
-        'nous defions':['nous defions'],
-        'pony club grappling gear':['pony club grappling gear'],
-        'rcj machado gear':['rcj machado apparel'],
-        'just saiyan gear':['just saiyan'],
-        'yolo bjj':['yolo'],
-        'howard combat kimonos':['hck'],
-        'want vs need':['want vs need']
-        }    
+            key = get_key(closest[1])
+            #print("key: {}".format(key))
+            
+            if closest[0] not in new_gi_dict[key] + stop_words:
+                #new_gi_dict[key].append(closest[0])
+                print("'{}' --->  '{}' ---> '{}'".format(closest[0],closest[1],key))
+        
+        elif closest[2] > 0:
+            if closest[0] not in lista_do_sprawdzenia:
+                #print("appended: '{}'".format(closest[0]))
+                lista_do_sprawdzenia.append(closest[0])
+     
+
+
+#%%            
+with open(r"C:\Users\malgo_000\Desktop\BJJ\gi_dictionary.txt","w") as f:
+    f.write('gi_dictionary = { \n')
+    for key, value in sorted(new_gi_dict.items()):
+        f.write("\'{}\':{},\n".format(key,value)) 
+    f.write('}')
+f.close()        
+
+# =============================================================================
+# #%%
+# 
+# new_gi_list_from_dict = ' '.join([y for x in new_gi_dict.values() for y in x]).split(' ')
+# lista_do_sprawdzenia2 = ' '.join(lista_do_sprawdzenia).split(' ')
+# 
+# #%%
+# 
+# to_check_manually = [x for x in lista_do_sprawdzenia2 if x not in new_gi_list_from_dict + sw]
+# to_check = list(set(to_check_manually))
+# 
+# #%%
+# lista_do_sprawdzenia1 = []
+# for elem in lista_do_sprawdzenia:
+#     lista_do_sprawdzenia1.append(' '.join([x for x in elem.split(' ') if x not in sw]))
+# 
+# #%%
+# 
+# with open(r"C:\Users\malgo_000\Desktop\BJJ\to_check_gi.txt","w") as f:
+#     for row in sorted(lista_do_sprawdzenia1):
+#         f.write("{},\n".format(row))   
+# f.close()             
+# 
+# 
+# #%%
+# 
+# 
+# with open(r"C:\Users\malgo_000\Desktop\BJJ\to_check_gi.txt","w") as f:
+#     for row in lista_do_sprawdzenia:
+#         f.write("{},\n".format(row))   
+# f.close() 
+# =============================================================================
 
