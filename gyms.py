@@ -5,6 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter, OrderedDict
 from nltk.corpus import stopwords
+from os import path
+
 sw = stopwords.words("english")
 
 #### My own python scripts from dictionary folder:
@@ -17,19 +19,15 @@ path_h = r"C:\Users\malgo_000\Desktop\BJJ"
 #%%
 out_file = "unmatched.xlsx"
 
-while True:
-    try:
-        path = path_h + '\BJJ1.csv'
-        break
-    except FileNotFoundError:
-        pass
-    else:
-        path = path_w + '\BJJ1.csv'
-        break
+if path.isdir(path_w + '\BJJ1.csv'):
+    path = path_w + r'\BJJ1.csv'
+else:
+    path = path_h + r'\BJJ1.csv'
+
 
 #%%
 # getting the data and deleting unimportant columns
-data = pd.read_csv(path)
+data = pd.read_csv(path + '\BJJ1.csv')        
 data = data.drop(columns = ['RecipientEmail','RecipientFirstName',
                             'RecipientLastName','IPAddress',
                             'ExternalReference', 'DistributionChannel'])
@@ -75,19 +73,7 @@ academy_list = create_academy_list(data_q, ["Q66"])
 
 academy_dict = {
         
-        '10th planet':['10th planet'],
-        'alliance':['alliance'],
-        'capital mma':['capital mma','capitol takoma','capital mm'],
-        'chapel hill':['chapel hill'],
-        'carlson gracie':['carlson gracie'],
-        'devine':['devine'],
-        'gracie barra':['gracie barra'],
-        'next generation':['next generation'],
-        'renzo gracie':['renzo gracie'],
-        'royce gracie':['royce gracie','royce affiliate'],
-        'roger gracie':['roger gracie'],
-        'roger machado':['roger machado'],
-        'checkmat':['checkmat'],
+       
         
         
         }

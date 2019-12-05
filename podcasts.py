@@ -134,7 +134,7 @@ for podcast in media_list:
      
 
 #%%            
-with open(r"C:\Users\malgo_000\Desktop\BJJ\media_dictionary.txt","w") as f:
+with open(path_w + r"\media_dictionary.txt","w") as f:
     f.write('media_dictionary = { \n')
     for key, value in sorted(new_media_dictionary.items()):
         f.write("\'{}\':{},\n".format(key,value)) 
@@ -149,7 +149,7 @@ for elem in lista_do_sprawdzenia:
  
  #%%
  
-with open(r"C:\Users\malgo_000\Desktop\BJJ\to_check_podcast.txt","w") as f:
+with open(path_w + r"\to_check_podcast.txt","w") as f:
     for row in sorted(lista_do_sprawdzenia1):
         f.write("'{}',\n".format(row))   
     f.close()             
