@@ -5,6 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter, OrderedDict
 from nltk.corpus import stopwords
+from os import path
+
 sw = stopwords.words("english")
 
 from Functions.functions import iterative_levenshtein as lev
@@ -15,15 +17,10 @@ path_h = r"C:\Users\malgo_000\Desktop\BJJ"
 #%%
 out_file = "unmatched.xlsx"
 
-while True:
-    try:
-        path = path_h + '\BJJ1.csv'
-        break
-    except FileNotFoundError:
-        pass
-    else:
-        path = path_w + '\BJJ1.csv'
-        break
+if path.isdir(path_w + '\BJJ1.csv'):
+    path = path_w + r'\BJJ1.csv'
+else:
+    path = path_h + r'\BJJ1.csv'
 
 #%%
 # getting the data and deleting unimportant columns
