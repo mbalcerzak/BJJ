@@ -11,7 +11,6 @@ sw = stopwords.words("english")
 
 #### My own python scripts from dictionary folder:
 
-
 from Functions.functions import iterative_levenshtein as lev
 
 path_w = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"

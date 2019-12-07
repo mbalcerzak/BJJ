@@ -1,3 +1,5 @@
+import re
+
 #######################  ITERATIVE LEVENSHTEIN ##############################
 #
 #   compuing the distance between two strings
@@ -31,9 +33,47 @@ def iterative_levenshtein(s, t):
     return dist[row][col]
 
 
-#######################  ITERATIVE LEVENSHTEIN ##############################
+########################  USING THE DICTIONARY ###############################
 #
-#   compuing the distance between two strings
-#   discovering how similar those strings are
+#   after getting all the values into dictionaries it's  time to assign them
 #
 ##############################################################################
+    
+def assign_dict_keys(dictionary, string):
+
+    def get_key(val): 
+        for key, value in dictionary.items(): 
+             for elem in value:
+                 if val == elem: 
+                     return key 
+    
+    def find_dictionary_vals(string):
+        string = str(string).lower()
+        result = []
+        
+        if string != '':
+            for row in dictionary.values():
+                for elem in row:
+                    elem = elem.lower()
+                    if elem in string:
+                        key_val = get_key(elem)
+                        if key_val not in result:
+                            result.append(key_val)   
+    
+        return result
+    
+    return find_dictionary_vals(string)
+
+#########################  CLEAN COLUMN VALUES ###############################
+#
+#   after getting all the values into dictionaries it's  time to assign them
+#
+##############################################################################
+
+def clean_string(string, list_replacements, check):
+    string= string.lower()
+    
+    for replacement in list_replacements:
+        string = string.replace(replacement[0],replacement[1])
+
+    return ' '.join(re.sub(check, ' ', string).split())
