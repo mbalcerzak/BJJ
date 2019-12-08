@@ -1,4 +1,4 @@
-athlete_dict = {
+athlete_dictionary = {
 	'Abraham Marte':['abraham marte'],
 	'Adam Benayoun':['adam benayoun'],
 	'AJ Azagarm':['aj azagarm'],
@@ -244,5 +244,5 @@ athlete_dict = {
 	'Wilson Mattos':['wilson mattos'],
 	'Xande Ribeiro':['xande ribeiro', 'xande', 'xande ribiero'],
 	'Yuri Simoes':['yuri simoes', 'i ve recently become a fan of yuri simoes'],
-	'Yvonne Duarte':['yvonne duarte']
+	'Yvonne Duarte':['yvonne duarte']           
  }

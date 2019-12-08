@@ -7,7 +7,6 @@ import re
 #
 ##############################################################################
 
-
 def iterative_levenshtein(s, t):
 
     rows = len(s)+1
@@ -32,6 +31,18 @@ def iterative_levenshtein(s, t):
 
     return dist[row][col]
 
+##################  GETTING THE KEY FROM THE VALUE ###########################
+#
+#   finding a key from the selected dictionary using this key's value
+#
+##############################################################################
+
+def get_key(val,dictionary): 
+    for key, value in dictionary.items(): 
+         for elem in value:
+             elem = elem.lower()
+             if val == elem: 
+                 return key 
 
 ########################  USING THE DICTIONARY ###############################
 #
@@ -40,12 +51,6 @@ def iterative_levenshtein(s, t):
 ##############################################################################
     
 def assign_dict_keys(dictionary, string):
-
-    def get_key(val): 
-        for key, value in dictionary.items(): 
-             for elem in value:
-                 if val == elem: 
-                     return key 
     
     def find_dictionary_vals(string):
         string = str(string).lower()
@@ -56,7 +61,7 @@ def assign_dict_keys(dictionary, string):
                 for elem in row:
                     elem = elem.lower()
                     if elem in string:
-                        key_val = get_key(elem)
+                        key_val = get_key(elem,dictionary)
                         if key_val not in result:
                             result.append(key_val)   
     
@@ -71,9 +76,34 @@ def assign_dict_keys(dictionary, string):
 ##############################################################################
 
 def clean_string(string, list_replacements, check):
-    string= string.lower()
     
+    string= string.lower()
+
     for replacement in list_replacements:
         string = string.replace(replacement[0],replacement[1])
+    
+    string = ' '.join(re.sub(check, ' ', string).split())
+    
+    return string if string == string else ''
 
-    return ' '.join(re.sub(check, ' ', string).split())
+######################### CLEAN COLUMN VALUES ###############################
+#
+#   after getting all the values into dictionaries it's time to assign them
+#   and get a correctly classified answer
+#
+##############################################################################
+
+def dictionary_processing(data, chosen_columns, check, list_replacements, 
+                          dictionary, to_keep = ['countries','gender','belt']):   
+
+    data_ = data[chosen_columns + to_keep].copy()
+
+    for column in chosen_columns:
+        data_[column + '_clean'] = data_[column] \
+            .apply(lambda x: clean_string(x, list_replacements,check))
+        data_[column + '_list'] = data_[column + '_clean'] \
+            .apply(lambda x: assign_dict_keys(dictionary,x))
+    
+    leave_cols = [x for x in list(data_) if '_list' in x] + to_keep
+
+    return data_[leave_cols]

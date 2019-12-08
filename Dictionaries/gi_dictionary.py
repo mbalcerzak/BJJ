@@ -7,6 +7,7 @@ gi_dictionary = {
 'affliction':['affliction'],
 'alma':['alma'],
 'american top team':['att', 'american top team'],
+'anything':['no preference', 'anything','everything','whatever','none'],
 'arm bar soap':['soap', 'arm bar soap'],
 'atama':['atama'],
 'athletes on the mat':['athletes on the mat', 'athom'],
