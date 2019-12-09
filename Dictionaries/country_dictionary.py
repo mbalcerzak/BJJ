@@ -55,5 +55,6 @@ country_dictionary = {
     'USA':['US', 'USA', 'States', 'American', 'america', 'Murrica', 'Murika', 'Murica', 'Virginia', 'Texan', 'Merica', 'Merican', 'Merkin'],
     'Ukraine':['Ukranian', 'Ukraine'],
     'Uruguay':['Uruguayan', 'Uruguay'],
-    'Vietnam':['Vietnamese', 'Vietnam']
+    'Vietnam':['Vietnamese', 'Vietnam'],
+    'NA':['no answer']
     }

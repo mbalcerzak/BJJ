@@ -419,5 +419,6 @@ academy_dictionary = {
 'zicro bjj':['zicro bjj tallahassee alliance'],
 'zingano bjj luiz claudio combat team':['zingano bjj luiz claudio combat team'],
 'zr team':['zr team'],
-'mjolnir sbgi':['mj lnir sbgi']
+'mjolnir sbgi':['mj lnir sbgi'],
+'NA':['no answer']
 }

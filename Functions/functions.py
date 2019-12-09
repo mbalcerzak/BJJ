@@ -94,7 +94,7 @@ def clean_string(string, list_replacements, check):
 ##############################################################################
 
 def dictionary_processing(data, chosen_columns, check, list_replacements, 
-                          dictionary, to_keep = ['countries','gender','belt']):   
+                          dictionary, to_keep = ['country','gender','belt']):   
 
     data_ = data[chosen_columns + to_keep].copy()
 

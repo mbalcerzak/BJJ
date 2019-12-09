@@ -2,7 +2,7 @@ submissions_dictionary = {
          'triangle':['triangle'],
          'kimura':['kimura','kimora','kamra','kmrr'] ,
          'armbar':['armbar', 'arm bar', 'armbars','arm entanglement','juji gatame'],
-         'bow and arrow':['arrow'],
+         'bow & arrow':['arrow'],
          'americana':['americana','anericana','key lock'],
          'rear naked choke':['rear naked choke','rnc','rear naked'],
          'omoplata':['omoplata','omaplata','omo plata','omplata'],
@@ -19,13 +19,13 @@ submissions_dictionary = {
          'leg lock':['leg lock','texas clover leaf'],
          'armlock':['armlock','arm lock'],
          'brabo choke':['brabo'],
-         'head and arm choke':['head and arm','head&arm','kata gatame','katagatami'],
+         'head & arm choke':['head and arm','head&arm','kata gatame','katagatami'],
          'baseball choke':['baseball choke'],
          'foot lock':['foot lock'],
          'toe hold':['toe hold','toehold'],
          'twister':['twister'],
          'peruvian necktie':['north south','paruvian','n s choke'],
-         'japanese necktie / papercutter':['japanese necktie','paper cutter','papercutter'],
+         'papercutter':['japanese necktie','paper cutter','papercutter'],
          'lapel chokes':['lapel chokes'],
          'sorcerer':['sorceror'],
          'kneebar':['kneebar','knee bar'],
@@ -39,5 +39,5 @@ submissions_dictionary = {
          'single wing':['kata hajime single wing'],
          'bread cutter choke':['bread cutter'],
          'choke from back':['choke from back'],
-         'choke':['choke','chokin','chocke','cuck']
+         'NA':['no answer']
         }

@@ -187,5 +187,6 @@ gi_dictionary = {
 'xarmor':['xarmor'],
 'xguard':['xguard', 'x guard'],
 'yolo bjj':['yolo', 'yolo bjj', 'yolobjj'],
-'your jiu jitsu gear':['yourbjjgear', 'your jiu jitsu gear']
+'your jiu jitsu gear':['yourbjjgear', 'your jiu jitsu gear'],
+'NA':['no answer']
 }

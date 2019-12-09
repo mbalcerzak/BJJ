@@ -2,6 +2,8 @@ import pandas as pd
 from os import path 
 from nltk.corpus import stopwords
 sw = stopwords.words("english")
+from collections import Counter, OrderedDict
+import matplotlib.pyplot as plt
 
 from Functions.functions import dictionary_processing
 
@@ -19,7 +21,7 @@ data = pd.read_csv(path)
 data = data.drop(columns = ['RecipientEmail','RecipientFirstName',
                             'RecipientLastName','IPAddress',
                             'ExternalReference', 'DistributionChannel'])
-data = data.fillna('')
+data = data.fillna('no answer')
 
 # creating a dictionaty for future column names mapping
 colnames = data[:][:1].values.tolist()[0]
@@ -32,12 +34,14 @@ data_q = data[qestions_order][2:]
 ########################## age categories ####################################
 
 def age_categories(x):   
-    if x == x and x != '':
+    if x != 'no answer':
         return '{}-{}'.format(round(int(x)//5*5),round(int(x)//5*5+5))
+    else:
+        return x
     
 data_q['age_cat'] = data_q['Q57'].apply(age_categories)  
 
-#%% ######################  nationality  #####################################
+##########################  nationality  #####################################
 
 from Dictionaries.country_dictionary import country_dictionary
 
@@ -61,6 +65,24 @@ data_dem['belt'][data_dem['belt'] == 'White belt'] = 'White Belt'
 
 data_q = data_q.join(data_dem)
 
+def explode(dataset, variable, new_var_name, na = True):
+    country_list_ = list(dataset)
+    country_list_.remove(variable)
+    
+    dataset_ = (dataset
+              .set_index(country_list_)[variable]
+              .apply(pd.Series)
+              .stack()
+              .reset_index()
+              .rename(columns={0:new_var_name}))
+    
+    if na == False:
+        dataset_ = dataset_[dataset_[new_var_name] != 'NA']
+    
+    return dataset_[[x for x in list(dataset_) if 'level' not in x]]
+
+data_q = explode(data_q, 'countries', 'country')
+
 #%%  #######################  athletes  ######################################
 
 from Dictionaries.athlete_dictionary import athlete_dictionary 
@@ -73,7 +95,9 @@ data_athletes = dictionary_processing(
                                     [' and ',','],['&',','],[';',','], \
                                     ['!',','],['-',',']], 
                dictionary = athlete_dictionary)
- 
+
+data_athletes2 = explode(data_athletes, 'Q63_list', 'athlete', na = False)
+
 #%%  #####################  submissions  #####################################
 
 from Dictionaries.submissions_dictionary import submissions_dictionary 
@@ -85,6 +109,37 @@ data_submissions = dictionary_processing(
                           '(@[A-Za-z0-9]+)|([^A-Za-z0-9 \t\&])|(\w+:\/\/\S+)',
                        list_replacements = [['\'',''],[' & ','&']], 
                        dictionary = submissions_dictionary)
+# 'choke':['choke','chokin','chocke','cuck'],
+#%%
+
+data_submissions2 = explode(data_submissions, 'Q68_list', 'technique', na = False)
+data_submissions2.to_csv(path_or_buf = path_h + r'\data_submissions.csv', index=False)
+
+#%%
+
+def pie_chart_generator(data,question):
+    question_list = data[question][data[question] != '']
+    
+    counts = Counter(question_list[2:].tolist())
+    plt.pie([int(v) for v in counts.values()], labels=[str(k) for k in counts.keys()],
+             autopct='%.1f%%')
+    plt.show()
+
+pie_chart_generator(data_submissions2,'technique')
+#%%
+
+def bar_plot(data,question):
+    question_list = data[question][data[question] != '']
+    #data[question][data[question] == ''] = 'No answer'
+    
+    counts = OrderedDict(Counter(question_list[2:]).most_common())
+    
+    plt.barh(range(len(counts)), list(counts.values()), align='center')
+    plt.yticks(range(len(counts)), list(counts.keys()))
+    
+    plt.show()
+    
+bar_plot(data_submissions2,'technique')
 
 #%% ##################   Gi & NoGi favourite brands  #########################
 
@@ -96,6 +151,10 @@ data_gi = dictionary_processing(
                 check = '(@[A-Za-z0-9]+)|([^A-Za-z0-9 \t\&])|(\w+:\/\/\S+)',
                 list_replacements = [['\'',''],[' & ','&']], 
                 dictionary = gi_dictionary)
+
+data_gi2 = explode(data_gi, 'Q68_list', 'technique', na = False)
+
+
 
 #%% ############## BJJ academies and affiliations ############################
 
