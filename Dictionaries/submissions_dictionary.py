@@ -39,5 +39,6 @@ submissions_dictionary = {
          'single wing':['kata hajime single wing'],
          'bread cutter choke':['bread cutter'],
          'choke from back':['choke from back'],
+         'choke':['chokin','chocke','cuck'],
          'NA':['no answer']
         }

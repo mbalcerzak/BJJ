@@ -109,10 +109,24 @@ data_submissions = dictionary_processing(
                           '(@[A-Za-z0-9]+)|([^A-Za-z0-9 \t\&])|(\w+:\/\/\S+)',
                        list_replacements = [['\'',''],[' & ','&']], 
                        dictionary = submissions_dictionary)
-# 'choke':['choke','chokin','chocke','cuck'],
+
+#%%
+def is_choke(x):
+    word_list = ['choke', 'triangle', 'bow & arrow', 'guillotine', 'ezekiel',
+                 'darce', 'gogoplata','crucifix', 'anaconda', 'papercutter',
+                 'sorcerer', 'single wing']
+    
+    for word in word_list:
+        if word in x:
+            return 'choke'
+        
+    return 'not a choke'
 #%%
 
 data_submissions2 = explode(data_submissions, 'Q68_list', 'technique', na = False)
+
+data_submissions2['choke'] = data_submissions2['technique'].apply(lambda x: is_choke(x))
+
 data_submissions2.to_csv(path_or_buf = path_h + r'\data_submissions.csv', index=False)
 
 #%%
@@ -126,20 +140,6 @@ def pie_chart_generator(data,question):
     plt.show()
 
 pie_chart_generator(data_submissions2,'technique')
-#%%
-
-def bar_plot(data,question):
-    question_list = data[question][data[question] != '']
-    #data[question][data[question] == ''] = 'No answer'
-    
-    counts = OrderedDict(Counter(question_list[2:]).most_common())
-    
-    plt.barh(range(len(counts)), list(counts.values()), align='center')
-    plt.yticks(range(len(counts)), list(counts.keys()))
-    
-    plt.show()
-    
-bar_plot(data_submissions2,'technique')
 
 #%% ##################   Gi & NoGi favourite brands  #########################
 

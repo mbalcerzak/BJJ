@@ -47,7 +47,8 @@ question = 'technique'
 question_list = data[question][data[question] != '']    
 counts = OrderedDict(Counter(question_list[2:]).most_common())
     
-data_bars = pd.DataFrame({'techniques':list(counts.keys()), 'count':list(counts.values())})
+data_bars = pd.DataFrame({'techniques':list(counts.keys()),
+                          'count':list(counts.values())})
 
 data_bars = data_bars.sort_values(by='count')
 
@@ -56,52 +57,3 @@ bars = alt.Chart(data_bars, height = 500, width = 400).mark_bar(color='steelblue
                 y = 'count')
 st.altair_chart(bars)
 
-#    
-#def bar_plot(question):
-#    question_list = data[question][data[question] != '']
-#    #data[question][data[question] == ''] = 'No answer'
-#    
-#    counts = OrderedDict(Counter(question_list[2:]).most_common())
-#    
-#    plt.bar(range(len(counts)), list(counts.values()), align='center')
-#    plt.xticks(range(len(counts)), list(counts.keys()))
-#    plt.xticks(rotation=45)
-#    
-#    st.pyplot()
-#    
-#bar_plot('technique')
-
-#genders = ['Male', 'Female', 'no answer']
-
-#st.write("Choose a gender you want to see the result for")
-#gender_chosen = st.radio("Current rank", genders) 
-#
-#if show_all:
-#    data2 = data
-#else:
-#    data2 = data[data['gender'] == gender_chosen]
-#    
-#def bar_plot(question):
-#    question_list = data2[question][data2[question] != '']
-#    #data[question][data[question] == ''] = 'No answer'
-#    
-#    counts = OrderedDict(Counter(question_list[2:]).most_common())
-#    
-#    plt.bar(range(len(counts)), list(counts.values()), align='center')
-#    plt.xticks(range(len(counts)), list(counts.keys()))
-#    plt.xticks(rotation=45)
-#    
-#    st.pyplot()
-#    
-#bar_plot('technique')
-
-#st.subheader('Number of pickups by hour')
-#hist_values = np.histogram(data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
-#st.bar_chart(hist_values)
-#
-## Some number in the range 0-23
-#hour_to_filter = st.slider('hour', 0, 23, 17)
-#filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
-#
-#st.subheader('Map of all pickups at %s:00' % hour_to_filter)
-#st.map(filtered_data)
