@@ -5,7 +5,7 @@ I am passionate about BJJ and Natural Language Processing and I found a perfect 
 
 
 ### Challenges I had / still have to overcome:
-- misspellings (and wrong question interpretation: neither Texas or 'Murika are a country :P)
+- misspellings (or loose question interpretation: I am afraid neither Texas or 'Murika are a country :P)
 - some missing data
 - different names for the same BJJ techniques
 - grabbing both academy name and its affiliation and not mixing them up
@@ -17,7 +17,7 @@ I am passionate about BJJ and Natural Language Processing and I found a perfect 
 - using an NLP model (this time it was TextBlob) to find a noun in a sentence 
   e.g. "Elbow tendinitis that I am currently working through." --> "ELBOW" or "ELBOW TENDINITIS"
 
-My favourite quesiton ('Q19':'What is your favorite part about training?') is visualised in a wordcloud (in all belt coulours ^^)
+My favourite quesiton ('Q19':'What is your favorite part about training?') is visualised in a wordcloud (in all belt colours ^^)
 
 
 ### Directiories and files
