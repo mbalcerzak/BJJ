@@ -17,7 +17,7 @@ I am passionate about BJJ and Natural Language Processing and I found a perfect 
 - using an NLP model (this time it was TextBlob) to find a noun in a sentence 
   e.g. "Elbow tendinitis that I am currently working through." --> "ELBOW" or "ELBOW TENDINITIS"
 
-My favourite quesiton ('Q19':'What is your favorite part about training?') is visualised in a wordcloud (in all belt colours ^^)
+My favourite quesiton ('Q19':'What is your favorite part about training?') is visualised in a wordcloud (in BJJ belt colours ^^)
 
 
 ### Directiories and files
