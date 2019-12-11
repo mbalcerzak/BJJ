@@ -2,3 +2,6 @@
 - learning new things
 - how to do it using less energy
 - never good enough
+
+
+- practicioner's data separate from gym's data to deidentify the data

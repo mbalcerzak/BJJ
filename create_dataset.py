@@ -14,7 +14,7 @@ if path.isdir(path_w + '\BJJ1.csv'):
     path = path_w + r'\BJJ1.csv'
 else:
     path = path_h + r'\BJJ1.csv'
-    
+   
 ############################################################################## 
 # getting the data and deleting unimportant columns
 data = pd.read_csv(path)
@@ -41,6 +41,10 @@ def age_categories(x):
     
 data_q['age_cat'] = data_q['Q57'].apply(age_categories)  
 
+############ corrected case so it's consistent with other values #############
+
+data_q['Q2'][data_q['Q2'] == 'White belt'] = 'White Belt' 
+
 ##########################  nationality  #####################################
 
 from Dictionaries.country_dictionary import country_dictionary
@@ -60,10 +64,10 @@ data_dem.rename({
         'Q2':'belt'
         }, axis=1, inplace=True)
 
-# corrected case so it's consistent with other values   
-data_dem['belt'][data_dem['belt'] == 'White belt'] = 'White Belt' 
+    
+#data_dem['belt'][data_dem['belt'] == 'White belt'] = 'White Belt' 
 
-data_q = data_q.join(data_dem)
+data_q = data_q.join(data_dem[['countries']])
 
 def explode(dataset, variable, new_var_name, na = True):
     country_list_ = list(dataset)
@@ -139,7 +143,7 @@ def pie_chart_generator(data,question):
              autopct='%.1f%%')
     plt.show()
 
-pie_chart_generator(data_submissions2,'technique')
+# pie_chart_generator(data_submissions2,'technique')
 
 #%% ##################   Gi & NoGi favourite brands  #########################
 
@@ -178,3 +182,21 @@ data_podcasts = dictionary_processing(
                 list_replacements = [['\'',''],[' & ',','],['www.',','], \
                                      [' and ',','],['. ',','],['.com',',']], 
                 dictionary = media_dictionary)
+
+#%%
+
+# TO DO 
+# 
+#'Q18':'reason_started',
+#'Q19':'favourite',
+#'Q20':'least_favorite',    
+#'Q26':'competition_organisaiton',
+#'Q28':'injuries',
+
+#own_sw = ['wanted','want','year','really','getting']
+#check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
+#list_replacements = [['no answer','']]
+#
+#favourite_list = [clean_string(x, ) for x in favourite]
+
+
