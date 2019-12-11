@@ -2,8 +2,6 @@
 
 I am passionate about BJJ and Natural Language Processing and I found a perfect project to combine both. Data contains 63 columns and 887 unique answers. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
 
-
-
 ### Challenges I had / still have to overcome:
 - misspellings (or loose question interpretation: I am afraid neither Texas or 'Murika are a country :P)
 - some missing data
@@ -19,6 +17,7 @@ I am passionate about BJJ and Natural Language Processing and I found a perfect 
 
 My favourite quesiton ('Q19':'What is your favorite part about training?') is visualised in a wordcloud (in BJJ belt colours ^^)
 
+<img  width="1000" height="545" src="https://github.com/mbalcerzak/BJJ/blob/master/BJJ_wordcloud.png">
 
 ### Directiories and files
 **Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)
