@@ -271,8 +271,8 @@ for elem in lista_do_dict:
         
 #%%        
         
-for key, value in sorted(new_gi_dict.items()):
-    print("\'{}\':{},".format(key,value))     
+for key in qestions_order:
+    print("\'{}\':\'{}\',".format(key,colnames_dict[key]))     
     
     
 
