@@ -20,8 +20,8 @@ My favourite quesiton ('Q19':'What is your favorite part about training?') is vi
   e.g. "Elbow tendinitis that I am currently working through." --> "ELBOW" or "ELBOW TENDINITIS"
 
 ### Directiories and files
-**Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)
-**Functions** - functions I used to process the data with
+- **Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)
+- **Functions** - functions I used to process the data with
 
 ## Packages used
 
