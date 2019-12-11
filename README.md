@@ -13,7 +13,7 @@ My favourite quesiton ('Q19':'What is your favorite part about training?') is vi
 - grabbing both academy name and its affiliation and not mixing them up
 - lots lots lots of data cleaning
 
-### Smart solutions:
+### Solutions:
 - Levenshtein distance for misspellings
 - finding a list of famous athletes / well-known gyms / brands first and then running a check on the column
 - using an NLP model (this time it was TextBlob) to find a noun in a sentence 
