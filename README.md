@@ -1,8 +1,8 @@
 # Brasilian Jiu Jitsu Survey 2017
 
-I am passionate about BJJ and Natural Language Processing - I found a perfect project to combine both. Data was provided to me in a .csv file. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
+I am passionate about BJJ and Natural Language Processing and I found a perfect project to combine both. Data contains 63 columns and 887 unique answers. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
 
-Data contains 63 columns and 887 rows.
+
 
 ### Challenges I had / still have to overcome:
 - misspellings (and wrong question interpretation: neither Texas or 'Murika are a country :P)
@@ -18,3 +18,15 @@ Data contains 63 columns and 887 rows.
   e.g. "Elbow tendinitis that I am currently working through." --> "ELBOW" or "ELBOW TENDINITIS"
 
 My favourite quesiton ('Q19':'What is your favorite part about training?') is visualised in a wordcloud (in all belt coulours ^^)
+
+
+### Directiories and files
+**Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)
+**Functions** - functions I used to process the data with
+
+## Packages used
+
+```python
+
+
+```
