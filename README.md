@@ -6,7 +6,7 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 
 <img  width="1000" height="500" src="https://github.com/mbalcerzak/BJJ/blob/master/BJJ_wordcloud.png">
 
-### Challenges I had / still have to overcome:
+### Challenges I had to overcome:
 - misspellings (or loose question interpretation: I am afraid neither Texas or 'Murika are a country :P)
 - some missing data
 - different names for the same BJJ techniques
@@ -15,8 +15,8 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 
 ### Solutions:
 - Levenshtein distance for misspellings
-- finding a list of famous athletes / well-known gyms / brands first and then running a check on the column
-- using an NLP model (this time it was TextBlob) to find a noun in a sentence 
+- finding a list of famous athletes / well-known gyms / brands first and creating a base for a dictionary that way
+- using an NLP model (this time it was TextBlob) to find a noun in a sentence  
   e.g. "Elbow tendinitis that I am currently working through." --> "ELBOW" or "ELBOW TENDINITIS"
 
 ### Directiories and files
