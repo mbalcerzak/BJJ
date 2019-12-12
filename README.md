@@ -10,7 +10,7 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 - misspellings (or loose question interpretation: I am afraid neither Texas or 'Murika are a country :P)
 - some missing data
 - different names for the same BJJ techniques
-- grabbing both academy name and its affiliation and not mixing them up
+- grabbing both academy name and its affiliation and not mixing them up (it was the same question)
 - lots lots lots of data cleaning
 
 ### Solutions:
