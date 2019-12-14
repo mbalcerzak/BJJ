@@ -31,10 +31,9 @@ colnames_dict = dict(zip(list(data), colnames))
 qestions_order = sorted(list(data)[8:], key = lambda x: float(x[1:]))
 data_q = data[qestions_order][2:]
 
-#%%
-
-
 #%%  why started and favourite thing
+
+from Functions.functions import clean_string 
 
 reasons = data['Q18'][2:].to_list()
 
@@ -47,8 +46,8 @@ own_sw = ['wanted','want','year','really','getting']
 check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
 list_replacements = [['no answer','']]
 
-favourite_list = [clean_string(x) for x in favourite]
-reasons_list = [clean_string(x) for x in reasons]
+favourite_list = [clean_string(x,list_replacements,check) for x in favourite]
+reasons_list = [clean_string(x,list_replacements,check) for x in reasons]
 #%%
 
 def print_most_common(megalist): 
@@ -114,30 +113,30 @@ print_most_common(favourive_double,10)
 print_most_common(favourive_triple,10)
 
 #%%
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-import numpy as np
-from PIL import Image
-
-# Create some sample text
-text = ' '.join(favourive_single)
-
-image_path = r"C:\Users\malgo_000\Desktop\belt_colours2.png"
-
-alice_coloring = np.array(Image.open(image_path))
-stopwords = set(STOPWORDS)
-stopwords.add("said")
-
-wc = WordCloud(background_color="white", max_words=600, mask=alice_coloring,
-               stopwords=stopwords, max_font_size=150, random_state=42)
-
-wc.generate(text)
-
-image_colors = ImageColorGenerator(alice_coloring)
-
-plt.imshow(wc.recolor(color_func=image_colors), interpolation="bilinear")
-plt.axis("off")
-
-plt.show()
+#from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+#import numpy as np
+#from PIL import Image
+#
+## Create some sample text
+#text = ' '.join(favourive_single)
+#
+#image_path = r"C:\Users\malgo_000\Desktop\belt_colours2.png"
+#
+#alice_coloring = np.array(Image.open(image_path))
+#stopwords = set(STOPWORDS)
+#stopwords.add("said")
+#
+#wc = WordCloud(background_color="white", max_words=600, mask=alice_coloring,
+#               stopwords=stopwords, max_font_size=150, random_state=42)
+#
+#wc.generate(text)
+#
+#image_colors = ImageColorGenerator(alice_coloring)
+#
+#plt.imshow(wc.recolor(color_func=image_colors), interpolation="bilinear")
+#plt.axis("off")
+#
+#plt.show()
 
 #%%
 
@@ -168,26 +167,9 @@ injuries2 = ' '.join(injuries1).split()
 to_check = most_frequent(injuries)
 
 #%%
-stopwords = ['months','weeks','recovery','month','broken','tear','training','torn','via','took','surgery','injury','week','injuries','dislocated','takedown','time','guard','sprained','back',
- 'still',
- 'two',
- 'right',
- 'got',
- 'one',
- 'nothing',
- 'pain',
- 'year',
- 'rolling',
- 'popped',
- 'sprain',
- 'due',
- 'serious',
- 'separated',
- 'left',
- 'three',
- 'strain',
- 'mat',
- 'bjj']
+stopwords = ['months','weeks','recovery','month','broken','tear','training','torn','via','took','surgery','injury','week','injuries','dislocated','takedown','time','guard','sprained',
+ 'still','two','right','got','one','nothing','pain','year','rolling','popped','sprain','due','serious','separated','left','three','strain','mat','bjj',
+ ]
 
 
 from Dictionaries.injuries_dictionary import injuries_dictionary
