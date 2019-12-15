@@ -45,6 +45,15 @@ data_q['age_cat'] = data_q['Q57'].apply(age_categories)
 
 data_q['Q2'][data_q['Q2'] == 'White belt'] = 'White Belt' 
 
+######################### rename columns #####################################
+
+data_q.rename({
+        'Q55':'gender',
+        'Q2':'belt'
+        }, axis=1, inplace=True)        
+        
+
+
 ##########################  nationality  #####################################
 
 from Dictionaries.country_dictionary import country_dictionary
@@ -56,17 +65,13 @@ data_dem = dictionary_processing(
                list_replacements = [['.',''],['new ','new'], \
                                     ['south ','south']], 
                dictionary = country_dictionary,
-               to_keep = ['Q55','Q2'])
+               to_keep = ['gender','belt'])
 
 data_dem.rename({
-        'Q67_list':'countries', 
-        'Q55':'gender',
-        'Q2':'belt'
+        'Q67_list':'countries'
         }, axis=1, inplace=True)
 
     
-#data_dem['belt'][data_dem['belt'] == 'White belt'] = 'White Belt' 
-
 data_q = data_q.join(data_dem[['countries']])
 
 def explode(dataset, variable, new_var_name, na = True):
