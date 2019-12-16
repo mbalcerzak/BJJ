@@ -35,12 +35,31 @@ data_q = data[qestions_order][2:]
 
 from Functions.functions import clean_string 
 
-reasons = data['Q18'][2:].to_list()
+reasons = data['Q18'][2:].tolist()
 
-favourite = data['Q19'][2:].to_list()
+favourite = data['Q19'][2:].tolist()
+
+least = data['Q20'][2:].tolist()
 
 from collections import Counter 
 
+# Fitness and intrigue.
+# I wanted to be a Ninja
+# To leg lock my enemies 
+# my room mate in college would by me beer if I went with him
+# At this point in my life, partially for self-defense, but mostly to have 
+# something to do. Martial arts in general is one of those perfect hobbies: 
+#    it's cheap and it is simultaneously a mental, physical, social, and 
+#    spiritual endeavor. BJJ is also one of the most challenging things 
+#    I've dealt with in my life in all of those aspects as well. In short, 
+#    it improves the quality of my life.
+# Because the boxing coach looked really dodgy and the jiujitsu crew were much better organised, as well as better looking.
+# Exercise without feeling like exercise. 
+# I lost a fight to a jiu jitsu guy.
+# I saw a video of Ottavia Bourdain climbing an ice cream shop owner like a tree and choking him to the ground.  This led me down a youtube rabbit hole and I thought, gosh that looks like fun!
+# I saw that I could get a good workout while lying on soft mats.
+# I was always into wrestling with my cousins and siblings, so my mom signed me up for my first Jiu-Jitsu class so I could learn how to do it properly.
+# after this guy slept with my boyfriend and i needed to fuck people up
 
 own_sw = ['wanted','want','year','really','getting']
 check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
@@ -96,9 +115,9 @@ reasons_triple = coocuring_most_common(reasons_list,3)
 
 #%%
 
-print_most_common(reasons_single,10)
-print_most_common(reasons_double,10)
-print_most_common(reasons_triple,10)
+print_most_common(reasons_single)
+print_most_common(reasons_double)
+print_most_common(reasons_triple)
 
 #%%
 
@@ -108,9 +127,9 @@ favourive_triple = coocuring_most_common(favourite_list,3)
 
 #%%
 
-print_most_common(favourive_single,10)
-print_most_common(favourive_double,10)
-print_most_common(favourive_triple,10)
+print_most_common(favourive_single)
+print_most_common(favourive_double)
+print_most_common(favourive_triple)
 
 #%%
 #from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
@@ -159,16 +178,21 @@ def clean_sub3(string):
     
     return ' '.join([x for x in string.split(' ') if x not in sw])
 
-injuries = data['Q28'][2:].tolist()
+#'Q26':'competition_organisaiton'
+
+injuries = data['Q26'][2:].tolist()
 injuries1 = [clean_sub3(x).strip() for x in injuries if x != 'no answer']
 injuries2 = ' '.join(injuries1).split()
 
 #%%
-to_check = most_frequent(injuries)
+to_check = most_frequent(injuries1)
 
 #%%
-stopwords = ['months','weeks','recovery','month','broken','tear','training','torn','via','took','surgery','injury','week','injuries','dislocated','takedown','time','guard','sprained',
- 'still','two','right','got','one','nothing','pain','year','rolling','popped','sprain','due','serious','separated','left','three','strain','mat','bjj',
+stopwords = ['months','weeks','recovery','month','broken','tear','training','torn',
+             'via','took','surgery','injury','week','injuries','dislocated','takedown'
+             ,'time','guard','sprained','still','two','right','got','one',
+             'pain','year','rolling','popped','sprain','due','serious','separated',
+             'left','three','strain','mat','bjj'
  ]
 
 
@@ -177,7 +201,7 @@ from Dictionaries.injuries_dictionary import injuries_dictionary
 dict_values = [x for y in injuries_dictionary.values() for x in y]
 
 
-to_check = [x for x in to_check if x not in dict_values + stopwords]
+to_check = [x for x in to_check if x not in dict_values] #+ stopwords]
 
 m_t_chec = most_frequent(to_check)
 
@@ -241,7 +265,7 @@ for athlete in injuries2:
   
     
     
-lista_do_dict = [
+lista_do_dict = ['fitness','fun','shape','mma','self defense','work','health','useful for job (police)','curiosity','ufc','friend'
 
  ]
 
@@ -253,8 +277,10 @@ for elem in lista_do_dict:
         
 #%%        
         
-for key in qestions_order:
-    print("\'{}\':\'{}\',".format(key,colnames_dict[key]))     
-    
+#for key in qestions_order:
+#    print("\'{}\':\'{}\',".format(key,colnames_dict[key]))     
+
+#for key in sorted(injuries_dictionary.keys()):
+#    print("\'{}\':{},".format(key,injuries_dictionary[key]))     
     
 

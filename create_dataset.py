@@ -190,13 +190,23 @@ data_podcasts = dictionary_processing(
 
 #%%
 
+from Dictionaries.injuries_dictionary import injuries_dictionary
+
+data_injuries = dictionary_processing(
+                data = data_q, 
+                chosen_columns = ["Q28"] ,
+                check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)',
+                list_replacements = [['\'s','']], 
+                dictionary = injuries_dictionary)
+
+#%%
 # TO DO 
 # 
 #'Q18':'reason_started',
 #'Q19':'favourite',
 #'Q20':'least_favorite',    
 #'Q26':'competition_organisaiton',
-#'Q28':'injuries',
+
 
 #own_sw = ['wanted','want','year','really','getting']
 #check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
