@@ -41,6 +41,8 @@ favourite = data['Q19'][2:].tolist()
 
 least = data['Q20'][2:].tolist()
 
+injuries = data['Q28'][2:].tolist()
+
 from collections import Counter 
 
 # Fitness and intrigue.
@@ -67,11 +69,14 @@ list_replacements = [['no answer','']]
 
 favourite_list = [clean_string(x,list_replacements,check) for x in favourite]
 reasons_list = [clean_string(x,list_replacements,check) for x in reasons]
+injuries_list = [clean_string(x,list_replacements,check) for x in injuries]
+least_list = [clean_string(x,list_replacements,check) for x in least]
 #%%
+from Dictionaries.injuries_dictionary import injuries_dictionary 
 
-def print_most_common(megalist): 
+def print_most_common(megalist,n): 
     Counter_ = Counter(megalist) 
-    most_occur = Counter_.most_common() 
+    most_occur = Counter_.most_common(n) 
 
     return most_occur  
 
@@ -106,18 +111,22 @@ def coocuring_most_common(lista, num):
 
 #%%
 
-reasons_single = coocuring_most_common(reasons_list,1)
-reasons_single =[x for x in reasons_single if x != '']
+reasons_single = coocuring_most_common(least_list,1)
+reasons_single =[x for x in reasons_single if x != '' and x not in sw]
 
 #%%
-reasons_double = coocuring_most_common(reasons_list,2)
-reasons_triple = coocuring_most_common(reasons_list,3)
+reasons_double = coocuring_most_common(least_list,2)
+reasons_triple = coocuring_most_common(least_list,3)
 
 #%%
 
-print_most_common(reasons_single)
-print_most_common(reasons_double)
-print_most_common(reasons_triple)
+print_most_common(reasons_single,30)
+
+#%%
+print_most_common(reasons_double,30)
+
+#%%
+print_most_common(reasons_triple,30)
 
 #%%
 
@@ -132,30 +141,7 @@ print_most_common(favourive_double)
 print_most_common(favourive_triple)
 
 #%%
-#from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
-#import numpy as np
-#from PIL import Image
-#
-## Create some sample text
-#text = ' '.join(favourive_single)
-#
-#image_path = r"C:\Users\malgo_000\Desktop\belt_colours2.png"
-#
-#alice_coloring = np.array(Image.open(image_path))
-#stopwords = set(STOPWORDS)
-#stopwords.add("said")
-#
-#wc = WordCloud(background_color="white", max_words=600, mask=alice_coloring,
-#               stopwords=stopwords, max_font_size=150, random_state=42)
-#
-#wc.generate(text)
-#
-#image_colors = ImageColorGenerator(alice_coloring)
-#
-#plt.imshow(wc.recolor(color_func=image_colors), interpolation="bilinear")
-#plt.axis("off")
-#
-#plt.show()
+
 
 #%%
 
@@ -205,6 +191,8 @@ to_check = [x for x in to_check if x not in dict_values] #+ stopwords]
 
 m_t_chec = most_frequent(to_check)
 
+new_injuries_dictionary = injuries_dictionary
+
 #%%
 def iterative_levenshtein(s, t):
 
@@ -241,6 +229,9 @@ def iterative_levenshtein(s, t):
 #        athletes_values_list += [' '.join([x for x in elem.split(' ') if x not in sw])]
 #    
 #%%
+  
+
+
 def leven_score(name):
 
     min_ = len(name)
@@ -250,8 +241,10 @@ def leven_score(name):
         if iterative_levenshtein(athlete, name) < min_:
             min_ = iterative_levenshtein(athlete, name)
             closest = athlete
-            
-    return [name,closest,min_] if min_ > 1 else ''
+     
+        
+        
+    return [name,closest,min_] if min_ > 0 else ''
 
 unmatched_athletes = []
         
@@ -261,13 +254,10 @@ for athlete in injuries2:
         if len(x) > 0: unmatched_athletes.append(x)
 
 
+
 #%%
   
-    
-    
-lista_do_dict = ['fitness','fun','shape','mma','self defense','work','health','useful for job (police)','curiosity','ufc','friend'
-
- ]
+lista_do_dict = []
 
 dict_ = {}
 
@@ -280,7 +270,40 @@ for elem in lista_do_dict:
 #for key in qestions_order:
 #    print("\'{}\':\'{}\',".format(key,colnames_dict[key]))     
 
-#for key in sorted(injuries_dictionary.keys()):
-#    print("\'{}\':{},".format(key,injuries_dictionary[key]))     
+#for key in sorted(reasons_dictionary.keys()):
+#    print("\'{}\':{},".format(key,reasons_dictionary[key]))     
     
 
+#%% - -------------------------------------------------------------------
+    
+from Dictionaries.least_fav_dictionary import least_fav_dictionary    
+    
+values = [x for y in least_fav_dictionary.values() for x in y]
+    
+cols = 'Q20'
+
+reasons_df = data[[cols]][2:].copy()
+
+reasons_df = reasons_df[reasons_df[cols] != 'no answer']
+
+reasons_df[cols] = [x.lower() for x in reasons_df[cols]]
+
+def get_key(val,dictionary): 
+    for key, value in dictionary.items(): 
+         for elem in value:
+             elem = elem.lower()
+             if val == elem: 
+                 return key   
+
+def find_dict_vals(string):
+    result = []
+    for val in values:
+        if val in string:
+            key = get_key(val,least_fav_dictionary)
+            if key not in result:
+                result.append(key)
+    return result
+
+reasons_df['reasons'] = reasons_df[cols].apply(lambda x: find_dict_vals(x))
+
+resons_not_found = reasons_df[reasons_df['reasons'].str.len() == 0]
