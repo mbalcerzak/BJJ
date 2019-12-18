@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 
 #######################  ITERATIVE LEVENSHTEIN ##############################
 #
@@ -86,7 +87,7 @@ def clean_string(string, list_replacements, check):
     
     return string if string == string else ''
 
-######################### CLEAN COLUMN VALUES ###############################
+######################### CLEAN COLUMN VALUES ################################
 #
 #   after getting all the values into dictionaries it's time to assign them
 #   and get a correctly classified answer
@@ -94,9 +95,9 @@ def clean_string(string, list_replacements, check):
 ##############################################################################
 
 def dictionary_processing(data, chosen_columns, check, list_replacements, 
-                          dictionary, to_keep = ['country','gender','belt']):   
+                          dictionary, new_names = []):   
 
-    data_ = data[chosen_columns + to_keep].copy()
+    data_ = data[chosen_columns].copy()
 
     for column in chosen_columns:
         data_[column + '_clean'] = data_[column] \
@@ -104,6 +105,62 @@ def dictionary_processing(data, chosen_columns, check, list_replacements,
         data_[column + '_list'] = data_[column + '_clean'] \
             .apply(lambda x: assign_dict_keys(dictionary,x))
     
-    leave_cols = [x for x in list(data_) if '_list' in x] + to_keep
+    leave_cols = [x for x in list(data_) if '_list' in x]
+    
+    data_ = data_[leave_cols]
+    if len(new_names) > 0:
+        data_.columns = new_names
+    
+    return data_
 
-    return data_[leave_cols]
+#################### find values without clearning the column ################
+
+def find_dict_vals(string,dictionary):
+    dict_vals = [x for y in dictionary.values() for x in y]
+    string = string.lower()
+    result = []
+    for val in dict_vals:
+        if val in string:
+            key = get_key(val,dictionary)
+            if key not in result:
+                result.append(key)
+    return result
+
+####################  split list into new rows ###############################
+    
+def explode(dataset, variable, new_var_name, na = True):
+    country_list_ = list(dataset)
+    country_list_.remove(variable)
+    
+    dataset_ = (dataset
+              .set_index(country_list_)[variable]
+              .apply(pd.Series)
+              .stack()
+              .reset_index()
+              .rename(columns={0:new_var_name}))
+    
+    if na == False:
+        dataset_ = dataset_[dataset_[new_var_name] != 'NA']
+    
+    return dataset_[[x for x in list(dataset_) if 'level' not in x]]
+
+#################  choke / not a choke #######################################
+    
+def is_choke(x):
+    word_list = ['choke', 'triangle', 'bow & arrow', 'guillotine', 'ezekiel',
+                 'darce', 'gogoplata','crucifix', 'anaconda', 'papercutter',
+                 'sorcerer', 'single wing']
+    
+    for word in word_list:
+        if word in x:
+            return 'choke'
+        
+    return 'not a choke'
+
+####################### age cathegories ######################################
+    
+def age_categories(x):   
+    if x != 'no answer':
+        return '{}-{}'.format(round(int(x)//5*5),round(int(x)//5*5+5))
+    else:
+        return x
