@@ -43,6 +43,8 @@ least = data['Q20'][2:].tolist()
 
 injuries = data['Q28'][2:].tolist()
 
+organisation = data['Q26'][2:].tolist()
+
 from collections import Counter 
 
 # Fitness and intrigue.
@@ -63,14 +65,25 @@ from collections import Counter
 # I was always into wrestling with my cousins and siblings, so my mom signed me up for my first Jiu-Jitsu class so I could learn how to do it properly.
 # after this guy slept with my boyfriend and i needed to fuck people up
 
+
+def clean_string1(string, list_replacements, check):
+    
+    #string= string.lower()
+
+    for replacement in list_replacements:
+        string = string.replace(replacement[0],replacement[1])
+    
+    string = ' '.join(re.sub(check, ' ', string).split())
+    
+    return string if string == string else ''
+
+
 own_sw = ['wanted','want','year','really','getting']
-check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
+check = '(@[A-Z]+)|([^A-Z])|(\w+:\/\/\S+)'
 list_replacements = [['no answer','']]
 
-favourite_list = [clean_string(x,list_replacements,check) for x in favourite]
-reasons_list = [clean_string(x,list_replacements,check) for x in reasons]
-injuries_list = [clean_string(x,list_replacements,check) for x in injuries]
-least_list = [clean_string(x,list_replacements,check) for x in least]
+org_list = [clean_string1(x,list_replacements,check) for x in organisation]
+
 #%%
 from Dictionaries.injuries_dictionary import injuries_dictionary 
 
@@ -91,7 +104,7 @@ def coocuring_most_common(lista, num):
             row = row.split(' ')
             for n in range(len(row)-num+1):
                 
-                s = sorted(row[n:n + num])
+                s = row[n:n + num]
                 
                 # I am cheking if the words are unique so that I don't end up
                 # with CT_CT_CT ...
@@ -111,12 +124,12 @@ def coocuring_most_common(lista, num):
 
 #%%
 
-reasons_single = coocuring_most_common(least_list,1)
+reasons_single = coocuring_most_common(org_list,1)
 reasons_single =[x for x in reasons_single if x != '' and x not in sw]
 
 #%%
-reasons_double = coocuring_most_common(least_list,2)
-reasons_triple = coocuring_most_common(least_list,3)
+reasons_double = coocuring_most_common(org_list,2)
+reasons_triple = coocuring_most_common(org_list,3)
 
 #%%
 
@@ -127,21 +140,6 @@ print_most_common(reasons_double,30)
 
 #%%
 print_most_common(reasons_triple,30)
-
-#%%
-
-favourive_single = coocuring_most_common(favourite_list,1)
-favourive_double = coocuring_most_common(favourite_list,2)
-favourive_triple = coocuring_most_common(favourite_list,3)
-
-#%%
-
-print_most_common(favourive_single)
-print_most_common(favourive_double)
-print_most_common(favourive_triple)
-
-#%%
-
 
 #%%
 
@@ -266,21 +264,21 @@ for elem in lista_do_dict:
      
         
 #%%        
-        
+from Dictionaries.organisation_dictionary import organisation_dictionary    
 #for key in qestions_order:
 #    print("\'{}\':\'{}\',".format(key,colnames_dict[key]))     
 
-#for key in sorted(reasons_dictionary.keys()):
-#    print("\'{}\':{},".format(key,reasons_dictionary[key]))     
-    
+#for key in sorted(organisation_dictionary.keys()):
+#    print("\'{}\':{},".format(key,organisation_dictionary[key]))     
+#   
 
 #%% - -------------------------------------------------------------------
     
-from Dictionaries.least_fav_dictionary import least_fav_dictionary    
+
     
-values = [x for y in least_fav_dictionary.values() for x in y]
+values = [x for y in organisation_dictionary.values() for x in y]
     
-cols = 'Q20'
+cols = 'Q26'
 
 reasons_df = data[[cols]][2:].copy()
 
@@ -299,7 +297,7 @@ def find_dict_vals(string):
     result = []
     for val in values:
         if val in string:
-            key = get_key(val,least_fav_dictionary)
+            key = get_key(val,organisation_dictionary)
             if key not in result:
                 result.append(key)
     return result
@@ -307,3 +305,14 @@ def find_dict_vals(string):
 reasons_df['reasons'] = reasons_df[cols].apply(lambda x: find_dict_vals(x))
 
 resons_not_found = reasons_df[reasons_df['reasons'].str.len() == 0]
+
+#%%
+#
+#
+#lista_do_dict = resons_not_found['Q26'].to_list()
+#
+#dict_ = {}
+#
+#for elem in lista_do_dict:
+#    print("\'{}\':[\'{}\'],".format(elem,elem))
+     

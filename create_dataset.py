@@ -2,7 +2,7 @@ import pandas as pd
 from os import path 
 from nltk.corpus import stopwords
 sw = stopwords.words("english")
-from collections import Counter, OrderedDict
+from collections import Counter
 import matplotlib.pyplot as plt
 
 from Functions.functions import dictionary_processing
@@ -51,8 +51,6 @@ data_q.rename({
         'Q55':'gender',
         'Q2':'belt'
         }, axis=1, inplace=True)        
-        
-
 
 ##########################  nationality  #####################################
 
@@ -164,7 +162,6 @@ data_gi = dictionary_processing(
 data_gi2 = explode(data_gi, 'Q68_list', 'technique', na = False)
 
 
-
 #%% ############## BJJ academies and affiliations ############################
 
 from Dictionaries.academy_dictionary import academy_dictionary
@@ -200,18 +197,10 @@ data_injuries = dictionary_processing(
                 dictionary = injuries_dictionary)
 
 #%%
-# TO DO 
-# 
-#'Q18':'reason_started',
-#'Q19':'favourite',
-#'Q20':'least_favorite',    
-#'Q26':'competition_organisaiton',
 
+from Dictionaries.organisation_dictionary import organisation_dictionary
+from Dictionaries.least_fav_dictionary import least_fav_dictionary
+from Dictionaries.reasons_dictionary import reasons_dictionary
 
-#own_sw = ['wanted','want','year','really','getting']
-#check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
-#list_replacements = [['no answer','']]
-#
-#favourite_list = [clean_string(x, ) for x in favourite]
 
 
