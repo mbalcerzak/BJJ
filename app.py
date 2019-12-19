@@ -6,10 +6,9 @@ import altair as alt
 
 st.title('BJJ  Survey 2017')
 
-DATA_URL = ('https://github.com/mbalcerzak/BJJ/blob/master/Data/data_bjj.csv?raw=True')
+path = 'https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/'
 
-#path = os.getcwd()
-# path + r'\data_bjj.csv'
+DATA_URL = (path + 'data_bjj.csv?token=ALZ2IDARFSV557ZCQ47ZWPS57PKL4')
 
 @st.cache
 def load_data():
@@ -86,7 +85,6 @@ else:
     bar_height = len(data_bars) * 15
     
 
-    
     bars = alt.Chart(data_bars, height = bar_height, width = 500).mark_bar(
                     color = colour, opacity=0.9).encode(
                         alt.Y('techniques', sort = None, 
