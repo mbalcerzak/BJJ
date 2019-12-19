@@ -175,7 +175,7 @@ data_qf = data_q.rename(columns = colnames_dictionary)
 
 data_final = data_qf[[x for x in list(data_qf) if 'Q' not in x]]
 
-data_final.to_csv(path + r'\data_bjj.csv', header = True, index = None, 
+data_final.to_csv(path + r'\Data\data_bjj.csv', header = True, index = None, 
                   sep = ';')
 
 ######################### interesting raw data ###############################
@@ -184,5 +184,5 @@ from Dictionaries.colnames_dictionary import raw_colnames
 
 data_raw = data[raw_colnames.keys()][2:].rename(columns = raw_colnames)        
 
-data_raw.to_csv(path + r'\data_raw.csv', header = True, index = None, 
+data_raw.to_csv(path + r'\Data\data_raw.csv', header = True, index = None, 
                   sep = ';')
