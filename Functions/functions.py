@@ -66,7 +66,10 @@ def assign_dict_keys(dictionary, string):
                         if key_val not in result:
                             result.append(key_val)   
     
-        return result
+        if len(result) == 0:
+            result = ['no answer']
+    
+        return "[" + ','.join(result) + "]"
     
     return find_dictionary_vals(string)
 
@@ -119,12 +122,17 @@ def find_dict_vals(string,dictionary):
     dict_vals = [x for y in dictionary.values() for x in y]
     string = string.lower()
     result = []
+    
     for val in dict_vals:
         if val in string:
             key = get_key(val,dictionary)
             if key not in result:
                 result.append(key)
-    return result
+    
+    if len(result) == 0:
+        result = ['no answer']
+    
+    return "[" + ','.join(result) + "]"
 
 ####################  split list into new rows ###############################
     
@@ -147,13 +155,17 @@ def explode(dataset, variable, new_var_name, na = True):
 #################  choke / not a choke #######################################
     
 def is_choke(x):
+    if x == ['no answer'] or len(x) == 0:
+        return 'no answer'
+    
     word_list = ['choke', 'triangle', 'bow & arrow', 'guillotine', 'ezekiel',
                  'darce', 'gogoplata','crucifix', 'anaconda', 'papercutter',
                  'sorcerer', 'single wing']
     
     for word in word_list:
-        if word in x:
-            return 'choke'
+        for elem in x:
+            if word in elem:
+                return 'choke'
         
     return 'not a choke'
 
@@ -161,6 +173,6 @@ def is_choke(x):
     
 def age_categories(x):   
     if x != 'no answer':
-        return '{}-{}'.format(round(int(x)//5*5),round(int(x)//5*5+5))
+        return '{}-{}'.format(round(int(x)//5*5), round(int(x)//5*5+5))
     else:
         return x

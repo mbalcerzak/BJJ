@@ -1,20 +1,15 @@
 import pandas as pd
-from os import path
+import os
 from nltk.corpus import stopwords
 sw = stopwords.words("english")
 from Functions.functions import dictionary_processing
 
-path_w = r"C:\Users\kkql180\OneDrive - AZCollaboration\BJJ\BJJ_dataset"
-path_h = r"C:\Users\malgo_000\Desktop\BJJ"
-
-if path.isdir(path_w + '\BJJ1.csv'):
-    path = path_w + r'\BJJ1.csv'
-else:
-    path = path_h + r'\BJJ1.csv'
+path = os.getcwd()
  
 ############################################################################## 
 # getting the data and deleting unimportant columns
-data = pd.read_csv(path)
+data = pd.read_csv(path + r'\BJJ1.csv')
+
 data = data.drop(columns = ['RecipientEmail','RecipientFirstName',
                             'RecipientLastName','IPAddress',
                             'ExternalReference', 'DistributionChannel'])
@@ -36,14 +31,8 @@ data_q['age_cat'] = data_q['Q57'].apply(age_categories)
 
 ############ corrected case so it's consistent with other values #############
 
-data_q['Q2'][data_q['Q2'] == 'White belt'] = 'White Belt' 
-
-######################### rename columns #####################################
-
-data_q.rename({
-        'Q55':'gender',
-        'Q2':'belt'
-        }, axis=1, inplace=True)        
+data_q['Q2'] = data_q['Q2'].apply(lambda x: x.lower())
+data_q['Q2'][data_q['Q2'] == 'I do not hold a rank'] = 'no rank' 
 
 ##########################  nationality  #####################################
 
@@ -62,7 +51,7 @@ data_dem = dictionary_processing(
 data_q = data_q.join(data_dem[['countries']])
 data_q = explode(data_q, 'countries', 'country')
 
-#%%  #######################  athletes  ######################################
+############################  athletes  ######################################
 
 from Dictionaries.athlete_dictionary import athlete_dictionary 
 
@@ -76,7 +65,7 @@ data_athletes = dictionary_processing(
                dictionary = athlete_dictionary,
                new_names = ['athletes'])
 
-#%%  #####################  submissions  #####################################
+##########################  submissions  #####################################
 
 from Dictionaries.submissions_dictionary import submissions_dictionary 
 
@@ -87,26 +76,15 @@ data_submissions = dictionary_processing(
                           '(@[A-Za-z0-9]+)|([^A-Za-z0-9 \t\&])|(\w+:\/\/\S+)',
                        list_replacements = [['\'',''],[' & ','&']], 
                        dictionary = submissions_dictionary,
-                       new_names = ['submissions'])
+                       new_names = ['technique'])
 
-#%%
+
 from Functions.functions import is_choke
 
-data_submissions['choke'] = data_submissions['submissions'].apply(lambda x: is_choke(x))
+data_submissions['choke'] = data_submissions['technique']. \
+                                            apply(lambda x: is_choke(x))
 
-#%%
-
-#def pie_chart_generator(data,question):
-#    question_list = data[question][data[question] != '']
-#    
-#    counts = Counter(question_list[2:].tolist())
-#    plt.pie([int(v) for v in counts.values()], labels=[str(k) for k in counts.keys()],
-#             autopct='%.1f%%')
-#    plt.show()
-
-# pie_chart_generator(data_submissions2,'technique')
-
-#%% ##################   Gi & NoGi favourite brands  #########################
+######################   Gi & NoGi favourite brands  #########################
 
 from Dictionaries.gi_dictionary import gi_dictionary
 
@@ -118,9 +96,7 @@ data_gi = dictionary_processing(
                 dictionary = gi_dictionary,
                 new_names = ['gi','rash','shorts','apparel'])
 
-#data_gi2 = explode(data_gi, 'Q68_list', 'technique', na = False)
-
-#%% ############## BJJ academies and affiliations ############################
+################## BJJ academies and affiliations ############################
 
 from Dictionaries.academy_dictionary import academy_dictionary
 
@@ -132,7 +108,7 @@ data_gyms = dictionary_processing(
                 dictionary = academy_dictionary,
                 new_names = ['gym'])
 
-#%% ##################   Podcasts / YT channels ...  #########################
+######################   Podcasts / YT channels ...  #########################
 
 from Dictionaries.media_dictionary import media_dictionary
 
@@ -145,7 +121,7 @@ data_podcasts = dictionary_processing(
                 dictionary = media_dictionary,
                 new_names = ['website','watch_sport','podcast'])
 
-#%% ###########################   injuries  ##################################
+###############################   injuries  ##################################
 
 from Dictionaries.injuries_dictionary import injuries_dictionary
 
@@ -157,7 +133,7 @@ data_injuries = dictionary_processing(
                 dictionary = injuries_dictionary,
                 new_names = ['injuries'])
 
-#%% ########################   organisations  ################################
+############################   organisations  ################################
 
 from Dictionaries.organisation_dictionary import organisation_dictionary
 
@@ -169,24 +145,44 @@ data_org = dictionary_processing(
                 dictionary = organisation_dictionary,
                 new_names = ['organisations'])  
 
-#%%#################### reasons why you started #############################
+######################## reasons why you started #############################
 
 from Dictionaries.reasons_dictionary import reasons_dictionary
 from Functions.functions import find_dict_vals
 
-data_q['reasons'] = data_q['Q18'].apply(lambda x: find_dict_vals(x,reasons_dictionary))
+data_q['reasons'] = data_q['Q18'].apply(lambda x: \
+                                      find_dict_vals(x, reasons_dictionary))
 
-#data_reasons = data_q[['reasons']].join(data_q[['Q18']])
-
-#%% ################# least favourite thing about BJJ #######################
+##################### least favourite thing about BJJ ########################
 
 from Dictionaries.least_fav_dictionary import least_fav_dictionary
 
-data_q['favourite'] = data_q['Q20'].apply(lambda x: find_dict_vals(x,least_fav_dictionary))
+data_q['least_favourite'] = data_q['Q20'].apply(lambda x: \
+                                      find_dict_vals(x, least_fav_dictionary))
 
-#data_fav = data_q[['favourite']].join(data_q[['Q20']])
-#%%
-list_datasets = [data_athletes,data_submissions,data_gi,data_gyms,data_podcasts,data_injuries,data_org]
+############### combining all the proseccessed datasets into one #############
 
-for dataset in list_datasets:
-    data_q = data_q.join(dataset)
+list_datasets = [data_athletes, data_submissions, data_gi,data_gyms, \
+                 data_podcasts, data_injuries, data_org]
+
+data_q = data_q.join([dataset for dataset in list_datasets])
+    
+######################## renaming the columns ################################
+
+from Dictionaries.colnames_dictionary import colnames_dictionary
+
+data_qf = data_q.rename(columns = colnames_dictionary)        
+
+data_final = data_qf[[x for x in list(data_qf) if 'Q' not in x]]
+
+data_final.to_csv(path + r'\data_bjj.csv', header = True, index = None, 
+                  sep = ';')
+
+######################### interesting raw data ###############################
+
+from Dictionaries.colnames_dictionary import raw_colnames
+
+data_raw = data[raw_colnames.keys()][2:].rename(columns = raw_colnames)        
+
+data_raw.to_csv(path + r'\data_raw.csv', header = True, index = None, 
+                  sep = ';')

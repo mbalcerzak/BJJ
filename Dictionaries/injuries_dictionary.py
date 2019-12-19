@@ -54,5 +54,6 @@ injuries_dictionary = {
 #'torn':['torn', 'tore'],
 #'twisted':['twisted', 'twist'],
 'white belt':['white belt', 'newbie', 'new guy', 'agressive', 'overzealous'],
-'wrist':['wrist']
+'wrist':['wrist'],
+'no answer':['no answer']
 }

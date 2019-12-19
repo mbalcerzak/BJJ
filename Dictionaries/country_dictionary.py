@@ -56,5 +56,5 @@ country_dictionary = {
     'Ukraine':['Ukranian', 'Ukraine'],
     'Uruguay':['Uruguayan', 'Uruguay'],
     'Vietnam':['Vietnamese', 'Vietnam'],
-    'NA':['no answer']
+    'no answer':['no answer']
     }

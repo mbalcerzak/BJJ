@@ -245,5 +245,5 @@ athlete_dictionary = {
 	'Xande Ribeiro':['xande ribeiro', 'xande', 'xande ribiero'],
 	'Yuri Simoes':['yuri simoes', 'i ve recently become a fan of yuri simoes'],
 	'Yvonne Duarte':['yvonne duarte'],
-   'NA':['no answer']           
+   'no answer':['no answer']           
  }

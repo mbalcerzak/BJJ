@@ -97,5 +97,6 @@ least_fav_dictionary = {
 'weird rules':['weird rules'],
 'whiny people':['whiny people', 'pussies who complain'],
 'white belt dudes':['white belt'],
-'women':['women']
+'women':['women'],
+'no answer':['no answer']
         }

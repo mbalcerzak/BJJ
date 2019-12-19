@@ -420,5 +420,5 @@ academy_dictionary = {
 'zingano bjj luiz claudio combat team':['zingano bjj luiz claudio combat team'],
 'zr team':['zr team'],
 'mjolnir sbgi':['mj lnir sbgi'],
-'NA':['no answer']
+'no answer':['no answer']
 }

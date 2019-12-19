@@ -1,0 +1,2 @@
+streamlit==0.49.4
+altair==3.2.0

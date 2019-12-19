@@ -78,5 +78,6 @@ organisation_dictionary = {
 'ukbjja':['ukbjja'],
 'us grappling':['us grappling', 'usgrappling'],
 'victory grappling championship':['victory grappling championship'],
-'wbjjf':['wbjjf']
+'wbjjf':['wbjjf'],
+'no answer':['no answer']
         }

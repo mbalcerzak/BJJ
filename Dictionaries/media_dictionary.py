@@ -128,5 +128,5 @@ media_dictionary = {
 'white belt bjj':['white belt'],
 'xande ribeiro':['xande'],
 'youtube':['youtube', 'you tube', 'youtube.'],
-'NA':['no answer']
+'no answer':['no answer']
 }

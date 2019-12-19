@@ -42,5 +42,6 @@ reasons_dictionary = {
 'ufc':['ufc'],
 'useful for job (police / army)':['useful for job', 'army', 'police', 'law enforcement', 'military'],
 'wanted to compete':['compete', 'competition', 'competitive', 'championship', 'competitiob'],
-'work':['work']
+'work':['work'],
+'no answer':['no answer']
         }
