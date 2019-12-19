@@ -1,19 +1,19 @@
 import streamlit as st
 import pandas as pd
-import os
+#import os
 from collections import Counter, OrderedDict
 import altair as alt
 
 st.title('BJJ  Survey 2017')
 
-#DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
-#            'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
+DATA_URL = ('https://github.com/mbalcerzak/BJJ/blob/master/Data/data_bjj.csv?raw=True')
 
-path = os.getcwd()
+#path = os.getcwd()
+# path + r'\data_bjj.csv'
 
 @st.cache
 def load_data():
-    data = pd.read_csv(path + r'\data_bjj.csv', sep = ';')
+    data = pd.read_csv(DATA_URL, sep = ';')
     for column in list(data):
         if '[' in data[column][0]:
 
