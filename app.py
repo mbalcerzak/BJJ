@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import os
 from collections import Counter, OrderedDict
-import matplotlib.pyplot as plt
 import altair as alt
 
 st.title('BJJ  Survey 2017')
