@@ -6,9 +6,7 @@ import altair as alt
 
 st.title('BJJ  Survey 2017')
 
-path = 'https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/'
-
-DATA_URL = (path + 'data_bjj.csv?token=ALZ2IDARFSV557ZCQ47ZWPS57PKL4')
+DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
 
 @st.cache
 def load_data():
@@ -23,7 +21,7 @@ data_load_state = st.text('Loading data...')
 data = load_data()
 data_load_state.text('Loading data... done!')
 
-st.sidebar.text(" github.com/mbalcerzak")
+st.sidebar.text("github.com/mbalcerzak")
 
 
 if st.checkbox('Show the data used for analysis'):
