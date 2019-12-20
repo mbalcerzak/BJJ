@@ -32,7 +32,7 @@ data_q['age_cat'] = data_q['Q57'].apply(age_categories)
 ############ corrected case so it's consistent with other values #############
 
 data_q['Q2'] = data_q['Q2'].apply(lambda x: x.lower())
-data_q['Q2'][data_q['Q2'] == 'I do not hold a rank'] = 'no rank' 
+data_q['Q2'][data_q['Q2'] == 'i do not hold a rank'] = 'no rank' 
 
 ##########################  nationality  #####################################
 
