@@ -6,8 +6,8 @@ import altair as alt
 
 st.title('BJJ  Survey 2017')
 
-#DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
-DATA_URL = r"C:\Users\malgo_000\Documents\GitHub\BJJ\Data\data_bjj.csv"
+DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
+
 #@st.cache
 def load_data():
     data = pd.read_csv(DATA_URL, sep = ';')
