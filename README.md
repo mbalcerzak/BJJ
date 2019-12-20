@@ -6,7 +6,7 @@ I am passionate about BJJ and Natural Language Processing and I found a perfect 
 
 I visualised my favourite quesiton ('Q19':'What is your favorite part about training?') in a wordcloud (in BJJ belt colours ^^). I think It captures well what we all love about that gentle art
 
-<img  width="1000" height="500" src="https://github.com/mbalcerzak/BJJ/blob/master/BJJ_wordcloud.png">
+<img  width="1000" height="500" src="https://github.com/mbalcerzak/BJJ/blob/master/Data/BJJ_wordcloud.png">
 
 ### Challenges I had to overcome:
 - misspellings (or loose question interpretation: I am afraid neither Texas or 'Murika are a country :P)
