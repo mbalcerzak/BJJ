@@ -27,11 +27,11 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 
 <div align="center">
   <br>
-  <img src="https://img.shields.io/badge/CODED%20IN-PYTHON%20-red?style=for-the-badge"
+  <img src="https://img.shields.io/badge/PROGRAMMED%20IN-PYTHON%20-red?style=for-the-badge"
       alt="API stability" height="25"/>
-  <img src="https://img.shields.io/badge/SERVER%20-Heroku-blue?style=for-the-badge"
+  <img src="https://img.shields.io/badge/SERVER:%20-Heroku-blue?style=for-the-badge"
       alt="API stability" height="25"/>
-  <img src="https://img.shields.io/badge/DASHBOARD%20-Streamlit-green?style=for-the-badge"
+  <img src="https://img.shields.io/badge/DASHBOARD:%20-Streamlit-green?style=for-the-badge"
       alt="API stability" height="25"/>
 </div>
 
