@@ -6,8 +6,8 @@ import altair as alt
 
 st.title('BJJ  Survey 2017')
 
-DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
-
+#DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
+DATA_URL = r"C:\Users\malgo_000\Documents\GitHub\BJJ\Data\data_bjj.csv"
 #@st.cache
 def load_data():
     data = pd.read_csv(DATA_URL, sep = ';')
@@ -34,12 +34,12 @@ belts = [all_answers, 'white belt','blue belt', 'purple belt', 'brown belt',
          'black belt', 'no rank']    
 
 
-col_dictionary = {all_answers:'gray',
-                 'no rank':'green', 
+col_dictionary = {all_answers:'olivedrab',
+                 'no rank':'olivedrab', 
                  'white belt':'gray',
                  'blue belt':'steelblue', 
                  'purple belt':'rebeccapurple',
-                 'brown belt':'brown', 
+                 'brown belt':'sienna', 
                  'black belt':'black'}
 
 st.sidebar.header("Choose what data do you want to see")
