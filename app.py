@@ -8,7 +8,7 @@ st.title('BJJ  Survey 2017')
 
 DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
 
-@st.cache
+#@st.cache
 def load_data():
     data = pd.read_csv(DATA_URL, sep = ';')
     for column in list(data):
