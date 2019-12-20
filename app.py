@@ -8,7 +8,7 @@ st.title('BJJ  Survey 2017')
 
 DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
 
-@st.cache
+#@st.cache
 def load_data():
     data = pd.read_csv(DATA_URL, sep = ';')
     for column in list(data):
@@ -38,8 +38,8 @@ col_dictionary = {all_answers:'gray',
                  'no rank':'green', 
                  'white belt':'gray',
                  'blue belt':'steelblue', 
-                 'purple belt':'darkviolet',
-                 'brown belt':'saddlebrown', 
+                 'purple belt':'rebeccapurple',
+                 'brown belt':'brown', 
                  'black belt':'black'}
 
 st.sidebar.header("Choose what data do you want to see")
