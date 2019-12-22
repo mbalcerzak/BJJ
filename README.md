@@ -2,7 +2,7 @@ link to the app: [BJJ Survey Results](https://bjj-survey.herokuapp.com/)
 
 # Brazilian Jiu Jitsu Survey 2017
 
-I am passionate about BJJ and Natural Language Processing and I found a perfect project to combine both. Data contains 63 columns and 887 unique answers. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
+I am passionate about BJJ and Natural Language Processing and I found a perfect project to combine both. Data contains 63 columns and 807 unique answers. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
 
 I visualised my favourite quesiton ('Q19':'What is your favorite part about training?') in a wordcloud (in BJJ belt colours ^^). I think It captures well what we all love about that gentle art
 
@@ -43,6 +43,8 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 ```
 ### Methodology used to clean each question
 
+Most of the questions were not processed by me in any way. I mostly cleaned the freetext ones. Here are the details:
+
 'Q2':'What is your current rank in jiu jitsu?'
 - changed to lowercase
 
@@ -73,8 +75,8 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 'Q18':'Why did you start training jiu jitsu?',
 
 'Q19':'What is your favorite part about training?'
-- created a wordcloud oout of the answers
-- didn't clean the data much, you can view the raw dataset in the app
+- created a wordcloud out of the answers
+- you can view the raw dataset in the app
 
 'Q20':'What is your least favorite part about training?',
 - created a dictionary after cleaning the data
@@ -88,6 +90,7 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 'Q25':'If you have competed, have you won any of the following medals?',
 
 'Q26':'If you have competed, what was the organization (e.g., IBJJF, NAGA, etc.)? Fill in as many as apply!',
+- created a dictionary after cleaning the data
 
 'Q27':'Does your gym have a formal curriculum?',
 
@@ -148,20 +151,24 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 'Q61':'How would you describe yourself in terms of political ideology?',
 
 'Q61.1':'If you do watch sport jiu jitsu, what do you watch and where do you watch it? For instance, do you watch PPVs?  If so, which organizations--EBI, Metamoris, Polaris, etc.',
+- created a dictionary after cleaning the data
 
 'Q62':'Do you have a favorite jiu jitsu athlete or athletes?',
 
 'Q63':'Who are your favorite athletes (if any)? As always, leave this blank if it doesn't apply to you!',
+- created a dictionary after cleaning the data
 
 'Q65':'If you have some favorite grappling-related podcasts, which ones do you like?',
+- created a dictionary after cleaning the data
 
 'Q66':'To which academy do you belong? If it is affiliated, what is the affiliation? For instance:  Oceanside BJJ - A Royce Gracie Affiliate',
+- created a dictionary after cleaning the data
 
 'Q66.1':'Is your gym "leg lock friendly"?',
 
 'Q67':'Where is your nationality?',
 - created a dictionary after cleaning the data
-- many people answered listing multiple countried: I assumed it's important for them so if someone entered 'USA / Portugal' I counted that person as two. One from USA and one from Portugal - that move made the dataset a little bigger which helped with the analysis
+- many people answered listing multiple countried: I kept the original data but used only the first mentioned country in the analysis
 
 'Q67.1':'What is your preferred "style"?',
 
