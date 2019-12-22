@@ -68,6 +68,8 @@ question = 'technique'
 question_no_empty = data[question][data[question].str.len() > 0].to_list()
 question_list = [x for y in question_no_empty for x in y if x != 'no answer'] 
 
+st.subheader("Favourite techhniques")
+
 if len(question_list) == 0:
     st.text('No data to show for {} & {}'. \
                 format(belt_chosen.upper(),gender_chosen.upper()))
@@ -82,7 +84,6 @@ else:
     
     bar_height = len(data_bars) * 15
     
-
     bars = alt.Chart(data_bars, height = bar_height, width = 500).mark_bar(
                     color = colour, opacity=0.9).encode(
                         alt.Y('techniques', sort = None, 
