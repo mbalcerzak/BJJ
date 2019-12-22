@@ -57,7 +57,7 @@ data_q = data_q.join(data_dem[['countries']])
 data_q['country'] = data_q['countries'].apply(lambda x: x[0])
 
 #data_q = explode(data_q, 'countries', 'country')
-#%%
+
 ############################  athletes  ######################################
 
 from Dictionaries.athlete_dictionary import athlete_dictionary 
@@ -175,12 +175,33 @@ list_datasets = [data_athletes, data_submissions, data_gi,data_gyms, \
 data_q = data_q.join([dataset for dataset in list_datasets])
     
 ######################## renaming the columns ################################
-#%%
+
 from Dictionaries.colnames_dictionary import colnames_dictionary
 
 data_qf = data_q.rename(columns = colnames_dictionary)        
 
 data_final = data_qf[[x for x in list(data_qf) if 'Q' not in x]]
+
+########### final data cleaning - change list to string #####################
+to_str_columns =   ['countries',
+                    'reasons',
+                    'least_favourite',
+                    'athletes',
+                    'technique',
+                    'gi',
+                    'rash',
+                    'shorts',
+                    'apparel',
+                    'gym',
+                    'website',
+                    'watch_sport',
+                    'podcast',
+                    'injuries',
+                    'organisations']
+
+for column in to_str_columns:
+    data_final[column] = data_final[column].apply(lambda x: '['+','.join(x)+']')
+
 
 data_final.to_csv(path + r'\Data\data_bjj.csv', header = True, index = None, 
                   sep = ';')
@@ -295,3 +316,10 @@ for dataset, name in zip(to_explode, explode_names):
     
     data_save.to_csv(path + r'\Data\info1\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
+#%%
+    
+for col in list(data_final):
+    if isinstance(data_final[col].values[0],list):
+        print("'" + col + "',")
+   # if isinstance(data_final[col][0],list):
+   #     print(col)
