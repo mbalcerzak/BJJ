@@ -34,7 +34,6 @@ colnames_dictionary = {
 'Q57.1':'income',
 'Q59':'race',
 'Q60':'do_watch_sport_bjj',
-'Q61.1':'where_watch_sport_bjj',
 'Q62':'have_fav_athlete',
 'Q66.1':'leg_lock_friendly',
 'Q67':'nationality',

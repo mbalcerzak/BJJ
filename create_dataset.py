@@ -5,7 +5,7 @@ sw = stopwords.words("english")
 from Functions.functions import dictionary_processing
 
 path = os.getcwd()
- 
+
 ############################################################################## 
 # getting the data and deleting unimportant columns
 data = pd.read_csv(path + r'\BJJ1.csv')
@@ -22,6 +22,10 @@ colnames_dict = dict(zip(list(data), colnames))
 
 # final dataset with questions only
 qestions_order = sorted(list(data)[8:], key = lambda x: float(x[1:]))
+
+data = data[:][2:]
+data = data[data['Progress'].astype(int) > 10]
+
 data_q = data[qestions_order][2:]
 
 ########################## age categories ####################################
@@ -37,7 +41,7 @@ data_q['Q2'][data_q['Q2'] == 'i do not hold a rank'] = 'no rank'
 ##########################  nationality  #####################################
 
 from Dictionaries.country_dictionary import country_dictionary
-from Functions.functions import explode
+#from Functions.functions import explode
 
 data_dem = dictionary_processing(
                data = data_q, 
@@ -49,8 +53,11 @@ data_dem = dictionary_processing(
                new_names = ['countries'])
   
 data_q = data_q.join(data_dem[['countries']])
-data_q = explode(data_q, 'countries', 'country')
 
+data_q['country'] = data_q['countries'].apply(lambda x: x[0])
+
+#data_q = explode(data_q, 'countries', 'country')
+#%%
 ############################  athletes  ######################################
 
 from Dictionaries.athlete_dictionary import athlete_dictionary 
@@ -168,7 +175,7 @@ list_datasets = [data_athletes, data_submissions, data_gi,data_gyms, \
 data_q = data_q.join([dataset for dataset in list_datasets])
     
 ######################## renaming the columns ################################
-
+#%%
 from Dictionaries.colnames_dictionary import colnames_dictionary
 
 data_qf = data_q.rename(columns = colnames_dictionary)        
@@ -186,3 +193,105 @@ data_raw = data[raw_colnames.keys()][2:].rename(columns = raw_colnames)
 
 data_raw.to_csv(path + r'\Data\data_raw.csv', header = True, index = None, 
                   sep = ';')
+
+#%%
+
+base = ['current_belt','gender']    
+
+training_info = ['training_years',
+                 'white_blue',
+                 'blue_purple',
+                 'purple_brown',
+                 'brown_black',
+                 'training_per_week',
+                 'both_gi_nogi',
+                 'gi_or_no_gi',
+                 'training_time',
+                 'travel',
+                 'background_ma',
+                 'how_old_when_started',
+                 'currently_cross_train',
+                 'mobility_exercises',
+                 'yoga',
+                 'preferred_style',
+                 'have_fav_athlete',
+                 'leg_lock_friendly',
+                 'gym_self_defense',
+                 'membership',
+                 #'gym', 
+                 'gym_curriculum',
+                 'time_watching_bjj',
+                 'do_watch_sport_bjj',
+                 'num_gis',
+                 'num_rashguards',
+                 'num_shorts',
+                 'bjj_apparel',
+                 'money_for_gear',
+                 'education',
+                 'income',
+                 'age',
+                 'age_cat',
+                 'race', 
+                 'nationality',
+                 'country',
+                 'instrutor_encourages_competition',
+                 'competed',
+                 'medals'
+                 #'competition_organisaiton',
+                 ]
+
+reasons_info = ['reasons']
+
+least_f_info = ['least_favourite']
+
+subs_info = ['choke','technique']
+ 
+injury_info = ['injuries']
+
+athlete_info = ['athletes']
+
+watch_info = ['watch_sport']
+
+podcast_info = ['podcast']
+
+web_info = ['website']
+
+gi_info = ['gi']
+rash_info = ['rash']
+shorts_info = ['shorts']
+apparel_info = ['apparel']
+
+comp_info =  ['organisations']
+
+
+dataset_list = [training_info, injury_info, athlete_info, watch_info]
+
+dataset_names = ["training_info", "injury_info", "athlete_info", 
+                 "watch_info"]
+
+to_explode = [reasons_info, least_f_info, subs_info, podcast_info, web_info, 
+              gi_info, rash_info, shorts_info, apparel_info, comp_info]
+
+explode_names = ["reasons_info", "least_f_info", "subs_info", "podcast_info", 
+                 "web_info", "gi_info", "rash_info", "shorts_info", 
+                 "apparel_info", "comp_info"]
+
+#%%
+for dataset, name in zip(dataset_list, dataset_names):
+    
+    data_save = data_final[base + dataset]
+    data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
+                   index = None, sep = ';')
+    
+#%%   
+from Functions.functions import explode    
+ 
+for dataset, name in zip(to_explode, explode_names):    
+    
+    data_save = data_final[base + dataset]
+    var_to_expl = dataset[-1]
+    
+    data_save = explode(data_save, var_to_expl, var_to_expl)
+    
+    data_save.to_csv(path + r'\Data\info1\{}.csv'.format(name), header = True, 
+                   index = None, sep = ';')

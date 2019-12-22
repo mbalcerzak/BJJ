@@ -69,7 +69,7 @@ def assign_dict_keys(dictionary, string):
         if len(result) == 0:
             result = ['no answer']
     
-        return "[" + ','.join(result) + "]"
+        return result
     
     return find_dictionary_vals(string)
 
@@ -132,7 +132,7 @@ def find_dict_vals(string,dictionary):
     if len(result) == 0:
         result = ['no answer']
     
-    return "[" + ','.join(result) + "]"
+    return result
 
 ####################  split list into new rows ###############################
     
@@ -146,6 +146,8 @@ def explode(dataset, variable, new_var_name, na = True):
               .stack()
               .reset_index()
               .rename(columns={0:new_var_name}))
+    
+    #dataset_[new_var_name] = dataset_[new_var_name].apply(lambda x: list_to_str(x))
     
     if na == False:
         dataset_ = dataset_[dataset_[new_var_name] != 'NA']
