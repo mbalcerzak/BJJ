@@ -1,12 +1,12 @@
+link to the app: [BJJ Survey Results](https://bjj-survey.herokuapp.com/)
+
 # Brazilian Jiu Jitsu Survey 2017
-
-
 
 I am passionate about BJJ and Natural Language Processing and I found a perfect project to combine both. Data contains 63 columns and 887 unique answers. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
 
 I visualised my favourite quesiton ('Q19':'What is your favorite part about training?') in a wordcloud (in BJJ belt colours ^^). I think It captures well what we all love about that gentle art
 
-<img  width="1000" height="500" src="https://github.com/mbalcerzak/BJJ/blob/master/BJJ_wordcloud.png">
+<img  width="1000" height="500" src="https://github.com/mbalcerzak/BJJ/blob/master/Data/BJJ_wordcloud.png">
 
 ### Challenges I had to overcome:
 - misspellings (or loose question interpretation: I am afraid neither Texas or 'Murika are a country :P)
@@ -27,11 +27,11 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 
 <div align="center">
   <br>
-  <img src="https://img.shields.io/badge/CODED%20IN-PYTHON%20-red?style=for-the-badge"
+  <img src="https://img.shields.io/badge/PROGRAMMED%20IN-PYTHON%20-red?style=for-the-badge"
       alt="API stability" height="25"/>
-  <img src="https://img.shields.io/badge/SERVER%20-Heroku-blue?style=for-the-badge"
+  <img src="https://img.shields.io/badge/SERVER:%20-Heroku-blue?style=for-the-badge"
       alt="API stability" height="25"/>
-  <img src="https://img.shields.io/badge/DASHBOARD%20-Streamlit-green?style=for-the-badge"
+  <img src="https://img.shields.io/badge/DASHBOARD:%20-Streamlit-green?style=for-the-badge"
       alt="API stability" height="25"/>
 </div>
 
