@@ -168,7 +168,7 @@ Most of the questions were not processed by me in any way. I mostly cleaned the 
 
 'Q67':'Where is your nationality?',
 - created a dictionary after cleaning the data
-- many people answered listing multiple countried: I assumed it's important for them so if someone entered 'USA / Portugal' I counted that person as two. One from USA and one from Portugal - that move made the dataset a little bigger which helped with the analysis
+- many people answered listing multiple countried: I kept the original data but used only the first mentioned country in the analysis
 
 'Q67.1':'What is your preferred "style"?',
 
