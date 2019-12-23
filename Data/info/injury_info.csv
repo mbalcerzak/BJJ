@@ -1,808 +1,1767 @@
 current_belt;gender;injuries
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[chest,ribs,rotator cuff,shoulder]
-white belt;Male;[no injuries]
-brown belt;Male;[knee,teeth]
-purple belt;Male;[knee]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[finger,fingers,knee,meniscus,no injuries,popped,ribs]
-purple belt;Male;[cartilage,finger,ribs]
-white belt;Male;[no injuries]
-blue belt;Male;[joint,no injuries,popped,shoulder]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[ankle,ligament,toes]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-brown belt;Male;[no injuries,nose,ribs]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[back,no injuries,ribs,wrist]
-purple belt;Male;[no injuries]
-blue belt;Male;[knee,leg,rotator cuff]
-purple belt;Male;[neck]
-purple belt;Male;[no injuries]
-blue belt;Male;[rotator cuff,shoulder]
-purple belt;Male;[no injuries,nothing serious]
-blue belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[back]
-blue belt;Male;[no injuries]
-blue belt;Male;[ankle,concussion,elbow,ligament]
-purple belt;Male;[disc]
-blue belt;Male;[back,lower back,ribs]
-blue belt;Male;[knee]
-brown belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries]
-white belt;Male;[toes]
-white belt;Female;[toes]
-blue belt;Male;[arm,elbow,no injuries]
-purple belt;Male;[no injuries,nothing serious]
-purple belt;Male;[no injuries,nothing serious]
-black belt;Male;[knee]
-white belt;Female;[clavicle]
-brown belt;Male;[elbow,knee,no injuries,ribs,rotator cuff,shoulder]
-white belt;Female;[no injuries,no answer]
-white belt;Male;[finger,fingers,no injuries]
-blue belt;Male;[arm,foot,ligament,no injuries,nothing serious,shoulder]
-blue belt;Male;[no injuries]
-white belt;Male;[no injuries,toes,white belt]
-blue belt;Male;[back,lower back,no injuries,nose,white belt]
-blue belt;Male;[arm,hand,no injuries,ringworm]
-brown belt;Male;[chest]
-purple belt;Male;[finger,ligament,lower back]
-blue belt;Male;[joint,shoulder]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[back,no injuries]
-purple belt;Male;[arm]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[knee,popped,ribs]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-blue belt;Male;[no injuries]
-no rank;Male;[clavicle,finger,ribs]
-blue belt;Male;[meniscus]
-white belt;Male;[arm,back,elbow]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries]
-blue belt;Male;[foot,knee]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[groin]
-blue belt;Female;[no injuries]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-blue belt;Male;[ribs]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[lower back,meniscus]
-blue belt;Male;[no injuries]
-blue belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries]
-purple belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[shoulder]
-white belt;Female;[no injuries,no answer]
-white belt;Male;[knee]
-white belt;Male;[no injuries,no answer]
-blue belt;Female;[head,leg]
-purple belt;Male;[arm,shoulder]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[back,lower back,no injuries,ribs,wrist]
-blue belt;Male;[meniscus]
-white belt;Male;[ribs]
-purple belt;Male;[tendon]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[clavicle,lateral collateral ligament,no injuries]
-white belt;Male;[knee,no injuries,nothing serious,ribs]
-white belt;Male;[hernia]
-blue belt;Male;[knee,ribs]
-purple belt;Male;[no injuries,nothing serious]
-purple belt;Male;[back,cartilage,knee,ribs,toes]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[chest]
-blue belt;Male;[no injuries]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[finger,knee,shoulder]
-white belt;Female;[no injuries]
-white belt;Male;[arm,elbow,ligament,shoulder]
-blue belt;Male;[knee]
-white belt;Male;[no injuries]
-white belt;Male;[knee,white belt]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[back]
-white belt;Male;[back,ribs]
-blue belt;Male;[arm,elbow]
-blue belt;Male;[no injuries,nothing serious]
-white belt;Male;[no injuries,toes,white belt]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[shoulder]
-blue belt;Female;[no injuries]
-purple belt;Male;[no injuries]
-white belt;Male;[elbow]
-purple belt;Male;[ankle,knee,no injuries,wrist]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[knee]
-white belt;Male;[no injuries,no answer]
-brown belt;Male;[back,joint]
-purple belt;Male;[arm,meniscus]
-blue belt;Female;[ankle,chest,elbow,foot,popped]
-no answer;Male;[head]
-blue belt;Male;[achilles,cauliflower,shoulder,tendon]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[ligament,no injuries]
-white belt;Male;[no injuries,shoulder,thumb,toes]
-purple belt;Male;[ankle,shoulder]
-blue belt;Male;[arm,back,cauliflower,elbow,head,joint,meniscus]
-white belt;Male;[back]
-purple belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries]
-purple belt;Male;[elbow,knee,ligament,popped,ribs]
-white belt;Male;[no injuries,no answer]
-white belt;Female;[no injuries,no answer]
-blue belt;Male;[no injuries]
-purple belt;Male;[no injuries]
-purple belt;Male;[no injuries,no answer]
-blue belt;Male;[ankle,cartilage,ribs,toes]
-brown belt;Male;[back,head,ribs]
-purple belt;Male;[ribs,white belt]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[disc]
-blue belt;Female;[no injuries]
-white belt;Male;[knee,no injuries,nothing serious,thumb]
-blue belt;Female;[elbow,hand,knee,no injuries]
-blue belt;Male;[arm]
-blue belt;Male;[joint,knee]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,shoulder]
-white belt;Male;[no injuries,no answer]
-black belt;Male;[ankle,finger,fingers,head,no injuries,nose,ribs,shoulder,toes]
-purple belt;Female;[no injuries,no answer]
-blue belt;Male;[knee,rotator cuff,shoulder]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[ribs]
-black belt;Male;[disc,hernia,neck]
-blue belt;Male;[arm,elbow,ribs]
-brown belt;Male;[arm,elbow,groin,knee,no injuries,tendon]
-blue belt;Male;[arm,popped]
-blue belt;Male;[shoulder]
-blue belt;Male;[no injuries,ribs,shoulder]
-blue belt;Male;[meniscus,popped]
-purple belt;Male;[no injuries,no answer]
-white belt;Male;[knee]
-white belt;Male;[ribs]
-purple belt;Male;[ankle,back,knee,meniscus]
-no rank;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[joint,shoulder]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,nothing serious]
-brown belt;Male;[joint,knee,popped,ribs,shoulder,white belt]
-purple belt;Male;[foot]
-purple belt;Male;[no injuries]
-blue belt;Male;[knee,ribs]
-blue belt;Male;[finger,knee,meniscus,no injuries,ribs]
-no rank;Male;[no injuries]
-white belt;Male;[shoulder]
-brown belt;Male;[meniscus]
-white belt;Male;[no injuries,nothing serious]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,shoulder]
-white belt;Male;[rotator cuff,shoulder,staph infeciton]
-white belt;Female;[no injuries,no answer]
-purple belt;Male;[ankle,knee,no injuries,popped]
-white belt;Female;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-white belt;Male;[elbow]
-purple belt;Male;[knee,ligament,no injuries,popped,ribs]
-brown belt;Male;[knee,wrist]
-white belt;Male;[arm,back,elbow,neck,ribs,thumb,toes]
-purple belt;Male;[knee]
-white belt;Male;[arm,elbow]
-no rank;Male;[no injuries,no answer]
-white belt;Male;[joint,knee,shoulder]
-purple belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Female;[knee]
-purple belt;Male;[ankle,popped]
-white belt;Male;[back,knee,lower back]
-white belt;Male;[arm,rotator cuff,tendon]
-purple belt;Male;[back,disc,hernia,lower back]
-purple belt;Male;[no injuries,no answer]
-blue belt;Male;[knee,lower back,meniscus,wrist]
-blue belt;Male;[ankle,leg]
-purple belt;Male;[shoulder]
-blue belt;Male;[no answer]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[knee,no injuries]
-purple belt;Female;[knee,leg,meniscus,no injuries,shoulder]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[finger,foot]
-blue belt;Male;[no injuries]
-blue belt;Male;[back,lower back,rotator cuff,shoulder]
-blue belt;Male;[no injuries,no answer]
-black belt;Male;[shoulder,tendon]
-purple belt;Male;[arm,meniscus]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[groin,hand,tendon]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[foot,tendon]
-purple belt;Male;[lateral collateral ligament]
-purple belt;Male;[no injuries,no answer]
-black belt;Male;[disc,foot,no injuries,toes]
-white belt;Male;[no injuries]
-purple belt;Male;[no injuries,no answer]
-blue belt;Male;[shoulder]
-white belt;Female;[cartilage,ribs]
-white belt;Male;[no injuries,no answer]
-brown belt;Male;[lateral collateral ligament,no injuries]
-no answer;Male;[no injuries,no answer]
-blue belt;Female;[no injuries,no answer]
-purple belt;Male;[joint,shoulder]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries]
-black belt;Male;[tailbone]
-black belt;Male;[arm,clavicle,knee,meniscus]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-black belt;Male;[no injuries]
-white belt;Male;[arm,leg]
-black belt;Male;[elbow,no injuries]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[meniscus,shoulder]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[knee]
-purple belt;Male;[no injuries,ribs]
-white belt;Male;[disc,hernia]
-purple belt;Male;[finger,no injuries,nose]
-purple belt;Male;[elbow,no injuries]
-blue belt;Male;[finger,fingers,hand,joint,knee,neck,shoulder]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[disc,hernia,knee,no injuries]
-purple belt;Male;[disc,hand,hernia,meniscus,shoulder]
-white belt;Male;[no injuries]
-white belt;Male;[knee]
-blue belt;Male;[rotator cuff,shoulder]
-black belt;Male;[knee]
-no rank;Male;[back,elbow,white belt]
-purple belt;Male;[ankle,joint,wrist]
-purple belt;Male;[no injuries]
-purple belt;Male;[ankle,finger,fingers,no injuries,toes]
-blue belt;Male;[ribs]
-blue belt;Male;[no injuries,nothing serious]
-purple belt;Male;[knee]
-purple belt;Male;[elbow,knee]
-purple belt;Male;[no injuries,no answer]
-brown belt;Male;[knee]
-brown belt;Male;[knee]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries,shoulder]
-blue belt;Male;[chest,head,no injuries,ribs,white belt]
-blue belt;Male;[no injuries,shoulder]
-purple belt;Female;[no injuries,no answer]
-black belt;Male;[ankle]
-blue belt;Male;[no injuries]
-brown belt;Male;[ankle,finger,knee,neck,shoulder]
-blue belt;Male;[disc,elbow,foot,knee,neck]
-no rank;Male;[ankle,finger,fingers,knee,neck,no injuries,ribs]
-blue belt;Male;[no injuries,ribs]
-purple belt;Male;[no answer]
-purple belt;Male;[elbow,knee,no injuries,nothing serious]
-purple belt;Male;[knee]
-brown belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-brown belt;Male;[head,neck]
-black belt;Male;[arm,no injuries,shoulder]
-blue belt;Male;[elbow]
-purple belt;Male;[no injuries,no answer]
-purple belt;Male;[ribs,shoulder,toes]
-black belt;Male;[back,disc,hernia,lower back]
-black belt;Male;[no injuries]
-white belt;Male;[elbow,knee,ribs]
-blue belt;Male;[finger,foot,shoulder]
-brown belt;Male;[abdomen,knee,ligament,no injuries,ribs]
-blue belt;Male;[disc,hernia,neck]
-black belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[hand,ribs]
-blue belt;Male;[arm,back,finger,fingers,knee,lower back,no injuries,nothing serious]
-blue belt;Male;[finger,fingers,meniscus,shoulder,toes,wrist]
-blue belt;Male;[leg,ligament,no injuries,shoulder,toes]
-white belt;Male;[knee,leg,no injuries]
-black belt;Male;[elbow,finger,fingers,knee,ligament,toes]
-purple belt;Male;[back,knee]
-brown belt;Female;[leg]
-blue belt;Female;[foot,knee,no injuries,toes]
-black belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[finger]
-blue belt;Male;[meniscus]
-white belt;Male;[arm,no injuries,ribs,wrist]
-brown belt;Male;[back,foot,knee,ribs]
-black belt;Male;[hernia,meniscus]
-blue belt;Male;[no injuries]
-blue belt;Male;[ankle]
-white belt;Male;[no injuries]
-black belt;Female;[back,no injuries,nothing serious]
-purple belt;Male;[no injuries]
-purple belt;Male;[finger,knee,shoulder]
-white belt;Male;[shoulder]
-blue belt;Male;[hand,shoulder,wrist]
-white belt;Female;[arm,wrist]
-brown belt;Male;[lower back,meniscus,no injuries,ribs]
-blue belt;Female;[ankle]
-purple belt;Male;[shoulder]
-blue belt;Female;[clavicle,joint,knee,ligament,neck,no injuries,nothing serious]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries]
-blue belt;Female;[leg,thumb]
-blue belt;Female;[knee,ribs,shoulder]
-white belt;Male;[shoulder]
-white belt;Male;[no injuries]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-blue belt;Female;[back,hand,ligament,no injuries]
-black belt;Male;[shoulder,toes]
-brown belt;Male;[hand,knee,leg,tendon]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[achilles,clavicle,ligament,thumb,toes]
-blue belt;Male;[head,lateral collateral ligament,leg,no injuries,shoulder,tendon,toes,white belt]
-blue belt;Female;[arm,back,elbow,foot,no injuries,popped,toes,wrist]
-blue belt;Male;[back,lower back,neck]
-brown belt;Male;[no injuries]
-black belt;Male;[meniscus]
-blue belt;Male;[no injuries]
-black belt;Male;[no injuries,no answer]
-blue belt;Male;[cartilage,ribs]
-purple belt;Male;[neck,rotator cuff,shoulder]
-white belt;Male;[knee]
-no rank;Male;[no injuries,no answer]
-brown belt;Male;[disc]
-blue belt;Male;[finger,joint,no injuries,nothing serious]
-blue belt;Male;[no injuries]
-white belt;Male;[leg]
-brown belt;Male;[disc,hernia]
-purple belt;Male;[ribs]
-no rank;Male;[no injuries,no answer]
-no rank;Male;[no injuries,no answer]
-blue belt;Male;[shoulder]
-black belt;Male;[no injuries,no answer]
-purple belt;Female;[rotator cuff,shoulder]
-blue belt;Female;[white belt]
-blue belt;Female;[knee]
-white belt;Male;[lower back]
-white belt;Female;[no injuries,no answer]
-blue belt;Female;[no injuries]
-no rank;Male;[head,knee]
-no rank;Female;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[finger,hand,ribs]
-blue belt;Male;[ribs]
-white belt;Female;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[head,knee]
-white belt;Male;[shoulder]
-brown belt;Male;[meniscus]
-brown belt;Male;[ligament,shoulder]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries]
-brown belt;Male;[no answer]
-white belt;Male;[no injuries]
-white belt;Male;[joint,shoulder]
-white belt;Male;[neck,no injuries,ribs,shoulder,tendon]
-brown belt;Male;[ribs]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-purple belt;Male;[hand,head]
-no answer;Male;[back,no injuries,nothing serious]
-blue belt;Male;[joint,lower back]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-white belt;Male;[toes]
-white belt;Male;[mat burn,no injuries]
-white belt;Male;[meniscus]
-purple belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[knee,meniscus,no injuries]
-white belt;Male;[no injuries]
-white belt;Male;[lower back]
-purple belt;Male;[no injuries,no answer]
-blue belt;Male;[knee,leg]
-white belt;Female;[knee,lateral collateral ligament,leg,no injuries,ribs,wrist]
-black belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-no rank;Male;[no injuries,no answer]
-white belt;Male;[ankle,elbow,shoulder]
-purple belt;Male;[arm,back]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-black belt;Male;[disc,finger,fingers,neck,no injuries]
-blue belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-brown belt;Male;[no injuries,no answer]
-white belt;Female;[no injuries,no answer]
-white belt;Male;[no injuries]
-black belt;Male;[knee,meniscus]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[finger,fingers,neck,shoulder]
-blue belt;Male;[abdomen]
-brown belt;Male;[arm,back,no injuries]
-blue belt;Male;[no injuries,no answer]
-brown belt;Male;[no injuries,no answer]
-blue belt;Male;[shoulder]
-purple belt;Female;[no injuries]
-purple belt;Male;[knee]
-blue belt;Male;[leg,no injuries,nose]
-purple belt;Male;[ankle,no injuries]
-purple belt;Male;[lateral collateral ligament,ligament]
-blue belt;Male;[meniscus,shoulder]
-blue belt;Female;[no injuries,no answer]
-purple belt;Male;[no injuries]
-brown belt;Male;[meniscus]
-blue belt;Male;[knee,no injuries]
-brown belt;Male;[no injuries,no answer]
-brown belt;Male;[lateral collateral ligament,ligament]
-blue belt;Male;[finger,shoulder]
-blue belt;Male;[elbow,knee,ribs]
-white belt;Male;[ribs]
-white belt;Male;[knee]
-purple belt;Male;[no answer]
-purple belt;Male;[arm,elbow,knee,tendon,thumb]
-blue belt;Male;[knee]
-blue belt;Male;[back,no injuries,thumb]
-blue belt;Male;[no injuries,no answer]
-black belt;Male;[ankle]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[knee]
-blue belt;Male;[no injuries]
-blue belt;Male;[arm,leg,toes]
-black belt;Male;[ankle,finger,leg,shoulder]
-white belt;Female;[no injuries,no answer]
-brown belt;Male;[knee]
-brown belt;Male;[cartilage,foot,hand,knee,no injuries,ribs]
-brown belt;Male;[knee,lateral collateral ligament,leg,no injuries]
-white belt;Male;[finger,shoulder,toes]
-white belt;Female;[no injuries,no answer]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-blue belt;Male;[cartilage,ribs]
-blue belt;Male;[no injuries,no answer]
-black belt;Male;[no injuries,ribs,toes]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-no rank;Male;[leg,ligament]
-purple belt;Female;[no injuries,shoulder]
-blue belt;Male;[back,disc]
-blue belt;Male;[ankle,finger,ligament,shoulder,toes]
-black belt;Male;[no injuries]
-brown belt;Male;[chest,lower back,ribs]
-purple belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-black belt;Male;[back,foot,hand,leg,ligament,no injuries,white belt,wrist]
-white belt;no answer;[no injuries,no answer]
-purple belt;Female;[no injuries,no answer]
-black belt;Male;[no injuries]
-blue belt;Male;[no injuries]
-purple belt;Male;[no injuries]
-purple belt;Male;[no injuries]
-blue belt;Male;[no injuries]
-blue belt;Male;[arm]
-white belt;Male;[neck,no injuries]
-white belt;Male;[knee,ribs]
-white belt;Male;[no injuries]
-blue belt;Male;[foot,knee,neck,no injuries]
-purple belt;Male;[ankle]
-blue belt;Male;[no answer]
-white belt;Female;[elbow,tendon]
-brown belt;Male;[no injuries]
-no rank;Male;[no injuries]
-blue belt;Male;[cartilage,ribs,white belt]
-white belt;Male;[no injuries,no answer]
-white belt;Female;[no injuries]
-white belt;Female;[no injuries]
-white belt;Male;[no injuries,no answer]
-brown belt;Male;[knee]
-white belt;Male;[cartilage,knee]
-white belt;Male;[arm,neck,no injuries]
-blue belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,nothing serious]
-brown belt;Male;[no injuries]
-blue belt;Male;[shoulder]
-purple belt;Male;[no injuries]
-blue belt;Male;[no injuries,no answer]
-brown belt;Male;[back,neck,no injuries,nothing serious]
-blue belt;Male;[no injuries]
-white belt;Male;[no injuries]
-white belt;Male;[no injuries]
-no answer;no answer;[no injuries,no answer]
-blue belt;Male;[cartilage,chest,knee,no injuries,nose]
-white belt;Female;[no injuries]
-white belt;Female;[no injuries]
-purple belt;Male;[staph infeciton]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[elbow,no injuries]
-purple belt;Male;[disc,no injuries]
-blue belt;Female;[shoulder]
-no answer;no answer;[no injuries,no answer]
-blue belt;Male;[finger]
-purple belt;Male;[no injuries]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[arm,no injuries,shoulder]
-purple belt;Male;[no injuries]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-black belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no rank;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[back,neck,no injuries,ribs]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[ankle,disc,neck,no injuries,shoulder,toes]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-brown belt;Female;[no injuries,no answer]
-blue belt;Male;[no injuries]
-no answer;Male;[no injuries,no answer]
-blue belt;Female;[disc,hernia,neck,shoulder]
-white belt;Female;[no injuries]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[ankle,foot,no injuries,popped]
-white belt;Male;[no injuries]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[elbow,foot,ligament]
-purple belt;Male;[back,knee,neck,no injuries]
-no answer;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-blue belt;Female;[no injuries]
-blue belt;Male;[no injuries]
-blue belt;Female;[no injuries,no answer]
-white belt;Female;[no injuries]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[back,lateral collateral ligament,lower back,no injuries,shoulder]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no rank;Male;[elbow]
-white belt;Female;[lower back,no injuries]
-purple belt;Male;[joint,knee,meniscus,rotator cuff,shoulder]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[chest]
-white belt;Male;[no injuries]
-brown belt;Male;[disc,leg,neck]
-brown belt;Male;[knee,leg,no injuries]
-no answer;Male;[no injuries,no answer]
-brown belt;Male;[arm,knee,ribs]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-blue belt;Male;[knee,no injuries,nothing serious,ribs]
-white belt;Male;[arm,tendon]
-blue belt;Female;[arm,elbow]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-black belt;Male;[finger,fingers,knee,no injuries,nose,shoulder]
-blue belt;Male;[meniscus,no injuries]
-blue belt;Male;[no injuries]
-purple belt;Male;[finger,no injuries,nothing serious,toes]
-blue belt;Male;[ribs,toes]
-blue belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries]
-blue belt;Male;[no injuries]
-brown belt;Male;[hernia,no injuries,white belt]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[concussion,elbow]
-no answer;no answer;[no injuries,no answer]
-purple belt;Male;[no injuries,nothing serious]
-no answer;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-brown belt;Male;[ribs]
-white belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[knee,ribs]
-no answer;Male;[knee,leg]
-white belt;Male;[ankle,foot,knee]
-purple belt;Male;[arm,back,lower back,neck]
-white belt;Female;[back,ligament,lower back,neck,thumb]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[elbow,groin,knee,ligament,no injuries,popped,ribs]
-blue belt;Male;[hand]
-brown belt;Male;[back,elbow,finger,fingers,knee,no injuries,toes]
-purple belt;Male;[shoulder]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-white belt;Male;[disc,hernia,knee,neck]
-white belt;Male;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-brown belt;Male;[ribs]
-no answer;Female;[no injuries,no answer]
-white belt;Female;[no injuries,nothing serious,ribs,shoulder]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[hand]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-brown belt;Male;[no injuries,no answer]
-white belt;Male;[knee]
-white belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-black belt;Male;[cartilage,elbow,finger,fingers,no injuries,ribs]
-blue belt;Male;[knee,popped,tendon]
-blue belt;Male;[foot,head,joint,knee,no injuries,ribs,shoulder,thumb]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-purple belt;Male;[ankle,cartilage,popped,ribs,toes]
-purple belt;Male;[no injuries]
-purple belt;Male;[arm,disc,elbow,head,knee,lateral collateral ligament,leg,meniscus,neck,ribs,shoulder]
-no answer;Male;[no injuries,no answer]
-blue belt;Female;[back,knee,meniscus,no injuries,white belt]
-no answer;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[knee,meniscus]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Female;[no injuries]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;no answer;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[no injuries,nothing serious]
-no rank;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[knee]
-white belt;Male;[no injuries]
-blue belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-purple belt;no answer;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[arm,elbow]
-white belt;Male;[ankle,back,disc,hernia,ligament,no injuries,popped,ribs]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[ribs]
-blue belt;Male;[elbow]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[no injuries]
-no answer;no answer;[no injuries,no answer]
-purple belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-white belt;Male;[no injuries,ribs]
-no answer;Male;[no injuries,no answer]
-white belt;Female;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[toes]
-white belt;Male;[wrist]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[disc]
-no answer;Male;[no injuries,no answer]
-no answer;Male;[no injuries,no answer]
-purple belt;Male;[finger,toes]
-white belt;Male;[disc,neck]
-no answer;no answer;[no injuries,no answer]
-black belt;Male;[ankle,back,lateral collateral ligament,neck,toes]
-no answer;Female;[no injuries,no answer]
-purple belt;Male;[no injuries,shoulder,tendon]
-blue belt;Female;[knee,toes]
-no answer;Male;[no injuries,no answer]
-blue belt;Male;[elbow,leg,no injuries]
-purple belt;Male;[ribs]
-no answer;no answer;[no injuries,no answer]
-no answer;Female;[no injuries,no answer]
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;chest
+purple belt;Male;ribs
+purple belt;Male;rotator cuff
+purple belt;Male;shoulder
+white belt;Male;no injuries
+brown belt;Male;knee
+brown belt;Male;teeth
+purple belt;Male;knee
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;finger
+blue belt;Male;fingers
+blue belt;Male;knee
+blue belt;Male;meniscus
+blue belt;Male;no injuries
+blue belt;Male;popped
+blue belt;Male;ribs
+purple belt;Male;cartilage
+purple belt;Male;finger
+purple belt;Male;ribs
+white belt;Male;no injuries
+blue belt;Male;joint
+blue belt;Male;no injuries
+blue belt;Male;popped
+blue belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;ankle
+blue belt;Male;ligament
+blue belt;Male;toes
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;no injuries
+brown belt;Male;no injuries
+brown belt;Male;nose
+brown belt;Male;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;back
+blue belt;Male;no injuries
+blue belt;Male;ribs
+blue belt;Male;wrist
+purple belt;Male;no injuries
+blue belt;Male;knee
+blue belt;Male;leg
+blue belt;Male;rotator cuff
+purple belt;Male;neck
+purple belt;Male;no injuries
+blue belt;Male;rotator cuff
+blue belt;Male;shoulder
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+blue belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;back
+blue belt;Male;no injuries
+blue belt;Male;ankle
+blue belt;Male;concussion
+blue belt;Male;elbow
+blue belt;Male;ligament
+purple belt;Male;disc
+blue belt;Male;back
+blue belt;Male;lower back
+blue belt;Male;ribs
+blue belt;Male;knee
+brown belt;Male;no injuries
+brown belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;toes
+white belt;Female;toes
+blue belt;Male;arm
+blue belt;Male;elbow
+blue belt;Male;no injuries
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+black belt;Male;knee
+white belt;Female;clavicle
+brown belt;Male;elbow
+brown belt;Male;knee
+brown belt;Male;no injuries
+brown belt;Male;ribs
+brown belt;Male;rotator cuff
+brown belt;Male;shoulder
+white belt;Female;no injuries
+white belt;Female;no answer
+white belt;Male;finger
+white belt;Male;fingers
+white belt;Male;no injuries
+blue belt;Male;arm
+blue belt;Male;foot
+blue belt;Male;ligament
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+blue belt;Male;shoulder
+blue belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;toes
+white belt;Male;white belt
+blue belt;Male;back
+blue belt;Male;lower back
+blue belt;Male;no injuries
+blue belt;Male;nose
+blue belt;Male;white belt
+blue belt;Male;arm
+blue belt;Male;hand
+blue belt;Male;no injuries
+blue belt;Male;ringworm
+brown belt;Male;chest
+purple belt;Male;finger
+purple belt;Male;ligament
+purple belt;Male;lower back
+blue belt;Male;joint
+blue belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;back
+white belt;Male;no injuries
+purple belt;Male;arm
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;knee
+purple belt;Male;popped
+purple belt;Male;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+blue belt;Male;no injuries
+no rank;Male;clavicle
+no rank;Male;finger
+no rank;Male;ribs
+blue belt;Male;meniscus
+white belt;Male;arm
+white belt;Male;back
+white belt;Male;elbow
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;foot
+blue belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;groin
+blue belt;Female;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+blue belt;Male;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;lower back
+purple belt;Male;meniscus
+blue belt;Male;no injuries
+blue belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;no injuries
+purple belt;Male;no injuries
+purple belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;shoulder
+white belt;Female;no injuries
+white belt;Female;no answer
+white belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Female;head
+blue belt;Female;leg
+purple belt;Male;arm
+purple belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;back
+purple belt;Male;lower back
+purple belt;Male;no injuries
+purple belt;Male;ribs
+purple belt;Male;wrist
+blue belt;Male;meniscus
+white belt;Male;ribs
+purple belt;Male;tendon
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;clavicle
+blue belt;Male;lateral collateral ligament
+blue belt;Male;no injuries
+white belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;nothing serious
+white belt;Male;ribs
+white belt;Male;hernia
+blue belt;Male;knee
+blue belt;Male;ribs
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+purple belt;Male;back
+purple belt;Male;cartilage
+purple belt;Male;knee
+purple belt;Male;ribs
+purple belt;Male;toes
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;chest
+blue belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;finger
+purple belt;Male;knee
+purple belt;Male;shoulder
+white belt;Female;no injuries
+white belt;Male;arm
+white belt;Male;elbow
+white belt;Male;ligament
+white belt;Male;shoulder
+blue belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;knee
+white belt;Male;white belt
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;back
+white belt;Male;back
+white belt;Male;ribs
+blue belt;Male;arm
+blue belt;Male;elbow
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+white belt;Male;no injuries
+white belt;Male;toes
+white belt;Male;white belt
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;shoulder
+blue belt;Female;no injuries
+purple belt;Male;no injuries
+white belt;Male;elbow
+purple belt;Male;ankle
+purple belt;Male;knee
+purple belt;Male;no injuries
+purple belt;Male;wrist
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;no answer
+brown belt;Male;back
+brown belt;Male;joint
+purple belt;Male;arm
+purple belt;Male;meniscus
+blue belt;Female;ankle
+blue belt;Female;chest
+blue belt;Female;elbow
+blue belt;Female;foot
+blue belt;Female;popped
+no answer;Male;head
+blue belt;Male;achilles
+blue belt;Male;cauliflower
+blue belt;Male;shoulder
+blue belt;Male;tendon
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;ligament
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;shoulder
+white belt;Male;thumb
+white belt;Male;toes
+purple belt;Male;ankle
+purple belt;Male;shoulder
+blue belt;Male;arm
+blue belt;Male;back
+blue belt;Male;cauliflower
+blue belt;Male;elbow
+blue belt;Male;head
+blue belt;Male;joint
+blue belt;Male;meniscus
+white belt;Male;back
+purple belt;Male;no injuries
+purple belt;Male;no answer
+white belt;Male;no injuries
+purple belt;Male;elbow
+purple belt;Male;knee
+purple belt;Male;ligament
+purple belt;Male;popped
+purple belt;Male;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Female;no injuries
+white belt;Female;no answer
+blue belt;Male;no injuries
+purple belt;Male;no injuries
+purple belt;Male;no injuries
+purple belt;Male;no answer
+blue belt;Male;ankle
+blue belt;Male;cartilage
+blue belt;Male;ribs
+blue belt;Male;toes
+brown belt;Male;back
+brown belt;Male;head
+brown belt;Male;ribs
+purple belt;Male;ribs
+purple belt;Male;white belt
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;disc
+blue belt;Female;no injuries
+white belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;nothing serious
+white belt;Male;thumb
+blue belt;Female;elbow
+blue belt;Female;hand
+blue belt;Female;knee
+blue belt;Female;no injuries
+blue belt;Male;arm
+blue belt;Male;joint
+blue belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+black belt;Male;ankle
+black belt;Male;finger
+black belt;Male;fingers
+black belt;Male;head
+black belt;Male;no injuries
+black belt;Male;nose
+black belt;Male;ribs
+black belt;Male;shoulder
+black belt;Male;toes
+purple belt;Female;no injuries
+purple belt;Female;no answer
+blue belt;Male;knee
+blue belt;Male;rotator cuff
+blue belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;ribs
+black belt;Male;disc
+black belt;Male;hernia
+black belt;Male;neck
+blue belt;Male;arm
+blue belt;Male;elbow
+blue belt;Male;ribs
+brown belt;Male;arm
+brown belt;Male;elbow
+brown belt;Male;groin
+brown belt;Male;knee
+brown belt;Male;no injuries
+brown belt;Male;tendon
+blue belt;Male;arm
+blue belt;Male;popped
+blue belt;Male;shoulder
+blue belt;Male;no injuries
+blue belt;Male;ribs
+blue belt;Male;shoulder
+blue belt;Male;meniscus
+blue belt;Male;popped
+purple belt;Male;no injuries
+purple belt;Male;no answer
+white belt;Male;knee
+white belt;Male;ribs
+purple belt;Male;ankle
+purple belt;Male;back
+purple belt;Male;knee
+purple belt;Male;meniscus
+no rank;Male;no injuries
+no rank;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;joint
+blue belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+brown belt;Male;joint
+brown belt;Male;knee
+brown belt;Male;popped
+brown belt;Male;ribs
+brown belt;Male;shoulder
+brown belt;Male;white belt
+purple belt;Male;foot
+purple belt;Male;no injuries
+blue belt;Male;knee
+blue belt;Male;ribs
+blue belt;Male;finger
+blue belt;Male;knee
+blue belt;Male;meniscus
+blue belt;Male;no injuries
+blue belt;Male;ribs
+no rank;Male;no injuries
+white belt;Male;shoulder
+brown belt;Male;meniscus
+white belt;Male;no injuries
+white belt;Male;nothing serious
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;shoulder
+white belt;Male;rotator cuff
+white belt;Male;shoulder
+white belt;Male;staph infeciton
+white belt;Female;no injuries
+white belt;Female;no answer
+purple belt;Male;ankle
+purple belt;Male;knee
+purple belt;Male;no injuries
+purple belt;Male;popped
+white belt;Female;no injuries
+white belt;Female;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+white belt;Male;elbow
+purple belt;Male;knee
+purple belt;Male;ligament
+purple belt;Male;no injuries
+purple belt;Male;popped
+purple belt;Male;ribs
+brown belt;Male;knee
+brown belt;Male;wrist
+white belt;Male;arm
+white belt;Male;back
+white belt;Male;elbow
+white belt;Male;neck
+white belt;Male;ribs
+white belt;Male;thumb
+white belt;Male;toes
+purple belt;Male;knee
+white belt;Male;arm
+white belt;Male;elbow
+no rank;Male;no injuries
+no rank;Male;no answer
+white belt;Male;joint
+white belt;Male;knee
+white belt;Male;shoulder
+purple belt;Male;no injuries
+purple belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Female;knee
+purple belt;Male;ankle
+purple belt;Male;popped
+white belt;Male;back
+white belt;Male;knee
+white belt;Male;lower back
+white belt;Male;arm
+white belt;Male;rotator cuff
+white belt;Male;tendon
+purple belt;Male;back
+purple belt;Male;disc
+purple belt;Male;hernia
+purple belt;Male;lower back
+purple belt;Male;no injuries
+purple belt;Male;no answer
+blue belt;Male;knee
+blue belt;Male;lower back
+blue belt;Male;meniscus
+blue belt;Male;wrist
+blue belt;Male;ankle
+blue belt;Male;leg
+purple belt;Male;shoulder
+blue belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;knee
+white belt;Male;no injuries
+purple belt;Female;knee
+purple belt;Female;leg
+purple belt;Female;meniscus
+purple belt;Female;no injuries
+purple belt;Female;shoulder
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;finger
+blue belt;Male;foot
+blue belt;Male;no injuries
+blue belt;Male;back
+blue belt;Male;lower back
+blue belt;Male;rotator cuff
+blue belt;Male;shoulder
+blue belt;Male;no injuries
+blue belt;Male;no answer
+black belt;Male;shoulder
+black belt;Male;tendon
+purple belt;Male;arm
+purple belt;Male;meniscus
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;groin
+white belt;Male;hand
+white belt;Male;tendon
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;foot
+white belt;Male;tendon
+purple belt;Male;lateral collateral ligament
+purple belt;Male;no injuries
+purple belt;Male;no answer
+black belt;Male;disc
+black belt;Male;foot
+black belt;Male;no injuries
+black belt;Male;toes
+white belt;Male;no injuries
+purple belt;Male;no injuries
+purple belt;Male;no answer
+blue belt;Male;shoulder
+white belt;Female;cartilage
+white belt;Female;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+brown belt;Male;lateral collateral ligament
+brown belt;Male;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Female;no injuries
+blue belt;Female;no answer
+purple belt;Male;joint
+purple belt;Male;shoulder
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;no injuries
+black belt;Male;tailbone
+black belt;Male;arm
+black belt;Male;clavicle
+black belt;Male;knee
+black belt;Male;meniscus
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+black belt;Male;no injuries
+white belt;Male;arm
+white belt;Male;leg
+black belt;Male;elbow
+black belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;meniscus
+purple belt;Male;shoulder
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;knee
+purple belt;Male;no injuries
+purple belt;Male;ribs
+white belt;Male;disc
+white belt;Male;hernia
+purple belt;Male;finger
+purple belt;Male;no injuries
+purple belt;Male;nose
+purple belt;Male;elbow
+purple belt;Male;no injuries
+blue belt;Male;finger
+blue belt;Male;fingers
+blue belt;Male;hand
+blue belt;Male;joint
+blue belt;Male;knee
+blue belt;Male;neck
+blue belt;Male;shoulder
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;disc
+purple belt;Male;hernia
+purple belt;Male;knee
+purple belt;Male;no injuries
+purple belt;Male;disc
+purple belt;Male;hand
+purple belt;Male;hernia
+purple belt;Male;meniscus
+purple belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;knee
+blue belt;Male;rotator cuff
+blue belt;Male;shoulder
+black belt;Male;knee
+no rank;Male;back
+no rank;Male;elbow
+no rank;Male;white belt
+purple belt;Male;ankle
+purple belt;Male;joint
+purple belt;Male;wrist
+purple belt;Male;no injuries
+purple belt;Male;ankle
+purple belt;Male;finger
+purple belt;Male;fingers
+purple belt;Male;no injuries
+purple belt;Male;toes
+blue belt;Male;ribs
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+purple belt;Male;knee
+purple belt;Male;elbow
+purple belt;Male;knee
+purple belt;Male;no injuries
+purple belt;Male;no answer
+brown belt;Male;knee
+brown belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;shoulder
+blue belt;Male;chest
+blue belt;Male;head
+blue belt;Male;no injuries
+blue belt;Male;ribs
+blue belt;Male;white belt
+blue belt;Male;no injuries
+blue belt;Male;shoulder
+purple belt;Female;no injuries
+purple belt;Female;no answer
+black belt;Male;ankle
+blue belt;Male;no injuries
+brown belt;Male;ankle
+brown belt;Male;finger
+brown belt;Male;knee
+brown belt;Male;neck
+brown belt;Male;shoulder
+blue belt;Male;disc
+blue belt;Male;elbow
+blue belt;Male;foot
+blue belt;Male;knee
+blue belt;Male;neck
+no rank;Male;ankle
+no rank;Male;finger
+no rank;Male;fingers
+no rank;Male;knee
+no rank;Male;neck
+no rank;Male;no injuries
+no rank;Male;ribs
+blue belt;Male;no injuries
+blue belt;Male;ribs
+purple belt;Male;no answer
+purple belt;Male;elbow
+purple belt;Male;knee
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+purple belt;Male;knee
+brown belt;Male;no injuries
+brown belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+brown belt;Male;head
+brown belt;Male;neck
+black belt;Male;arm
+black belt;Male;no injuries
+black belt;Male;shoulder
+blue belt;Male;elbow
+purple belt;Male;no injuries
+purple belt;Male;no answer
+purple belt;Male;ribs
+purple belt;Male;shoulder
+purple belt;Male;toes
+black belt;Male;back
+black belt;Male;disc
+black belt;Male;hernia
+black belt;Male;lower back
+black belt;Male;no injuries
+white belt;Male;elbow
+white belt;Male;knee
+white belt;Male;ribs
+blue belt;Male;finger
+blue belt;Male;foot
+blue belt;Male;shoulder
+brown belt;Male;abdomen
+brown belt;Male;knee
+brown belt;Male;ligament
+brown belt;Male;no injuries
+brown belt;Male;ribs
+blue belt;Male;disc
+blue belt;Male;hernia
+blue belt;Male;neck
+black belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;hand
+white belt;Male;ribs
+blue belt;Male;arm
+blue belt;Male;back
+blue belt;Male;finger
+blue belt;Male;fingers
+blue belt;Male;knee
+blue belt;Male;lower back
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+blue belt;Male;finger
+blue belt;Male;fingers
+blue belt;Male;meniscus
+blue belt;Male;shoulder
+blue belt;Male;toes
+blue belt;Male;wrist
+blue belt;Male;leg
+blue belt;Male;ligament
+blue belt;Male;no injuries
+blue belt;Male;shoulder
+blue belt;Male;toes
+white belt;Male;knee
+white belt;Male;leg
+white belt;Male;no injuries
+black belt;Male;elbow
+black belt;Male;finger
+black belt;Male;fingers
+black belt;Male;knee
+black belt;Male;ligament
+black belt;Male;toes
+purple belt;Male;back
+purple belt;Male;knee
+brown belt;Female;leg
+blue belt;Female;foot
+blue belt;Female;knee
+blue belt;Female;no injuries
+blue belt;Female;toes
+black belt;Male;no injuries
+black belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;finger
+blue belt;Male;meniscus
+white belt;Male;arm
+white belt;Male;no injuries
+white belt;Male;ribs
+white belt;Male;wrist
+brown belt;Male;back
+brown belt;Male;foot
+brown belt;Male;knee
+brown belt;Male;ribs
+black belt;Male;hernia
+black belt;Male;meniscus
+blue belt;Male;no injuries
+blue belt;Male;ankle
+white belt;Male;no injuries
+black belt;Female;back
+black belt;Female;no injuries
+black belt;Female;nothing serious
+purple belt;Male;no injuries
+purple belt;Male;finger
+purple belt;Male;knee
+purple belt;Male;shoulder
+white belt;Male;shoulder
+blue belt;Male;hand
+blue belt;Male;shoulder
+blue belt;Male;wrist
+white belt;Female;arm
+white belt;Female;wrist
+brown belt;Male;lower back
+brown belt;Male;meniscus
+brown belt;Male;no injuries
+brown belt;Male;ribs
+blue belt;Female;ankle
+purple belt;Male;shoulder
+blue belt;Female;clavicle
+blue belt;Female;joint
+blue belt;Female;knee
+blue belt;Female;ligament
+blue belt;Female;neck
+blue belt;Female;no injuries
+blue belt;Female;nothing serious
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Female;leg
+blue belt;Female;thumb
+blue belt;Female;knee
+blue belt;Female;ribs
+blue belt;Female;shoulder
+white belt;Male;shoulder
+white belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+blue belt;Female;back
+blue belt;Female;hand
+blue belt;Female;ligament
+blue belt;Female;no injuries
+black belt;Male;shoulder
+black belt;Male;toes
+brown belt;Male;hand
+brown belt;Male;knee
+brown belt;Male;leg
+brown belt;Male;tendon
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;achilles
+purple belt;Male;clavicle
+purple belt;Male;ligament
+purple belt;Male;thumb
+purple belt;Male;toes
+blue belt;Male;head
+blue belt;Male;lateral collateral ligament
+blue belt;Male;leg
+blue belt;Male;no injuries
+blue belt;Male;shoulder
+blue belt;Male;tendon
+blue belt;Male;toes
+blue belt;Male;white belt
+blue belt;Female;arm
+blue belt;Female;back
+blue belt;Female;elbow
+blue belt;Female;foot
+blue belt;Female;no injuries
+blue belt;Female;popped
+blue belt;Female;toes
+blue belt;Female;wrist
+blue belt;Male;back
+blue belt;Male;lower back
+blue belt;Male;neck
+brown belt;Male;no injuries
+black belt;Male;meniscus
+blue belt;Male;no injuries
+black belt;Male;no injuries
+black belt;Male;no answer
+blue belt;Male;cartilage
+blue belt;Male;ribs
+purple belt;Male;neck
+purple belt;Male;rotator cuff
+purple belt;Male;shoulder
+white belt;Male;knee
+no rank;Male;no injuries
+no rank;Male;no answer
+brown belt;Male;disc
+blue belt;Male;finger
+blue belt;Male;joint
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+blue belt;Male;no injuries
+white belt;Male;leg
+brown belt;Male;disc
+brown belt;Male;hernia
+purple belt;Male;ribs
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+blue belt;Male;shoulder
+black belt;Male;no injuries
+black belt;Male;no answer
+purple belt;Female;rotator cuff
+purple belt;Female;shoulder
+blue belt;Female;white belt
+blue belt;Female;knee
+white belt;Male;lower back
+white belt;Female;no injuries
+white belt;Female;no answer
+blue belt;Female;no injuries
+no rank;Male;head
+no rank;Male;knee
+no rank;Female;no injuries
+no rank;Female;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;finger
+white belt;Male;hand
+white belt;Male;ribs
+blue belt;Male;ribs
+white belt;Female;no injuries
+white belt;Female;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;head
+blue belt;Male;knee
+white belt;Male;shoulder
+brown belt;Male;meniscus
+brown belt;Male;ligament
+brown belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+blue belt;Male;no injuries
+brown belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;joint
+white belt;Male;shoulder
+white belt;Male;neck
+white belt;Male;no injuries
+white belt;Male;ribs
+white belt;Male;shoulder
+white belt;Male;tendon
+brown belt;Male;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;hand
+purple belt;Male;head
+no answer;Male;back
+no answer;Male;no injuries
+no answer;Male;nothing serious
+blue belt;Male;joint
+blue belt;Male;lower back
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+white belt;Male;toes
+white belt;Male;mat burn
+white belt;Male;no injuries
+white belt;Male;meniscus
+purple belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;knee
+white belt;Male;meniscus
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;lower back
+purple belt;Male;no injuries
+purple belt;Male;no answer
+blue belt;Male;knee
+blue belt;Male;leg
+white belt;Female;knee
+white belt;Female;lateral collateral ligament
+white belt;Female;leg
+white belt;Female;no injuries
+white belt;Female;ribs
+white belt;Female;wrist
+black belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+white belt;Male;ankle
+white belt;Male;elbow
+white belt;Male;shoulder
+purple belt;Male;arm
+purple belt;Male;back
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+black belt;Male;disc
+black belt;Male;finger
+black belt;Male;fingers
+black belt;Male;neck
+black belt;Male;no injuries
+blue belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+brown belt;Male;no injuries
+brown belt;Male;no answer
+white belt;Female;no injuries
+white belt;Female;no answer
+white belt;Male;no injuries
+black belt;Male;knee
+black belt;Male;meniscus
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;finger
+blue belt;Male;fingers
+blue belt;Male;neck
+blue belt;Male;shoulder
+blue belt;Male;abdomen
+brown belt;Male;arm
+brown belt;Male;back
+brown belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+brown belt;Male;no injuries
+brown belt;Male;no answer
+blue belt;Male;shoulder
+purple belt;Female;no injuries
+purple belt;Male;knee
+blue belt;Male;leg
+blue belt;Male;no injuries
+blue belt;Male;nose
+purple belt;Male;ankle
+purple belt;Male;no injuries
+purple belt;Male;lateral collateral ligament
+purple belt;Male;ligament
+blue belt;Male;meniscus
+blue belt;Male;shoulder
+blue belt;Female;no injuries
+blue belt;Female;no answer
+purple belt;Male;no injuries
+brown belt;Male;meniscus
+blue belt;Male;knee
+blue belt;Male;no injuries
+brown belt;Male;no injuries
+brown belt;Male;no answer
+brown belt;Male;lateral collateral ligament
+brown belt;Male;ligament
+blue belt;Male;finger
+blue belt;Male;shoulder
+blue belt;Male;elbow
+blue belt;Male;knee
+blue belt;Male;ribs
+white belt;Male;ribs
+white belt;Male;knee
+purple belt;Male;no answer
+purple belt;Male;arm
+purple belt;Male;elbow
+purple belt;Male;knee
+purple belt;Male;tendon
+purple belt;Male;thumb
+blue belt;Male;knee
+blue belt;Male;back
+blue belt;Male;no injuries
+blue belt;Male;thumb
+blue belt;Male;no injuries
+blue belt;Male;no answer
+black belt;Male;ankle
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;knee
+blue belt;Male;no injuries
+blue belt;Male;arm
+blue belt;Male;leg
+blue belt;Male;toes
+black belt;Male;ankle
+black belt;Male;finger
+black belt;Male;leg
+black belt;Male;shoulder
+white belt;Female;no injuries
+white belt;Female;no answer
+brown belt;Male;knee
+brown belt;Male;cartilage
+brown belt;Male;foot
+brown belt;Male;hand
+brown belt;Male;knee
+brown belt;Male;no injuries
+brown belt;Male;ribs
+brown belt;Male;knee
+brown belt;Male;lateral collateral ligament
+brown belt;Male;leg
+brown belt;Male;no injuries
+white belt;Male;finger
+white belt;Male;shoulder
+white belt;Male;toes
+white belt;Female;no injuries
+white belt;Female;no answer
+white belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+blue belt;Male;cartilage
+blue belt;Male;ribs
+blue belt;Male;no injuries
+blue belt;Male;no answer
+black belt;Male;no injuries
+black belt;Male;ribs
+black belt;Male;toes
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+no rank;Male;leg
+no rank;Male;ligament
+purple belt;Female;no injuries
+purple belt;Female;shoulder
+blue belt;Male;back
+blue belt;Male;disc
+blue belt;Male;ankle
+blue belt;Male;finger
+blue belt;Male;ligament
+blue belt;Male;shoulder
+blue belt;Male;toes
+black belt;Male;no injuries
+brown belt;Male;chest
+brown belt;Male;lower back
+brown belt;Male;ribs
+purple belt;Male;no injuries
+purple belt;Male;no answer
+purple belt;Male;no injuries
+black belt;Male;back
+black belt;Male;foot
+black belt;Male;hand
+black belt;Male;leg
+black belt;Male;ligament
+black belt;Male;no injuries
+black belt;Male;white belt
+black belt;Male;wrist
+white belt;no answer;no injuries
+white belt;no answer;no answer
+purple belt;Female;no injuries
+purple belt;Female;no answer
+black belt;Male;no injuries
+blue belt;Male;no injuries
+purple belt;Male;no injuries
+purple belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;arm
+white belt;Male;neck
+white belt;Male;no injuries
+white belt;Male;knee
+white belt;Male;ribs
+white belt;Male;no injuries
+blue belt;Male;foot
+blue belt;Male;knee
+blue belt;Male;neck
+blue belt;Male;no injuries
+purple belt;Male;ankle
+blue belt;Male;no answer
+white belt;Female;elbow
+white belt;Female;tendon
+brown belt;Male;no injuries
+no rank;Male;no injuries
+blue belt;Male;cartilage
+blue belt;Male;ribs
+blue belt;Male;white belt
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Female;no injuries
+white belt;Female;no injuries
+white belt;Male;no injuries
+white belt;Male;no answer
+brown belt;Male;knee
+white belt;Male;cartilage
+white belt;Male;knee
+white belt;Male;arm
+white belt;Male;neck
+white belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;nothing serious
+brown belt;Male;no injuries
+blue belt;Male;shoulder
+purple belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+brown belt;Male;back
+brown belt;Male;neck
+brown belt;Male;no injuries
+brown belt;Male;nothing serious
+blue belt;Male;no injuries
+white belt;Male;no injuries
+white belt;Male;no injuries
+no answer;no answer;no injuries
+no answer;no answer;no answer
+blue belt;Male;cartilage
+blue belt;Male;chest
+blue belt;Male;knee
+blue belt;Male;no injuries
+blue belt;Male;nose
+white belt;Female;no injuries
+white belt;Female;no injuries
+purple belt;Male;staph infeciton
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;elbow
+white belt;Male;no injuries
+purple belt;Male;disc
+purple belt;Male;no injuries
+blue belt;Female;shoulder
+no answer;no answer;no injuries
+no answer;no answer;no answer
+blue belt;Male;finger
+purple belt;Male;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;arm
+purple belt;Male;no injuries
+purple belt;Male;shoulder
+purple belt;Male;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+black belt;Male;no injuries
+black belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;back
+white belt;Male;neck
+white belt;Male;no injuries
+white belt;Male;ribs
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;ankle
+white belt;Male;disc
+white belt;Male;neck
+white belt;Male;no injuries
+white belt;Male;shoulder
+white belt;Male;toes
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+brown belt;Female;no injuries
+brown belt;Female;no answer
+blue belt;Male;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Female;disc
+blue belt;Female;hernia
+blue belt;Female;neck
+blue belt;Female;shoulder
+white belt;Female;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;ankle
+purple belt;Male;foot
+purple belt;Male;no injuries
+purple belt;Male;popped
+white belt;Male;no injuries
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;elbow
+blue belt;Male;foot
+blue belt;Male;ligament
+purple belt;Male;back
+purple belt;Male;knee
+purple belt;Male;neck
+purple belt;Male;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+blue belt;Female;no injuries
+blue belt;Male;no injuries
+blue belt;Female;no injuries
+blue belt;Female;no answer
+white belt;Female;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;back
+purple belt;Male;lateral collateral ligament
+purple belt;Male;lower back
+purple belt;Male;no injuries
+purple belt;Male;shoulder
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no rank;Male;elbow
+white belt;Female;lower back
+white belt;Female;no injuries
+purple belt;Male;joint
+purple belt;Male;knee
+purple belt;Male;meniscus
+purple belt;Male;rotator cuff
+purple belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;chest
+white belt;Male;no injuries
+brown belt;Male;disc
+brown belt;Male;leg
+brown belt;Male;neck
+brown belt;Male;knee
+brown belt;Male;leg
+brown belt;Male;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+brown belt;Male;arm
+brown belt;Male;knee
+brown belt;Male;ribs
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+blue belt;Male;knee
+blue belt;Male;no injuries
+blue belt;Male;nothing serious
+blue belt;Male;ribs
+white belt;Male;arm
+white belt;Male;tendon
+blue belt;Female;arm
+blue belt;Female;elbow
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+black belt;Male;finger
+black belt;Male;fingers
+black belt;Male;knee
+black belt;Male;no injuries
+black belt;Male;nose
+black belt;Male;shoulder
+blue belt;Male;meniscus
+blue belt;Male;no injuries
+blue belt;Male;no injuries
+purple belt;Male;finger
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+purple belt;Male;toes
+blue belt;Male;ribs
+blue belt;Male;toes
+blue belt;Male;no injuries
+blue belt;Male;no answer
+purple belt;Male;no injuries
+blue belt;Male;no injuries
+brown belt;Male;hernia
+brown belt;Male;no injuries
+brown belt;Male;white belt
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;concussion
+white belt;Male;elbow
+no answer;no answer;no injuries
+no answer;no answer;no answer
+purple belt;Male;no injuries
+purple belt;Male;nothing serious
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+brown belt;Male;ribs
+white belt;Male;no injuries
+white belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;knee
+white belt;Male;ribs
+no answer;Male;knee
+no answer;Male;leg
+white belt;Male;ankle
+white belt;Male;foot
+white belt;Male;knee
+purple belt;Male;arm
+purple belt;Male;back
+purple belt;Male;lower back
+purple belt;Male;neck
+white belt;Female;back
+white belt;Female;ligament
+white belt;Female;lower back
+white belt;Female;neck
+white belt;Female;thumb
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;elbow
+purple belt;Male;groin
+purple belt;Male;knee
+purple belt;Male;ligament
+purple belt;Male;no injuries
+purple belt;Male;popped
+purple belt;Male;ribs
+blue belt;Male;hand
+brown belt;Male;back
+brown belt;Male;elbow
+brown belt;Male;finger
+brown belt;Male;fingers
+brown belt;Male;knee
+brown belt;Male;no injuries
+brown belt;Male;toes
+purple belt;Male;shoulder
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+white belt;Male;disc
+white belt;Male;hernia
+white belt;Male;knee
+white belt;Male;neck
+white belt;Male;no injuries
+white belt;Male;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+brown belt;Male;ribs
+no answer;Female;no injuries
+no answer;Female;no answer
+white belt;Female;no injuries
+white belt;Female;nothing serious
+white belt;Female;ribs
+white belt;Female;shoulder
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;hand
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+brown belt;Male;no injuries
+brown belt;Male;no answer
+white belt;Male;knee
+white belt;Male;no injuries
+white belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+black belt;Male;cartilage
+black belt;Male;elbow
+black belt;Male;finger
+black belt;Male;fingers
+black belt;Male;no injuries
+black belt;Male;ribs
+blue belt;Male;knee
+blue belt;Male;popped
+blue belt;Male;tendon
+blue belt;Male;foot
+blue belt;Male;head
+blue belt;Male;joint
+blue belt;Male;knee
+blue belt;Male;no injuries
+blue belt;Male;ribs
+blue belt;Male;shoulder
+blue belt;Male;thumb
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+purple belt;Male;ankle
+purple belt;Male;cartilage
+purple belt;Male;popped
+purple belt;Male;ribs
+purple belt;Male;toes
+purple belt;Male;no injuries
+purple belt;Male;arm
+purple belt;Male;disc
+purple belt;Male;elbow
+purple belt;Male;head
+purple belt;Male;knee
+purple belt;Male;lateral collateral ligament
+purple belt;Male;leg
+purple belt;Male;meniscus
+purple belt;Male;neck
+purple belt;Male;ribs
+purple belt;Male;shoulder
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Female;back
+blue belt;Female;knee
+blue belt;Female;meniscus
+blue belt;Female;no injuries
+blue belt;Female;white belt
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;knee
+purple belt;Male;meniscus
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Female;no injuries
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;no injuries
+white belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;no injuries
+white belt;Male;nothing serious
+no rank;Male;no injuries
+no rank;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;knee
+white belt;Male;no injuries
+blue belt;Male;no injuries
+blue belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;no answer;no injuries
+purple belt;no answer;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;arm
+blue belt;Male;elbow
+white belt;Male;ankle
+white belt;Male;back
+white belt;Male;disc
+white belt;Male;hernia
+white belt;Male;ligament
+white belt;Male;no injuries
+white belt;Male;popped
+white belt;Male;ribs
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Female;no injuries
+no answer;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;ribs
+blue belt;Male;elbow
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;no injuries
+no answer;no answer;no injuries
+no answer;no answer;no answer
+purple belt;Male;no injuries
+purple belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Male;no injuries
+white belt;Male;ribs
+no answer;Male;no injuries
+no answer;Male;no answer
+white belt;Female;no injuries
+white belt;Female;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;toes
+white belt;Male;wrist
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;no injuries
+blue belt;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;disc
+no answer;Male;no injuries
+no answer;Male;no answer
+no answer;Male;no injuries
+no answer;Male;no answer
+purple belt;Male;finger
+purple belt;Male;toes
+white belt;Male;disc
+white belt;Male;neck
+no answer;no answer;no injuries
+no answer;no answer;no answer
+black belt;Male;ankle
+black belt;Male;back
+black belt;Male;lateral collateral ligament
+black belt;Male;neck
+black belt;Male;toes
+no answer;Female;no injuries
+no answer;Female;no answer
+purple belt;Male;no injuries
+purple belt;Male;shoulder
+purple belt;Male;tendon
+blue belt;Female;knee
+blue belt;Female;toes
+no answer;Male;no injuries
+no answer;Male;no answer
+blue belt;Male;elbow
+blue belt;Male;leg
+blue belt;Male;no injuries
+purple belt;Male;ribs
+no answer;no answer;no injuries
+no answer;no answer;no answer
+no answer;Female;no injuries
+no answer;Female;no answer

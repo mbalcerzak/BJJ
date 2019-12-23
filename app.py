@@ -6,144 +6,199 @@ import altair as alt
 
 st.title('BJJ  Survey 2017')
 
-DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/data_bjj.csv')
+#DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/info/subs_info.csv')
+DATA_URL = r'C:\Users\malgo_000\Documents\GitHub\BJJ\Data'
 
 #@st.cache
-def load_data():
-    data = pd.read_csv(DATA_URL, sep = ';')
-    for column in list(data):
-        if '[' in data[column][0]:
-
-            data[column] = data[column].apply(lambda x: x[1:-1].split(','))
+def load_data(file_name):
+    data = pd.read_csv(DATA_URL + r'\{}.csv'.format(file_name), sep = ';')
     return data
 
 data_load_state = st.text('Loading data...')
-data = load_data()
+
+data_view = load_data("data_bjj") # the one that has a pre-view
+
+data_subs = load_data(r"info\subs_info") # submissions
+data = load_data(r"info\training_info") # most of the information
+data_back_ma = load_data(r"info\background_info")
+
+
 data_load_state.text('Loading data... done!')
 
 st.sidebar.text("github.com/mbalcerzak")
 
-
 if st.checkbox('Show the data used for analysis'):
     st.subheader('Answers')
-    st.write(data)
+    st.write(data_view)
    
 all_answers = "Overall"   
 
-st.sidebar.header("Would you like to see overall results or for a selected group?")
+st.sidebar.header("Overall results or for a selected group?")
 
 all_or_not = st.sidebar.radio("",[all_answers,'Selected'])
- 
-    
-belts = ['white belt','blue belt', 'purple belt', 'brown belt', 
-         'black belt', 'no rank']    
 
-
-col_dictionary = {all_answers:'olivedrab',
-                 'no rank':'olivedrab', 
-                 'white belt':'gray',
+col_dictionary = {'white belt':'gray',
                  'blue belt':'steelblue', 
                  'purple belt':'rebeccapurple',
                  'brown belt':'sienna', 
-                 'black belt':'black'}
+                 'black belt':'black',
+                 'no rank':'olivedrab',
+                 'all belts':'olivedrab'}
 
+
+belts = ['all belts', 'white belt','blue belt', 'purple belt', 'brown belt', 
+         'black belt', 'no rank']  
+
+genders = ['Every gender', 'Male','Female']
+
+belt_chosen = belts[0]
+gender_chosen = genders[0]
 
 if all_or_not == 'Selected':
     st.sidebar.header("Choose a group")
     
     belt_chosen = st.sidebar.selectbox("Rank of survey participants:", belts)
- 
-    data = data[data['current_belt'] == belt_chosen]
+    gender_chosen = st.sidebar.selectbox("Gender:", genders)  
+    
+    title_group = ": {}, {}".format(gender_chosen, belt_chosen)
+    
+else:
+    title_group = ""
+    
+colour = col_dictionary[belt_chosen]
 
-    colour = col_dictionary[belt_chosen]
     
-    everyone = 'Every gender'
+def filter_data(data, belt_chosen, gender_chosen):
     
-    genders = [everyone, 'Male','Female']
-    gender_chosen = st.sidebar.selectbox("Gender:", genders)
+    if belt_chosen != belts[0]:
+        data = data[data['current_belt'] == belt_chosen]
+    
+    data = data[data['current_belt'] != 'no answer']
         
-    if gender_chosen == everyone:
-        pass
-    else:
+    if gender_chosen != genders[0]:    
         data = data[data['gender'] == gender_chosen]
-
-else:
-    colour = col_dictionary[all_answers]
-
-question = 'technique'
-question_no_empty = data[question][data[question].str.len() > 0].to_list()
-question_list = [x for y in question_no_empty for x in y if x != 'no answer'] 
-
-st.subheader("Favourite techniques")
-
-if len(question_list) == 0:
-    st.text('No data to show for {} & {}'. \
-                format(belt_chosen.upper(),gender_chosen.upper()))
-else:
     
-    counts = OrderedDict(Counter(question_list).most_common())
-        
-    data_bars = pd.DataFrame({'techniques':list(counts.keys()),
-                              'count':list(counts.values())})
+    data = data[data['gender'] != 'no answer']
     
-    data_bars = data_bars.sort_values(by='count')
+    return data
+
+data_subs = filter_data(data_subs, belt_chosen, gender_chosen)
+
+########### to change into a function later ##################################
+
+data_bars = len(list(set(data_subs['technique'].to_list())))
+
+if data_bars > 0:
     
-    bar_height = len(data_bars) * 15
-    
-    bars = alt.Chart(data_bars, height = bar_height, width = 500).mark_bar(
+    st.subheader("Favourite submissions{}".format(title_group))
+
+    bars = alt.Chart(data_subs, height = data_bars * 16).mark_bar(
                         color = colour, opacity=0.9).encode(
-                        alt.Y('techniques', sort = None, 
+                        x = alt.X('count(current_belt)', 
+                              title = 'Number of times mentioned'),
+                        y = alt.Y('technique', 
+                                  sort = alt.EncodingSortField(
+                                              field='current_belt', 
+                                              op="count", 
+                                              order='ascending'),
                               title = 'Favourite submissions'),
-                        alt.X('count', title = 'number of times mentioned'),
-                        tooltip = 'count')
+                        tooltip = 'count(current_belt)')
     
-    st.altair_chart(bars)
+    #st.altair_chart(bars)
 
+else:
+    st.text('No data to show for {} & {}'. \
+            format(belt_chosen.upper(),gender_chosen.upper()))
+
+##############################################################################
 
 # NORMALIZED STACKED BAR CHART 
 
 #'Q67.1':'preferred_style'
-st.subheader("Preferred style of fighting")
+data1 = filter_data(data, belt_chosen, gender_chosen)    
+ 
+st.subheader("Preferred style of fighting{}".format(title_group))
 
-data1 = data[data['current_belt'] != 'no answer']
-data1 = data1[data1['preferred_style'] != 'no answer']
+order = belts[1:6]
 
-norm_bar = alt.Chart(data1).mark_bar().encode(
-    y=alt.Y('current_belt'),
-    x=alt.X('count(preferred_style)', stack="normalize"),
-    color='preferred_style',
-    tooltip = 'count(preferred_style)',
-)
+def nomalised_barchart(data_, column, count_):
+    
+    data_ = data_[data_[column] != 'no answer']
 
-text = alt.Chart(data1).mark_text(dx=-10, dy=3, color='black').encode(
-    x=alt.X('count(preferred_style)', stack="normalize"),
-    y=alt.Y('current_belt'),
-    detail='preferred_style',
-    text=alt.Text('count(preferred_style)')
-)
+    norm_bar = alt.Chart(data_).mark_bar().encode(
+        y=alt.Y('current_belt', title = 'Current rank', sort = order),
+        x=alt.X(count_, stack="normalize",
+                title = 'Number of times mentioned',
+                axis=alt.Axis(format='%')),
+        color=column,
+        tooltip = count_,
+        order=alt.Order(
+          column,
+          sort = 'ascending'
+        )
+    )
 
+#    text = alt.Chart(data_).mark_text(dx=-10, dy=3, color='black').encode(
+#        x=alt.X(count_, stack="normalize", 
+#                order=alt.Order( column,
+#                                 sort = 'ascending')),
+#        y=alt.Y('current_belt', sort = order),
+#        detail=column,
+#        text=alt.Text(count_)
+#    )
 
-
-st.altair_chart(norm_bar + text)
-
-
-
+    st.altair_chart(norm_bar) #+ text)
+   
+nomalised_barchart(data1, 'preferred_style','count(preferred_style)')    
+    
 
 
 #'Q3':'training_years',
-#'Q22':'how_old_when_started',
+st.subheader("Number of training years{}".format(title_group))
+nomalised_barchart(data1, 'training_years','count(training_years)')  
+
+
 #'Q6':'white_blue',
 #'Q7':'blue_purple',
 #'Q8':'purple_brown',
 #'Q9':'brown_black',
-#'Q10':'training_per_week',      
-#'Q11':'both_gi_nogi',
-#'Q12':'gi_or_no_gi',
+
+
+#alt.Chart(source).mark_bar().encode(
+#    x='sum(yield):Q',
+#    y='year:O',
+#    color='year:N',
+#    row='site:N'
+#)
+
+
+#'Q10':'training_per_week', 
+st.subheader("How often do you train per week{}".format(title_group))
+nomalised_barchart(data1, 'training_per_week','count(training_per_week)') 
+
 
 #'Q14':'training_time',
-#'Q16':'travel',  
+st.subheader("What time of day do you prefer to train{}".format(title_group))
+nomalised_barchart(data1, 'training_time','count(training_time)')  
+
+
+#'Q22':'how_old_when_started',
+st.subheader("How old were you when you started{}".format(title_group))
+nomalised_barchart(data1, 'how_old_when_started','count(how_old_when_started)')  
+
+#'Q16':'travel',    # YES/NO
+  
+#'Q11':'both_gi_nogi', # YES/NO
+#'Q12':'gi_or_no_gi', # YES/NO
+
+
 #'Q17':'background_ma',
-#'Q30':'currently_cross_train',
+data_back_ma = filter_data(data_back_ma, belt_chosen, gender_chosen)  
+st.subheader("Previously trained other martial art{}".format(title_group))
+nomalised_barchart(data_back_ma, 'background_ma','count(background_ma)') 
+
+
+#'Q30':'currently_cross_train', # YES/NO
 
 #'Q31':'mobility_exercises',
 #'Q32':'yoga',  

@@ -203,6 +203,30 @@ for column in to_str_columns:
     data_final[column] = data_final[column].apply(lambda x: '['+','.join(x)+']')
 
 
+
+
+def rework_took(x):
+    
+    years_dict = {'0-2 years':' 0-2 years', 
+                 '2-4 years':' 2-4 years', 
+                 '4-6 years':' 4-6 years', 
+                 '6-8 years':' 6-8 years',
+                 '8-10 years':' 8-10 years', 
+                 '10-12 years':'10-12 years', 
+                 '12+ years':'12+ years'}
+    
+    if "I don't have my" in x or x == 'no answer':
+        return 'no answer'
+    else:
+        return years_dict[x]
+
+for column in ['training_years', 'white_blue','blue_purple','purple_brown',
+               'brown_black']:
+    
+    data_final[column] = data_final[column].apply(lambda x: rework_took(x))
+    
+data_final['background_ma'] = data_final['background_ma'].apply(lambda x: '[' + x + ']') 
+    
 data_final.to_csv(path + r'\Data\data_bjj.csv', header = True, index = None, 
                   sep = ';')
 
@@ -229,7 +253,6 @@ training_info = ['training_years',
                  'gi_or_no_gi',
                  'training_time',
                  'travel',
-                 'background_ma',
                  'how_old_when_started',
                  'currently_cross_train',
                  'mobility_exercises',
@@ -260,6 +283,7 @@ training_info = ['training_years',
                  'medals'
                  #'competition_organisaiton',
                  ]
+background_info = ['background_ma']
 
 reasons_info = ['reasons']
 
@@ -285,17 +309,20 @@ apparel_info = ['apparel']
 comp_info =  ['organisations']
 
 
-dataset_list = [training_info, injury_info, athlete_info, watch_info]
+dataset_list = [training_info]
 
-dataset_names = ["training_info", "injury_info", "athlete_info", 
-                 "watch_info"]
+dataset_names = ["training_info"]
 
-to_explode = [reasons_info, least_f_info, subs_info, podcast_info, web_info, 
-              gi_info, rash_info, shorts_info, apparel_info, comp_info]
+to_explode = [background_info, reasons_info, least_f_info, subs_info, 
+              podcast_info, web_info, 
+              gi_info, rash_info, shorts_info, apparel_info, comp_info,
+              injury_info, athlete_info, watch_info]
 
-explode_names = ["reasons_info", "least_f_info", "subs_info", "podcast_info", 
+explode_names = ["background_info", "reasons_info", "least_f_info", "subs_info", 
+                 "podcast_info", 
                  "web_info", "gi_info", "rash_info", "shorts_info", 
-                 "apparel_info", "comp_info"]
+                 "apparel_info", "comp_info", "injury_info", "athlete_info", 
+                 "watch_info"]
 
 #%%
 for dataset, name in zip(dataset_list, dataset_names):
@@ -314,7 +341,7 @@ for dataset, name in zip(to_explode, explode_names):
     
     data_save = explode(data_save, var_to_expl, var_to_expl)
     
-    data_save.to_csv(path + r'\Data\info1\{}.csv'.format(name), header = True, 
+    data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
 #%%
     
@@ -323,3 +350,5 @@ for col in list(data_final):
         print("'" + col + "',")
    # if isinstance(data_final[col][0],list):
    #     print(col)
+   
+print(list(set(data_final['training_years'].to_list())))  

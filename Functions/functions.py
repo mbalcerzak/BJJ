@@ -140,6 +140,8 @@ def explode(dataset, variable, new_var_name, na = True):
     country_list_ = list(dataset)
     country_list_.remove(variable)
   
+    dataset[variable] = dataset[variable].apply(lambda x: str(x[1:-1]).split(','))
+    
     dataset_ = (dataset
               .set_index(country_list_)[variable]
               .apply(pd.Series)
