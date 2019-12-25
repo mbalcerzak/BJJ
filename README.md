@@ -47,6 +47,7 @@ Most of the questions were not processed by me in any way. I mostly cleaned the 
 
 'Q2':'What is your current rank in jiu jitsu?'
 - changed to lowercase
+- if the person answered that they train in a gi I changed 'no rank' to 'white belt'
 
 'Q3':'How long have you been training jiu jitsu?',
 
