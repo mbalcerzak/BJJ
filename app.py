@@ -172,8 +172,6 @@ elif all_or_not == 'Interesing raw data':
  
 elif all_or_not == 'Wordcloud!':
     
-    image_path = 'https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/belt_colours.png'
-    
     max_words = st.sidebar.text_input('Maximum number of words', '600')
     max_font_size = st.sidebar.text_input('Maximum font size', '150')
     random_state = st.sidebar.text_input('Select a random number', '42')
@@ -189,7 +187,7 @@ elif all_or_not == 'Wordcloud!':
         gender_chosen = genders[0]
         fav_list = ' '.join(data['favourite'].to_list())
     
-    create_wordcloud(fav_list, max_words, max_font_size, random_state, image_path)
+    create_wordcloud(fav_list, max_words, max_font_size, random_state)
     
 else:   
     
