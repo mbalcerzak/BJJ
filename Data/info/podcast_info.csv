@@ -146,7 +146,7 @@ white belt;Male;no answer
 brown belt;Male;no answer
 purple belt;Male;no answer
 blue belt;Female;no answer
-no answer;Male;joe rogan experience
+no rank;Male;joe rogan experience
 blue belt;Male;eddie bravo
 blue belt;Male;joe rogan experience
 white belt;Male;no answer
@@ -287,7 +287,7 @@ blue belt;Male;no answer
 white belt;Female;cageside
 white belt;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 purple belt;Male;no answer
 blue belt;Male;no answer
@@ -468,7 +468,7 @@ brown belt;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 purple belt;Male;joe rogan experience
@@ -597,7 +597,7 @@ brown belt;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;no answer
 white belt;Female;no answer
 white belt;Female;no answer
@@ -608,89 +608,89 @@ white belt;Male;grapplearts
 white belt;Male;no answer
 purple belt;Male;no answer
 blue belt;Female;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-blue belt;Male;no answer
-purple belt;Male;no answer
-purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-black belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
 no rank;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-white belt;Male;budo
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+purple belt;Male;no answer
+purple belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+black belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+white belt;Male;budo
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+white belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+blue belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;cageside
 brown belt;Female;concussion cast
 brown belt;Female;insidebjj
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 white belt;Female;cageside
 white belt;Female;concussion cast
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;open mat radio
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;no answer
 blue belt;Male;no answer
 blue belt;Female;no answer
 white belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;no answer
 white belt;Female;no answer
 purple belt;Male;no answer
@@ -699,10 +699,10 @@ purple belt;Male;no answer
 white belt;Male;no answer
 brown belt;Male;pasando guardia
 brown belt;Male;joe rogan experience
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;joe rogan experience
 white belt;Male;no answer
 blue belt;Female;budo
@@ -721,31 +721,31 @@ blue belt;Male;no answer
 purple belt;Male;no answer
 blue belt;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
 blue belt;Male;insidebjj
 brown belt;Male;no answer
@@ -756,119 +756,119 @@ white belt;Male;no answer
 white belt;Male;no answer
 white belt;Male;no answer
 purple belt;Male;jre count
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;cageside
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;jocko podcast
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;no answer
 blue belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;no answer
 purple belt;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;jre count
 no rank;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;jre count
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;joe rogan experience
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;joe rogan experience
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;no answer
 blue belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;joe rogan experience
 purple belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

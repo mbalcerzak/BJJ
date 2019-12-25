@@ -187,7 +187,7 @@ purple belt;Male;flo grappling
 purple belt;Male;flow grappling
 purple belt;Male;reddit
 blue belt;Female;no answer
-no answer;Male;grapplearts
+no rank;Male;grapplearts
 blue belt;Male;adcc
 blue belt;Male;bjj eastern europe
 blue belt;Male;reddit
@@ -359,7 +359,7 @@ white belt;Female;elevate mma blog
 white belt;Female;fightland
 white belt;Male;no answer
 brown belt;Male;bjj library
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 purple belt;Male;reddit
 purple belt;Male;youtube
@@ -580,7 +580,7 @@ purple belt;Male;bjj heroes
 purple belt;Male;gracie magazine
 purple belt;Male;bjj eastern europe
 purple belt;Male;mixedmartialarts
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;bjj eastern europe
 white belt;Male;no answer
 purple belt;Male;bjj eastern europe
@@ -785,7 +785,7 @@ white belt;Male;bjj eastern europe
 white belt;Male;grapplearts
 white belt;Male;jiu jitsu times
 white belt;Male;mma junkie
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;bloody elbow
 white belt;Female;facebook
 white belt;Female;no answer
@@ -805,94 +805,94 @@ purple belt;Male;anything
 purple belt;Male;bloody elbow
 purple belt;Male;sherdog forum
 blue belt;Female;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;no answer
 purple belt;Male;bjj eastern europe
 purple belt;Male;maxbjj
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-black belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
 no rank;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+black belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 white belt;Male;bjj eastern europe
 white belt;Male;white belt bjj
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;bloody elbow
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;bjj eastern europe
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;bjj news
 brown belt;Female;bjj scout
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 white belt;Female;reddit
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;grappplers paradise
 blue belt;Male;wbbjj
 purple belt;Male;bjj eastern europe
 purple belt;Male;jiu jitsu style
 purple belt;Male;jiu jitsu times
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;no answer
 blue belt;Male;no answer
 blue belt;Female;no answer
 white belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;grapplearts
 no rank;Male;youtube
 white belt;Female;reddit
@@ -910,10 +910,10 @@ brown belt;Male;flo grappling
 brown belt;Male;flow grappling
 brown belt;Male;gracie magazine
 brown belt;Male;sherdog forum
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;bjj eastern europe
 blue belt;Male;bloody elbow
 blue belt;Male;facebook
@@ -939,31 +939,31 @@ blue belt;Male;no answer
 purple belt;Male;no answer
 blue belt;Male;bloody elbow
 brown belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;reddit
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;bjj heroes
 purple belt;Male;bjj news
 purple belt;Male;flo grappling
@@ -982,128 +982,128 @@ white belt;Male;no answer
 white belt;Male;reddit
 white belt;Male;no answer
 purple belt;Male;reddit
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;bjj eastern europe
 brown belt;Male;breaking muscle
 brown belt;Male;flo grappling
 brown belt;Male;flow grappling
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;flow grappling
 purple belt;Male;instagram
 purple belt;Male;reddit
 purple belt;Male;youtube
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;reddit
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;bjj eastern europe
 blue belt;Male;reddit
 blue belt;Male;bloody elbow
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;sherdog forum
 purple belt;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;youtube
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;bjj eastern europe
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 no rank;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+white belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;bjj eastern europe
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;10th planet
 blue belt;Male;bjj eastern europe
 white belt;Male;grapplearts
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 blue belt;Male;jiu jitsu mag
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;bjj eastern europe
 white belt;Female;reddit
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;bjj news
 white belt;Male;bjj over 40
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;reddit
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;bjj library
 blue belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;bjj eastern europe
 blue belt;Male;jiu jitsu times
 purple belt;Male;youtube
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

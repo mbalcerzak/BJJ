@@ -168,7 +168,7 @@ brown belt;Male;Akido
 purple belt;Male;Wrestling
 purple belt;Male;Karate
 blue belt;Female;No previous training
-no answer;Male;Judo
+no rank;Male;Judo
 blue belt;Male;Wrestling
 blue belt;Male;Muay Thai
 blue belt;Male;Other
@@ -364,7 +364,7 @@ white belt;Female;Other
 white belt;Male;Boxing
 white belt;Male;Kick boxing
 brown belt;Male;Other
-no answer;Male;Judo
+no rank;Male;Judo
 blue belt;Female;Judo
 purple belt;Male;Karate
 blue belt;Male;Karate
@@ -600,7 +600,7 @@ white belt;Male;Sambo
 white belt;Male;Muay Thai
 purple belt;Male;Muay Thai
 purple belt;Male;Other
-no answer;Male;No previous training
+no rank;Male;No previous training
 blue belt;Male;Wrestling
 blue belt;Male;Boxing
 blue belt;Male;Karate
@@ -798,7 +798,7 @@ brown belt;Male;Other
 blue belt;Male;No previous training
 white belt;Male;Other
 white belt;Male;Kung Fu
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;No previous training
 white belt;Female;No previous training
 white belt;Female;No previous training
@@ -813,97 +813,97 @@ white belt;Male;No previous training
 purple belt;Male;Boxing
 blue belt;Female;Boxing
 blue belt;Female;Other
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;Karate
 blue belt;Male;Kick boxing
 purple belt;Male;Wrestling
 purple belt;Male;Boxing
 purple belt;Male;Karate
 purple belt;Male;Muay Thai
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;No previous training
 purple belt;Male;No previous training
 purple belt;Male;Boxing
 purple belt;Male;Kick boxing
 purple belt;Male;Muay Thai
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 black belt;Male;Judo
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
 no rank;Male;No previous training
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 white belt;Male;Karate
 white belt;Male;Kick boxing
 white belt;Male;Other
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;Muay Thai
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;No previous training
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;No previous training
 blue belt;Male;No previous training
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;Judo
 blue belt;Female;Other
 white belt;Female;No previous training
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;Akido
 purple belt;Male;No previous training
 white belt;Male;Other
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;Muay Thai
 purple belt;Male;No previous training
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;Akido
 blue belt;Male;No previous training
 blue belt;Female;No previous training
 white belt;Female;No previous training
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;Judo
 purple belt;Male;Kung Fu
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;Wrestling
 purple belt;Male;Sambo
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;Wrestling
 white belt;Female;No previous training
 purple belt;Male;No previous training
@@ -916,10 +916,10 @@ purple belt;Male;Other
 white belt;Male;Boxing
 brown belt;Male;No previous training
 brown belt;Male;No previous training
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;Karate
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;Muay Thai
 blue belt;Male;Other
 white belt;Male;Wrestling
@@ -947,34 +947,34 @@ purple belt;Male;Muay Thai
 blue belt;Male;No previous training
 brown belt;Male;Wrestling
 brown belt;Male;Boxing
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;Other
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;Other
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;Boxing
 brown belt;Male;Karate
 white belt;Male;Judo
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;Muay Thai
-no answer;Male;Wrestling
+no rank;Male;Wrestling
 white belt;Male;Judo
 purple belt;Male;Boxing
 purple belt;Male;Kung Fu
 purple belt;Male;Other
 white belt;Female;No previous training
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;No previous training
 blue belt;Male;Karate
 blue belt;Male;Kick boxing
@@ -988,79 +988,79 @@ white belt;Male;No previous training
 purple belt;Male;Boxing
 purple belt;Male;Judo
 purple belt;Male;Other
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;No previous training
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;Kung Fu
 brown belt;Male;Muay Thai
 brown belt;Male;Other
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;Other
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;Muay Thai
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;Wrestling
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;No previous training
 white belt;Male;Karate
 white belt;Male;Muay Thai
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;Karate
 black belt;Male;Muay Thai
 blue belt;Male;Boxing
 blue belt;Male;Kung Fu
 blue belt;Male;Other
 blue belt;Male;Other
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;No previous training
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;Kung Fu
 purple belt;Male;Boxing
 purple belt;Male;Kung Fu
 purple belt;Male;Boxing
 purple belt;Male;Other
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;No previous training
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;Wrestling
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;Other
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;Boxing
 no rank;Male;Other
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;Boxing
 blue belt;Male;Kick boxing
 white belt;Male;No previous training
 blue belt;Male;Karate
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;No previous training
 blue belt;Male;Muay Thai
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;Boxing
 blue belt;Male;Akido
 blue belt;Male;Kick boxing
@@ -1068,63 +1068,63 @@ blue belt;Male;Muay Thai
 white belt;Male;Wrestling
 white belt;Male;Karate
 white belt;Male;Kick boxing
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;Other
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;No previous training
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;Wrestling
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;No previous training
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;Wrestling
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;Karate
 blue belt;Male;Muay Thai
 white belt;Male;Akido
 white belt;Male;Karate
 white belt;Male;Muay Thai
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;Other
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;Wrestling
 purple belt;Male;Karate
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;Akido
 purple belt;Male;Karate
 purple belt;Male;Other
 white belt;Male;Judo
 white belt;Male;Other
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;No previous training
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;Other
 blue belt;Female;No previous training
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;No previous training
 purple belt;Male;Wrestling
 purple belt;Male;Boxing
 purple belt;Male;Karate
 purple belt;Male;Judo
 purple belt;Male;Kick boxing
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

@@ -222,7 +222,7 @@ purple belt;Male;inverted gear
 purple belt;Male;keiko
 purple belt;Male;keiko raca
 blue belt;Female;fenom
-no answer;Male;fuji
+no rank;Male;fuji
 blue belt;Male;combat corner
 blue belt;Male;tatami
 white belt;Male;no answer
@@ -409,7 +409,7 @@ white belt;Male;gameness
 brown belt;Male;atama
 brown belt;Male;lucky gi
 brown belt;Male;tatami
-no answer;Male;fuji
+no rank;Male;fuji
 blue belt;Female;no answer
 purple belt;Male;do or die
 purple belt;Male;flow
@@ -673,7 +673,7 @@ purple belt;Male;koral
 purple belt;Male;storm
 purple belt;Male;venum
 purple belt;Male;datsusara
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;koral
 blue belt;Male;tatami
 white belt;Male;no answer
@@ -872,7 +872,7 @@ blue belt;Male;bad boy
 white belt;Male;adidas
 white belt;Male;tatami
 white belt;Male;venum
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;toraki
 blue belt;Male;toro
 white belt;Female;no answer
@@ -889,93 +889,93 @@ white belt;Male;93 brand
 white belt;Male;warrior kimonos
 purple belt;Male;koral
 blue belt;Female;tatami
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;no answer
 purple belt;Male;gameness
 purple belt;Male;ronin brank kimonos
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;kingz
 purple belt;Male;no answer
 purple belt;Male;atama
 purple belt;Male;tatami
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-black belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
 no rank;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+black belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 white belt;Male;reevo
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;fuji
 blue belt;Male;manto
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;gameness
 brown belt;Female;toro
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;fenom
 white belt;Female;93 brand
 white belt;Female;inverted gear
 white belt;Female;kingz
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;atama
 purple belt;Male;tatami
 purple belt;Male;venum
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;no answer
 blue belt;Male;fuji
 blue belt;Female;no answer
 white belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;oss clothing
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;no answer
 white belt;Female;da firma
 purple belt;Male;no answer
@@ -987,10 +987,10 @@ brown belt;Male;storm
 brown belt;Male;ctrl
 brown belt;Male;shoyoroll
 brown belt;Male;storm
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;fuji
 blue belt;Male;scramble
 white belt;Male;no answer
@@ -1012,33 +1012,33 @@ purple belt;Male;fuji
 blue belt;Male;no answer
 brown belt;Male;93 brand
 brown belt;Male;storm
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;shoyoroll
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;fightwear
 purple belt;Male;strike fightwear
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;grips
 purple belt;Male;fuji
 purple belt;Male;tatami
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;atama
 purple belt;Male;koral
 purple belt;Male;shoyoroll
@@ -1063,136 +1063,136 @@ white belt;Male;inverted gear
 white belt;Male;scramble
 purple belt;Male;93 brand
 purple belt;Male;koral
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;atama
 brown belt;Male;gameness
 brown belt;Male;inverted gear
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;fenom
 white belt;Female;inverted gear
 white belt;Female;platinum jiujitsu
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;inverted gear
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;gracie
 white belt;Male;rvca
 white belt;Male;shoyoroll
 white belt;Male;storm
 white belt;Male;gameness
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;hyperfly
 black belt;Male;tatami
 blue belt;Male;no answer
 blue belt;Male;gameness
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;fuji
 purple belt;Male;grips
 purple belt;Male;scramble
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;budo
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;fuji
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 no rank;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+white belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;tatami
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;atama
 white belt;Male;fuji
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;tatami
 blue belt;Male;fuji
 blue belt;Male;scramble
 blue belt;Male;tatami
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;fuji
 blue belt;Male;platinum jiujitsu
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;93 brand
 white belt;Female;fenom
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;grips
 blue belt;Male;tatami
 white belt;Male;tatami
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;shoyoroll
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;fuji
 black belt;Male;gameness
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;gameness
 purple belt;Male;vulkan
 blue belt;Female;break point
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;academy / tournaments
 purple belt;Male;jaco
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

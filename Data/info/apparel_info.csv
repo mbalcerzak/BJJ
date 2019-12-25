@@ -169,7 +169,7 @@ white belt;Male;no answer
 brown belt;Male;no answer
 purple belt;Male;no answer
 blue belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 white belt;Male;globetrotters
@@ -319,7 +319,7 @@ blue belt;Male;tuff fightwear
 white belt;Female;no answer
 white belt;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 purple belt;Male;academy / tournaments
 blue belt;Male;no answer
@@ -504,7 +504,7 @@ purple belt;Male;bad boy
 purple belt;Male;manto
 purple belt;Male;venum
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;gracie
 white belt;Male;no answer
 purple belt;Male;gracie
@@ -652,7 +652,7 @@ brown belt;Male;tatami
 blue belt;Male;no answer
 white belt;Male;adidas
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;scramble
 white belt;Female;no answer
 white belt;Female;academy / tournaments
@@ -666,89 +666,89 @@ white belt;Male;no answer
 white belt;Male;no answer
 purple belt;Male;gorilla fight gear
 blue belt;Female;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;academy / tournaments
 purple belt;Male;no answer
-no answer;Male;no answer
-blue belt;Male;no answer
-purple belt;Male;no answer
-purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-black belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
 no rank;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-white belt;Male;toro
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+purple belt;Male;no answer
+purple belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+black belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+white belt;Male;toro
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+white belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+blue belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;academy / tournaments
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 white belt;Female;toro
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;tapout
 blue belt;Male;tatami
 blue belt;Male;venum
 purple belt;Male;scramble
 purple belt;Male;tatami
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;no answer
 blue belt;Male;no answer
 blue belt;Female;no answer
 white belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;roots of fight
 no rank;Male;tatami
 white belt;Female;newaza
@@ -762,10 +762,10 @@ brown belt;Male;jiujiteiro
 brown belt;Male;newaza
 brown belt;Male;scramble
 brown belt;Male;tatami
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;meerkatsu
 white belt;Male;no answer
 blue belt;Female;gracie
@@ -784,31 +784,31 @@ blue belt;Male;no answer
 purple belt;Male;no answer
 blue belt;Male;no answer
 brown belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;shoyoroll
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;jiu jitsu progear
 purple belt;Male;koral
 blue belt;Male;gracie
@@ -821,124 +821,124 @@ white belt;Male;no answer
 white belt;Male;no answer
 white belt;Male;scramble
 purple belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;atama
 brown belt;Male;bad boy
 brown belt;Male;gameness
 brown belt;Male;jiujiteiro
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;inverted gear
 purple belt;Male;rvca
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;no answer
 white belt;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;no answer
 blue belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;gracie
 purple belt;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 no rank;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+white belt;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;manto
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 blue belt;Male;93 brand
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;academy / tournaments
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;old man jiu jitsu
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;academy / tournaments
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;gracie
 blue belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;jaco
 purple belt;Male;venum
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

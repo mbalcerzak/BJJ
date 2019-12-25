@@ -160,7 +160,7 @@ brown belt;Male;injuries
 purple belt;Male;belt-hunters
 blue belt;Female;agressive people
 blue belt;Female;white belt dudes
-no answer;Male;agressive people
+no rank;Male;agressive people
 blue belt;Male;injuries
 blue belt;Male;pain
 white belt;Male;no answer
@@ -287,7 +287,7 @@ blue belt;Male;warm ups
 white belt;Female;injuries
 white belt;Male;feeling lost
 brown belt;Male;sweat
-no answer;Male;pain
+no rank;Male;pain
 blue belt;Female;no answer
 purple belt;Male;warm ups
 blue belt;Male;spider guard
@@ -463,7 +463,7 @@ brown belt;Male;pain
 white belt;Male;I disagree with the curriculum
 purple belt;Male;classes too short
 purple belt;Male;warm ups
-no answer;Male;classes too short
+no rank;Male;classes too short
 blue belt;Male;injuries
 white belt;Male;no answer
 purple belt;Male;I like everything
@@ -600,7 +600,7 @@ brown belt;Male;drills
 blue belt;Male;running
 white belt;Male;injuries
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;pain
 white belt;Female;sweat
 white belt;Female;pushing myself
@@ -611,87 +611,87 @@ white belt;Male;injuries
 white belt;Male;warm ups
 purple belt;Male;injuries
 blue belt;Female;cardio
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;drills
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;drills
 purple belt;Male;takedowns
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 black belt;Male;injuries
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
 no rank;Male;warm ups
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 white belt;Male;agressive people
 white belt;Male;rolling
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;not getting the technique right away
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;not being able to do it often enough
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;big egos
 blue belt;Male;getting frustrated
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;smell / poor hygiene
 white belt;Female;smell / poor hygiene
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Male;injuries
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;drills
 purple belt;Male;injuries
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;being limited by pregnancy
 blue belt;Male;"bjj ""lifestyle and culture"""
 blue belt;Female;drama
 white belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;time commitment
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;injuries
 white belt;Female;smell / poor hygiene
 white belt;Female;sweat
@@ -702,10 +702,10 @@ white belt;Male;warm ups
 brown belt;Male;big egos
 brown belt;Male;injuries
 brown belt;Male;I like everything
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;injuries
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;injuries
 white belt;Male;meeting new people
 blue belt;Female;injuries
@@ -725,31 +725,31 @@ purple belt;Male;laundry
 blue belt;Male;cardio
 brown belt;Male;injuries
 brown belt;Male;white belt dudes
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;I like everything
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;smell / poor hygiene
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;laundry
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;injuries
 purple belt;Male;getting beat up
 white belt;Female;injuries
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;injuries
 blue belt;Male;warm ups
 brown belt;Male;warm ups
@@ -759,121 +759,121 @@ white belt;Male;lack of curriculum
 white belt;Male;injuries
 white belt;Male;I like everything
 purple belt;Male;waiting
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;injuries
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;sweat
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;skin infections
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;plateaus
 white belt;Male;injuries
 white belt;Male;plateaus
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;warm ups
 blue belt;Male;warm ups
 blue belt;Male;judo
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;getting crushed
 purple belt;Male;drills
 purple belt;Male;people who don't train hard
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;injuries
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;warm ups
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;white belt dudes
 no rank;Male;getting up
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;warm ups
 white belt;Male;I like everything
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;rolling
 white belt;Male;agressive people
 white belt;Male;injuries
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;I like everything
 blue belt;Male;classes too short
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;summer when it is super hot
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;rolling
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;time commitment
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;I like everything
 white belt;Male;I like everything
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;being put in the spotlight
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;drills
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;instruction
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;injuries
 blue belt;Female;sweat
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;injuries
 blue belt;Male;sweat
 purple belt;Male;crab walks
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

@@ -37,6 +37,7 @@ data_q['age_cat'] = data_q['Q57'].apply(age_categories)
 
 data_q['Q2'] = data_q['Q2'].apply(lambda x: x.lower())
 data_q['Q2'][data_q['Q2'] == 'i do not hold a rank'] = 'no rank' 
+data_q['Q2'][data_q['Q2'] == 'no answer'] = 'no rank' 
 
 ##########################  nationality  #####################################
 
@@ -226,6 +227,7 @@ for column in ['training_years', 'white_blue','blue_purple','purple_brown',
     data_final[column] = data_final[column].apply(lambda x: rework_took(x))
     
 data_final['background_ma'] = data_final['background_ma'].apply(lambda x: '[' + x + ']') 
+data_final['currently_cross_train'] = data_final['currently_cross_train'].apply(lambda x: '[' + x + ']') 
     
 data_final.to_csv(path + r'\Data\data_bjj.csv', header = True, index = None, 
                   sep = ';')
@@ -254,7 +256,6 @@ training_info = ['training_years',
                  'training_time',
                  'travel',
                  'how_old_when_started',
-                 'currently_cross_train',
                  'mobility_exercises',
                  'yoga',
                  'preferred_style',
@@ -281,9 +282,10 @@ training_info = ['training_years',
                  'instrutor_encourages_competition',
                  'competed',
                  'medals'
-                 #'competition_organisaiton',
+                 #'competition_organisation',
                  ]
 background_info = ['background_ma']
+current_ma_info  = ['currently_cross_train']
 
 reasons_info = ['reasons']
 
@@ -313,23 +315,27 @@ dataset_list = [training_info]
 
 dataset_names = ["training_info"]
 
-to_explode = [background_info, reasons_info, least_f_info, subs_info, 
-              podcast_info, web_info, 
+to_explode = [current_ma_info, background_info, reasons_info, least_f_info, 
+              subs_info,podcast_info, web_info, 
               gi_info, rash_info, shorts_info, apparel_info, comp_info,
               injury_info, athlete_info, watch_info]
 
-explode_names = ["background_info", "reasons_info", "least_f_info", "subs_info", 
-                 "podcast_info", 
+explode_names = ['current_ma_info', "background_info", "reasons_info", 
+                 "least_f_info", "subs_info",  "podcast_info", 
                  "web_info", "gi_info", "rash_info", "shorts_info", 
                  "apparel_info", "comp_info", "injury_info", "athlete_info", 
                  "watch_info"]
 
 #%%
+listt = []
+
 for dataset, name in zip(dataset_list, dataset_names):
     
     data_save = data_final[base + dataset]
     data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
+    listt.append('data_{} = load_data(r"info\{}")'.format(name,name))
+    
     
 #%%   
 from Functions.functions import explode    
@@ -343,12 +349,19 @@ for dataset, name in zip(to_explode, explode_names):
     
     data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
+    listt.append('data_{} = load_data(r"info\{}")'.format(name[:len(name)-5],name))
 #%%
     
-for col in list(data_final):
-    if isinstance(data_final[col].values[0],list):
-        print("'" + col + "',")
-   # if isinstance(data_final[col][0],list):
-   #     print(col)
-   
-print(list(set(data_final['training_years'].to_list())))  
+#for elem in listt:
+#    print(elem)
+    
+#for col in list(data_final):
+#    if isinstance(data_final[col].values[0],list):
+#        print("'" + col + "',")
+#   # if isinstance(data_final[col][0],list):
+#   #     print(col)
+#   
+#print(list(set(data_final['training_years'].to_list())))  
+    
+for key in colnames_dict.keys():
+    print('# {}: {}'.format(key, colnames_dict[key]))

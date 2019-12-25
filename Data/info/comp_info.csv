@@ -208,8 +208,8 @@ white belt;Male;agc
 brown belt;Male;no answer
 purple belt;Male;copa
 blue belt;Female;no answer
-no answer;Male;cbjjf
-no answer;Male;wbjjf
+no rank;Male;cbjjf
+no rank;Male;wbjjf
 blue belt;Male;combat corner
 white belt;Male;no answer
 white belt;Male;cfjjb
@@ -386,7 +386,7 @@ blue belt;Male;cbjjf
 white belt;Female;no answer
 white belt;Male;no answer
 brown belt;Male;ibjjf
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;ibjjf
 purple belt;Male;ibjjf
 blue belt;Male;ibjjf
@@ -640,7 +640,7 @@ white belt;Male;no answer
 purple belt;Male;ibjjf
 purple belt;Male;cfjjb
 purple belt;Male;ibjjf
-no answer;Male;good fight
+no rank;Male;good fight
 blue belt;Male;ibjjf
 white belt;Male;no answer
 purple belt;Male;naga
@@ -811,7 +811,7 @@ blue belt;Male;ibjjf
 blue belt;Male;naga
 white belt;Male;no answer
 white belt;Male;ukbjja
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;no answer
 white belt;Female;iska
 white belt;Female;no answer
@@ -825,98 +825,98 @@ white belt;Male;no answer
 white belt;Male;no answer
 purple belt;Male;revolution
 blue belt;Female;us grappling
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;adcc
 blue belt;Male;ibjjf
 purple belt;Male;bjj tour
 purple belt;Male;ibjjf
 purple belt;Male;naga
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;no answer
 purple belt;Male;ibjjf
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-black belt;Male;in house
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
 no rank;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+black belt;Male;in house
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;ibjjf
 white belt;Male;oregon open
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;fight 2 win
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;ibjjf
 brown belt;Female;us grappling
 blue belt;Male;good fight
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;no answer
 white belt;Female;us grappling
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;ibjjf
 purple belt;Male;naga
 purple belt;Male;newbreed
 white belt;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;uaejjf
 purple belt;Male;bjj247
 purple belt;Male;ibjjf
 purple belt;Male;ukbjja
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;us grappling
 blue belt;Male;copa
 blue belt;Male;naga
 blue belt;Male;us grappling
 blue belt;Female;ibjjf
 white belt;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;copa
 purple belt;Male;us grappling
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;no answer
 white belt;Female;ibjjf
 white belt;Female;naga
@@ -933,11 +933,11 @@ brown belt;Male;local
 brown belt;Male;naga
 brown belt;Male;ibjjf
 brown belt;Male;nabjjf
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;ibjjf
 brown belt;Male;naga
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;oregon open
 blue belt;Male;subleague
 white belt;Male;no answer
@@ -961,33 +961,33 @@ brown belt;Male;adcc
 brown belt;Male;agc
 brown belt;Male;ibjjf
 brown belt;Male;naga
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;ibjjf
 white belt;Male;naga
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;local
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;ibjjf
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;ibjjf
 white belt;Female;agf
 white belt;Female;naga
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;ibjjf
 purple belt;Male;local
 blue belt;Male;alpha league
@@ -1001,130 +1001,130 @@ white belt;Male;no answer
 white belt;Male;no answer
 white belt;Male;naga
 purple belt;Male;agc
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;good fight
 brown belt;Male;grapplers quest
 brown belt;Male;ibjjf
 brown belt;Male;naga
 brown belt;Male;newbreed
 brown belt;Male;us grappling
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;agc
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;rocky mountain brazilian jiu jitsu federation
 white belt;Male;no answer
 white belt;Male;nabjjf
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;smaller
 blue belt;Male;ibjjf
 blue belt;Male;local
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;ibjjf
 blue belt;Male;naga
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;naga
 purple belt;Male;wbjjf
 purple belt;Male;local
 purple belt;Male;naga
 purple belt;Male;smaller
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;ibjjf
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;grapplers heart
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;ibjjf
 no rank;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;uaejjf
 white belt;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;grappling games
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 blue belt;Male;naga
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;local
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;naga
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;ibjjf
 purple belt;Male;naga
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;ibjjf
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;regional
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;ibjjf
 purple belt;Male;us grappling
 blue belt;Female;local
 blue belt;Female;naga
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;no answer
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

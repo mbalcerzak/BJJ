@@ -218,8 +218,8 @@ brown belt;Male;improve groundwork
 purple belt;Male;grappled  / wrestled before
 blue belt;Female;friend
 blue belt;Female;partner
-no answer;Male;get in shape
-no answer;Male;ufc
+no rank;Male;get in shape
+no rank;Male;ufc
 blue belt;Male;grappled  / wrestled before
 blue belt;Male;it is effective
 white belt;Male;no answer
@@ -407,7 +407,7 @@ white belt;Female;grappled  / wrestled before
 white belt;Female;love from the first roll
 white belt;Male;no answer
 brown belt;Male;self defense
-no answer;Male;friend
+no rank;Male;friend
 blue belt;Female;helps with / transitioned from judo
 purple belt;Male;friend
 blue belt;Male;family
@@ -674,8 +674,8 @@ white belt;Male;improve submissions
 white belt;Male;mma
 purple belt;Male;useful for job (police / army)
 purple belt;Male;no answer
-no answer;Male;become a more rounded fighter
-no answer;Male;just wanted to try
+no rank;Male;become a more rounded fighter
+no rank;Male;just wanted to try
 blue belt;Male;it is effective
 white belt;Male;no answer
 purple belt;Male;get in shape
@@ -875,7 +875,7 @@ blue belt;Male;improve groundwork
 blue belt;Male;ufc
 white belt;Male;needed a challenge
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;instructor / black belt
 white belt;Female;fitness
 white belt;Female;friend
@@ -897,95 +897,95 @@ purple belt;Male;get in shape
 purple belt;Male;mma
 purple belt;Male;work
 blue belt;Female;wanted to compete
-no answer;no answer;no answer
+no rank;no answer;no answer
 blue belt;Male;become a more rounded fighter
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 purple belt;Male;just wanted to try
 purple belt;Male;try somethig new / change
 purple belt;Male;ufc
 purple belt;Male;wanted to compete
 purple belt;Male;mma
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 black belt;Male;famous bjj athlete
 black belt;Male;friend
 black belt;Male;helps with / transitioned from judo
 black belt;Male;instructor / black belt
 black belt;Male;ufc
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
 no rank;Male;friend
-no answer;no answer;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 white belt;Male;fitness
 white belt;Male;fun
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;fitness
 white belt;Male;ufc
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;family
 blue belt;Male;fitness
 blue belt;Male;ufc
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Female;fitness
 brown belt;Female;needed a challenge
 brown belt;Female;work
 blue belt;Male;fitness
 blue belt;Male;mma
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;helps with / transitioned from judo
 blue belt;Female;improve groundwork
 blue belt;Female;work
 white belt;Female;fitness
 white belt;Female;fun
 white belt;Female;self defense
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
 purple belt;Male;no answer
 white belt;Male;mma
 white belt;Male;wanted to compete
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;mma
 purple belt;Male;famous bjj athlete
 purple belt;Male;mma
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Female;fun
 blue belt;Male;mma
 blue belt;Male;useful for job (police / army)
@@ -993,14 +993,14 @@ blue belt;Male;wanted to compete
 blue belt;Female;no answer
 white belt;Female;fitness
 white belt;Female;self defense
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;fitness
 purple belt;Male;love from the first roll
-no answer;Male;no answer
+no rank;Male;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
 no rank;Male;helps with / transitioned from judo
 white belt;Female;friend
 white belt;Female;fun
@@ -1016,10 +1016,10 @@ brown belt;Male;small people can do it
 brown belt;Male;family
 brown belt;Male;famous bjj athlete
 brown belt;Male;ufc
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;mma
-no answer;Male;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
 blue belt;Male;get in shape
 white belt;Male;become a more rounded fighter
 blue belt;Female;curiosity
@@ -1044,27 +1044,27 @@ blue belt;Male;family
 blue belt;Male;grappled  / wrestled before
 blue belt;Male;ufc
 brown belt;Male;try somethig new / change
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;health
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;grappled  / wrestled before
 purple belt;Male;mma
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 brown belt;Male;famous bjj athlete
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;mental health
 white belt;Male;needed a challenge
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;just wanted to try
 white belt;Male;mma
 purple belt;Male;famous bjj athlete
@@ -1072,9 +1072,9 @@ purple belt;Male;ufc
 white belt;Female;curiosity
 white belt;Female;fitness
 white belt;Female;try somethig new / change
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;self defense
 blue belt;Male;fitness
 blue belt;Male;work
@@ -1089,26 +1089,26 @@ white belt;Male;just wanted to try
 white belt;Male;ufc
 purple belt;Male;fitness
 purple belt;Male;mental health
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Male;no answer
-no answer;Female;no answer
+no rank;Female;no answer
 brown belt;Male;camaraderie
 brown belt;Male;friend
 brown belt;Male;mma
 brown belt;Male;ufc
-no answer;Female;no answer
+no rank;Female;no answer
 white belt;Female;fitness
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;Male;just wanted to try
 purple belt;Male;try somethig new / change
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 brown belt;Male;fitness
 white belt;Male;fitness
 white belt;Male;just wanted to try
-no answer;Male;no answer
+no rank;Male;no answer
 black belt;Male;mma
 black belt;Male;work
 blue belt;Male;fun
@@ -1116,56 +1116,56 @@ blue belt;Male;grappled  / wrestled before
 blue belt;Male;improve submissions
 blue belt;Male;just wanted to try
 blue belt;Male;wanted to compete
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Female;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Female;no answer
 blue belt;Male;fun
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer
 purple belt;Male;become a more rounded fighter
 purple belt;Male;fun
 purple belt;Male;learn how to fight
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Female;fun
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;grappled  / wrestled before
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Female;fun
 white belt;Female;helps with / transitioned from judo
 white belt;Female;just wanted to try
 white belt;Female;something I was doing before closed down
 white belt;Female;work
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;no answer;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;no answer;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;ufc
 no rank;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;no answer
 white belt;Male;self defense
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
 purple belt;no answer;no answer
 blue belt;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;mma
 blue belt;Male;tired of being hurt in another sport
 white belt;Male;divorce
@@ -1174,64 +1174,64 @@ white belt;Male;famous bjj athlete
 white belt;Male;grappled  / wrestled before
 white belt;Male;it is effective
 white belt;Male;ufc
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Female;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Female;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 white belt;Male;just wanted to try
 blue belt;Male;self defense
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;fitness
-no answer;no answer;no answer
+no rank;no answer;no answer
 purple belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
 white belt;Female;fitness
 white belt;Female;self defense
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 blue belt;Male;fitness
 white belt;Male;instructor / black belt
 white belt;Male;just wanted to try
 white belt;Male;work
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;mental health
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;fun
-no answer;Male;no answer
-no answer;Male;no answer
+no rank;Male;no answer
+no rank;Male;no answer
 purple belt;Male;fun
 purple belt;Male;it is effective
 white belt;Male;no answer
-no answer;no answer;no answer
+no rank;no answer;no answer
 black belt;Male;just wanted to try
 black belt;Male;mma
 black belt;Male;self defense
-no answer;Female;no answer
+no rank;Female;no answer
 purple belt;Male;just wanted to try
 purple belt;Male;ufc
 blue belt;Female;family
 blue belt;Female;love from the first roll
 blue belt;Female;try somethig new / change
-no answer;Male;no answer
+no rank;Male;no answer
 blue belt;Male;fitness
 blue belt;Male;fun
 blue belt;Male;useful for job (police / army)
 blue belt;Male;work
 purple belt;Male;instructor / black belt
-no answer;no answer;no answer
-no answer;Female;no answer
+no rank;no answer;no answer
+no rank;Female;no answer

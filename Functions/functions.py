@@ -167,9 +167,9 @@ def is_choke(x):
     for word in word_list:
         for elem in x:
             if word in elem:
-                return 'choke'
+                return 'Yes'
         
-    return 'not a choke'
+    return 'No'
 
 ####################### age cathegories ######################################
     

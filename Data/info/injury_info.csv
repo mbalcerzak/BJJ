@@ -276,7 +276,7 @@ blue belt;Female;chest
 blue belt;Female;elbow
 blue belt;Female;foot
 blue belt;Female;popped
-no answer;Male;head
+no rank;Male;head
 blue belt;Male;achilles
 blue belt;Male;cauliflower
 blue belt;Male;shoulder
@@ -552,8 +552,8 @@ white belt;Male;no injuries
 white belt;Male;no answer
 brown belt;Male;lateral collateral ligament
 brown belt;Male;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Female;no injuries
 blue belt;Female;no answer
 purple belt;Male;joint
@@ -925,9 +925,9 @@ white belt;Male;no answer
 purple belt;Male;no injuries
 purple belt;Male;hand
 purple belt;Male;head
-no answer;Male;back
-no answer;Male;no injuries
-no answer;Male;nothing serious
+no rank;Male;back
+no rank;Male;no injuries
+no rank;Male;nothing serious
 blue belt;Male;joint
 blue belt;Male;lower back
 white belt;Male;no injuries
@@ -1174,8 +1174,8 @@ brown belt;Male;nothing serious
 blue belt;Male;no injuries
 white belt;Male;no injuries
 white belt;Male;no injuries
-no answer;no answer;no injuries
-no answer;no answer;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
 blue belt;Male;cartilage
 blue belt;Male;chest
 blue belt;Male;knee
@@ -1194,108 +1194,108 @@ white belt;Male;no injuries
 purple belt;Male;disc
 purple belt;Male;no injuries
 blue belt;Female;shoulder
-no answer;no answer;no injuries
-no answer;no answer;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
 blue belt;Male;finger
 purple belt;Male;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;no injuries
 blue belt;Male;no answer
 purple belt;Male;arm
 purple belt;Male;no injuries
 purple belt;Male;shoulder
 purple belt;Male;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-black belt;Male;no injuries
-black belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
 no rank;Male;no injuries
 no rank;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+black belt;Male;no injuries
+black belt;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;back
 white belt;Male;neck
 white belt;Male;no injuries
 white belt;Male;ribs
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;ankle
 white belt;Male;disc
 white belt;Male;neck
 white belt;Male;no injuries
 white belt;Male;shoulder
 white belt;Male;toes
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;no injuries
 blue belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 brown belt;Female;no injuries
 brown belt;Female;no answer
 blue belt;Male;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Female;disc
 blue belt;Female;hernia
 blue belt;Female;neck
 blue belt;Female;shoulder
 white belt;Female;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;no injuries
 white belt;Male;no answer
 purple belt;Male;ankle
@@ -1303,16 +1303,16 @@ purple belt;Male;foot
 purple belt;Male;no injuries
 purple belt;Male;popped
 white belt;Male;no injuries
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;elbow
 blue belt;Male;foot
 blue belt;Male;ligament
@@ -1320,48 +1320,48 @@ purple belt;Male;back
 purple belt;Male;knee
 purple belt;Male;neck
 purple belt;Male;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 blue belt;Female;no injuries
 blue belt;Male;no injuries
 blue belt;Female;no injuries
 blue belt;Female;no answer
 white belt;Female;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;back
 purple belt;Male;lateral collateral ligament
 purple belt;Male;lower back
 purple belt;Male;no injuries
 purple belt;Male;shoulder
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;no injuries
 purple belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
 no rank;Male;elbow
 white belt;Female;lower back
 white belt;Female;no injuries
@@ -1380,15 +1380,15 @@ brown belt;Male;neck
 brown belt;Male;knee
 brown belt;Male;leg
 brown belt;Male;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 brown belt;Male;arm
 brown belt;Male;knee
 brown belt;Male;ribs
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 blue belt;Male;knee
 blue belt;Male;no injuries
 blue belt;Male;nothing serious
@@ -1425,43 +1425,43 @@ blue belt;Male;no injuries
 brown belt;Male;hernia
 brown belt;Male;no injuries
 brown belt;Male;white belt
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;concussion
 white belt;Male;elbow
-no answer;no answer;no injuries
-no answer;no answer;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
 purple belt;Male;no injuries
 purple belt;Male;nothing serious
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 brown belt;Male;ribs
 white belt;Male;no injuries
 white belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;knee
 white belt;Male;ribs
-no answer;Male;knee
-no answer;Male;leg
+no rank;Male;knee
+no rank;Male;leg
 white belt;Male;ankle
 white belt;Male;foot
 white belt;Male;knee
@@ -1474,12 +1474,12 @@ white belt;Female;ligament
 white belt;Female;lower back
 white belt;Female;neck
 white belt;Female;thumb
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;elbow
 purple belt;Male;groin
 purple belt;Male;knee
@@ -1508,37 +1508,37 @@ white belt;Male;no injuries
 white belt;Male;no answer
 purple belt;Male;no injuries
 purple belt;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 white belt;Male;no injuries
 white belt;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 brown belt;Male;ribs
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 white belt;Female;no injuries
 white belt;Female;nothing serious
 white belt;Female;ribs
 white belt;Female;shoulder
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;hand
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;no injuries
 blue belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 brown belt;Male;no injuries
 brown belt;Male;no answer
 white belt;Male;knee
 white belt;Male;no injuries
 white belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 black belt;Male;cartilage
 black belt;Male;elbow
 black belt;Male;finger
@@ -1556,18 +1556,18 @@ blue belt;Male;no injuries
 blue belt;Male;ribs
 blue belt;Male;shoulder
 blue belt;Male;thumb
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 blue belt;Male;no injuries
 blue belt;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 purple belt;Male;ankle
 purple belt;Male;cartilage
 purple belt;Male;popped
@@ -1585,80 +1585,80 @@ purple belt;Male;meniscus
 purple belt;Male;neck
 purple belt;Male;ribs
 purple belt;Male;shoulder
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Female;back
 blue belt;Female;knee
 blue belt;Female;meniscus
 blue belt;Female;no injuries
 blue belt;Female;white belt
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;knee
 purple belt;Male;meniscus
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Female;no injuries
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;no injuries
 white belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;no injuries
 white belt;Male;nothing serious
 no rank;Male;no injuries
 no rank;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;knee
 white belt;Male;no injuries
 blue belt;Male;no injuries
 blue belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;no answer;no injuries
 purple belt;no answer;no answer
 blue belt;Male;no injuries
 blue belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;arm
 blue belt;Male;elbow
 white belt;Male;ankle
@@ -1669,99 +1669,99 @@ white belt;Male;ligament
 white belt;Male;no injuries
 white belt;Male;popped
 white belt;Male;ribs
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;ribs
 blue belt;Male;elbow
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;no injuries
-no answer;no answer;no injuries
-no answer;no answer;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
 purple belt;Male;no injuries
 purple belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Male;no injuries
 white belt;Male;ribs
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 white belt;Female;no injuries
 white belt;Female;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;toes
 white belt;Male;wrist
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;no injuries
 blue belt;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;disc
-no answer;Male;no injuries
-no answer;Male;no answer
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 purple belt;Male;finger
 purple belt;Male;toes
 white belt;Male;disc
 white belt;Male;neck
-no answer;no answer;no injuries
-no answer;no answer;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
 black belt;Male;ankle
 black belt;Male;back
 black belt;Male;lateral collateral ligament
 black belt;Male;neck
 black belt;Male;toes
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
 purple belt;Male;no injuries
 purple belt;Male;shoulder
 purple belt;Male;tendon
 blue belt;Female;knee
 blue belt;Female;toes
-no answer;Male;no injuries
-no answer;Male;no answer
+no rank;Male;no injuries
+no rank;Male;no answer
 blue belt;Male;elbow
 blue belt;Male;leg
 blue belt;Male;no injuries
 purple belt;Male;ribs
-no answer;no answer;no injuries
-no answer;no answer;no answer
-no answer;Female;no injuries
-no answer;Female;no answer
+no rank;no answer;no injuries
+no rank;no answer;no answer
+no rank;Female;no injuries
+no rank;Female;no answer
