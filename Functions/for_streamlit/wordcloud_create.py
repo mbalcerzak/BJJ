@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from nltk.stem import WordNetLemmatizer 
 lemmatizer = WordNetLemmatizer() 
+import nltk
+nltk.download('stopwords') 
 
 def create_wordcloud(fav_list, max_words, max_font_size, random_state, image_path):
         
