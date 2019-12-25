@@ -4,3 +4,5 @@ altair==3.2.0
 pandas==0.25.3
 plotly==4.4.1
 wordcloud==1.6.0
+nltk==3.4.5
+PIL
