@@ -77,19 +77,7 @@ belts = ['all belts',
 
 genders = ['Every gender', 'Male','Female']
 
-def filter_data(data, belt_chosen, gender_chosen):
-    
-    if belt_chosen != belts[0]:
-        data = data[data['current_belt'] == belt_chosen]
-    
-    data = data[data['current_belt'] != 'no answer']
-        
-    if gender_chosen != genders[0]:    
-        data = data[data['gender'] == gender_chosen]
-    
-    data = data[data['gender'] != 'no answer']
-    
-    return data
+
 
 if all_or_not == 'Show by groups':
     
@@ -109,7 +97,22 @@ elif all_or_not == 'Show one group\'s answers':
     gender_chosen = st.sidebar.selectbox("Gender of the group:", genders)
     
     colour = col_dictionary[belt_chosen]
-
+    
+    def filter_data(data, belt_chosen = belt_chosen,
+                    gender_chosen = gender_chosen):
+    
+        if belt_chosen != belts[0]:
+            data = data[data['current_belt'] == belt_chosen]
+        
+        data = data[data['current_belt'] != 'no answer']
+            
+        if gender_chosen != genders[0]:    
+            data = data[data['gender'] == gender_chosen]
+        
+        data = data[data['gender'] != 'no answer']
+        
+        return data
+    
     if belt_chosen != belts[0] or gender_chosen != genders[0]:
         
         data_f = filter_data(data)
