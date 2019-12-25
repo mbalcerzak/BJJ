@@ -169,14 +169,6 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # Q43: If you buy apparel, what are some of your favorite brands? If you 
     #don't buy apparel, leave blank!
     bar_plot(data_apparel, 'Q43', 'apparel') 
-    
-    if selected == False: 
-        # Q44: Have you ever had a problem with a particular manufacturer or 
-        # brand?  If so, which one(s) and what was the problem?
-        if st.checkbox('Show the raw answers:'):
-            st.subheader('Problem with a manufacturer...')
-            st.write(data_raw['brand_problem'] \
-                     [data_raw['brand_problem'] != 'no answer'])
      
     # Q47: How much do you spend per year (on average) on gear and apparel?
     pie_chart(data,'Q47') 

@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 from Functions.for_streamlit.bygroups_app import bygroups_show
 from Functions.for_streamlit.overall_app import overall_show
+from Dictionaries.colnames_dictionary import header_dictionary as hd
 
-st.title('BJJ  Survey 2017')
+st.title('BJJ  Survey Results')
 
 DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data')
 
@@ -59,9 +60,11 @@ if st.checkbox('Show the data used for analysis'):
    
 st.sidebar.header("Overall results or for a selected group?")
 
-all_or_not = st.sidebar.radio("",["Overall",
+all_or_not = st.sidebar.selectbox("",["Overall",
                                   'Show by groups',
-                                  'Show one group\'s answers'])
+                                  'Show one group\'s answers',
+                                  'Interesing raw data',
+                                  'Wordcloud!'])
 
 col_dictionary = {'white belt':'gray',
                   'blue belt':'steelblue', 
@@ -77,6 +80,19 @@ belts = ['all belts',
 
 genders = ['Every gender', 'Male','Female']
 
+def filter_data(data, belt_chosen, gender_chosen):
+    
+    if belt_chosen != belts[0]:
+        data = data[data['current_belt'] == belt_chosen]
+    
+    data = data[data['current_belt'] != 'no answer']
+        
+    if gender_chosen != genders[0]:    
+        data = data[data['gender'] == gender_chosen]
+    
+    data = data[data['gender'] != 'no answer']
+    
+    return data
 
 if all_or_not == 'Show by groups':
     
@@ -95,21 +111,6 @@ elif all_or_not == 'Show one group\'s answers':
     belt_chosen = st.sidebar.selectbox("Rank of the group:", belts)
     gender_chosen = st.sidebar.selectbox("Gender of the group:", genders)
     
-    def filter_data(data, belt_chosen = belt_chosen, 
-                    gender_chosen = gender_chosen):
-        
-        if belt_chosen != belts[0]:
-            data = data[data['current_belt'] == belt_chosen]
-        
-        data = data[data['current_belt'] != 'no answer']
-            
-        if gender_chosen != genders[0]:    
-            data = data[data['gender'] == gender_chosen]
-        
-        data = data[data['gender'] != 'no answer']
-        
-        return data
-
     colour = col_dictionary[belt_chosen]
 
     if belt_chosen != belts[0] or gender_chosen != genders[0]:
@@ -137,6 +138,55 @@ elif all_or_not == 'Show one group\'s answers':
                      data_comp_f, data_injury_f, data_athlete_f, data_watch_f, 
                      data_raw, colour = colour, selected = True)
 
+elif all_or_not == 'Interesing raw data':
+
+    # Q44: Have you ever had a problem with a particular manufacturer or 
+    # brand?  If so, which one(s) and what was the problem?
+
+    w = 600
+    
+    st.subheader(hd['Q44'])
+    st.dataframe(data_raw['brand_problem'] \
+             [data_raw['brand_problem'] != 'no answer'], width = w)
+
+    st.subheader(hd['Q18'])
+    st.dataframe(data_raw['reasons_raw'] \
+             [data_raw['reasons_raw'] != 'no answer'], width = w)
+    
+    st.subheader(hd['Q19'])
+    st.dataframe(data_raw['favourite_raw'] \
+             [data_raw['favourite_raw'] != 'no answer'], width = w)
+    
+    st.subheader(hd['Q20'])
+    st.dataframe(data_raw['least_fav_raw'] \
+             [data_raw['least_fav_raw'] != 'no answer'], width = w)
+    
+    st.subheader(hd['Q61.1'])
+    st.dataframe(data_raw['watch_raw'] \
+             [data_raw['watch_raw'] != 'no answer'], width = w)
+
+    st.subheader(hd['Q63'])
+    st.dataframe(data_raw['favourite_athletes_raw'] \
+             [data_raw['favourite_athletes_raw'] != 'no answer'], width = w)
+ 
+elif all_or_not == 'Wordcloud!':
+    
+    image_path = r'C:\Users\malgo_000\Pictures\BJJ wordcloud\belt_colours2.png'
+    
+    max_words = st.sidebar.text_input('Maximum number of words', '600')
+    max_font_size = st.sidebar.text_input('Maximum font size', '150')
+    random_state = st.sidebar.text_input('Select a random number', '42')
+    
+    belt_chosen = st.sidebar.selectbox("Rank:", belts)
+    gender_chosen = st.sidebar.selectbox("Gender:", genders)
+    
+    if belt_chosen != belts[0] or gender_chosen != genders[0]:
+        data = filter_data(data)
+    
+    from Functions.for_streamlit.wordcloud_create import create_wordcloud
+
+    create_wordcloud(data, max_words, max_font_size, random_state, image_path)
+    
 else:   
     colour = 'olivedrab'   
 
@@ -144,3 +194,5 @@ else:
                  data_least_f, data_subs, data_podcast, data_web, data_gi, 
                  data_rash, data_shorts, data_apparel, data_comp, data_injury, 
                  data_athlete, data_watch, data_raw, colour)
+    
+    

@@ -12,6 +12,7 @@ colnames_dictionary = {
 'Q14':'training_time',
 'Q16':'travel',
 'Q17':'background_ma',
+'Q19':'favourite',
 'Q22':'how_old_when_started',
 'Q23':'instrutor_encourages_competition',
 'Q24':'competed',

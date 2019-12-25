@@ -182,6 +182,16 @@ list_datasets = [data_athletes, data_submissions, data_gi,data_gyms, \
                  data_podcasts, data_injuries, data_org]
 
 data_q = data_q.join([dataset for dataset in list_datasets])
+
+#################### favourite thing about BJJ ###############################
+
+from Functions.functions import clean_string as cs
+
+list_replacements = []
+check = '(@[A-Za-z]+)|([^A-Za-z])|(\w+:\/\/\S+)'
+
+data_q['Q19'] = data_q['Q19'].apply(lambda x: cs(x, list_replacements, 
+                                                      check))
     
 ######################## renaming the columns ################################
 
@@ -209,7 +219,8 @@ to_str_columns =   ['countries',
                     'organisations']
 
 for column in to_str_columns:
-    data_final[column] = data_final[column].apply(lambda x: '['+','.join(x)+']')
+    data_final[column] = data_final[column].apply(lambda x: '[' + \
+                                                          ','.join(x) + ']')
 
 
 def rework(x):
@@ -255,12 +266,11 @@ for column in ['membership', 'income','money_for_gear']:
     
     data_final[column] = data_final[column].apply(lambda x: reword_money(x))	
 
-#%%
-list(set(data_final['membership'].to_list()))
-    
 #%%    
-data_final['background_ma'] = data_final['background_ma'].apply(lambda x: '[' + x + ']') 
-data_final['currently_cross_train'] = data_final['currently_cross_train'].apply(lambda x: '[' + x + ']') 
+data_final['background_ma'] = data_final['background_ma'] \
+                                    .apply(lambda x: '[' + x + ']') 
+data_final['currently_cross_train'] = data_final['currently_cross_train'] \
+                                    .apply(lambda x: '[' + x + ']') 
     
 data_final.to_csv(path + r'\Data\data_bjj.csv', header = True, index = None, 
                   sep = ';')
@@ -278,6 +288,7 @@ data_raw.to_csv(path + r'\Data\data_raw.csv', header = True, index = None,
 base = ['current_belt','gender']    
 
 training_info = ['training_years',
+                 'favourite',
                  'white_blue',
                  'blue_purple',
                  'purple_brown',
@@ -312,9 +323,11 @@ training_info = ['training_years',
                  'country',
                  'instrutor_encourages_competition',
                  'competed',
-                 'medals'
+                 #'medals'
                  ]
+
 background_info = ['background_ma']
+
 current_ma_info  = ['currently_cross_train']
 
 reasons_info = ['reasons']
@@ -334,15 +347,16 @@ podcast_info = ['podcast']
 web_info = ['website']
 
 gi_info = ['gi']
+
 rash_info = ['rash']
+
 shorts_info = ['shorts']
+
 apparel_info = ['apparel']
 
 comp_info =  ['organisations']
 
-
 dataset_list = [training_info]
-
 dataset_names = ["training_info"]
 
 to_explode = [current_ma_info, background_info, reasons_info, least_f_info, 
