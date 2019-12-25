@@ -2,3 +2,4 @@ gunicorn
 streamlit==0.47.4
 altair==3.2.0
 pandas==0.25.3
+plotly==4.4.1
