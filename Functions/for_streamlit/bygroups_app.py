@@ -84,7 +84,7 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
                   'count(currently_cross_train)') 
     
     #'Q31':'mobility_exercises',
-    norm_barchart(data, 'Q31', 'mobility_exercises','count(mobility_exercises)') 
+    norm_barchart(data, 'Q31','mobility_exercises','count(mobility_exercises)') 
     
     #'Q32':'yoga',  
     norm_barchart(data, 'Q32', 'yoga','count(yoga)') 
@@ -105,9 +105,11 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
     #'Q42':'bjj_apparel',
     norm_barchart(data, 'Q42', 'bjj_apparel','count(bjj_apparel)') 
     
-    # Q43: If you buy apparel, what are some of your favorite brands? If you don't buy apparel, leave blank!
+    # Q43: If you buy apparel, what are some of your favorite brands? If you 
+    # don't buy apparel, leave blank!
     
-    # Q44: Have you ever had a problem with a particular manufacturer or brand?  If so, which one(s) and what was the problem?
+    # Q44: Have you ever had a problem with a particular manufacturer or brand?
+    # If so, which one(s) and what was the problem?
     
     #'Q47':'money_for_gear', # percent of income
     norm_barchart(data, 'Q47', 'money_for_gear','count(money_for_gear)') 
@@ -117,7 +119,8 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
     #'Q49':'time_watching_bjj', 
     norm_barchart(data, 'Q49', 'time_watching_bjj','count(time_watching_bjj)') 
        
-    # Q50: If you have some favorite grappling-related websites and blogs, which ones do you like?
+    # Q50: If you have some favorite grappling-related websites and blogs, 
+    # which ones do you like?
     
     #'Q56':'education',
     #'Q55':'gender',
@@ -127,16 +130,19 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
     #'Q60':'do_watch_sport_bjj',
     
     #'Q60':'do_watch_sport_bjj',
-    norm_barchart(data, 'Q60', 'do_watch_sport_bjj','count(do_watch_sport_bjj)') 
+    norm_barchart(data, 'Q60','do_watch_sport_bjj','count(do_watch_sport_bjj)') 
     
     #'Q61.1':'where_watch_sport_bjj',
     
     #'Q62':'have_fav_athlete',
     norm_barchart(data, 'Q62', 'have_fav_athlete','count(have_fav_athlete)') 
     
-    # Q63: Who are your favorite athletes (if any)? As always, leave this blank if it doesn't apply to you!
-    # Q65: If you have some favorite grappling-related podcasts, which ones do you like?
-    # Q66: To which academy do you belong? If it is affiliated, what is the affiliation? For instance:  Oceanside BJJ - A Royce Gracie Affiliate
+    # Q63: Who are your favorite athletes (if any)? As always, leave this 
+    # blank if it doesn't apply to you!
+    # Q65: If you have some favorite grappling-related podcasts, which ones 
+    # do you like?
+    # Q66: To which academy do you belong? If it is affiliated, what is the 
+    # affiliation? For instance:  Oceanside BJJ - A Royce Gracie Affiliate
     #'Q66.1':'leg_lock_friendly',
     #'Q67':'nationality',
     

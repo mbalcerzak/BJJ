@@ -1,6 +1,4 @@
 current_belt;gender;athletes
-blue belt;Male;no answer
-purple belt;Male;no answer
 white belt;Male;Danaher Death Squad
 white belt;Male;John Danaher
 brown belt;Male;Lucas Leite
@@ -40,9 +38,7 @@ blue belt;Male;Garry Tonon
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-purple belt;Male;no answer
 brown belt;Male;Roger Gracie
-white belt;Male;no answer
 blue belt;Male;Garry Tonon
 blue belt;Male;Mackenzie Dern
 blue belt;Male;Roger Gracie
@@ -59,7 +55,6 @@ blue belt;Male;Rickson Gracie
 blue belt;Male;Rodoflo Viera
 blue belt;Male;Roger Gracie
 blue belt;Male;Royler Gracie
-purple belt;Male;no answer
 purple belt;Male;André Galvão
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
@@ -70,7 +65,6 @@ blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
-blue belt;Male;no answer
 white belt;Male;Marcus Buchecha
 white belt;Male;Leandro Lo
 white belt;Male;Romulo Barral
@@ -86,7 +80,6 @@ white belt;Male;Rener Gracie
 white belt;Male;Rhadi Ferguson
 white belt;Male;Rickson Gracie
 white belt;Male;Ryan Hall
-white belt;Male;no answer
 blue belt;Male;Garry Tonon
 blue belt;Male;Glover Teixeira
 blue belt;Male;Jeff Glover
@@ -94,7 +87,6 @@ blue belt;Male;Leandro Lo
 blue belt;Male;Gordon Ryan
 blue belt;Male;Leandro Lo
 blue belt;Male;Rolando Samson
-blue belt;Male;no answer
 purple belt;Male;Mendes Bros
 purple belt;Male;Michael Langhi
 purple belt;Male;Rickson Gracie
@@ -102,7 +94,6 @@ blue belt;Male;Leandro Lo
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-brown belt;Male;no answer
 white belt;Male;Kurt Osiander
 white belt;Male;Rener Gracie
 white belt;Male;Ryron Gracie
@@ -114,13 +105,11 @@ white belt;Male;Leandro Lo
 white belt;Male;Milton Vieira
 white belt;Male;"Romero ""Jacare"" Cavalcanti"
 white belt;Male;"Ronaldo ""Jacare"" Souza"
-white belt;Male;no answer
 white belt;Female;Marcus Buchecha
 white belt;Female;Garry Tonon
 white belt;Female;Leandro Lo
 white belt;Female;Marcelo Garcia
 white belt;Female;Yuri Simoes
-blue belt;Male;no answer
 purple belt;Male;Edwin Najmi
 purple belt;Male;Gabriel Arges
 purple belt;Male;Glover Teixeira
@@ -134,10 +123,8 @@ black belt;Male;Bruno Malfacine
 black belt;Male;Marcus Buchecha
 black belt;Male;Keenan Cornelius
 black belt;Male;Mendes Bros
-white belt;Female;no answer
 brown belt;Male;Jeff Monson
 brown belt;Male;Josh Barnett
-white belt;Female;no answer
 white belt;Male;Michael Langhi
 blue belt;Male;Chris Haueter
 blue belt;Male;Ryan Hall
@@ -170,9 +157,6 @@ white belt;Male;Claudinha Gadelha
 white belt;Male;Demian Maia
 white belt;Male;"Romero ""Jacare"" Cavalcanti"
 white belt;Male;"Ronaldo ""Jacare"" Souza"
-white belt;Male;no answer
-purple belt;Male;no answer
-blue belt;Male;no answer
 purple belt;Male;Bill Cooper
 purple belt;Male;Glover Teixeira
 purple belt;Male;Jeff Glover
@@ -182,16 +166,13 @@ purple belt;Male;"Fernando ""Terere"" Augusto"
 white belt;Male;André Galvão
 white belt;Male;Jeff Monson
 white belt;Male;Rousimar Palhares
-purple belt;Male;no answer
 blue belt;Male;André Galvão
 blue belt;Male;Keenan Cornelius
 blue belt;Male;Miyao Brothers
-no rank;Male;no answer
 blue belt;Male;Garry Tonon
 blue belt;Male;Ryan Hall
 white belt;Male;Daniel Beleza
 white belt;Male;Keenan Cornelius
-white belt;Male;no answer
 blue belt;Male;Ryan Hall
 blue belt;Male;Caio Terra
 blue belt;Male;Demian Maia
@@ -226,31 +207,22 @@ white belt;Male;Lucas Leite
 white belt;Male;Mendes Bros
 white belt;Male;Rafael Mendes
 white belt;Male;Ryan Hall
-purple belt;Male;no answer
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Gui Mendes
 blue belt;Male;Keenan Cornelius
 blue belt;Male;Mendes Bros
 blue belt;Male;Rafael Mendes
-white belt;Male;no answer
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Saulo Ribeiro
 blue belt;Male;Xande Ribeiro
 blue belt;Male;Kron Gracie
-purple belt;Male;no answer
 white belt;Male;Clark Gracie
-white belt;Male;no answer
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Roger Gracie
-white belt;Male;no answer
-blue belt;Male;no answer
-white belt;Female;no answer
-white belt;Male;no answer
-white belt;Male;no answer
 blue belt;Female;Kurt Osiander
 purple belt;Male;Marcus Buchecha
 white belt;Male;Eddie Cummings
@@ -264,7 +236,6 @@ purple belt;Male;Garry Tonon
 purple belt;Male;Geo Martinez
 blue belt;Male;Mendes Bros
 blue belt;Male;Rafael Mendes
-white belt;Male;no answer
 purple belt;Male;Bernardo Faria
 purple belt;Male;Marcus Buchecha
 purple belt;Male;Leandro Lo
@@ -272,13 +243,11 @@ purple belt;Male;Marcelo Garcia
 purple belt;Male;"Romero ""Jacare"" Cavalcanti"
 purple belt;Male;"Ronaldo ""Jacare"" Souza"
 purple belt;Male;"Fernando ""Terere"" Augusto"
-blue belt;Male;no answer
 blue belt;Male;Glover Teixeira
 blue belt;Male;Jeff Glover
 blue belt;Male;Leandro Lo
 blue belt;Male;Ryan Hall
 white belt;Male;Demian Maia
-white belt;Male;no answer
 blue belt;Male;"Brandon ""Wolverine"" Mullins"
 blue belt;Male;Eddie Bravo
 blue belt;Male;Gui Mendes
@@ -289,12 +258,10 @@ purple belt;Male;Marcelo Garcia
 purple belt;Male;Eddie Cummings
 purple belt;Male;Garry Tonon
 purple belt;Male;John Danaher
-white belt;Male;no answer
 white belt;Male;Garry Tonon
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 blue belt;Male;Miyao Brothers
-blue belt;Male;no answer
 purple belt;Male;James Puopolo
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
@@ -304,12 +271,8 @@ white belt;Male;Shinya Aoki
 white belt;Male;Garry Tonon
 white belt;Male;Keenan Cornelius
 white belt;Male;"Romero ""Jacare"" Cavalcanti"
-blue belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;Percy Harvin
 white belt;Male;Keenan Cornelius
-purple belt;Male;no answer
-white belt;Male;no answer
 blue belt;Male;Garry Tonon
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
@@ -318,7 +281,6 @@ blue belt;Male;Rickson Gracie
 blue belt;Male;Garry Tonon
 blue belt;Male;Rafael Mendes
 blue belt;Male;Ryan Hall
-white belt;Male;no answer
 white belt;Male;Eddie Cummings
 purple belt;Male;Marcus Buchecha
 purple belt;Male;Joao Miyao
@@ -355,17 +317,14 @@ white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-brown belt;Male;no answer
 purple belt;Male;Demian Maia
 purple belt;Male;Dillon Danis
 purple belt;Male;Josh Hinger
 purple belt;Male;Leandro Lo
-blue belt;Female;no answer
-no rank;Male;Brian Ortega
-no rank;Male;Eddie Bravo
-no rank;Male;Robert Drysdale
+white belt;Male;Brian Ortega
+white belt;Male;Eddie Bravo
+white belt;Male;Robert Drysdale
 blue belt;Male;Mackenzie Dern
-white belt;Male;no answer
 white belt;Male;André Galvão
 white belt;Male;Christian Graugart
 white belt;Male;Kit Dale
@@ -375,17 +334,12 @@ white belt;Male;Eddie Bravo
 white belt;Male;Garry Tonon
 white belt;Male;Keenan Cornelius
 purple belt;Male;Ryan Hall
-blue belt;Male;no answer
-white belt;Male;no answer
-purple belt;Male;no answer
 white belt;Male;Eddie Bravo
 purple belt;Male;Mendes Bros
 purple belt;Male;Michelle Nicollini
 purple belt;Male;"Oliver ""Oli"" Geddes"
 purple belt;Male;Rafael Mendes
 white belt;Male;Garry Tonon
-white belt;Female;no answer
-blue belt;Male;no answer
 purple belt;Male;Marcus Buchecha
 purple belt;Male;Fabrício Werdum
 purple belt;Male;Garry Tonon
@@ -413,7 +367,6 @@ brown belt;Male;Bernardo Faria
 brown belt;Male;Leandro Lo
 purple belt;Male;Dave Camarillo
 purple belt;Male;Leandro Lo
-white belt;Male;no answer
 white belt;Male;Joao Miyao
 white belt;Male;Leandro Lo
 white belt;Male;Marcus Almeida
@@ -421,20 +374,15 @@ white belt;Male;Miyao Brothers
 blue belt;Male;Glover Teixeira
 blue belt;Male;Jeff Glover
 blue belt;Male;Leandro Lo
-blue belt;Female;no answer
 white belt;Male;Garry Tonon
 white belt;Male;Genki Sudo
 white belt;Male;Leandro Lo
 white belt;Male;Lucas Leite
 white belt;Male;Marcelo Garcia
 white belt;Male;Masakazu Iminari
-blue belt;Female;no answer
-blue belt;Male;no answer
 blue belt;Male;Mendes Bros
 blue belt;Male;Rickson Gracie
 white belt;Male;Chris Haueter
-white belt;Male;no answer
-white belt;Male;no answer
 black belt;Male;Matt Serra
 black belt;Male;Leandro Lo
 black belt;Male;Marcelo Garcia
@@ -458,8 +406,6 @@ white belt;Male;Nathan Orchard
 white belt;Male;Renzo Gracie
 white belt;Male;Richie Martinez
 white belt;Male;Rickson Gracie
-blue belt;Male;no answer
-white belt;Male;no answer
 black belt;Male;Marcus Buchecha
 black belt;Male;Leandro Lo
 black belt;Male;Marcelo Garcia
@@ -487,12 +433,10 @@ blue belt;Male;Gordon Ryan
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Ryan Hall
-blue belt;Male;no answer
 blue belt;Male;Erberth Santos
 blue belt;Male;Leandro Lo
 blue belt;Male;Miyao Brothers
 blue belt;Male;Nicholas Meregali
-purple belt;Male;no answer
 white belt;Male;Marcus Buchecha
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
@@ -517,10 +461,8 @@ blue belt;Male;Marcus Buchecha
 blue belt;Male;"Gabrielle ""Gabi"" Garcia"
 blue belt;Male;Kurt Osiander
 blue belt;Male;"Marcus ""Buchecha"" Almeida"
-blue belt;Male;no answer
 blue belt;Male;Clark Gracie
 blue belt;Male;Mendes Bros
-white belt;Male;no answer
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Dillon Danis
 blue belt;Male;Gezary Matuda
@@ -528,32 +470,26 @@ blue belt;Male;Gianni Grippo
 blue belt;Male;Leandro Lo
 blue belt;Male;Mendes Bros
 blue belt;Male;Rafael Mendes
-brown belt;Male;no answer
 purple belt;Male;Leandro Lo
 purple belt;Male;Saulo Ribeiro
 purple belt;Male;Xande Ribeiro
-purple belt;Male;no answer
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Caio Terra
-blue belt;Male;no answer
-no rank;Male;Glover Teixeira
-no rank;Male;Jeff Glover
-no rank;Male;Josh Barnett
-no rank;Male;Leandro Lo
-no rank;Male;Marcelo Garcia
+white belt;Male;Glover Teixeira
+white belt;Male;Jeff Glover
+white belt;Male;Josh Barnett
+white belt;Male;Leandro Lo
+white belt;Male;Marcelo Garcia
 white belt;Male;Leandro Lo
 white belt;Male;Lucas Lepri
 white belt;Male;Marcelo Garcia
 white belt;Male;Mendes Bros
-brown belt;Male;no answer
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-white belt;Male;no answer
 white belt;Male;Glover Teixeira
 white belt;Male;Gordon Ryan
 white belt;Male;Jeff Glover
 white belt;Male;Leandro Lo
-white belt;Male;no answer
 white belt;Female;Ronda Rousey
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
@@ -561,28 +497,21 @@ white belt;Female;Emily Kwok
 white belt;Female;Leandro Lo
 white belt;Female;Marcelo Garcia
 purple belt;Male;André Galvão
-white belt;Male;no answer
 purple belt;Male;Robert Drysdale
-brown belt;Male;no answer
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 white belt;Male;Rickson Gracie
-purple belt;Male;no answer
 white belt;Male;Eddie Cummings
 white belt;Male;Garry Tonon
 white belt;Male;Keenan Cornelius
-no rank;Male;Glover Teixeira
-no rank;Male;Jeff Glover
-no rank;Male;Leandro Lo
-no rank;Male;Marcelo Garcia
+white belt;Male;Glover Teixeira
+white belt;Male;Jeff Glover
+white belt;Male;Leandro Lo
+white belt;Male;Marcelo Garcia
 white belt;Male;André Galvão
-purple belt;Male;no answer
 white belt;Male;Jake Shields
 white belt;Female;Marcus Buchecha
 purple belt;Male;Keenan Cornelius
-white belt;Male;no answer
-white belt;Male;no answer
-purple belt;Male;no answer
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 blue belt;Male;Bernardo Faria
@@ -592,53 +521,40 @@ blue belt;Male;Marcelo Garcia
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-purple belt;Male;no answer
-blue belt;Male;no answer
 white belt;Male;Demian Maia
 white belt;Male;Gunnar Nelson
-white belt;Male;no answer
 white belt;Male;Eddie Bravo
-white belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;Dillon Danis
 white belt;Male;Glover Teixeira
 white belt;Male;Jeff Glover
 white belt;Male;Leandro Lo
 white belt;Male;"Wellington ""Megaton"" Dias"
-purple belt;Female;no answer
 blue belt;Male;Garry Tonon
 blue belt;Male;Leandro Lo
-white belt;Male;no answer
 white belt;Male;Glover Teixeira
 white belt;Male;Jeff Glover
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-blue belt;Male;no answer
 blue belt;Male;Leandro Lo
 blue belt;Male;Mendes Bros
 blue belt;Male;Rodoflo Viera
-blue belt;Male;no answer
 black belt;Male;Kurt Osiander
 black belt;Male;Leandro Lo
 black belt;Male;Murilo Bustamante
 black belt;Male;Royce Gracie
-purple belt;Male;no answer
 white belt;Male;"Romero ""Jacare"" Cavalcanti"
 white belt;Male;"Ronaldo ""Jacare"" Souza"
 white belt;Male;Kron Gracie
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-white belt;Male;no answer
 white belt;Male;Garry Tonon
 purple belt;Male;André Galvão
 purple belt;Male;Garry Tonon
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;"Romero ""Jacare"" Cavalcanti"
-purple belt;Male;no answer
-black belt;Male;no answer
 white belt;Male;Christian Graugart
 white belt;Male;Garry Tonon
 white belt;Male;Glover Teixeira
@@ -646,13 +562,10 @@ white belt;Male;Jeff Glover
 white belt;Male;Leandro Lo
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
-blue belt;Male;no answer
-white belt;Female;no answer
 white belt;Male;Tom Brady
 brown belt;Male;Leandro Lo
 brown belt;Male;Saulo Ribeiro
-no rank;Male;Travis Stevens
-blue belt;Female;no answer
+white belt;Male;Travis Stevens
 purple belt;Male;Bernardo Faria
 purple belt;Male;Marcus Buchecha
 purple belt;Male;Leandro Lo
@@ -661,7 +574,6 @@ purple belt;Male;Xande Ribeiro
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-white belt;Male;no answer
 black belt;Male;Mr. Miyagi
 black belt;Male;Leandro Lo
 black belt;Male;"Leonardo ""Leozinho"" Vieira"
@@ -675,14 +587,10 @@ white belt;Male;Lebron James
 white belt;Male;Demian Maia
 white belt;Male;Eddie Bravo
 white belt;Male;Hannette Staack
-white belt;Male;no answer
-white belt;Male;no answer
-black belt;Male;no answer
 white belt;Male;Keenan Cornelius
 white belt;Male;Leandro Lo
 white belt;Male;Romulo Barral
 white belt;Male;Ryan Hall
-black belt;Male;no answer
 blue belt;Male;Eddie Bravo
 blue belt;Male;Eddie Cummings
 blue belt;Male;Garry Tonon
@@ -697,7 +605,6 @@ blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Rodoflo Viera
 blue belt;Male;Saulo Ribeiro
-purple belt;Male;no answer
 white belt;Male;Aleksander Karelin
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
@@ -707,7 +614,6 @@ blue belt;Male;Garry Tonon
 blue belt;Male;Mackenzie Dern
 blue belt;Male;"Roberto ""Cyborg"" Abreu"
 blue belt;Male;Xande Ribeiro
-blue belt;Male;no answer
 purple belt;Male;Eddie Cummings
 purple belt;Male;Garry Tonon
 purple belt;Male;Leandro Lo
@@ -715,7 +621,6 @@ purple belt;Male;Lucas Lepri
 purple belt;Male;Lucas Lepri
 purple belt;Male;Rodoflo Viera
 purple belt;Male;Xande Ribeiro
-white belt;Male;no answer
 white belt;Male;Eddie Cummings
 white belt;Male;Garry Tonon
 white belt;Male;Keenan Cornelius
@@ -723,22 +628,19 @@ white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 blue belt;Male;Dean Lister
 blue belt;Male;Josh Barnett
-black belt;Male;no answer
-no rank;Male;André Galvão
-no rank;Male;Glover Teixeira
-no rank;Male;Keenan Cornelius
-no rank;Male;Leandro Lo
-no rank;Male;Mackenzie Dern
-no rank;Male;Miyao Brothers
-no rank;Male;"Oliver ""Oli"" Geddes"
+white belt;Male;André Galvão
+white belt;Male;Glover Teixeira
+white belt;Male;Keenan Cornelius
+white belt;Male;Leandro Lo
+white belt;Male;Mackenzie Dern
+white belt;Male;Miyao Brothers
+white belt;Male;"Oliver ""Oli"" Geddes"
 purple belt;Male;Garry Tonon
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;Ryan Hall
-purple belt;Male;no answer
 purple belt;Male;Bruno Malfacine
 purple belt;Male;Keenan Cornelius
-blue belt;Male;no answer
 blue belt;Male;"Antônio Rodrigo Nogueira ""Minotauro"""
 blue belt;Male;Shinya Aoki
 blue belt;Male;Demian Maia
@@ -747,26 +649,19 @@ blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Renzo Gracie
-purple belt;Male;no answer
-purple belt;Male;no answer
-purple belt;Male;no answer
 brown belt;Male;Rickson Gracie
 brown belt;Male;Keenan Cornelius
 brown belt;Male;Mendes Bros
 brown belt;Male;Rafael Mendes
-white belt;Male;no answer
 purple belt;Male;Keenan Cornelius
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;Ryan Hall
-blue belt;Male;no answer
-blue belt;Male;no answer
 purple belt;Female;Michelle Nicollini
 purple belt;Female;"Oliver ""Oli"" Geddes"
 purple belt;Female;Tammi Musumeci
 black belt;Male;Rafael Mendes
 black belt;Male;Roger Gracie
-blue belt;Male;no answer
 brown belt;Male;André Galvão
 brown belt;Male;Daniel Beleza
 brown belt;Male;Garry Tonon
@@ -788,7 +683,6 @@ purple belt;Male;Jeff Glover
 purple belt;Male;Kron Gracie
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
-purple belt;Male;no answer
 purple belt;Male;Keenan Cornelius
 brown belt;Male;Leandro Lo
 brown belt;Male;Marcelo Garcia
@@ -797,8 +691,6 @@ blue belt;Male;Bernardo Faria
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Rodoflo Viera
-brown belt;Male;no answer
-black belt;Male;no answer
 blue belt;Male;Bernardo Faria
 blue belt;Male;Marcus Buchecha
 purple belt;Male;Marcus Buchecha
@@ -806,18 +698,12 @@ purple belt;Male;Demian Maia
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;Xande Ribeiro
-purple belt;Male;no answer
-black belt;Male;no answer
 black belt;Male;Marcus Buchecha
 black belt;Male;Roger Gracie
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-brown belt;Male;no answer
-blue belt;Male;no answer
-black belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;André Galvão
 white belt;Male;Eddie Bravo
 white belt;Male;Leandro Lo
@@ -844,7 +730,6 @@ purple belt;Male;Garry Tonon
 purple belt;Male;Kazushi Sakuraba
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
-brown belt;Female;no answer
 blue belt;Female;Garry Tonon
 blue belt;Female;Glover Teixeira
 blue belt;Female;Jeff Glover
@@ -852,9 +737,6 @@ blue belt;Female;Leandro Lo
 blue belt;Female;Marcelo Garcia
 blue belt;Female;Michelle Nicollini
 blue belt;Female;"Oliver ""Oli"" Geddes"
-black belt;Male;no answer
-white belt;Male;no answer
-blue belt;Male;no answer
 blue belt;Male;"Romero ""Jacare"" Cavalcanti"
 white belt;Male;Genki Sudo
 white belt;Male;Leandro Lo
@@ -867,12 +749,9 @@ black belt;Male;Braulio Estima
 black belt;Male;Marcus Buchecha
 black belt;Male;Rodrigo Comprido Medeiros
 black belt;Male;"Rubens ""Cobrinha"" Charles"
-blue belt;Male;no answer
-blue belt;Male;no answer
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 white belt;Male;Vanderson Gomez
-black belt;Female;no answer
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;Saulo Ribeiro
@@ -906,8 +785,6 @@ blue belt;Female;Gezary Matuda
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Marcelo Mattos
-blue belt;Male;no answer
-blue belt;Female;no answer
 blue belt;Female;Leandro Lo
 blue belt;Female;Leticia Ribeiro
 blue belt;Female;Marcelo Garcia
@@ -917,9 +794,6 @@ white belt;Male;"Roberto ""Cyborg"" Abreu"
 white belt;Male;Saulo Ribeiro
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Rodoflo Viera
-purple belt;Male;no answer
-blue belt;Female;no answer
-black belt;Male;no answer
 brown belt;Male;Gui Mendes
 brown belt;Male;JT Torres
 brown belt;Male;Keenan Cornelius
@@ -927,7 +801,6 @@ brown belt;Male;Leandro Lo
 brown belt;Male;Marcelo Garcia
 brown belt;Male;Mendes Bros
 brown belt;Male;Rafael Mendes
-blue belt;Male;no answer
 purple belt;Male;Bernardo Faria
 purple belt;Male;Leandro Lo
 purple belt;Male;Lucas Leite
@@ -953,19 +826,12 @@ blue belt;Male;Marcelo Garcia
 blue belt;Male;"Marcus ""Buchecha"" Almeida"
 blue belt;Male;"Roberto ""Cyborg"" Abreu"
 blue belt;Male;Saulo Ribeiro
-black belt;Male;no answer
-blue belt;Male;no answer
-purple belt;Male;no answer
-white belt;Male;no answer
-no rank;Male;no answer
 brown belt;Male;Braulio Estima
 brown belt;Male;Helio Soneca
 brown belt;Male;Lucas Lepri
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Leandro Lo
 blue belt;Male;"Marcus ""Buchecha"" Almeida"
-blue belt;Male;no answer
-white belt;Male;no answer
 brown belt;Male;Marcus Buchecha
 brown belt;Male;Leandro Lo
 brown belt;Male;Lucas Lepri
@@ -974,23 +840,16 @@ brown belt;Male;Roger Gracie
 brown belt;Male;"Romero ""Jacare"" Cavalcanti"
 brown belt;Male;"Rubens ""Cobrinha"" Charles"
 purple belt;Male;Gordon Ryan
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Keenan Cornelius
 blue belt;Male;Leandro Lo
 blue belt;Male;Rodoflo Viera
-black belt;Male;no answer
 purple belt;Female;Garry Tonon
 purple belt;Female;Roger Gracie
 blue belt;Female;Mackenzie Dern
-blue belt;Female;no answer
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-white belt;Female;no answer
-blue belt;Female;no answer
-no rank;Male;B.J. Penn
-no rank;Female;no answer
+white belt;Male;B.J. Penn
 blue belt;Male;"Daniel ""Raspberry Ape"" Strauss"
 white belt;Male;André Galvão
 blue belt;Male;Kron Gracie
@@ -999,8 +858,6 @@ blue belt;Male;Micheal Liera
 blue belt;Male;Roger Gracie
 blue belt;Male;Saulo Ribeiro
 blue belt;Male;Xande Ribeiro
-white belt;Female;no answer
-white belt;Male;no answer
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Robson Moura
@@ -1011,11 +868,7 @@ white belt;Male;Demian Maia
 white belt;Male;Garry Tonon
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-brown belt;Male;no answer
 brown belt;Male;Leandro Lo
-white belt;Male;no answer
-purple belt;Male;no answer
-blue belt;Male;no answer
 brown belt;Male;Bernardo Faria
 brown belt;Male;Marcus Buchecha
 brown belt;Male;Demian Maia
@@ -1029,9 +882,6 @@ white belt;Male;Garry Tonon
 white belt;Male;Glover Teixeira
 white belt;Male;Jeff Glover
 white belt;Male;Leandro Lo
-white belt;Male;no answer
-brown belt;Male;no answer
-white belt;Male;no answer
 purple belt;Male;Braulio Estima
 purple belt;Male;Felipe Pena
 purple belt;Male;Leandro Lo
@@ -1042,9 +892,6 @@ purple belt;Male;"Romero ""Jacare"" Cavalcanti"
 purple belt;Male;Bernardo Faria
 purple belt;Male;Lucas Leite
 purple belt;Male;Roberto Satoshi
-no rank;Male;no answer
-blue belt;Male;no answer
-white belt;Male;no answer
 purple belt;Male;B.J. Penn
 purple belt;Male;Glover Teixeira
 purple belt;Male;Jeff Glover
@@ -1057,7 +904,6 @@ white belt;Male;Bruno Malfacine
 white belt;Male;André Galvão
 white belt;Male;Bill Cooper
 white belt;Male;Kron Gracie
-white belt;Male;no answer
 purple belt;Male;Eddie Cummings
 purple belt;Male;Garry Tonon
 purple belt;Male;Kron Gracie
@@ -1065,7 +911,6 @@ purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;Mendes Bros
 purple belt;Male;Rafael Mendes
-white belt;Male;no answer
 white belt;Male;Garry Tonon
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
@@ -1074,8 +919,6 @@ white belt;Male;Caio Terra
 white belt;Male;Mendes Bros
 white belt;Male;Rafael Mendes
 white belt;Male;Ryan Hall
-white belt;Male;no answer
-purple belt;Male;no answer
 blue belt;Male;Dean Lister
 blue belt;Male;Eddie Cummings
 blue belt;Male;Geo Martinez
@@ -1084,7 +927,6 @@ blue belt;Male;Jeff Glover
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
-white belt;Female;no answer
 black belt;Male;Demian Maia
 black belt;Male;Leandro Lo
 black belt;Male;Marcelo Garcia
@@ -1109,15 +951,12 @@ purple belt;Male;Lucas Lepri
 purple belt;Male;Murilo Santana
 purple belt;Male;Renzo Gracie
 purple belt;Male;"Rubens ""Cobrinha"" Charles"
-blue belt;Male;no answer
-blue belt;Male;no answer
 white belt;Male;André Galvão
 white belt;Male;Eddie Bravo
 white belt;Male;Garry Tonon
 white belt;Male;Keenan Cornelius
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-blue belt;Male;no answer
 black belt;Male;Bernardo Faria
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Kron Gracie
@@ -1129,8 +968,6 @@ white belt;Male;Marcelo Garcia
 brown belt;Male;Bernardo Faria
 brown belt;Male;Leandro Lo
 brown belt;Male;Marcelo Garcia
-white belt;Female;no answer
-white belt;Male;no answer
 black belt;Male;Ricardo Vieira
 white belt;Male;Glover Teixeira
 white belt;Male;Jeff Glover
@@ -1139,13 +976,11 @@ blue belt;Male;Roger Gracie
 blue belt;Male;Keenan Cornelius
 blue belt;Male;Mackenzie Dern
 blue belt;Male;Miyao Brothers
-brown belt;Male;no answer
 blue belt;Male;Kron Gracie
 brown belt;Male;Garry Tonon
 blue belt;Male;Davi Ramos
 blue belt;Male;Dean Lister
 blue belt;Male;Garry Tonon
-purple belt;Female;no answer
 purple belt;Male;Eddie Cummings
 purple belt;Male;Garry Tonon
 purple belt;Male;Kron Gracie
@@ -1163,7 +998,6 @@ purple belt;Male;Xande Ribeiro
 purple belt;Male;Marcus Buchecha
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
-blue belt;Male;no answer
 blue belt;Female;Gezary Matuda
 blue belt;Female;Mackenzie Dern
 purple belt;Male;Kron Gracie
@@ -1182,8 +1016,6 @@ blue belt;Male;Keenan Cornelius
 blue belt;Male;Kron Gracie
 blue belt;Male;Riberio Brothers
 blue belt;Male;"Ronaldo ""Jacare"" Souza"
-brown belt;Male;no answer
-brown belt;Male;no answer
 blue belt;Male;Keenan Cornelius
 blue belt;Male;Mackenzie Dern
 blue belt;Male;Ryan Hall
@@ -1194,7 +1026,6 @@ blue belt;Male;Marcelo Garcia
 blue belt;Male;Marcus Almeida
 blue belt;Male;"Romero ""Jacare"" Cavalcanti"
 blue belt;Male;Saulo Ribeiro
-white belt;Male;no answer
 white belt;Male;Glover Teixeira
 white belt;Male;Jeff Glover
 white belt;Male;Kron Gracie
@@ -1215,13 +1046,10 @@ purple belt;Male;Rodoflo Viera
 purple belt;Male;Saulo Ribeiro
 purple belt;Male;Xande Ribeiro
 blue belt;Male;Dean Lister
-blue belt;Male;no answer
-blue belt;Male;no answer
 black belt;Male;Marcus Buchecha
 black belt;Male;Kron Gracie
 black belt;Male;Leandro Lo
 black belt;Male;Marcelo Garcia
-white belt;Male;no answer
 blue belt;Male;Keenan Cornelius
 blue belt;Male;Kennedy Maciel
 blue belt;Male;Mendes Bros
@@ -1231,15 +1059,12 @@ blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Roger Gracie
 blue belt;Male;Ryan Hall
-blue belt;Male;no answer
 black belt;Male;Bernardo Faria
 black belt;Male;Marcus Buchecha
 black belt;Male;Garry Tonon
 black belt;Male;Leandro Lo
 black belt;Male;Lucas Leite
 black belt;Male;Marcelo Garcia
-white belt;Female;no answer
-brown belt;Male;no answer
 brown belt;Male;Marcus Buchecha
 brown belt;Male;Glover Teixeira
 brown belt;Male;Keenan Cornelius
@@ -1253,7 +1078,6 @@ brown belt;Male;Marcelo Garcia
 white belt;Male;André Galvão
 white belt;Male;Keenan Cornelius
 white belt;Male;Mendes Bros
-white belt;Female;no answer
 white belt;Male;Jack Mcvicker
 white belt;Male;Mackenzie Dern
 white belt;Male;"Wellington ""Megaton"" Dias"
@@ -1263,20 +1087,16 @@ white belt;Male;Marcus Buchecha
 white belt;Male;Keenan Cornelius
 white belt;Male;Mendes Bros
 white belt;Male;Miyao Brothers
-blue belt;Male;no answer
-blue belt;Male;no answer
-blue belt;Male;no answer
 black belt;Male;Garry Tonon
 black belt;Male;Keenan Cornelius
 black belt;Male;Leandro Lo
 black belt;Male;Marcelo Garcia
 black belt;Male;Roger Gracie
-white belt;Male;no answer
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 white belt;Male;Mendes Bros
 white belt;Male;Rafael Mendes
-no rank;Male;Braulio Estima
+white belt;Male;Braulio Estima
 purple belt;Female;"Daniel ""Raspberry Ape"" Strauss"
 purple belt;Female;Ryan Hall
 blue belt;Male;Marcus Buchecha
@@ -1295,7 +1115,6 @@ brown belt;Male;Renzo Gracie
 brown belt;Male;Rickson Gracie
 brown belt;Male;Saulo Ribeiro
 brown belt;Male;Xande Ribeiro
-purple belt;Male;no answer
 purple belt;Male;Braulio Estima
 purple belt;Male;Leandro Lo
 purple belt;Male;Lucas Leite
@@ -1303,16 +1122,11 @@ purple belt;Male;Mendes Bros
 purple belt;Male;Micheal Liera
 purple belt;Male;Rafael Lovato Jr.
 purple belt;Male;Riberio Brothers
-black belt;Male;no answer
-white belt;no answer;no answer
-purple belt;Female;no answer
-black belt;Male;no answer
 blue belt;Male;Marcus Buchecha
 blue belt;Male;"Roberto ""Cyborg"" Abreu"
 blue belt;Male;Rodoflo Viera
 purple belt;Male;Danaher Death Squad
 purple belt;Male;John Danaher
-purple belt;Male;no answer
 blue belt;Male;Roger Gracie
 blue belt;Male;Garry Tonon
 blue belt;Male;Leandro Lo
@@ -1333,18 +1147,13 @@ blue belt;Male;Guybson Sá
 blue belt;Male;Jake Shields
 white belt;Female;Michelle Nicollini
 white belt;Female;"Oliver ""Oli"" Geddes"
-brown belt;Male;no answer
-no rank;Male;no answer
-blue belt;Male;no answer
 white belt;Male;Demian Maia
 white belt;Male;Leandro Lo
 white belt;Male;Ryan Hall
-white belt;Female;no answer
 white belt;Female;Marcus Buchecha
 white belt;Female;Keenan Cornelius
 white belt;Female;Mackenzie Dern
 white belt;Female;"Marcus ""Buchecha"" Almeida"
-white belt;Male;no answer
 brown belt;Male;Marcus Buchecha
 white belt;Male;"Antônio Rodrigo Nogueira ""Minotauro"""
 white belt;Male;Demian Maia
@@ -1369,7 +1178,6 @@ white belt;Male;Mendes Bros
 white belt;Male;Rickson Gracie
 white belt;Male;"Roberto ""Cyborg"" Abreu"
 white belt;Male;Romulo Barral
-brown belt;Male;no answer
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Dillon Danis
 blue belt;Male;Garry Tonon
@@ -1394,9 +1202,6 @@ white belt;Male;Leandro Lo
 white belt;Male;Miyao Brothers
 white belt;Male;"Roberto ""Cyborg"" Abreu"
 white belt;Male;Roger Gracie
-no rank;no answer;no answer
-blue belt;Male;no answer
-white belt;Female;no answer
 white belt;Female;Michelle Nicollini
 white belt;Female;"Oliver ""Oli"" Geddes"
 purple belt;Male;Eddie Cummings
@@ -1413,7 +1218,6 @@ white belt;Male;Travis Stevens
 white belt;Male;Valerie Worthington
 blue belt;Male;Demian Maia
 blue belt;Male;Garry Tonon
-white belt;Male;no answer
 white belt;Male;Eduardo Telles
 white belt;Male;Kurt Osiander
 white belt;Male;Leandro Lo
@@ -1421,41 +1225,22 @@ white belt;Male;Marcelo Garcia
 purple belt;Male;Demian Maia
 purple belt;Male;Fabrício Werdum
 purple belt;Male;"Romero ""Jacare"" Cavalcanti"
-blue belt;Female;no answer
-no rank;no answer;no answer
 blue belt;Male;"Brandon ""Wolverine"" Mullins"
 blue belt;Male;Glover Teixeira
 blue belt;Male;Jeff Glover
 blue belt;Male;Leandro Lo
-purple belt;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Adam Benayoun
 blue belt;Male;Bruno Malfacine
 blue belt;Male;Gianni Grippo
-purple belt;Male;no answer
 purple belt;Male;Braulio Estima
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;"Roberto ""Cyborg"" Abreu"
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-black belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;Glover Teixeira
-no rank;Male;Jeff Glover
-no rank;Male;Leandro Lo
-no rank;Male;Marcelo Garcia
-no rank;Male;Mendes Bros
-no rank;no answer;no answer
-no rank;Female;no answer
-no rank;Male;no answer
+white belt;Male;Glover Teixeira
+white belt;Male;Jeff Glover
+white belt;Male;Leandro Lo
+white belt;Male;Marcelo Garcia
+white belt;Male;Mendes Bros
 white belt;Male;Eddie Bravo
 white belt;Male;Garry Tonon
 white belt;Male;John Danaher
@@ -1463,27 +1248,10 @@ white belt;Male;Josh Barnett
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 white belt;Male;"Roberto ""Cyborg"" Abreu"
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;Garry Tonon
 white belt;Male;Mackenzie Dern
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;André Galvão
 blue belt;Male;Keenan Cornelius
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 brown belt;Female;Dave Camarillo
 brown belt;Female;Hannette Staack
 brown belt;Female;Leandro Lo
@@ -1498,53 +1266,21 @@ blue belt;Male;Daniel Beleza
 blue belt;Male;Garry Tonon
 blue belt;Male;JT Torres
 blue belt;Male;Keenan Cornelius
-no rank;Male;no answer
-blue belt;Female;no answer
-white belt;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
 purple belt;Male;Mendes Bros
 purple belt;Male;Rafael Mendes
 white belt;Male;Demian Maia
 white belt;Male;Igor Silva
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Demian Maia
 purple belt;Male;Keenan Cornelius
 purple belt;Male;Leandro Lo
 purple belt;Male;Marcio Cruz
 purple belt;Male;Roger Gracie
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
-blue belt;Female;no answer
-blue belt;Male;no answer
-blue belt;Female;no answer
-white belt;Female;no answer
-no rank;Male;no answer
 purple belt;Male;B.J. Penn
 purple belt;Male;Gunnar Nelson
 purple belt;Male;Mark Hunt
-no rank;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;Leandro Lo
-no rank;Male;Marcelo Garcia
-no rank;Male;Mendes Bros
-white belt;Female;no answer
+white belt;Male;Leandro Lo
+white belt;Male;Marcelo Garcia
+white belt;Male;Mendes Bros
 purple belt;Male;Mendes Bros
 purple belt;Male;Rafael Mendes
 white belt;Male;Leandro Lo
@@ -1557,7 +1293,6 @@ purple belt;Male;Leandro Lo
 purple belt;Male;Marcelo Garcia
 purple belt;Male;Mendes Bros
 purple belt;Male;Rickson Gracie
-white belt;Male;no answer
 brown belt;Male;Keenan Cornelius
 brown belt;Male;Leandro Lo
 brown belt;Male;Lucas Lepri
@@ -1576,26 +1311,20 @@ brown belt;Male;"Romero ""Jacare"" Cavalcanti"
 brown belt;Male;Romulo Barral
 brown belt;Male;Saulo Ribeiro
 brown belt;Male;Xande Ribeiro
-no rank;Male;no answer
 brown belt;Male;Demian Maia
-no rank;Male;no answer
-no rank;Female;no answer
 blue belt;Male;Bruno Malfacine
 blue belt;Male;Garry Tonon
 blue belt;Male;Kron Gracie
 blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Roger Gracie
-white belt;Male;no answer
 blue belt;Female;Demian Maia
 blue belt;Female;Kron Gracie
 blue belt;Female;Mackenzie Dern
 blue belt;Female;Michelle Nicollini
 blue belt;Female;"Oliver ""Oli"" Geddes"
 blue belt;Female;Rickson Gracie
-white belt;Male;no answer
 white belt;Male;Marcus Buchecha
-blue belt;Male;no answer
 black belt;Male;Antonio Braga Neto
 black belt;Male;Gordon Ryan
 black belt;Male;"Antonio ""Nino"" Schembri"
@@ -1611,7 +1340,6 @@ purple belt;Male;Rodoflo Viera
 purple belt;Male;"Rubens ""Cobrinha"" Charles"
 blue belt;Male;Marcus Buchecha
 blue belt;Male;Kurt Osiander
-blue belt;Male;no answer
 purple belt;Male;Kron Gracie
 purple belt;Male;Luiz Heredia
 purple belt;Male;Rodoflo Viera
@@ -1621,25 +1349,7 @@ blue belt;Male;Ryron Gracie
 brown belt;Male;Eric Paulson
 brown belt;Male;John Danaher
 brown belt;Male;Renzo Gracie
-no rank;Male;no answer
 white belt;Male;Kurt Osiander
-no rank;no answer;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-brown belt;Male;no answer
-white belt;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
-no rank;Male;no answer
 white belt;Male;"Georges ""Rush"" St-Pierre"
 purple belt;Male;Danaher Death Squad
 purple belt;Male;Leandro Lo
@@ -1648,9 +1358,6 @@ purple belt;Male;Ryan Hall
 white belt;Female;Eddie Cummings
 white belt;Female;Mackenzie Dern
 white belt;Female;Ottavia Bourdain
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;Bernardo Faria
 purple belt;Male;Marcus Buchecha
 purple belt;Male;Caio Terra
@@ -1658,7 +1365,6 @@ purple belt;Male;Mendes Bros
 purple belt;Male;"Antonio ""Nino"" Schembri"
 purple belt;Male;Riberio Brothers
 blue belt;Male;Ryan Hall
-brown belt;Male;no answer
 purple belt;Male;Erberth Santos
 purple belt;Male;Felipe Pena
 purple belt;Male;Guilherme Mendes
@@ -1676,12 +1382,6 @@ white belt;Male;Leo Noguiera
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
 white belt;Male;Ryan Hall
-white belt;Male;no answer
-white belt;Male;no answer
-purple belt;Male;no answer
-no rank;Female;no answer
-white belt;Male;no answer
-no rank;Female;no answer
 brown belt;Male;Marcus Buchecha
 brown belt;Male;Dillon Danis
 brown belt;Male;Kron Gracie
@@ -1692,15 +1392,8 @@ brown belt;Male;Rafael Lovato Jr.
 brown belt;Male;Rafael Mendes
 brown belt;Male;Rodoflo Viera
 brown belt;Male;Roger Gracie
-no rank;Female;no answer
-white belt;Female;no answer
-no rank;Female;no answer
-no rank;Male;no answer
 purple belt;Male;Lucas Leite
 purple belt;Male;Rodoflo Viera
-no rank;Male;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
 brown belt;Male;Leandro Lo
 brown belt;Male;Marcelo Garcia
 white belt;Male;Leandro Lo
@@ -1711,7 +1404,6 @@ white belt;Male;Roger Gracie
 white belt;Male;Dean Lister
 white belt;Male;Eddie Bravo
 white belt;Male;Eddie Cummings
-no rank;Male;no answer
 black belt;Male;AJ Azagarm
 black belt;Male;Leandro Lo
 black belt;Male;Marcelo Garcia
@@ -1720,118 +1412,35 @@ blue belt;Male;Leandro Lo
 blue belt;Male;Marcelo Garcia
 blue belt;Male;Ryan Hall
 blue belt;Male;Marcus Buchecha
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
-blue belt;Male;no answer
-no rank;no answer;no answer
-no rank;Female;no answer
-purple belt;Male;no answer
-purple belt;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
 blue belt;Female;Abraham Marte
 blue belt;Female;André Galvão
 blue belt;Female;Angelica Galvao
 blue belt;Female;Lachlan Giles
 blue belt;Female;Miyao Brothers
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;André Galvão
 purple belt;Male;"Rubens ""Cobrinha"" Charles"
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Female;Ronda Rousey
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;Miyao Brothers
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;Eddie Bravo
 white belt;Male;Glover Teixeira
 white belt;Male;Jeff Glover
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Rodoflo Viera
 white belt;Male;Leandro Lo
 white belt;Male;Marcelo Garcia
-blue belt;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-purple belt;no answer;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Geo Martinez
 blue belt;Male;Glover Teixeira
 blue belt;Male;Jeff Glover
 blue belt;Male;Leandro Lo
-white belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
-blue belt;Male;no answer
-no rank;no answer;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
 white belt;Male;Mendes Bros
 white belt;Male;Rafael Mendes
-no rank;Male;no answer
-white belt;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-blue belt;Male;no answer
 white belt;Male;Leandro Lo
 white belt;Male;Pedro Sauer
 white belt;Male;"Roberto ""Cyborg"" Abreu"
 white belt;Male;Saulo Ribeiro
 white belt;Male;Fernando Di Piero Soluco
-no rank;Male;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;Leandro Lo
 white belt;Male;Garry Tonon
-no rank;no answer;no answer
-black belt;Male;no answer
-no rank;Female;no answer
 purple belt;Male;Xande Ribeiro
 blue belt;Female;Eddie Cummings
-no rank;Male;no answer
-blue belt;Male;no answer
-purple belt;Male;no answer
-no rank;no answer;no answer
-no rank;Female;no answer

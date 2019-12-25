@@ -17,25 +17,21 @@ purple belt;Male;Boxing
 brown belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
-purple belt;Male;no answer
 blue belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
 purple belt;Male;Judo
 blue belt;Male;Other
-purple belt;Male;no answer
 blue belt;Male;I do not cross-train
 white belt;Male;Judo
 white belt;Male;Kick boxing
 purple belt;Male;I do not cross-train
 white belt;Male;Judo
 white belt;Male;Other
-white belt;Male;no answer
 blue belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
 blue belt;Male;Boxing
 purple belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
-blue belt;Male;no answer
 brown belt;Male;Boxing
 white belt;Male;Judo
 white belt;Male;Boxing
@@ -69,9 +65,9 @@ purple belt;Male;I do not cross-train
 white belt;Male;Kick boxing
 purple belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
-no rank;Male;Wrestling
-no rank;Male;Judo
-no rank;Male;Kick boxing
+white belt;Male;Wrestling
+white belt;Male;Judo
+white belt;Male;Kick boxing
 blue belt;Male;Judo
 white belt;Male;Wrestling
 white belt;Male;Boxing
@@ -121,7 +117,6 @@ purple belt;Male;Wrestling
 purple belt;Male;Muay Thai
 white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-blue belt;Male;no answer
 blue belt;Male;I do not cross-train
 purple belt;Male;Wrestling
 purple belt;Male;Boxing
@@ -130,10 +125,8 @@ white belt;Male;Judo
 blue belt;Male;Judo
 white belt;Male;Other
 white belt;Male;I do not cross-train
-white belt;Male;no answer
 purple belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-blue belt;Male;no answer
 blue belt;Male;Wrestling
 blue belt;Male;Boxing
 blue belt;Male;Muay Thai
@@ -153,8 +146,8 @@ brown belt;Male;I do not cross-train
 purple belt;Male;Wrestling
 purple belt;Male;Judo
 blue belt;Female;I do not cross-train
-no rank;Male;Wrestling
-no rank;Male;Muay Thai
+white belt;Male;Wrestling
+white belt;Male;Muay Thai
 blue belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 white belt;Male;Judo
@@ -163,7 +156,6 @@ purple belt;Male;Kick boxing
 purple belt;Male;Muay Thai
 purple belt;Male;Other
 blue belt;Male;I do not cross-train
-white belt;Male;no answer
 purple belt;Male;Judo
 white belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
@@ -171,16 +163,13 @@ white belt;Male;Muay Thai
 white belt;Female;Other
 blue belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
-purple belt;Male;no answer
 blue belt;Male;Wrestling
 blue belt;Male;Boxing
 blue belt;Male;Kick boxing
 blue belt;Male;Muay Thai
 brown belt;Male;I do not cross-train
 purple belt;Male;Judo
-white belt;Male;no answer
 white belt;Male;I do not cross-train
-blue belt;Male;no answer
 blue belt;Female;Muay Thai
 white belt;Male;I do not cross-train
 blue belt;Female;Judo
@@ -189,7 +178,6 @@ blue belt;Male;Muay Thai
 white belt;Male;Wrestling
 white belt;Male;Judo
 white belt;Male;I do not cross-train
-white belt;Male;no answer
 black belt;Male;Wrestling
 purple belt;Female;I do not cross-train
 blue belt;Male;I do not cross-train
@@ -234,8 +222,8 @@ purple belt;Male;Judo
 blue belt;Male;I do not cross-train
 blue belt;Male;Kick boxing
 blue belt;Male;Other
-no rank;Male;Boxing
-no rank;Male;Other
+white belt;Male;Boxing
+white belt;Male;Other
 white belt;Male;Muay Thai
 white belt;Male;Other
 brown belt;Male;I do not cross-train
@@ -244,7 +232,6 @@ white belt;Male;Kick boxing
 white belt;Male;Other
 white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-white belt;Female;no answer
 purple belt;Male;I do not cross-train
 white belt;Female;I do not cross-train
 purple belt;Male;Wrestling
@@ -258,10 +245,10 @@ purple belt;Male;Judo
 purple belt;Male;Kick boxing
 purple belt;Male;Muay Thai
 white belt;Male;I do not cross-train
-no rank;Male;Boxing
-no rank;Male;Akido
-no rank;Male;Karate
-no rank;Male;Judo
+white belt;Male;Boxing
+white belt;Male;Akido
+white belt;Male;Karate
+white belt;Male;Judo
 white belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
 white belt;Male;Muay Thai
@@ -293,7 +280,6 @@ white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 white belt;Male;Boxing
 purple belt;Female;I do not cross-train
-blue belt;Male;no answer
 white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
@@ -332,7 +318,7 @@ blue belt;Male;I do not cross-train
 white belt;Female;Other
 white belt;Male;I do not cross-train
 brown belt;Male;I do not cross-train
-no rank;Male;Judo
+white belt;Male;Judo
 blue belt;Female;Judo
 purple belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
@@ -365,7 +351,7 @@ white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 blue belt;Male;Other
 black belt;Male;Judo
-no rank;Male;Judo
+white belt;Male;Judo
 purple belt;Male;I do not cross-train
 purple belt;Male;Kick boxing
 purple belt;Male;I do not cross-train
@@ -373,7 +359,6 @@ blue belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
 purple belt;Male;Muay Thai
-purple belt;Male;no answer
 brown belt;Male;Muay Thai
 brown belt;Male;Wrestling
 brown belt;Male;Boxing
@@ -469,7 +454,6 @@ blue belt;Female;I do not cross-train
 purple belt;Male;Boxing
 purple belt;Male;Kick boxing
 blue belt;Female;I do not cross-train
-blue belt;Male;no answer
 blue belt;Male;I do not cross-train
 blue belt;Female;I do not cross-train
 blue belt;Female;Wrestling
@@ -500,9 +484,8 @@ blue belt;Male;I do not cross-train
 black belt;Male;Muay Thai
 blue belt;Male;Other
 purple belt;Male;Kick boxing
-white belt;Male;no answer
-no rank;Male;Judo
-no rank;Male;Kick boxing
+white belt;Male;Judo
+white belt;Male;Kick boxing
 brown belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
@@ -527,12 +510,12 @@ blue belt;Female;Muay Thai
 white belt;Male;Muay Thai
 white belt;Female;I do not cross-train
 blue belt;Female;Other
-no rank;Male;Wrestling
-no rank;Male;Boxing
-no rank;Male;Judo
-no rank;Male;Kick boxing
-no rank;Male;Muay Thai
-no rank;Male;Other
+white belt;Male;Wrestling
+white belt;Male;Boxing
+white belt;Male;Judo
+white belt;Male;Kick boxing
+white belt;Male;Muay Thai
+white belt;Male;Other
 no rank;Female;Wrestling
 no rank;Female;Boxing
 blue belt;Male;I do not cross-train
@@ -568,9 +551,9 @@ white belt;Male;Kick boxing
 white belt;Male;Muay Thai
 purple belt;Male;Muay Thai
 purple belt;Male;Judo
-no rank;Male;Wrestling
-no rank;Male;Boxing
-no rank;Male;Karate
+white belt;Male;Wrestling
+white belt;Male;Boxing
+white belt;Male;Karate
 blue belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 purple belt;Male;Muay Thai
@@ -607,7 +590,6 @@ white belt;Male;Wrestling
 white belt;Male;Muay Thai
 purple belt;Male;I do not cross-train
 blue belt;Male;Boxing
-blue belt;Male;no answer
 white belt;Male;Judo
 white belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
@@ -650,13 +632,11 @@ purple belt;Male;Judo
 purple belt;Male;Other
 blue belt;Male;Wrestling
 blue belt;Male;Judo
-blue belt;Male;no answer
 blue belt;Male;I do not cross-train
 black belt;Male;Muay Thai
 white belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
-blue belt;Male;no answer
 black belt;Male;Muay Thai
 white belt;Female;Wrestling
 white belt;Female;Judo
@@ -673,13 +653,12 @@ white belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
 blue belt;Male;Wrestling
 blue belt;Male;Boxing
-blue belt;Male;no answer
 black belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 white belt;Male;Wrestling
 white belt;Male;Judo
-no rank;Male;Karate
-no rank;Male;Other
+white belt;Male;Karate
+white belt;Male;Other
 purple belt;Female;I do not cross-train
 blue belt;Male;I do not cross-train
 blue belt;Male;Wrestling
@@ -691,7 +670,6 @@ purple belt;Male;Wrestling
 purple belt;Male;Judo
 black belt;Male;Judo
 black belt;Male;Sambo
-white belt;no answer;no answer
 purple belt;Female;I do not cross-train
 black belt;Male;I do not cross-train
 blue belt;Male;I do not cross-train
@@ -742,7 +720,6 @@ brown belt;Male;Other
 blue belt;Male;Other
 white belt;Male;Other
 white belt;Male;Wrestling
-no rank;no answer;no answer
 blue belt;Male;Judo
 white belt;Female;Kick boxing
 white belt;Female;I do not cross-train
@@ -758,100 +735,43 @@ white belt;Male;Wrestling
 purple belt;Male;Boxing
 blue belt;Female;Wrestling
 blue belt;Female;Other
-no rank;no answer;no answer
 blue belt;Male;Karate
 blue belt;Male;Muay Thai
 purple belt;Male;Muay Thai
-no rank;Male;no answer
 blue belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
 purple belt;Male;Judo
 purple belt;Male;Muay Thai
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-black belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;Sambo
-no rank;no answer;no answer
-no rank;Female;no answer
-no rank;Male;no answer
+white belt;Male;Sambo
 white belt;Male;Wrestling
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;Judo
 white belt;Male;Muay Thai
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 brown belt;Female;Judo
 blue belt;Male;Boxing
 blue belt;Male;Kick boxing
 blue belt;Male;Muay Thai
-no rank;Male;no answer
 blue belt;Female;I do not cross-train
 white belt;Female;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
 purple belt;Male;I do not cross-train
 white belt;Male;Wrestling
 white belt;Male;Boxing
 white belt;Male;Kick boxing
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Other
 purple belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
 blue belt;Female;I do not cross-train
 blue belt;Male;Muay Thai
 blue belt;Female;I do not cross-train
 white belt;Female;I do not cross-train
-no rank;Male;no answer
 purple belt;Male;Wrestling
 purple belt;Male;Kick boxing
 purple belt;Male;Muay Thai
-no rank;Male;no answer
 purple belt;Male;Wrestling
 purple belt;Male;Boxing
 purple belt;Male;Sambo
 purple belt;Male;Kick boxing
 purple belt;Male;Muay Thai
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;I do not cross-train
+white belt;Male;I do not cross-train
 white belt;Female;Boxing
 purple belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
@@ -862,10 +782,7 @@ white belt;Male;Boxing
 brown belt;Male;Wrestling
 brown belt;Male;Judo
 brown belt;Male;I do not cross-train
-no rank;Male;no answer
 brown belt;Male;Karate
-no rank;Male;no answer
-no rank;Female;no answer
 blue belt;Male;Muay Thai
 blue belt;Male;Other
 white belt;Male;Wrestling
@@ -878,7 +795,6 @@ blue belt;Female;Muay Thai
 blue belt;Female;Other
 white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-blue belt;Male;no answer
 black belt;Male;Wrestling
 black belt;Male;Boxing
 black belt;Male;Judo
@@ -893,33 +809,15 @@ purple belt;Male;Muay Thai
 blue belt;Male;I do not cross-train
 brown belt;Male;Wrestling
 brown belt;Male;Judo
-no rank;Male;no answer
 white belt;Male;I do not cross-train
-no rank;no answer;no answer
 purple belt;Male;Wrestling
 purple belt;Male;Kick boxing
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 brown belt;Male;I do not cross-train
 white belt;Male;Judo
-no rank;Male;no answer
 white belt;Male;I do not cross-train
-no rank;Male;no answer
-white belt;Male;no answer
 purple belt;Male;I do not cross-train
 white belt;Female;Wrestling
 white belt;Female;Judo
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;Judo
 blue belt;Male;I do not cross-train
 brown belt;Male;I do not cross-train
@@ -927,142 +825,68 @@ purple belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-white belt;Male;no answer
 purple belt;Male;Judo
-no rank;Female;no answer
 white belt;Male;I do not cross-train
-no rank;Female;no answer
 brown belt;Male;Wrestling
 brown belt;Male;Judo
-no rank;Female;no answer
-white belt;Female;no answer
-no rank;Female;no answer
-no rank;Male;no answer
 purple belt;Male;Muay Thai
-no rank;Male;no answer
 blue belt;Male;I do not cross-train
-no rank;Male;no answer
 brown belt;Male;Muay Thai
 white belt;Male;I do not cross-train
 white belt;Male;Muay Thai
-no rank;Male;no answer
 black belt;Male;Wrestling
 blue belt;Male;Wrestling
 blue belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
 blue belt;Male;I do not cross-train
-no rank;no answer;no answer
-no rank;Female;no answer
 purple belt;Male;I do not cross-train
 purple belt;Male;I do not cross-train
 purple belt;Male;Boxing
 purple belt;Male;Muay Thai
-no rank;Male;no answer
 blue belt;Female;I do not cross-train
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Female;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;Other
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;Boxing
 no rank;Male;Wrestling
 no rank;Male;Boxing
 no rank;Male;Judo
 no rank;Male;Kick boxing
 no rank;Male;Muay Thai
-no rank;Male;no answer
 blue belt;Male;Kick boxing
 white belt;Male;I do not cross-train
 blue belt;Male;Judo
 blue belt;Male;Other
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
 purple belt;no answer;Wrestling
 purple belt;no answer;Boxing
 blue belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;Muay Thai
 white belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;I do not cross-train
 blue belt;Male;Boxing
 blue belt;Male;Judo
 blue belt;Male;Kick boxing
 blue belt;Male;Muay Thai
 blue belt;Male;Other
-no rank;Male;no answer
 blue belt;Male;Kick boxing
 blue belt;Male;Muay Thai
-no rank;no answer;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
 white belt;Male;I do not cross-train
-no rank;Male;no answer
 white belt;Female;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-no rank;Male;no answer
 blue belt;Male;I do not cross-train
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;Wrestling
 purple belt;Male;Judo
 purple belt;Male;Sambo
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;I do not cross-train
 white belt;Male;I do not cross-train
-no rank;no answer;no answer
 black belt;Male;Boxing
 black belt;Male;Judo
 black belt;Male;Muay Thai
-no rank;Female;no answer
 purple belt;Male;I do not cross-train
 blue belt;Female;Wrestling
 blue belt;Female;Boxing
 blue belt;Female;Judo
 blue belt;Female;Kick boxing
 blue belt;Female;Muay Thai
-no rank;Male;no answer
 blue belt;Male;I do not cross-train
 purple belt;Male;Other
-no rank;no answer;no answer
-no rank;Female;no answer

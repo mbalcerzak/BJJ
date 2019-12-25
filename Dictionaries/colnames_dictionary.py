@@ -41,12 +41,12 @@ colnames_dictionary = {
 }
 
 raw_colnames = {
-'Q44':'Have you ever had a problem with a particular manufacturer or brand?',
-'Q18':'Why did you start training jiu jitsu?',
-'Q19':'What is your favorite part about training?',
-'Q20':'What is your least favorite part about training?',
-'Q61.1':'If you do watch sport jiu jitsu, what do you watch and where do you watch it?',
-'Q63':'Who are your favorite athletes (if any)?'
+'Q44':'brand_problem',
+'Q18':'reasons_raw',
+'Q19':'favourite_raw',
+'Q20':'least_fav_raw',
+'Q61.1':'watch_raw',
+'Q63':'favourite_athletes_raw'
 }
 
 header_dictionary = {
@@ -102,7 +102,7 @@ header_dictionary = {
 'Q65':'If you have some favorite grappling-related podcasts, which ones do you like?',
 'Q66':'To which academy do you belong? If it is affiliated, what is the affiliation?',
 'Q66.1':'Is your gym "leg lock friendly"?',
-'Q67':'Where is your nationality?',
+'Q67':'What is your nationality?',
 'Q67.1':'What is your preferred "style"?',
 'Q68':'What is your favorite submission?'
 }

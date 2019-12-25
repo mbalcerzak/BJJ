@@ -1,5 +1,4 @@
 current_belt;gender;choke;technique
-blue belt;Male;no answer;no answer
 purple belt;Male;Yes;head & arm choke
 white belt;Male;No;americana
 brown belt;Male;Yes;triangle
@@ -13,11 +12,9 @@ blue belt;Male;No;armlock
 white belt;Male;Yes;guillotine
 blue belt;Male;No;heel hook
 blue belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
 brown belt;Male;Yes;triangle
 white belt;Male;No;armbar
 blue belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
 blue belt;Male;No;heel hook
 purple belt;Male;Yes;bow & arrow
 purple belt;Male;No;armbar
@@ -35,7 +32,6 @@ blue belt;Male;No;omoplata
 purple belt;Male;Yes;triangle
 blue belt;Male;Yes;bow & arrow
 blue belt;Male;Yes;lapel chokes
-brown belt;Male;no answer;no answer
 white belt;Male;Yes;rear naked choke
 white belt;Male;Yes;gogoplata
 white belt;Male;Yes;darce
@@ -63,16 +59,14 @@ purple belt;Male;Yes;triangle
 blue belt;Male;Yes;triangle
 white belt;Male;No;armbar
 white belt;Male;Yes;gogoplata
-purple belt;Male;no answer;no answer
 blue belt;Male;Yes;darce
 purple belt;Male;No;armbar
 white belt;Male;No;peruvian necktie
 purple belt;Male;No;ankle lock
 blue belt;Male;Yes;bow & arrow
-no rank;Male;No;twister
+white belt;Male;No;twister
 blue belt;Male;Yes;triangle
 white belt;Male;Yes;crucifix
-white belt;Male;no answer;no answer
 blue belt;Male;Yes;triangle
 blue belt;Male;No;kimura
 white belt;Male;Yes;anaconda
@@ -87,9 +81,7 @@ purple belt;Male;No;armbar
 blue belt;Male;Yes;cross collar choke
 blue belt;Male;Yes;triangle
 white belt;Male;No;omoplata
-blue belt;Male;no answer;no answer
 blue belt;Male;No;americana
-purple belt;Male;no answer;no answer
 white belt;Male;No;omoplata
 white belt;Male;Yes;rear naked choke
 blue belt;Male;Yes;triangle
@@ -97,7 +89,6 @@ white belt;Male;Yes;cross collar choke
 blue belt;Male;No;armbar
 white belt;Female;Yes;bow & arrow
 white belt;Male;Yes;cross collar choke
-white belt;Male;no answer;no answer
 blue belt;Female;No;armbar
 purple belt;Male;No;armbar
 white belt;Male;Yes;triangle
@@ -112,7 +103,6 @@ blue belt;Male;Yes;bow & arrow
 white belt;Male;No;ankle lock
 white belt;Male;Yes;bow & arrow
 blue belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
 purple belt;Male;No;armbar
 white belt;Male;No;armbar
 white belt;Male;Yes;ezekiel
@@ -143,10 +133,9 @@ white belt;Male;No;toe hold
 brown belt;Male;No;kimura
 purple belt;Male;No;kimura
 blue belt;Female;Yes;bow & arrow
-no rank;Male;Yes;triangle
+white belt;Male;Yes;triangle
 blue belt;Male;Yes;bow & arrow
 blue belt;Male;Yes;cross collar choke
-white belt;Male;no answer;no answer
 white belt;Male;Yes;baseball choke
 white belt;Male;Yes;bow & arrow
 purple belt;Male;Yes;triangle
@@ -158,13 +147,11 @@ purple belt;Male;Yes;bow & arrow
 white belt;Male;No;omoplata
 white belt;Female;Yes;armbar
 white belt;Female;Yes;head & arm choke
-blue belt;Male;no answer;no answer
 purple belt;Male;No;kimura
 purple belt;Male;No;kimura
 blue belt;Male;Yes;triangle
 brown belt;Male;No;armbar
 purple belt;Male;No;armlock
-white belt;Male;no answer;no answer
 white belt;Male;Yes;ezekiel
 blue belt;Male;No;kimura
 blue belt;Female;No;wristlock
@@ -174,14 +161,12 @@ blue belt;Male;No;omoplata
 blue belt;Male;Yes;head & arm choke
 white belt;Male;Yes;anaconda
 white belt;Male;No;armbar
-white belt;Male;no answer;no answer
 black belt;Male;No;kimura
 purple belt;Female;Yes;guillotine
 blue belt;Male;No;leg lock
 white belt;Male;Yes;triangle
 white belt;Male;Yes;armbar
 blue belt;Male;No;armbar
-white belt;Male;no answer;no answer
 black belt;Male;Yes;guillotine
 blue belt;Male;Yes;ezekiel
 brown belt;Male;No;armbar
@@ -190,7 +175,6 @@ blue belt;Male;No;americana
 blue belt;Male;Yes;triangle
 blue belt;Male;Yes;triangle
 blue belt;Male;Yes;bow & arrow
-purple belt;Male;no answer;no answer
 white belt;Male;Yes;triangle
 white belt;Male;Yes;triangle
 purple belt;Male;No;americana
@@ -205,8 +189,7 @@ purple belt;Male;Yes;gi choke
 purple belt;Male;No;kimura
 blue belt;Male;Yes;bow & arrow
 blue belt;Male;Yes;choke
-no rank;Male;No;omoplata
-white belt;Male;no answer;no answer
+white belt;Male;No;omoplata
 brown belt;Male;Yes;bow & arrow
 white belt;Male;No;kimura
 white belt;Male;Yes;guillotine
@@ -214,7 +197,6 @@ white belt;Male;No;kimura
 white belt;Male;Yes;bow & arrow
 white belt;Female;No;armbar
 purple belt;Male;Yes;rear naked choke
-white belt;Female;no answer;no answer
 purple belt;Male;No;kimura
 white belt;Male;No;kimura
 purple belt;Male;No;kimura
@@ -222,12 +204,11 @@ brown belt;Male;No;armbar
 white belt;Male;Yes;triangle
 purple belt;Male;No;omoplata
 white belt;Male;Yes;rear naked choke
-no rank;Male;Yes;triangle
+white belt;Male;Yes;triangle
 white belt;Male;Yes;triangle
 purple belt;Male;No;americana
 white belt;Male;No;kimura
 white belt;Female;No;peruvian necktie
-purple belt;Male;no answer;no answer
 white belt;Male;No;armbar
 white belt;Male;Yes;cross collar choke
 purple belt;Male;Yes;head & arm choke
@@ -239,9 +220,7 @@ blue belt;Male;Yes;rear naked choke
 white belt;Male;No;kimura
 white belt;Male;Yes;triangle
 white belt;Male;Yes;triangle
-white belt;Male;no answer;no answer
 white belt;Male;Yes;cross collar choke
-white belt;Male;no answer;no answer
 purple belt;Female;Yes;bow & arrow
 blue belt;Male;Yes;triangle
 white belt;Male;No;leg lock
@@ -255,10 +234,8 @@ black belt;Male;Yes;head & arm choke
 purple belt;Male;No;armbar
 white belt;Male;No;americana
 white belt;Male;Yes;rear naked choke
-white belt;Male;no answer;no answer
 white belt;Male;No;foot lock
 purple belt;Male;Yes;cross collar choke
-purple belt;Male;no answer;no answer
 black belt;Male;No;armbar
 white belt;Male;No;armbar
 purple belt;Male;No;heel hook
@@ -266,11 +243,10 @@ blue belt;Male;No;kimura
 white belt;Female;No;armbar
 white belt;Male;Yes;guillotine
 brown belt;Male;Yes;guillotine
-no rank;Male;Yes;papercutter
+white belt;Male;Yes;papercutter
 blue belt;Female;No;armbar
 purple belt;Male;Yes;cross collar choke
 blue belt;Male;Yes;bow & arrow
-white belt;Male;no answer;no answer
 black belt;Male;Yes;choke
 black belt;Male;No;kimura
 white belt;Male;Yes;rear naked choke
@@ -279,9 +255,7 @@ white belt;Male;Yes;triangle
 white belt;Male;Yes;darce
 black belt;Male;No;kimura
 white belt;Male;Yes;triangle
-black belt;Male;no answer;no answer
 blue belt;Male;No;calf slicer
-purple belt;Male;no answer;no answer
 blue belt;Male;No;kimura
 blue belt;Male;No;americana
 purple belt;Male;Yes;triangle
@@ -289,22 +263,18 @@ white belt;Male;No;ankle lock
 purple belt;Male;Yes;papercutter
 purple belt;Male;Yes;rear naked choke
 blue belt;Male;No;kimura
-blue belt;Male;no answer;no answer
 purple belt;Male;No;wristlock
 purple belt;Male;Yes;cross collar choke
 white belt;Male;Yes;triangle
 white belt;Male;Yes;triangle
 blue belt;Male;No;heel hook
 black belt;Male;No;armbar
-no rank;Male;no answer;no answer
 purple belt;Male;Yes;darce
 purple belt;Male;No;kimura
 purple belt;Male;No;armbar
 blue belt;Male;No;armbar
 blue belt;Male;No;kimura
 purple belt;Male;Yes;bow & arrow
-purple belt;Male;no answer;no answer
-purple belt;Male;no answer;no answer
 brown belt;Male;Yes;rear naked choke
 brown belt;Male;No;kimura
 white belt;Male;No;kimura
@@ -312,7 +282,6 @@ purple belt;Male;No;americana
 blue belt;Male;Yes;triangle
 blue belt;Male;No;americana
 purple belt;Female;Yes;bow & arrow
-black belt;Male;no answer;no answer
 blue belt;Male;Yes;triangle
 brown belt;Male;Yes;rickson choke
 blue belt;Male;Yes;triangle
@@ -320,16 +289,12 @@ blue belt;Male;Yes;brabo choke
 no rank;Male;Yes;darce
 no rank;Male;Yes;brabo choke
 blue belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
 purple belt;Male;Yes;triangle
 purple belt;Male;No;armbar
 brown belt;Male;Yes;bow & arrow
-blue belt;Male;no answer;no answer
-brown belt;Male;no answer;no answer
 black belt;Male;No;kimura
 blue belt;Male;No;kimura
 purple belt;Male;No;ankle lock
-purple belt;Male;no answer;no answer
 black belt;Male;Yes;bow & arrow
 black belt;Male;No;armbar
 white belt;Male;Yes;ezekiel
@@ -337,7 +302,6 @@ blue belt;Male;No;armbar
 brown belt;Male;No;armbar
 blue belt;Male;No;kimura
 black belt;Male;Yes;triangle
-white belt;Male;no answer;no answer
 white belt;Male;No;kimura
 white belt;Male;No;americana
 blue belt;Male;No;peruvian necktie
@@ -352,13 +316,11 @@ black belt;Male;Yes;guillotine
 black belt;Male;Yes;armlock
 white belt;Male;Yes;ezekiel
 blue belt;Male;No;ankle lock
-blue belt;Male;no answer;no answer
 white belt;Male;Yes;triangle
 white belt;Male;Yes;bow & arrow
 white belt;Male;Yes;rear naked choke
 brown belt;Male;No;peruvian necktie
 black belt;Male;No;electric chair
-blue belt;Male;no answer;no answer
 blue belt;Male;Yes;triangle
 white belt;Male;No;omoplata
 black belt;Female;No;armbar
@@ -377,15 +339,12 @@ blue belt;Female;Yes;loop choke
 blue belt;Male;Yes;head & arm choke
 blue belt;Male;No;armbar
 blue belt;Female;Yes;triangle
-blue belt;Female;no answer;no answer
 white belt;Male;No;kimura
 white belt;Male;Yes;triangle
 blue belt;Male;No;kimura
-purple belt;Male;no answer;no answer
 blue belt;Female;Yes;rear naked choke
 black belt;Male;No;armlock
 brown belt;Male;Yes;triangle
-blue belt;Male;no answer;no answer
 purple belt;Male;No;kimura
 blue belt;Male;Yes;bow & arrow
 blue belt;Female;No;armbar
@@ -398,37 +357,31 @@ blue belt;Male;No;heel hook
 purple belt;Male;Yes;triangle
 purple belt;Male;Yes;head & arm choke
 white belt;Male;Yes;rear naked choke
-no rank;Male;Yes;triangle
+white belt;Male;Yes;triangle
 brown belt;Male;Yes;triangle
 blue belt;Male;No;armbar
 blue belt;Male;No;armbar
 white belt;Male;No;omoplata
-brown belt;Male;no answer;no answer
 purple belt;Male;No;kimura
 no rank;Male;No;americana
-no rank;Male;no answer;no answer
 blue belt;Male;No;omoplata
-black belt;Male;no answer;no answer
 purple belt;Female;No;americana
 blue belt;Female;No;armbar
 blue belt;Female;Yes;rear naked choke
 white belt;Male;Yes;rear naked choke
-white belt;Female;no answer;no answer
 blue belt;Female;No;armbar
-no rank;Male;Yes;darce
+white belt;Male;Yes;darce
 no rank;Female;No;kimura
 blue belt;Male;Yes;cross collar choke
 white belt;Male;No;omoplata
 blue belt;Male;No;armbar
 white belt;Female;No;armbar
-white belt;Male;no answer;no answer
 blue belt;Male;No;armlock
 white belt;Male;No;armbar
 brown belt;Male;No;armbar
 brown belt;Male;Yes;bow & arrow
 white belt;Male;Yes;triangle
 purple belt;Male;No;kimura
-blue belt;Male;no answer;no answer
 brown belt;Male;Yes;choke from back
 white belt;Male;No;armbar
 white belt;Male;Yes;triangle
@@ -437,10 +390,8 @@ brown belt;Male;Yes;bow & arrow
 white belt;Male;Yes;triangle
 purple belt;Male;Yes;triangle
 purple belt;Male;Yes;darce
-purple belt;Male;no answer;no answer
-no rank;Male;Yes;baseball choke
+white belt;Male;Yes;baseball choke
 blue belt;Male;No;armbar
-white belt;Male;no answer;no answer
 purple belt;Male;Yes;darce
 white belt;Male;Yes;loop choke
 white belt;Male;Yes;omoplata
@@ -462,11 +413,9 @@ white belt;Male;Yes;bow & arrow
 no rank;Male;No;armbar
 white belt;Male;Yes;triangle
 purple belt;Male;No;armbar
-blue belt;Male;no answer;no answer
 blue belt;Male;No;armbar
 white belt;Male;Yes;ezekiel
 white belt;Male;No;kimura
-blue belt;Male;no answer;no answer
 black belt;Male;Yes;bow & arrow
 blue belt;Male;No;armlock
 white belt;Male;No;kimura
@@ -478,7 +427,6 @@ white belt;Male;Yes;triangle
 blue belt;Male;No;armlock
 blue belt;Male;No;peruvian necktie
 blue belt;Male;Yes;triangle
-brown belt;Male;no answer;no answer
 blue belt;Male;No;kimura
 brown belt;Male;Yes;triangle
 blue belt;Male;No;kimura
@@ -496,9 +444,7 @@ brown belt;Male;Yes;triangle
 brown belt;Male;Yes;triangle
 blue belt;Male;No;armbar
 blue belt;Male;Yes;rear naked choke
-white belt;Male;no answer;no answer
 white belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
 purple belt;Male;Yes;cross collar choke
 blue belt;Male;No;heel hook
 blue belt;Male;No;omoplata
@@ -511,7 +457,6 @@ blue belt;Male;No;kimura
 blue belt;Male;No;kimura
 black belt;Male;Yes;guillotine
 white belt;Female;Yes;clock choke
-brown belt;Male;no answer;no answer
 brown belt;Male;Yes;ezekiel
 brown belt;Male;No;armbar
 white belt;Male;No;armbar
@@ -521,20 +466,16 @@ white belt;Male;No;americana
 white belt;Male;No;armbar
 blue belt;Male;No;omoplata
 blue belt;Male;No;kimura
-blue belt;Male;no answer;no answer
 black belt;Male;No;omoplata
-white belt;Male;no answer;no answer
 white belt;Male;Yes;triangle
-no rank;Male;Yes;triangle
+white belt;Male;Yes;triangle
 purple belt;Female;Yes;triangle
 blue belt;Male;No;armbar
 blue belt;Male;Yes;triangle
 black belt;Male;No;armbar
-brown belt;Male;no answer;no answer
 purple belt;Male;Yes;triangle
 purple belt;Male;Yes;darce
 black belt;Male;Yes;choke
-white belt;no answer;no answer;no answer
 purple belt;Female;Yes;triangle
 black belt;Male;Yes;bread cutter choke
 blue belt;Male;No;kimura
@@ -571,99 +512,37 @@ brown belt;Male;Yes;brabo choke
 blue belt;Male;No;armlock
 white belt;Male;No;omoplata
 white belt;Male;No;armbar
-no rank;no answer;no answer;no answer
 blue belt;Male;No;armbar
 white belt;Female;Yes;triangle
 white belt;Female;Yes;rear naked choke
-white belt;Female;no answer;no answer
 purple belt;Male;No;heel hook
 white belt;Male;Yes;bow & arrow
 blue belt;Male;Yes;triangle
 white belt;Male;No;kimura
 white belt;Male;Yes;lapel chokes
 purple belt;Male;No;kimura
-blue belt;Female;no answer;no answer
-no rank;no answer;no answer;no answer
 blue belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
-no rank;Male;no answer;no answer
 blue belt;Male;Yes;loop choke
 purple belt;Male;Yes;triangle
 purple belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 black belt;Male;No;armlock
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;Yes;darce
-no rank;no answer;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
+white belt;Male;Yes;darce
 white belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 white belt;Male;Yes;guillotine
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 blue belt;Male;No;kimura
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 brown belt;Female;Yes;bow & arrow
 blue belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
 blue belt;Female;Yes;bow & arrow
 white belt;Female;No;armbar
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-white belt;Male;no answer;no answer
 purple belt;Male;Yes;triangle
 white belt;Male;Yes;rear naked choke
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 blue belt;Male;Yes;gogoplata
 purple belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Female;no answer;no answer
 blue belt;Female;Yes;bow & arrow
 blue belt;Male;Yes;triangle
-blue belt;Female;no answer;no answer
-white belt;Female;no answer;no answer
-no rank;Male;no answer;no answer
 purple belt;Male;Yes;guillotine
-no rank;Male;no answer;no answer
 purple belt;Male;No;ankle lock
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;Yes;guillotine
+white belt;Male;Yes;guillotine
 white belt;Female;No;heel hook
 purple belt;Male;No;omoplata
 white belt;Male;Yes;rear naked choke
@@ -671,173 +550,73 @@ purple belt;Male;Yes;triangle
 white belt;Male;No;armbar
 brown belt;Male;Yes;brabo choke
 brown belt;Male;Yes;ezekiel
-no rank;Male;no answer;no answer
 brown belt;Male;Yes;cross collar choke
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
 blue belt;Male;Yes;bow & arrow
 white belt;Male;Yes;triangle
 blue belt;Female;Yes;bow & arrow
 white belt;Male;No;americana
 white belt;Male;Yes;bow & arrow
 blue belt;Male;No;armbar
-black belt;Male;no answer;no answer
 blue belt;Male;No;heel hook
 blue belt;Male;Yes;triangle
 purple belt;Male;Yes;triangle
 blue belt;Male;Yes;loop choke
 blue belt;Male;Yes;triangle
-purple belt;Male;no answer;no answer
 blue belt;Male;Yes;bow & arrow
 brown belt;Male;Yes;single wing
-no rank;Male;no answer;no answer
 white belt;Male;Yes;loop choke
-no rank;no answer;no answer;no answer
 purple belt;Male;Yes;head & arm choke
-no rank;Male;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 brown belt;Male;No;americana
 white belt;Male;Yes;papercutter
-no rank;Male;no answer;no answer
 white belt;Male;No;armbar
-no rank;Male;no answer;no answer
 white belt;Male;Yes;triangle
 purple belt;Male;No;ankle lock
 white belt;Female;No;omoplata
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 purple belt;Male;No;omoplata
 blue belt;Male;No;americana
 brown belt;Male;Yes;triangle
 purple belt;Male;Yes;triangle
 white belt;Male;Yes;cross collar choke
 white belt;Male;Yes;rear naked choke
-white belt;Male;no answer;no answer
 white belt;Male;Yes;triangle
 purple belt;Male;Yes;bow & arrow
-no rank;Female;no answer;no answer
-white belt;Male;no answer;no answer
-no rank;Female;no answer;no answer
 brown belt;Male;Yes;cross collar choke
-no rank;Female;no answer;no answer
 white belt;Female;No;americana
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
 purple belt;Male;Yes;crucifix
-no rank;Male;no answer;no answer
-blue belt;Male;no answer;no answer
-no rank;Male;no answer;no answer
 brown belt;Male;Yes;darce
 white belt;Male;Yes;darce
 white belt;Male;No;electric chair
-no rank;Male;no answer;no answer
 black belt;Male;No;kimura
 blue belt;Male;No;ankle lock
 blue belt;Male;No;kimura
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Female;no answer;no answer
 blue belt;Male;No;kimura
-no rank;no answer;no answer;no answer
-no rank;Female;no answer;no answer
 purple belt;Male;Yes;cross collar choke
 purple belt;Male;No;armbar
 purple belt;Male;Yes;cross collar choke
-no rank;Male;no answer;no answer
 blue belt;Female;Yes;triangle
-no rank;Male;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 purple belt;Male;No;kimura
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 white belt;Female;No;armbar
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;no answer;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 white belt;Male;No;armbar
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 white belt;Male;Yes;guillotine
 no rank;Male;Yes;guillotine
-no rank;Male;no answer;no answer
 blue belt;Male;No;kimura
 white belt;Male;Yes;rear naked choke
-blue belt;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
 purple belt;no answer;Yes;triangle
 blue belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 blue belt;Male;Yes;gogoplata
 white belt;Male;Yes;rear naked choke
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Female;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 white belt;Male;Yes;cross collar choke
 blue belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
 blue belt;Male;No;armbar
-no rank;no answer;no answer;no answer
-purple belt;Male;no answer;no answer
-no rank;Male;no answer;no answer
 white belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
 white belt;Female;Yes;guillotine
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 blue belt;Male;No;armbar
 white belt;Male;Yes;triangle
-no rank;Male;no answer;no answer
 blue belt;Male;Yes;triangle
 blue belt;Male;Yes;bow & arrow
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
-purple belt;Male;no answer;no answer
-no rank;Male;no answer;no answer
-no rank;Male;no answer;no answer
 purple belt;Male;No;armbar
 white belt;Male;No;ankle lock
-no rank;no answer;no answer;no answer
 black belt;Male;Yes;triangle
-no rank;Female;no answer;no answer
 purple belt;Male;Yes;cross collar choke
-blue belt;Female;no answer;no answer
-no rank;Male;no answer;no answer
 blue belt;Male;Yes;gi choke
 purple belt;Male;No;kimura
-no rank;no answer;no answer;no answer
-no rank;Female;no answer;no answer

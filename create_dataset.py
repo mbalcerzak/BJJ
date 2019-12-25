@@ -36,8 +36,16 @@ data_q['age_cat'] = data_q['Q57'].apply(age_categories)
 ############ corrected case so it's consistent with other values #############
 
 data_q['Q2'] = data_q['Q2'].apply(lambda x: x.lower())
+
+############ what's up with those ranks... lets sort it out ##################
 data_q['Q2'][data_q['Q2'] == 'i do not hold a rank'] = 'no rank' 
 data_q['Q2'][data_q['Q2'] == 'no answer'] = 'no rank' 
+
+data_q['Q2'][(data_q['Q2'] == 'no rank') & \
+             (data_q['Q11'] == 'Yes')] = 'white belt'
+      
+data_q['Q2'][(data_q['Q2'] == 'no rank') & \
+             (data_q['Q12'] == 'Gi')] = 'white belt'
 
 ##########################  nationality  #####################################
 
@@ -204,9 +212,7 @@ for column in to_str_columns:
     data_final[column] = data_final[column].apply(lambda x: '['+','.join(x)+']')
 
 
-
-
-def rework_took(x):
+def rework(x):
     
     years_dict = {'0-2 years':' 0-2 years', 
                  '2-4 years':' 2-4 years', 
@@ -224,8 +230,35 @@ def rework_took(x):
 for column in ['training_years', 'white_blue','blue_purple','purple_brown',
                'brown_black']:
     
-    data_final[column] = data_final[column].apply(lambda x: rework_took(x))
+    data_final[column] = data_final[column].apply(lambda x: rework(x))
+
+
+def reword_money(x):
     
+    money_dict = {'0-$50':'$ 0-50',
+                  '$51-100':'$ 51-100'}
+    
+    income_dict = {'0-$25K':'$ 0-25K',
+                   '$26K-50K':'$ 26K-50K', 
+                   '$76K-100K':'$ 76K-100K', 
+                   '$51k-75K':'$ 51k-75K'}
+    
+    if x in money_dict:
+        return money_dict[x]
+    if x in income_dict:
+        return income_dict[x]
+        
+    else:
+        return x
+    
+for column in ['membership', 'income','money_for_gear']:    
+    
+    data_final[column] = data_final[column].apply(lambda x: reword_money(x))	
+
+#%%
+list(set(data_final['membership'].to_list()))
+    
+#%%    
 data_final['background_ma'] = data_final['background_ma'].apply(lambda x: '[' + x + ']') 
 data_final['currently_cross_train'] = data_final['currently_cross_train'].apply(lambda x: '[' + x + ']') 
     
@@ -241,7 +274,6 @@ data_raw = data[raw_colnames.keys()][2:].rename(columns = raw_colnames)
 data_raw.to_csv(path + r'\Data\data_raw.csv', header = True, index = None, 
                   sep = ';')
 
-#%%
 
 base = ['current_belt','gender']    
 
@@ -262,8 +294,7 @@ training_info = ['training_years',
                  'have_fav_athlete',
                  'leg_lock_friendly',
                  'gym_self_defense',
-                 'membership',
-                 #'gym', 
+                 'membership', 
                  'gym_curriculum',
                  'time_watching_bjj',
                  'do_watch_sport_bjj',
@@ -282,7 +313,6 @@ training_info = ['training_years',
                  'instrutor_encourages_competition',
                  'competed',
                  'medals'
-                 #'competition_organisation',
                  ]
 background_info = ['background_ma']
 current_ma_info  = ['currently_cross_train']
@@ -326,18 +356,14 @@ explode_names = ['current_ma_info', "background_info", "reasons_info",
                  "apparel_info", "comp_info", "injury_info", "athlete_info", 
                  "watch_info"]
 
-#%%
-listt = []
 
 for dataset, name in zip(dataset_list, dataset_names):
     
     data_save = data_final[base + dataset]
     data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
-    listt.append('data_{} = load_data(r"info\{}")'.format(name,name))
     
-    
-#%%   
+ 
 from Functions.functions import explode    
  
 for dataset, name in zip(to_explode, explode_names):    
@@ -345,23 +371,8 @@ for dataset, name in zip(to_explode, explode_names):
     data_save = data_final[base + dataset]
     var_to_expl = dataset[-1]
     
-    data_save = explode(data_save, var_to_expl, var_to_expl)
+    data_save = explode(data_save, var_to_expl, var_to_expl, na = False)
     
     data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
-    listt.append('data_{} = load_data(r"info\{}")'.format(name[:len(name)-5],name))
-#%%
-    
-#for elem in listt:
-#    print(elem)
-    
-#for col in list(data_final):
-#    if isinstance(data_final[col].values[0],list):
-#        print("'" + col + "',")
-#   # if isinstance(data_final[col][0],list):
-#   #     print(col)
-#   
-#print(list(set(data_final['training_years'].to_list())))  
-    
-for key in colnames_dict.keys():
-    print('# {}: {}'.format(key, colnames_dict[key]))
+

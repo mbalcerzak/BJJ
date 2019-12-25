@@ -1,6 +1,5 @@
 current_belt;gender;injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;chest
 purple belt;Male;ribs
 purple belt;Male;rotator cuff
@@ -10,7 +9,6 @@ brown belt;Male;knee
 brown belt;Male;teeth
 purple belt;Male;knee
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;finger
 blue belt;Male;fingers
 blue belt;Male;knee
@@ -27,18 +25,15 @@ blue belt;Male;no injuries
 blue belt;Male;popped
 blue belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;ankle
 blue belt;Male;ligament
 blue belt;Male;toes
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;no injuries
 brown belt;Male;no injuries
 brown belt;Male;nose
 brown belt;Male;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;back
 blue belt;Male;no injuries
 blue belt;Male;ribs
@@ -55,12 +50,9 @@ purple belt;Male;no injuries
 purple belt;Male;nothing serious
 blue belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;back
 blue belt;Male;no injuries
 blue belt;Male;ankle
@@ -73,11 +65,8 @@ blue belt;Male;lower back
 blue belt;Male;ribs
 blue belt;Male;knee
 brown belt;Male;no injuries
-brown belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;toes
 white belt;Female;toes
@@ -97,7 +86,6 @@ brown belt;Male;ribs
 brown belt;Male;rotator cuff
 brown belt;Male;shoulder
 white belt;Female;no injuries
-white belt;Female;no answer
 white belt;Male;finger
 white belt;Male;fingers
 white belt;Male;no injuries
@@ -127,74 +115,56 @@ purple belt;Male;lower back
 blue belt;Male;joint
 blue belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;back
 white belt;Male;no injuries
 purple belt;Male;arm
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;knee
 purple belt;Male;popped
 purple belt;Male;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
 blue belt;Male;no injuries
-no rank;Male;clavicle
-no rank;Male;finger
-no rank;Male;ribs
+white belt;Male;clavicle
+white belt;Male;finger
+white belt;Male;ribs
 blue belt;Male;meniscus
 white belt;Male;arm
 white belt;Male;back
 white belt;Male;elbow
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
 blue belt;Male;foot
 blue belt;Male;knee
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;groin
 blue belt;Female;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
 blue belt;Male;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;lower back
 purple belt;Male;meniscus
 blue belt;Male;no injuries
 blue belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;no injuries
 purple belt;Male;no injuries
-purple belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;shoulder
 white belt;Female;no injuries
-white belt;Female;no answer
 white belt;Male;knee
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Female;head
 blue belt;Female;leg
 purple belt;Male;arm
 purple belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;back
 purple belt;Male;lower back
 purple belt;Male;no injuries
@@ -204,7 +174,6 @@ blue belt;Male;meniscus
 white belt;Male;ribs
 purple belt;Male;tendon
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;clavicle
 blue belt;Male;lateral collateral ligament
 blue belt;Male;no injuries
@@ -223,11 +192,9 @@ purple belt;Male;knee
 purple belt;Male;ribs
 purple belt;Male;toes
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;chest
 blue belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;finger
 purple belt;Male;knee
 purple belt;Male;shoulder
@@ -241,7 +208,6 @@ white belt;Male;no injuries
 white belt;Male;knee
 white belt;Male;white belt
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;back
 white belt;Male;back
 white belt;Male;ribs
@@ -253,7 +219,6 @@ white belt;Male;no injuries
 white belt;Male;toes
 white belt;Male;white belt
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;shoulder
 blue belt;Female;no injuries
 purple belt;Male;no injuries
@@ -263,10 +228,8 @@ purple belt;Male;knee
 purple belt;Male;no injuries
 purple belt;Male;wrist
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;knee
 white belt;Male;no injuries
-white belt;Male;no answer
 brown belt;Male;back
 brown belt;Male;joint
 purple belt;Male;arm
@@ -276,13 +239,12 @@ blue belt;Female;chest
 blue belt;Female;elbow
 blue belt;Female;foot
 blue belt;Female;popped
-no rank;Male;head
+white belt;Male;head
 blue belt;Male;achilles
 blue belt;Male;cauliflower
 blue belt;Male;shoulder
 blue belt;Male;tendon
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;ligament
 white belt;Male;no injuries
 white belt;Male;no injuries
@@ -300,7 +262,6 @@ blue belt;Male;joint
 blue belt;Male;meniscus
 white belt;Male;back
 purple belt;Male;no injuries
-purple belt;Male;no answer
 white belt;Male;no injuries
 purple belt;Male;elbow
 purple belt;Male;knee
@@ -308,13 +269,10 @@ purple belt;Male;ligament
 purple belt;Male;popped
 purple belt;Male;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Female;no injuries
-white belt;Female;no answer
 blue belt;Male;no injuries
 purple belt;Male;no injuries
 purple belt;Male;no injuries
-purple belt;Male;no answer
 blue belt;Male;ankle
 blue belt;Male;cartilage
 blue belt;Male;ribs
@@ -325,9 +283,7 @@ brown belt;Male;ribs
 purple belt;Male;ribs
 purple belt;Male;white belt
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;disc
 blue belt;Female;no injuries
 white belt;Male;knee
@@ -345,7 +301,6 @@ white belt;Male;no injuries
 white belt;Male;no injuries
 white belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 black belt;Male;ankle
 black belt;Male;finger
 black belt;Male;fingers
@@ -356,14 +311,11 @@ black belt;Male;ribs
 black belt;Male;shoulder
 black belt;Male;toes
 purple belt;Female;no injuries
-purple belt;Female;no answer
 blue belt;Male;knee
 blue belt;Male;rotator cuff
 blue belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;ribs
 black belt;Male;disc
 black belt;Male;hernia
@@ -386,7 +338,6 @@ blue belt;Male;shoulder
 blue belt;Male;meniscus
 blue belt;Male;popped
 purple belt;Male;no injuries
-purple belt;Male;no answer
 white belt;Male;knee
 white belt;Male;ribs
 purple belt;Male;ankle
@@ -394,15 +345,11 @@ purple belt;Male;back
 purple belt;Male;knee
 purple belt;Male;meniscus
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;joint
 blue belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
 blue belt;Male;nothing serious
 brown belt;Male;joint
@@ -420,28 +367,24 @@ blue belt;Male;knee
 blue belt;Male;meniscus
 blue belt;Male;no injuries
 blue belt;Male;ribs
-no rank;Male;no injuries
+white belt;Male;no injuries
 white belt;Male;shoulder
 brown belt;Male;meniscus
 white belt;Male;no injuries
 white belt;Male;nothing serious
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;shoulder
 white belt;Male;rotator cuff
 white belt;Male;shoulder
 white belt;Male;staph infeciton
 white belt;Female;no injuries
-white belt;Female;no answer
 purple belt;Male;ankle
 purple belt;Male;knee
 purple belt;Male;no injuries
 purple belt;Male;popped
 white belt;Female;no injuries
-white belt;Female;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 white belt;Male;elbow
 purple belt;Male;knee
 purple belt;Male;ligament
@@ -460,15 +403,12 @@ white belt;Male;toes
 purple belt;Male;knee
 white belt;Male;arm
 white belt;Male;elbow
-no rank;Male;no injuries
-no rank;Male;no answer
+white belt;Male;no injuries
 white belt;Male;joint
 white belt;Male;knee
 white belt;Male;shoulder
 purple belt;Male;no injuries
-purple belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Female;knee
 purple belt;Male;ankle
 purple belt;Male;popped
@@ -483,7 +423,6 @@ purple belt;Male;disc
 purple belt;Male;hernia
 purple belt;Male;lower back
 purple belt;Male;no injuries
-purple belt;Male;no answer
 blue belt;Male;knee
 blue belt;Male;lower back
 blue belt;Male;meniscus
@@ -491,16 +430,11 @@ blue belt;Male;wrist
 blue belt;Male;ankle
 blue belt;Male;leg
 purple belt;Male;shoulder
-blue belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;knee
 white belt;Male;no injuries
 purple belt;Female;knee
@@ -509,10 +443,8 @@ purple belt;Female;meniscus
 purple belt;Female;no injuries
 purple belt;Female;shoulder
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;finger
 blue belt;Male;foot
 blue belt;Male;no injuries
@@ -521,45 +453,36 @@ blue belt;Male;lower back
 blue belt;Male;rotator cuff
 blue belt;Male;shoulder
 blue belt;Male;no injuries
-blue belt;Male;no answer
 black belt;Male;shoulder
 black belt;Male;tendon
 purple belt;Male;arm
 purple belt;Male;meniscus
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;groin
 white belt;Male;hand
 white belt;Male;tendon
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;foot
 white belt;Male;tendon
 purple belt;Male;lateral collateral ligament
 purple belt;Male;no injuries
-purple belt;Male;no answer
 black belt;Male;disc
 black belt;Male;foot
 black belt;Male;no injuries
 black belt;Male;toes
 white belt;Male;no injuries
 purple belt;Male;no injuries
-purple belt;Male;no answer
 blue belt;Male;shoulder
 white belt;Female;cartilage
 white belt;Female;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 brown belt;Male;lateral collateral ligament
 brown belt;Male;no injuries
-no rank;Male;no injuries
-no rank;Male;no answer
+white belt;Male;no injuries
 blue belt;Female;no injuries
-blue belt;Female;no answer
 purple belt;Male;joint
 purple belt;Male;shoulder
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;no injuries
 black belt;Male;tailbone
 black belt;Male;arm
@@ -569,20 +492,16 @@ black belt;Male;meniscus
 white belt;Male;no injuries
 white belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 black belt;Male;no injuries
 white belt;Male;arm
 white belt;Male;leg
 black belt;Male;elbow
 black belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;meniscus
 purple belt;Male;shoulder
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;knee
 purple belt;Male;no injuries
 purple belt;Male;ribs
@@ -601,7 +520,6 @@ blue belt;Male;knee
 blue belt;Male;neck
 blue belt;Male;shoulder
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;disc
 purple belt;Male;hernia
 purple belt;Male;knee
@@ -616,9 +534,9 @@ white belt;Male;knee
 blue belt;Male;rotator cuff
 blue belt;Male;shoulder
 black belt;Male;knee
-no rank;Male;back
-no rank;Male;elbow
-no rank;Male;white belt
+white belt;Male;back
+white belt;Male;elbow
+white belt;Male;white belt
 purple belt;Male;ankle
 purple belt;Male;joint
 purple belt;Male;wrist
@@ -635,11 +553,9 @@ purple belt;Male;knee
 purple belt;Male;elbow
 purple belt;Male;knee
 purple belt;Male;no injuries
-purple belt;Male;no answer
 brown belt;Male;knee
 brown belt;Male;knee
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
 purple belt;Male;shoulder
 blue belt;Male;chest
@@ -650,7 +566,6 @@ blue belt;Male;white belt
 blue belt;Male;no injuries
 blue belt;Male;shoulder
 purple belt;Female;no injuries
-purple belt;Female;no answer
 black belt;Male;ankle
 blue belt;Male;no injuries
 brown belt;Male;ankle
@@ -672,16 +587,13 @@ no rank;Male;no injuries
 no rank;Male;ribs
 blue belt;Male;no injuries
 blue belt;Male;ribs
-purple belt;Male;no answer
 purple belt;Male;elbow
 purple belt;Male;knee
 purple belt;Male;no injuries
 purple belt;Male;nothing serious
 purple belt;Male;knee
 brown belt;Male;no injuries
-brown belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 brown belt;Male;head
 brown belt;Male;neck
 black belt;Male;arm
@@ -689,7 +601,6 @@ black belt;Male;no injuries
 black belt;Male;shoulder
 blue belt;Male;elbow
 purple belt;Male;no injuries
-purple belt;Male;no answer
 purple belt;Male;ribs
 purple belt;Male;shoulder
 purple belt;Male;toes
@@ -714,7 +625,6 @@ blue belt;Male;hernia
 blue belt;Male;neck
 black belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;hand
 white belt;Male;ribs
 blue belt;Male;arm
@@ -753,9 +663,7 @@ blue belt;Female;knee
 blue belt;Female;no injuries
 blue belt;Female;toes
 black belt;Male;no injuries
-black belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;finger
 blue belt;Male;meniscus
 white belt;Male;arm
@@ -798,7 +706,6 @@ blue belt;Female;neck
 blue belt;Female;no injuries
 blue belt;Female;nothing serious
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;no injuries
 blue belt;Female;leg
 blue belt;Female;thumb
@@ -808,9 +715,7 @@ blue belt;Female;shoulder
 white belt;Male;shoulder
 white belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 blue belt;Female;back
 blue belt;Female;hand
 blue belt;Female;ligament
@@ -822,7 +727,6 @@ brown belt;Male;knee
 brown belt;Male;leg
 brown belt;Male;tendon
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;achilles
 purple belt;Male;clavicle
 purple belt;Male;ligament
@@ -851,15 +755,13 @@ brown belt;Male;no injuries
 black belt;Male;meniscus
 blue belt;Male;no injuries
 black belt;Male;no injuries
-black belt;Male;no answer
 blue belt;Male;cartilage
 blue belt;Male;ribs
 purple belt;Male;neck
 purple belt;Male;rotator cuff
 purple belt;Male;shoulder
 white belt;Male;knee
-no rank;Male;no injuries
-no rank;Male;no answer
+white belt;Male;no injuries
 brown belt;Male;disc
 blue belt;Male;finger
 blue belt;Male;joint
@@ -871,34 +773,26 @@ brown belt;Male;disc
 brown belt;Male;hernia
 purple belt;Male;ribs
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;shoulder
 black belt;Male;no injuries
-black belt;Male;no answer
 purple belt;Female;rotator cuff
 purple belt;Female;shoulder
 blue belt;Female;white belt
 blue belt;Female;knee
 white belt;Male;lower back
 white belt;Female;no injuries
-white belt;Female;no answer
 blue belt;Female;no injuries
-no rank;Male;head
-no rank;Male;knee
+white belt;Male;head
+white belt;Male;knee
 no rank;Female;no injuries
-no rank;Female;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;finger
 white belt;Male;hand
 white belt;Male;ribs
 blue belt;Male;ribs
 white belt;Female;no injuries
-white belt;Female;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;head
 blue belt;Male;knee
 white belt;Male;shoulder
@@ -906,11 +800,8 @@ brown belt;Male;meniscus
 brown belt;Male;ligament
 brown belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 blue belt;Male;no injuries
-brown belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;joint
 white belt;Male;shoulder
@@ -921,17 +812,15 @@ white belt;Male;shoulder
 white belt;Male;tendon
 brown belt;Male;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
 purple belt;Male;hand
 purple belt;Male;head
-no rank;Male;back
-no rank;Male;no injuries
-no rank;Male;nothing serious
+white belt;Male;back
+white belt;Male;no injuries
+white belt;Male;nothing serious
 blue belt;Male;joint
 blue belt;Male;lower back
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
 white belt;Male;toes
 white belt;Male;mat burn
@@ -939,14 +828,12 @@ white belt;Male;no injuries
 white belt;Male;meniscus
 purple belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;knee
 white belt;Male;meniscus
 white belt;Male;no injuries
 white belt;Male;no injuries
 white belt;Male;lower back
 purple belt;Male;no injuries
-purple belt;Male;no answer
 blue belt;Male;knee
 blue belt;Male;leg
 white belt;Female;knee
@@ -957,23 +844,17 @@ white belt;Female;ribs
 white belt;Female;wrist
 black belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;ankle
 white belt;Male;elbow
 white belt;Male;shoulder
 purple belt;Male;arm
 purple belt;Male;back
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 black belt;Male;disc
 black belt;Male;finger
 black belt;Male;fingers
@@ -981,16 +862,12 @@ black belt;Male;neck
 black belt;Male;no injuries
 blue belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 brown belt;Male;no injuries
-brown belt;Male;no answer
 white belt;Female;no injuries
-white belt;Female;no answer
 white belt;Male;no injuries
 black belt;Male;knee
 black belt;Male;meniscus
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;finger
 blue belt;Male;fingers
 blue belt;Male;neck
@@ -1000,9 +877,7 @@ brown belt;Male;arm
 brown belt;Male;back
 brown belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 brown belt;Male;no injuries
-brown belt;Male;no answer
 blue belt;Male;shoulder
 purple belt;Female;no injuries
 purple belt;Male;knee
@@ -1016,13 +891,11 @@ purple belt;Male;ligament
 blue belt;Male;meniscus
 blue belt;Male;shoulder
 blue belt;Female;no injuries
-blue belt;Female;no answer
 purple belt;Male;no injuries
 brown belt;Male;meniscus
 blue belt;Male;knee
 blue belt;Male;no injuries
 brown belt;Male;no injuries
-brown belt;Male;no answer
 brown belt;Male;lateral collateral ligament
 brown belt;Male;ligament
 blue belt;Male;finger
@@ -1032,7 +905,6 @@ blue belt;Male;knee
 blue belt;Male;ribs
 white belt;Male;ribs
 white belt;Male;knee
-purple belt;Male;no answer
 purple belt;Male;arm
 purple belt;Male;elbow
 purple belt;Male;knee
@@ -1043,10 +915,8 @@ blue belt;Male;back
 blue belt;Male;no injuries
 blue belt;Male;thumb
 blue belt;Male;no injuries
-blue belt;Male;no answer
 black belt;Male;ankle
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;knee
 blue belt;Male;no injuries
 blue belt;Male;arm
@@ -1057,7 +927,6 @@ black belt;Male;finger
 black belt;Male;leg
 black belt;Male;shoulder
 white belt;Female;no injuries
-white belt;Female;no answer
 brown belt;Male;knee
 brown belt;Male;cartilage
 brown belt;Male;foot
@@ -1073,27 +942,20 @@ white belt;Male;finger
 white belt;Male;shoulder
 white belt;Male;toes
 white belt;Female;no injuries
-white belt;Female;no answer
 white belt;Male;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 blue belt;Male;cartilage
 blue belt;Male;ribs
 blue belt;Male;no injuries
-blue belt;Male;no answer
 black belt;Male;no injuries
 black belt;Male;ribs
 black belt;Male;toes
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
-no rank;Male;leg
-no rank;Male;ligament
+white belt;Male;leg
+white belt;Male;ligament
 purple belt;Female;no injuries
 purple belt;Female;shoulder
 blue belt;Male;back
@@ -1108,7 +970,6 @@ brown belt;Male;chest
 brown belt;Male;lower back
 brown belt;Male;ribs
 purple belt;Male;no injuries
-purple belt;Male;no answer
 purple belt;Male;no injuries
 black belt;Male;back
 black belt;Male;foot
@@ -1119,9 +980,7 @@ black belt;Male;no injuries
 black belt;Male;white belt
 black belt;Male;wrist
 white belt;no answer;no injuries
-white belt;no answer;no answer
 purple belt;Female;no injuries
-purple belt;Female;no answer
 black belt;Male;no injuries
 blue belt;Male;no injuries
 purple belt;Male;no injuries
@@ -1138,7 +997,6 @@ blue belt;Male;knee
 blue belt;Male;neck
 blue belt;Male;no injuries
 purple belt;Male;ankle
-blue belt;Male;no answer
 white belt;Female;elbow
 white belt;Female;tendon
 brown belt;Male;no injuries
@@ -1147,11 +1005,9 @@ blue belt;Male;cartilage
 blue belt;Male;ribs
 blue belt;Male;white belt
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Female;no injuries
 white belt;Female;no injuries
 white belt;Male;no injuries
-white belt;Male;no answer
 brown belt;Male;knee
 white belt;Male;cartilage
 white belt;Male;knee
@@ -1159,14 +1015,12 @@ white belt;Male;arm
 white belt;Male;neck
 white belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 white belt;Male;no injuries
 white belt;Male;nothing serious
 brown belt;Male;no injuries
 blue belt;Male;shoulder
 purple belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 brown belt;Male;back
 brown belt;Male;neck
 brown belt;Male;no injuries
@@ -1175,7 +1029,6 @@ blue belt;Male;no injuries
 white belt;Male;no injuries
 white belt;Male;no injuries
 no rank;no answer;no injuries
-no rank;no answer;no answer
 blue belt;Male;cartilage
 blue belt;Male;chest
 blue belt;Male;knee
@@ -1185,67 +1038,43 @@ white belt;Female;no injuries
 white belt;Female;no injuries
 purple belt;Male;staph infeciton
 white belt;Male;no injuries
-white belt;Male;no answer
-blue belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;elbow
 white belt;Male;no injuries
 purple belt;Male;disc
 purple belt;Male;no injuries
 blue belt;Female;shoulder
 no rank;no answer;no injuries
-no rank;no answer;no answer
 blue belt;Male;finger
 purple belt;Male;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;arm
 purple belt;Male;no injuries
 purple belt;Male;shoulder
 purple belt;Male;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 black belt;Male;no injuries
-black belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
-no rank;Male;no injuries
-no rank;Male;no answer
+white belt;Male;no injuries
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;back
 white belt;Male;neck
 white belt;Male;no injuries
 white belt;Male;ribs
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;ankle
 white belt;Male;disc
 white belt;Male;neck
@@ -1253,66 +1082,41 @@ white belt;Male;no injuries
 white belt;Male;shoulder
 white belt;Male;toes
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 brown belt;Female;no injuries
-brown belt;Female;no answer
 blue belt;Male;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Female;disc
 blue belt;Female;hernia
 blue belt;Female;neck
 blue belt;Female;shoulder
 white belt;Female;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;ankle
 purple belt;Male;foot
 purple belt;Male;no injuries
 purple belt;Male;popped
 white belt;Male;no injuries
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;elbow
 blue belt;Male;foot
 blue belt;Male;ligament
@@ -1321,48 +1125,31 @@ purple belt;Male;knee
 purple belt;Male;neck
 purple belt;Male;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 blue belt;Female;no injuries
 blue belt;Male;no injuries
 blue belt;Female;no injuries
-blue belt;Female;no answer
 white belt;Female;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;back
 purple belt;Male;lateral collateral ligament
 purple belt;Male;lower back
 purple belt;Male;no injuries
 purple belt;Male;shoulder
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
-no rank;Male;elbow
+white belt;Male;elbow
 white belt;Female;lower back
 white belt;Female;no injuries
 purple belt;Male;joint
@@ -1371,7 +1158,6 @@ purple belt;Male;meniscus
 purple belt;Male;rotator cuff
 purple belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;chest
 white belt;Male;no injuries
 brown belt;Male;disc
@@ -1381,14 +1167,11 @@ brown belt;Male;knee
 brown belt;Male;leg
 brown belt;Male;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 brown belt;Male;arm
 brown belt;Male;knee
 brown belt;Male;ribs
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 blue belt;Male;knee
 blue belt;Male;no injuries
 blue belt;Male;nothing serious
@@ -1398,11 +1181,8 @@ white belt;Male;tendon
 blue belt;Female;arm
 blue belt;Female;elbow
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 black belt;Male;finger
 black belt;Male;fingers
 black belt;Male;knee
@@ -1419,49 +1199,34 @@ purple belt;Male;toes
 blue belt;Male;ribs
 blue belt;Male;toes
 blue belt;Male;no injuries
-blue belt;Male;no answer
 purple belt;Male;no injuries
 blue belt;Male;no injuries
 brown belt;Male;hernia
 brown belt;Male;no injuries
 brown belt;Male;white belt
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;concussion
 white belt;Male;elbow
 no rank;no answer;no injuries
-no rank;no answer;no answer
 purple belt;Male;no injuries
 purple belt;Male;nothing serious
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 brown belt;Male;ribs
 white belt;Male;no injuries
-white belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;knee
 white belt;Male;ribs
-no rank;Male;knee
-no rank;Male;leg
+white belt;Male;knee
+white belt;Male;leg
 white belt;Male;ankle
 white belt;Male;foot
 white belt;Male;knee
@@ -1475,11 +1240,8 @@ white belt;Female;lower back
 white belt;Female;neck
 white belt;Female;thumb
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;elbow
 purple belt;Male;groin
 purple belt;Male;knee
@@ -1497,48 +1259,32 @@ brown belt;Male;no injuries
 brown belt;Male;toes
 purple belt;Male;shoulder
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 white belt;Male;disc
 white belt;Male;hernia
 white belt;Male;knee
 white belt;Male;neck
 white belt;Male;no injuries
-white belt;Male;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 brown belt;Male;ribs
 no rank;Female;no injuries
-no rank;Female;no answer
 white belt;Female;no injuries
 white belt;Female;nothing serious
 white belt;Female;ribs
 white belt;Female;shoulder
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;hand
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 brown belt;Male;no injuries
-brown belt;Male;no answer
 white belt;Male;knee
 white belt;Male;no injuries
-white belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 black belt;Male;cartilage
 black belt;Male;elbow
 black belt;Male;finger
@@ -1557,17 +1303,11 @@ blue belt;Male;ribs
 blue belt;Male;shoulder
 blue belt;Male;thumb
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 purple belt;Male;ankle
 purple belt;Male;cartilage
 purple belt;Male;popped
@@ -1586,79 +1326,48 @@ purple belt;Male;neck
 purple belt;Male;ribs
 purple belt;Male;shoulder
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Female;back
 blue belt;Female;knee
 blue belt;Female;meniscus
 blue belt;Female;no injuries
 blue belt;Female;white belt
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;knee
 purple belt;Male;meniscus
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Female;no injuries
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;no injuries
-white belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;no injuries
 white belt;Male;nothing serious
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;knee
 white belt;Male;no injuries
 blue belt;Male;no injuries
-blue belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;no answer;no injuries
-purple belt;no answer;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;arm
 blue belt;Male;elbow
 white belt;Male;ankle
@@ -1670,98 +1379,63 @@ white belt;Male;no injuries
 white belt;Male;popped
 white belt;Male;ribs
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Female;no injuries
-no rank;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;ribs
 blue belt;Male;elbow
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;no injuries
 no rank;no answer;no injuries
-no rank;no answer;no answer
 purple belt;Male;no injuries
-purple belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Male;no injuries
 white belt;Male;ribs
 no rank;Male;no injuries
-no rank;Male;no answer
 white belt;Female;no injuries
-white belt;Female;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;toes
 white belt;Male;wrist
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;no injuries
-blue belt;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;disc
 no rank;Male;no injuries
-no rank;Male;no answer
 no rank;Male;no injuries
-no rank;Male;no answer
 purple belt;Male;finger
 purple belt;Male;toes
 white belt;Male;disc
 white belt;Male;neck
 no rank;no answer;no injuries
-no rank;no answer;no answer
 black belt;Male;ankle
 black belt;Male;back
 black belt;Male;lateral collateral ligament
 black belt;Male;neck
 black belt;Male;toes
 no rank;Female;no injuries
-no rank;Female;no answer
 purple belt;Male;no injuries
 purple belt;Male;shoulder
 purple belt;Male;tendon
 blue belt;Female;knee
 blue belt;Female;toes
 no rank;Male;no injuries
-no rank;Male;no answer
 blue belt;Male;elbow
 blue belt;Male;leg
 blue belt;Male;no injuries
 purple belt;Male;ribs
 no rank;no answer;no injuries
-no rank;no answer;no answer
 no rank;Female;no injuries
-no rank;Female;no answer

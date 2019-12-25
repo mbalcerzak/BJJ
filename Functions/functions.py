@@ -150,7 +150,7 @@ def explode(dataset, variable, new_var_name, na = True):
               .rename(columns={0:new_var_name}))
        
     if na == False:
-        dataset_ = dataset_[dataset_[new_var_name] != 'NA']
+        dataset_ = dataset_[dataset_[new_var_name] != 'no answer']
     
     return dataset_[[x for x in list(dataset_) if 'level' not in x]]
 
@@ -175,6 +175,11 @@ def is_choke(x):
     
 def age_categories(x):   
     if x != 'no answer':
-        return '{}-{}'.format(round(int(x)//5*5), round(int(x)//5*5+5))
+        x = int(x)
+        
+        if x < 50:
+            return '{}-{}'.format(round(x//5*5), round(x//5*5+5))
+        else:
+            return '50+'
     else:
         return x

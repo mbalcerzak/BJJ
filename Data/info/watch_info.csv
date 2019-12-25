@@ -1,6 +1,4 @@
 current_belt;gender;watch_sport
-blue belt;Male;no answer
-purple belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;flo grappling
 white belt;Male;flow grappling
@@ -21,7 +19,6 @@ blue belt;Male;ebi
 blue belt;Male;flow grappling
 blue belt;Male;metamoris
 purple belt;Male;ebi
-white belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
@@ -45,11 +42,9 @@ purple belt;Male;ebi
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;youtube
-purple belt;Male;no answer
 purple belt;Male;anything
 purple belt;Male;reddit
 blue belt;Male;ebi
-purple belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;youtube
@@ -61,7 +56,6 @@ purple belt;Male;metamoris
 purple belt;Male;polaris
 white belt;Male;friends compete
 white belt;Male;youtube
-white belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;anything
@@ -79,9 +73,6 @@ blue belt;Male;flow grappling
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
-blue belt;Male;no answer
-brown belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
@@ -106,8 +97,6 @@ black belt;Male;polaris
 white belt;Female;fight to win
 white belt;Female;polaris
 white belt;Female;youtube
-brown belt;Male;no answer
-white belt;Female;no answer
 white belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
@@ -134,28 +123,24 @@ blue belt;Male;polaris
 brown belt;Male;ebi
 purple belt;Male;ebi
 purple belt;Male;metamoris
-blue belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;ibjjf
 white belt;Male;metamoris
 white belt;Male;ebi
 white belt;Male;polaris
-purple belt;Male;no answer
-blue belt;Male;no answer
 purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;youtube
-white belt;Male;no answer
 purple belt;Male;anything
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
 blue belt;Male;friends compete
 blue belt;Male;youtube
-no rank;Male;ebi
-no rank;Male;metamoris
-no rank;Male;youtube
+white belt;Male;ebi
+white belt;Male;metamoris
+white belt;Male;youtube
 blue belt;Male;ebi
 blue belt;Male;flow grappling
 blue belt;Male;panams
@@ -165,21 +150,15 @@ white belt;Male;flow grappling
 white belt;Male;ibjjf
 white belt;Male;metamoris
 white belt;Male;polaris
-white belt;Male;no answer
-blue belt;Male;no answer
 blue belt;Male;youtube
 white belt;Male;adcc
 white belt;Male;ebi
-blue belt;Male;no answer
-blue belt;Female;no answer
 white belt;Male;ebi
 white belt;Male;polaris
-purple belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
 white belt;Male;youtube
-purple belt;Male;no answer
 blue belt;Male;youtube
 blue belt;Male;ebi
 blue belt;Male;ibjjf
@@ -189,27 +168,20 @@ white belt;Male;youtube
 blue belt;Male;metamoris
 blue belt;Male;ebi
 blue belt;Male;metamoris
-purple belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;youtube
 white belt;Male;ebi
 white belt;Male;metamoris
 blue belt;Male;youtube
-white belt;Male;no answer
-blue belt;Male;no answer
 white belt;Female;anything
 white belt;Female;youtube
-white belt;Male;no answer
-white belt;Male;no answer
-blue belt;Female;no answer
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
-white belt;Male;no answer
 purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;polaris
@@ -220,7 +192,6 @@ purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
-blue belt;Male;no answer
 blue belt;Male;adcc
 blue belt;Male;ebi
 blue belt;Male;polaris
@@ -228,7 +199,6 @@ white belt;Male;ebi
 white belt;Male;friends compete
 white belt;Male;metamoris
 white belt;Male;polaris
-white belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
@@ -237,26 +207,19 @@ purple belt;Male;anything
 purple belt;Male;youtube
 purple belt;Male;anything
 purple belt;Male;friends compete
-white belt;Male;no answer
-white belt;Male;no answer
 blue belt;Male;youtube
 blue belt;Male;ebi
 blue belt;Male;metamoris
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
-white belt;Female;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
 white belt;Male;youtube
-blue belt;Male;no answer
 white belt;Male;anything
 white belt;Male;youtube
 white belt;Male;friends compete
 white belt;Male;metamoris
-white belt;Male;no answer
-purple belt;Male;no answer
-white belt;Male;no answer
 blue belt;Male;adcc
 blue belt;Male;beerkut
 blue belt;Male;ebi
@@ -267,8 +230,6 @@ blue belt;Male;youtube
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;polaris
-white belt;Male;no answer
-white belt;Male;no answer
 purple belt;Male;anything
 purple belt;Male;ebi
 purple belt;Male;fight to win
@@ -294,7 +255,6 @@ white belt;Male;metamoris
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;mundials
-brown belt;Male;no answer
 purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;friends compete
@@ -302,13 +262,11 @@ purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
 purple belt;Male;youtube
-blue belt;Female;no answer
-no rank;Male;ebi
+white belt;Male;ebi
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 white belt;Male;ebi
-white belt;Male;no answer
 white belt;Male;adcc
 white belt;Male;ebi
 white belt;Male;metamoris
@@ -326,7 +284,6 @@ white belt;Male;metamoris
 white belt;Male;youtube
 purple belt;Male;adcc
 purple belt;Male;mundials
-white belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
@@ -340,7 +297,6 @@ purple belt;Male;ebi
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
-purple belt;Male;no answer
 blue belt;Male;adcc
 blue belt;Male;ebi
 blue belt;Male;flo grappling
@@ -348,24 +304,17 @@ blue belt;Male;flow grappling
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
-brown belt;Male;no answer
-purple belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;youtube
 blue belt;Male;metamoris
 blue belt;Male;polaris
 blue belt;Male;youtube
 blue belt;Female;youtube
-white belt;Male;no answer
 blue belt;Female;anything
 blue belt;Female;ebi
 blue belt;Female;friends compete
 blue belt;Female;youtube
 blue belt;Male;youtube
-blue belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;ebi
-white belt;Male;no answer
 black belt;Male;friends compete
 black belt;Male;metamoris
 purple belt;Female;ebi
@@ -380,7 +329,6 @@ blue belt;Male;polaris
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
-blue belt;Male;no answer
 white belt;Male;friends compete
 black belt;Male;adcc
 black belt;Male;ebi
@@ -399,14 +347,11 @@ blue belt;Male;metamoris
 blue belt;Male;polaris
 blue belt;Male;ebi
 blue belt;Male;youtube
-blue belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
 blue belt;Male;metamoris
 blue belt;Male;polaris
-purple belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;youtube
 purple belt;Male;anything
 purple belt;Male;ebi
@@ -415,16 +360,11 @@ purple belt;Male;metamoris
 purple belt;Male;polaris
 purple belt;Male;pro jitsu
 purple belt;Male;youtube
-no rank;Male;no answer
-blue belt;Male;no answer
 blue belt;Male;ibjjf
 blue belt;Male;youtube
-blue belt;Male;no answer
-white belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;polaris
-brown belt;Male;no answer
 purple belt;Male;friends compete
 purple belt;Male;metamoris
 purple belt;Male;ebi
@@ -433,9 +373,9 @@ purple belt;Male;polaris
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;youtube
-no rank;Male;adcc
-no rank;Male;ebi
-no rank;Male;metamoris
+white belt;Male;adcc
+white belt;Male;ebi
+white belt;Male;metamoris
 white belt;Male;anything
 white belt;Male;youtube
 brown belt;Male;anything
@@ -443,76 +383,54 @@ brown belt;Male;youtube
 white belt;Male;flo grappling
 white belt;Male;flow grappling
 white belt;Male;youtube
-white belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;youtube
 white belt;Male;adcc
 white belt;Male;copa podio
 white belt;Male;metamoris
 white belt;Male;polaris
-white belt;Female;no answer
 purple belt;Male;anything
 purple belt;Male;youtube
-white belt;Female;no answer
-purple belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;ibjjf
 white belt;Male;polaris
-purple belt;Male;no answer
-brown belt;Male;no answer
-white belt;Male;no answer
-purple belt;Male;no answer
 white belt;Male;youtube
-no rank;Male;adcc
-no rank;Male;ebi
-no rank;Male;metamoris
-no rank;Male;mundials
+white belt;Male;adcc
+white belt;Male;ebi
+white belt;Male;metamoris
+white belt;Male;mundials
 white belt;Male;ebi
 white belt;Male;pro jitsu
-purple belt;Male;no answer
 white belt;Male;youtube
-white belt;Female;no answer
 purple belt;Male;ebi
 white belt;Male;ebi
-white belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
 purple belt;Male;youtube
-blue belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
-purple belt;Male;no answer
-blue belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;anything
 white belt;Male;metamoris
 white belt;Male;polaris
 white belt;Male;youtube
 white belt;Male;anything
 white belt;Male;youtube
-white belt;Male;no answer
-white belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
-purple belt;Female;no answer
-blue belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;youtube
 white belt;Male;youtube
 blue belt;Male;youtube
-blue belt;Male;no answer
 blue belt;Male;ebi
-blue belt;Male;no answer
 black belt;Male;panams
 purple belt;Male;metamoris
 white belt;Male;youtube
 white belt;Male;ebi
 white belt;Male;metamoris
-white belt;Male;no answer
 white belt;Male;ebi
 purple belt;Male;ebi
 purple belt;Male;metamoris
@@ -526,11 +444,7 @@ white belt;Male;metamoris
 white belt;Male;polaris
 purple belt;Male;youtube
 blue belt;Male;youtube
-white belt;Female;no answer
-white belt;Male;no answer
-brown belt;Male;no answer
-no rank;Male;youtube
-blue belt;Female;no answer
+white belt;Male;youtube
 purple belt;Male;youtube
 blue belt;Male;adcc
 blue belt;Male;ebi
@@ -538,8 +452,6 @@ blue belt;Male;flo grappling
 blue belt;Male;flow grappling
 blue belt;Male;panams
 blue belt;Male;polaris
-white belt;Male;no answer
-black belt;Male;no answer
 black belt;Male;ibjjf
 black belt;Male;metamoris
 white belt;Male;metamoris
@@ -547,20 +459,15 @@ white belt;Male;youtube
 white belt;Male;ebi
 white belt;Male;ibjjf
 white belt;Male;polaris
-white belt;Male;no answer
 white belt;Male;ebi
 black belt;Male;youtube
 white belt;Male;ebi
-black belt;Male;no answer
 blue belt;Male;adcc
 blue belt;Male;ebi
 blue belt;Male;polaris
-purple belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;polaris
 blue belt;Male;ebi
-purple belt;Male;no answer
-white belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;fight to win
 purple belt;Male;metamoris
@@ -568,31 +475,25 @@ purple belt;Male;anything
 purple belt;Male;youtube
 blue belt;Male;ebi
 blue belt;Male;polaris
-blue belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
 purple belt;Male;ebi
 purple belt;Male;ibjjf
-white belt;Male;no answer
 white belt;Male;adcc
 white belt;Male;ebi
 white belt;Male;panams
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
-black belt;Male;no answer
-no rank;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
-purple belt;Male;no answer
 purple belt;Male;abu dhabi
 purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
-blue belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
@@ -605,20 +506,14 @@ purple belt;Male;copa podio
 purple belt;Male;ebi
 purple belt;Male;flow grappling
 purple belt;Male;metamoris
-brown belt;Male;no answer
 brown belt;Male;ebi
 brown belt;Male;ibjjf
 brown belt;Male;metamoris
-white belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;flo grappling
 purple belt;Male;flow grappling
 purple belt;Male;polaris
 purple belt;Male;youtube
-blue belt;Male;no answer
-blue belt;Male;no answer
-purple belt;Female;no answer
-black belt;Male;no answer
 blue belt;Male;metamoris
 brown belt;Male;ibjjf
 brown belt;Male;youtube
@@ -626,7 +521,6 @@ blue belt;Male;metamoris
 no rank;Male;ebi
 no rank;Male;metamoris
 no rank;Male;polaris
-blue belt;Male;no answer
 purple belt;Male;youtube
 purple belt;Male;beerkut
 purple belt;Male;ebi
@@ -637,15 +531,12 @@ purple belt;Male;metamoris
 purple belt;Male;polaris
 purple belt;Male;anything
 brown belt;Male;youtube
-blue belt;Male;no answer
 brown belt;Male;ibjjf
-black belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
 purple belt;Male;ebi
-purple belt;Male;no answer
 black belt;Male;youtube
 black belt;Male;youtube
 white belt;Male;ibjjf
@@ -653,8 +544,6 @@ white belt;Male;metamoris
 white belt;Male;uaejff
 blue belt;Male;ibjjf
 blue belt;Male;youtube
-brown belt;Male;no answer
-blue belt;Male;no answer
 black belt;Male;copa podio
 black belt;Male;flo grappling
 black belt;Male;flow grappling
@@ -662,14 +551,12 @@ black belt;Male;ibjjf
 black belt;Male;metamoris
 black belt;Male;panams
 black belt;Male;polaris
-white belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
 blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
-blue belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;jeff glover
@@ -682,7 +569,6 @@ black belt;Male;ibjjf
 black belt;Male;metamoris
 purple belt;Male;anything
 purple belt;Male;youtube
-brown belt;Female;no answer
 blue belt;Female;flo grappling
 blue belt;Female;flow grappling
 blue belt;Female;metamoris
@@ -691,9 +577,6 @@ black belt;Male;budo
 black belt;Male;ebi
 black belt;Male;flo grappling
 black belt;Male;flow grappling
-white belt;Male;no answer
-blue belt;Male;no answer
-blue belt;Male;no answer
 white belt;Male;polaris
 brown belt;Male;adcc
 brown belt;Male;ebi
@@ -713,13 +596,11 @@ black belt;Female;metamoris
 black belt;Female;polaris
 purple belt;Male;youtube
 purple belt;Male;youtube
-white belt;Male;no answer
 blue belt;Male;anything
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
-white belt;Female;no answer
 brown belt;Male;copa podio
 brown belt;Male;ibjjf
 brown belt;Male;polaris
@@ -732,15 +613,11 @@ blue belt;Female;ebi
 blue belt;Female;ibjjf
 blue belt;Female;polaris
 blue belt;Female;pro jitsu
-blue belt;Male;no answer
 blue belt;Male;facebook
 blue belt;Female;youtube
-blue belt;Female;no answer
 white belt;Male;metamoris
-white belt;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;polaris
-purple belt;Male;no answer
 blue belt;Female;ebi
 blue belt;Female;polaris
 black belt;Male;ebi
@@ -748,10 +625,8 @@ black belt;Male;metamoris
 brown belt;Male;ebi
 brown belt;Male;ibjjf
 brown belt;Male;polaris
-blue belt;Male;no answer
 purple belt;Male;anything
 purple belt;Male;youtube
-blue belt;Male;no answer
 blue belt;Female;youtube
 blue belt;Male;ebi
 brown belt;Male;adcc
@@ -763,39 +638,25 @@ blue belt;Male;ebi
 blue belt;Male;friends compete
 blue belt;Male;metamoris
 blue belt;Male;polaris
-black belt;Male;no answer
 blue belt;Male;anything
 purple belt;Male;youtube
-white belt;Male;no answer
-no rank;Male;no answer
 brown belt;Male;youtube
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
 blue belt;Male;youtube
-blue belt;Male;no answer
-white belt;Male;no answer
-brown belt;Male;no answer
 purple belt;Male;abu dhabi
 purple belt;Male;ebi
 purple belt;Male;metamoris
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;anything
-black belt;Male;no answer
 purple belt;Female;ebi
 blue belt;Female;metamoris
-blue belt;Female;no answer
 white belt;Male;ebi
 white belt;Male;polaris
-white belt;Female;no answer
 blue belt;Female;anything
-no rank;Male;no answer
 no rank;Female;youtube
 blue belt;Male;polaris
 white belt;Male;youtube
-blue belt;Male;no answer
 white belt;Female;youtube
-white belt;Male;no answer
 blue belt;Male;anything
 blue belt;Male;metamoris
 white belt;Male;adcc
@@ -811,7 +672,6 @@ white belt;Male;ibjjf
 white belt;Male;polaris
 purple belt;Male;ebi
 purple belt;Male;metamoris
-blue belt;Male;no answer
 brown belt;Male;adcc
 brown belt;Male;copa podio
 brown belt;Male;ebi
@@ -823,7 +683,6 @@ white belt;Male;metamoris
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
-white belt;Male;no answer
 brown belt;Male;ebi
 brown belt;Male;ibjjf
 brown belt;Male;metamoris
@@ -836,11 +695,9 @@ purple belt;Male;mundials
 purple belt;Male;anything
 purple belt;Male;friends compete
 purple belt;Male;youtube
-no rank;Male;no answer
 blue belt;Male;anything
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
-white belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
@@ -850,7 +707,6 @@ white belt;Male;ebi
 white belt;Male;flow grappling
 white belt;Male;metamoris
 white belt;Male;polaris
-white belt;Male;no answer
 purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;metamoris
@@ -859,7 +715,6 @@ white belt;Male;youtube
 white belt;Male;ebi
 white belt;Male;polaris
 white belt;Male;youtube
-white belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
@@ -888,14 +743,11 @@ purple belt;Male;friends compete
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
-blue belt;Male;no answer
-blue belt;Male;no answer
 white belt;Male;flo grappling
 white belt;Male;flow grappling
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
-blue belt;Male;no answer
 black belt;Male;anything
 black belt;Male;ebi
 black belt;Male;flow grappling
@@ -909,8 +761,6 @@ white belt;Male;youtube
 brown belt;Male;ebi
 brown belt;Male;ibjjf
 brown belt;Male;metamoris
-white belt;Female;no answer
-white belt;Male;no answer
 black belt;Male;facebook
 black belt;Male;youtube
 white belt;Male;ebi
@@ -927,7 +777,6 @@ purple belt;Female;friends compete
 purple belt;Female;ibjjf
 purple belt;Female;polaris
 purple belt;Male;ebi
-blue belt;Male;no answer
 purple belt;Male;anything
 purple belt;Male;ebi
 purple belt;Male;metamoris
@@ -935,7 +784,6 @@ purple belt;Male;polaris
 purple belt;Male;anything
 blue belt;Male;copa podio
 blue belt;Male;ebi
-blue belt;Female;no answer
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
@@ -947,12 +795,9 @@ blue belt;Male;friends compete
 blue belt;Male;ibjjf
 blue belt;Male;polaris
 blue belt;Male;youtube
-brown belt;Male;no answer
 brown belt;Male;ibjjf
 brown belt;Male;polaris
-blue belt;Male;no answer
 blue belt;Male;friends compete
-white belt;Male;no answer
 white belt;Male;adcc
 white belt;Male;metamoris
 white belt;Male;polaris
@@ -971,14 +816,11 @@ blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
-blue belt;Male;no answer
-blue belt;Male;no answer
 black belt;Male;adcc
 black belt;Male;anything
 black belt;Male;ebi
 black belt;Male;metamoris
 black belt;Male;youtube
-white belt;Male;no answer
 blue belt;Male;facebook
 blue belt;Male;youtube
 blue belt;Male;anything
@@ -986,10 +828,8 @@ blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
 blue belt;Male;youtube
-blue belt;Male;no answer
 black belt;Male;ebi
 black belt;Male;metamoris
-white belt;Female;no answer
 brown belt;Male;youtube
 brown belt;Male;ebi
 brown belt;Male;flow grappling
@@ -999,22 +839,15 @@ brown belt;Male;metamoris
 brown belt;Male;polaris
 brown belt;Male;reddit
 brown belt;Male;youtube
-brown belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;polaris
-white belt;Female;no answer
-white belt;Male;no answer
 white belt;Male;youtube
-white belt;Male;no answer
-blue belt;Male;no answer
 blue belt;Male;anything
 blue belt;Male;anything
 blue belt;Male;friends compete
 black belt;Male;youtube
-white belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;polaris
-no rank;Male;no answer
 purple belt;Female;youtube
 blue belt;Male;youtube
 blue belt;Male;beerkut
@@ -1023,47 +856,36 @@ blue belt;Male;ebi
 blue belt;Male;metamoris
 blue belt;Male;polaris
 blue belt;Male;youtube
-black belt;Male;no answer
 brown belt;Male;metamoris
-purple belt;Male;no answer
 purple belt;Male;flo grappling
 purple belt;Male;flow grappling
 purple belt;Male;ibjjf
 black belt;Male;youtube
-white belt;no answer;no answer
 purple belt;Female;youtube
 black belt;Male;fight to win
 black belt;Male;ibjjf
 blue belt;Male;metamoris
 purple belt;Male;ebi
 purple belt;Male;polaris
-purple belt;Male;no answer
 blue belt;Male;adcc
 blue belt;Male;youtube
 blue belt;Male;youtube
-white belt;Male;no answer
 white belt;Male;metamoris
 white belt;Male;ebi
 blue belt;Male;anything
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
-purple belt;Male;no answer
 blue belt;Male;ibjjf
 blue belt;Male;polaris
 blue belt;Male;youtube
 white belt;Female;ebi
 white belt;Female;metamoris
-brown belt;Male;no answer
-no rank;Male;no answer
 blue belt;Male;ebi
 white belt;Male;abu dhabi
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Female;youtube
-white belt;Female;no answer
-white belt;Male;no answer
-brown belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;polaris
 white belt;Male;youtube
@@ -1081,7 +903,6 @@ blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
 purple belt;Male;edi worlds
-blue belt;Male;no answer
 brown belt;Male;ebi
 brown belt;Male;metamoris
 brown belt;Male;polaris
@@ -1091,16 +912,12 @@ white belt;Male;beerkut
 white belt;Male;metamoris
 white belt;Male;polaris
 white belt;Male;tuff invitational
-no rank;no answer;no answer
-blue belt;Male;no answer
-white belt;Female;no answer
 white belt;Female;youtube
 purple belt;Male;adcc
 purple belt;Male;ebi
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
-white belt;Male;no answer
 blue belt;Male;ebi
 white belt;Male;abu dhabi
 white belt;Male;ebi
@@ -1108,8 +925,6 @@ white belt;Male;metamoris
 white belt;Male;youtube
 purple belt;Male;ebi
 purple belt;Male;metamoris
-blue belt;Female;no answer
-no rank;no answer;no answer
 blue belt;Male;adcc
 blue belt;Male;ebi
 blue belt;Male;fightpass
@@ -1118,106 +933,37 @@ purple belt;Male;flo grappling
 purple belt;Male;flow grappling
 purple belt;Male;metamoris
 purple belt;Male;youtube
-no rank;Male;no answer
-blue belt;Male;no answer
-purple belt;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-black belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;adcc
-no rank;Male;anything
-no rank;Male;ebi
-no rank;Male;ibjjf
-no rank;Male;metamoris
-no rank;Male;polaris
-no rank;Male;youtube
-no rank;no answer;no answer
-no rank;Female;no answer
-no rank;Male;no answer
+white belt;Male;adcc
+white belt;Male;anything
+white belt;Male;ebi
+white belt;Male;ibjjf
+white belt;Male;metamoris
+white belt;Male;polaris
+white belt;Male;youtube
 white belt;Male;adcc
 white belt;Male;ebi
 white belt;Male;polaris
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;polaris
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
 blue belt;Male;metamoris
 blue belt;Male;polaris
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 brown belt;Female;ibjjf
 brown belt;Female;metamoris
 brown belt;Female;polaris
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
-no rank;Male;no answer
-blue belt;Female;no answer
-white belt;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
-purple belt;Male;no answer
-white belt;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-blue belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;youtube
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
 blue belt;Female;flo grappling
 blue belt;Female;flow grappling
-blue belt;Male;no answer
-blue belt;Female;no answer
-white belt;Female;no answer
-no rank;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;metamoris
+white belt;Male;metamoris
 white belt;Female;ebi
 white belt;Female;metamoris
 white belt;Female;polaris
@@ -1227,7 +973,6 @@ white belt;Male;ebi
 white belt;Male;youtube
 purple belt;Male;ebi
 purple belt;Male;metamoris
-white belt;Male;no answer
 brown belt;Male;anything
 brown belt;Male;ebi
 brown belt;Male;flow grappling
@@ -1237,17 +982,13 @@ brown belt;Male;copa podio
 brown belt;Male;flo grappling
 brown belt;Male;flow grappling
 brown belt;Male;polaris
-no rank;Male;no answer
 brown belt;Male;metamoris
-no rank;Male;no answer
-no rank;Female;no answer
 blue belt;Male;abu dhabi
 blue belt;Male;ebi
 blue belt;Male;ibjjf
 blue belt;Male;metamoris
 blue belt;Male;polaris
 blue belt;Male;youtube
-white belt;Male;no answer
 blue belt;Female;ebi
 blue belt;Female;metamoris
 blue belt;Female;youtube
@@ -1256,44 +997,22 @@ white belt;Male;metamoris
 blue belt;Male;youtube
 black belt;Male;anything
 blue belt;Male;ebi
-blue belt;Male;no answer
 purple belt;Male;ebi
 purple belt;Male;flo grappling
 purple belt;Male;flow grappling
 blue belt;Male;flo grappling
 blue belt;Male;flow grappling
-blue belt;Male;no answer
 purple belt;Male;ebi
 blue belt;Male;metamoris
-brown belt;Male;no answer
-no rank;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
-no rank;no answer;no answer
 purple belt;Male;polaris
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 brown belt;Male;youtube
-white belt;Male;no answer
-no rank;Male;no answer
 white belt;Male;anything
 white belt;Male;ebi
-no rank;Male;no answer
-white belt;Male;no answer
 purple belt;Male;youtube
 white belt;Female;ebi
 white belt;Female;metamoris
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 purple belt;Male;abu dhabi
 purple belt;Male;ibjjf
 purple belt;Male;metamoris
@@ -1314,14 +1033,8 @@ purple belt;Male;ibjjf
 purple belt;Male;metamoris
 purple belt;Male;polaris
 purple belt;Male;pro jitsu
-white belt;Male;no answer
-white belt;Male;no answer
-white belt;Male;no answer
-white belt;Male;no answer
 purple belt;Male;ebi
-no rank;Female;no answer
 white belt;Male;ebi
-no rank;Female;no answer
 brown belt;Male;copa podio
 brown belt;Male;ebi
 brown belt;Male;fight to win
@@ -1329,130 +1042,41 @@ brown belt;Male;flo grappling
 brown belt;Male;flow grappling
 brown belt;Male;ibjjf
 brown belt;Male;polaris
-no rank;Female;no answer
 white belt;Female;ebi
-no rank;Female;no answer
-no rank;Male;no answer
 purple belt;Male;youtube
-no rank;Male;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
-brown belt;Male;no answer
 white belt;Male;ebi
 white belt;Male;polaris
 white belt;Male;ebi
-no rank;Male;no answer
 black belt;Male;ebi
 black belt;Male;metamoris
 black belt;Male;polaris
 black belt;Male;subf15teen
-blue belt;Male;no answer
 blue belt;Male;metamoris
 blue belt;Male;youtube
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Female;no answer
 blue belt;Male;youtube
-no rank;no answer;no answer
-no rank;Female;no answer
-purple belt;Male;no answer
 purple belt;Male;youtube
 purple belt;Male;metamoris
-no rank;Male;no answer
 blue belt;Female;adcc
 blue belt;Female;ebi
 blue belt;Female;polaris
 blue belt;Female;youtube
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;no answer;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 white belt;Male;ebi
 white belt;Male;metamoris
 white belt;Male;reddit
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;metamoris
 white belt;Male;youtube
-blue belt;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-purple belt;no answer;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;metamoris
-white belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-white belt;Male;no answer
 blue belt;Male;metamoris
-no rank;Male;no answer
 blue belt;Male;ebi
 blue belt;Male;polaris
-no rank;no answer;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
 white belt;Male;metamoris
-no rank;Male;no answer
-white belt;Female;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-blue belt;Male;no answer
 white belt;Male;ebi
-no rank;Male;no answer
-blue belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-purple belt;Male;no answer
-no rank;Male;no answer
-no rank;Male;no answer
-purple belt;Male;no answer
 white belt;Male;ebi
-no rank;no answer;no answer
-black belt;Male;no answer
-no rank;Female;no answer
 purple belt;Male;youtube
 blue belt;Female;ebi
 blue belt;Female;metamoris
-no rank;Male;no answer
 blue belt;Male;youtube
 purple belt;Male;ebi
 purple belt;Male;metamoris
 purple belt;Male;polaris
-no rank;no answer;no answer
-no rank;Female;no answer
