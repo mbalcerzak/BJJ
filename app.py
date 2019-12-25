@@ -17,7 +17,10 @@ def load_data(file_name):
         for column in ["how_old_when_started", "num_gis", "num_rashguards", 
                        "num_shorts"]:    
         
-            data[column] = data[column].apply(lambda x: str(x[1:-1]))
+            def chop(x):
+                return str(x[1:-1]) if x != 'no answer' else x
+            
+            data[column] = data[column].apply(lambda x: chop(x))
     
     return data
 
