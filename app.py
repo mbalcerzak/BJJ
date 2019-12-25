@@ -169,7 +169,7 @@ elif all_or_not == 'Interesing raw data':
  
 elif all_or_not == 'Wordcloud!':
     
-    image_path = DATA_URL + '/belt_colours.png'
+    image_path = 'https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/belt_colours.png'
     
     max_words = st.sidebar.text_input('Maximum number of words', '600')
     max_font_size = st.sidebar.text_input('Maximum font size', '150')
