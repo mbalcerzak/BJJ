@@ -3,6 +3,7 @@ import pandas as pd
 from Functions.for_streamlit.bygroups_app import bygroups_show
 from Functions.for_streamlit.overall_app import overall_show
 from Dictionaries.colnames_dictionary import header_dictionary as hd
+from Functions.for_streamlit.wordcloud_create import create_wordcloud
 
 st.title('BJJ  Survey Results')
 
@@ -54,10 +55,6 @@ data_load_state.text('Loading data... done!')
 
 st.sidebar.text("github.com/mbalcerzak")
 
-if st.checkbox('Show the data used for analysis'):
-    st.subheader('Answers')
-    st.write(data_view)
-   
 st.sidebar.header("Overall results or for a selected group?")
 
 all_or_not = st.sidebar.selectbox("",["Overall",
@@ -168,10 +165,11 @@ elif all_or_not == 'Interesing raw data':
     st.subheader(hd['Q63'])
     st.dataframe(data_raw['favourite_athletes_raw'] \
              [data_raw['favourite_athletes_raw'] != 'no answer'], width = w)
+
  
 elif all_or_not == 'Wordcloud!':
     
-    image_path = r'C:\Users\malgo_000\Pictures\BJJ wordcloud\belt_colours2.png'
+    image_path = DATA_URL + '/belt_colours.png'
     
     max_words = st.sidebar.text_input('Maximum number of words', '600')
     max_font_size = st.sidebar.text_input('Maximum font size', '150')
@@ -181,13 +179,21 @@ elif all_or_not == 'Wordcloud!':
     gender_chosen = st.sidebar.selectbox("Gender:", genders)
     
     if belt_chosen != belts[0] or gender_chosen != genders[0]:
-        data = filter_data(data)
+        data1 = filter_data(data,belt_chosen,gender_chosen)
+        fav_list = ' '.join(data1['favourite'].to_list())
+    else:
+        belt_chosen = belts[0]
+        gender_chosen = genders[0]
+        fav_list = ' '.join(data['favourite'].to_list())
     
-    from Functions.for_streamlit.wordcloud_create import create_wordcloud
-
-    create_wordcloud(data, max_words, max_font_size, random_state, image_path)
+    create_wordcloud(fav_list, max_words, max_font_size, random_state, image_path)
     
 else:   
+    
+    if st.checkbox('Show the data used for analysis'):
+        st.subheader('Answers')
+        st.write(data_view)
+        
     colour = 'olivedrab'   
 
     overall_show(data, data_current_ma, data_back_ma, data_reasons, 
