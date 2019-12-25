@@ -77,7 +77,19 @@ belts = ['all belts',
 
 genders = ['Every gender', 'Male','Female']
 
+def filter_data(data, belt_chosen, gender_chosen):
 
+    if belt_chosen != belts[0]:
+        data = data[data['current_belt'] == belt_chosen]
+    
+    data = data[data['current_belt'] != 'no answer']
+        
+    if gender_chosen != genders[0]:    
+        data = data[data['gender'] == gender_chosen]
+    
+    data = data[data['gender'] != 'no answer']
+    
+    return data
 
 if all_or_not == 'Show by groups':
     
@@ -98,39 +110,26 @@ elif all_or_not == 'Show one group\'s answers':
     
     colour = col_dictionary[belt_chosen]
     
-    def filter_data(data, belt_chosen = belt_chosen,
-                    gender_chosen = gender_chosen):
-    
-        if belt_chosen != belts[0]:
-            data = data[data['current_belt'] == belt_chosen]
-        
-        data = data[data['current_belt'] != 'no answer']
-            
-        if gender_chosen != genders[0]:    
-            data = data[data['gender'] == gender_chosen]
-        
-        data = data[data['gender'] != 'no answer']
-        
-        return data
     
     if belt_chosen != belts[0] or gender_chosen != genders[0]:
         
-        data_f = filter_data(data)
-        data_current_ma_f = filter_data(data_current_ma)
-        data_back_ma_f = filter_data(data_back_ma)
-        data_reasons_f = filter_data(data_reasons)
-        data_least_f_f = filter_data(data_least_f)
-        data_subs_f = filter_data(data_subs)
-        data_podcast_f = filter_data(data_podcast)
-        data_web_f = filter_data(data_web)
-        data_gi_f = filter_data(data_gi)
-        data_rash_f = filter_data(data_rash)
-        data_shorts_f = filter_data(data_shorts)
-        data_apparel_f = filter_data(data_apparel)
-        data_comp_f = filter_data(data_comp)
-        data_injury_f = filter_data(data_injury)
-        data_athlete_f = filter_data(data_athlete)
-        data_watch_f = filter_data(data_watch)        
+        data_f = filter_data(data, belt_chosen, gender_chosen)
+        data_current_ma_f = filter_data(data_current_ma, belt_chosen,
+                                        gender_chosen)
+        data_back_ma_f = filter_data(data_back_ma, belt_chosen, gender_chosen)
+        data_reasons_f = filter_data(data_reasons, belt_chosen, gender_chosen)
+        data_least_f_f = filter_data(data_least_f, belt_chosen, gender_chosen)
+        data_subs_f = filter_data(data_subs, belt_chosen, gender_chosen)
+        data_podcast_f = filter_data(data_podcast, belt_chosen, gender_chosen)
+        data_web_f = filter_data(data_web, belt_chosen, gender_chosen)
+        data_gi_f = filter_data(data_gi, belt_chosen, gender_chosen)
+        data_rash_f = filter_data(data_rash, belt_chosen, gender_chosen)
+        data_shorts_f = filter_data(data_shorts, belt_chosen, gender_chosen)
+        data_apparel_f = filter_data(data_apparel, belt_chosen, gender_chosen)
+        data_comp_f = filter_data(data_comp, belt_chosen, gender_chosen)
+        data_injury_f = filter_data(data_injury, belt_chosen, gender_chosen)
+        data_athlete_f = filter_data(data_athlete, belt_chosen, gender_chosen)
+        data_watch_f = filter_data(data_watch, belt_chosen, gender_chosen)      
     
         overall_show(data_f, data_current_ma_f, data_back_ma_f, data_reasons_f, 
                      data_least_f_f, data_subs_f, data_podcast_f, data_web_f, 
