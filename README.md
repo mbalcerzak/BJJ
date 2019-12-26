@@ -1,6 +1,6 @@
 link to the app: [BJJ Survey Results](https://bjj-survey.herokuapp.com/)
 
-# Brazilian Jiu Jitsu Survey 2017
+# Brazilian Jiu Jitsu Survey Results
 
 I am passionate about BJJ and Natural Language Processing and I found a perfect project to combine both. Data contains 63 columns and 807 unique answers. I cleaned it and visualised it. It's available in an interactive dashboard so that everyone can focus on parts they're th emost interested in
 
