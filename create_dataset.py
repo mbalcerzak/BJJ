@@ -281,6 +281,16 @@ from Dictionaries.colnames_dictionary import raw_colnames
 
 data_raw = data[raw_colnames.keys()][2:].rename(columns = raw_colnames)        
 
+def if_nothing(x):
+    list_ = ['nothing','none','nope']
+    if any(word in x for word in list_):
+        return 'no answer'       
+    else:
+        return x
+    
+for column in list(data_raw):
+    data_raw[column] = data_raw[column].apply(lambda x: if_nothing(x))
+
 data_raw.to_csv(path + r'\Data\data_raw.csv', header = True, index = None, 
                   sep = ';')
 

@@ -9,7 +9,8 @@ from Dictionaries.colnames_dictionary import colnames_dictionary as col_d
 def overall_show(data, data_current_ma, data_back_ma, data_reasons, 
                  data_least_f, data_subs, data_podcast, data_web, data_gi, 
                  data_rash, data_shorts, data_apparel, data_comp, data_injury, 
-                 data_athlete, data_watch, data_raw, colour, selected = False):
+                 data_athlete, data_watch, colour, by_gender = False, 
+                 by_belt = False, selected = False):
  
     def bar_plot(data, q, column, colour = colour):    
     
@@ -48,23 +49,21 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
             title_ = hd[q]
         
         fig = px.pie(data, values = values_, names = labels_, title = title_,
-                     color_discrete_sequence=px.colors.sequential.RdBu)
-                     #px.colors.sequential.RdPu)
+                     color_discrete_sequence = px.colors.sequential.RdBu)
         
         fig.update_layout(autosize = False, width = 600, height = 400)
     
-        #st.subheader(title) 
         st.plotly_chart(fig) 
     
     
     # Q2: What is your current rank in jiu jitsu?
-    if selected == False: 
+    if by_belt == False: 
         pie_chart(data,'Q2')
     
     # Q3: How long have you been training jiu jitsu?
     pie_chart(data,'Q3')
     
-    if selected == False: 
+    if by_belt == False: 
         # Q6: How long did it take you to go from white belt to blue belt?
         pie_chart(data,'Q6')
         
@@ -86,8 +85,9 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # Q12: Do you prefer training gi or no-gi?
     pie_chart(data,'Q12')
     
-    # Q13: Does your academy focus on self-defense?
-    pie_chart(data,'Q13')
+    if selected == False: 
+        # Q13: Does your academy focus on self-defense?
+        pie_chart(data,'Q13')
      
     # Q14: What is your preferred time to train?
     pie_chart(data,'Q14') 
@@ -111,8 +111,9 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # Q22: How old were you when you started jiu jitsu?
     pie_chart(data,'Q22') 
     
-    # Q23: Does your instructor encourage students at your gym to compete?
-    pie_chart(data,'Q23') 
+    if selected == False: 
+        # Q23: Does your instructor encourage students at your gym to compete?
+        pie_chart(data,'Q23') 
     
     # Q24: Have you competed in jiu jitsu before?
     pie_chart(data,'Q24') 
@@ -173,8 +174,9 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # Q47: How much do you spend per year (on average) on gear and apparel?
     pie_chart(data,'Q47') 
     
-    # Q48: How much do you spend per month for membership dues?
-    pie_chart(data,'Q48')
+    if selected == False: 
+        # Q48: How much do you spend per month for membership dues?
+        pie_chart(data,'Q48')
      
     # Q49: How much time do you spend per day (on average) reading or watching 
     #jiu jitsu-related material?
@@ -184,8 +186,9 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # which ones do you like?
     bar_plot(data_web, 'Q50', 'website') 
     
+    if by_gender == False: 
     # Q55: What is your gender?
-    pie_chart(data,'Q55')
+        pie_chart(data,'Q55')
      
     # Q56: What is your education level? Please select the highest degree 
     # you've completed.
@@ -224,8 +227,9 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # affiliation?
     #pie_chart(data,'Q66') 
     
-    # Q66.1: Is your gym "leg lock friendly"?
-    pie_chart(data,'Q66.1')  
+    if selected == False:
+        # Q66.1: Is your gym "leg lock friendly"?
+        pie_chart(data,'Q66.1')  
     
     # Q67: Where is your nationality?
     bar_plot(data, 'Q67', 'country') 
