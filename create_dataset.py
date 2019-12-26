@@ -50,7 +50,6 @@ data_q['Q2'][(data_q['Q2'] == 'no rank') & \
 ##########################  nationality  #####################################
 
 from Dictionaries.country_dictionary import country_dictionary
-#from Functions.functions import explode
 
 data_dem = dictionary_processing(
                data = data_q, 
@@ -64,8 +63,6 @@ data_dem = dictionary_processing(
 data_q = data_q.join(data_dem[['countries']])
 
 data_q['country'] = data_q['countries'].apply(lambda x: x[0])
-
-#data_q = explode(data_q, 'countries', 'country')
 
 ############################  athletes  ######################################
 
@@ -266,7 +263,7 @@ for column in ['membership', 'income','money_for_gear']:
     
     data_final[column] = data_final[column].apply(lambda x: reword_money(x))	
 
-#%%    
+  
 data_final['background_ma'] = data_final['background_ma'] \
                                     .apply(lambda x: '[' + x + ']') 
 data_final['currently_cross_train'] = data_final['currently_cross_train'] \
