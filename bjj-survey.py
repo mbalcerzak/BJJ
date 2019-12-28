@@ -161,7 +161,9 @@ elif all_or_not == 'Interesting raw data':
         return data[column][data[column] != 'no answer']
     
     st.subheader(hd['Q18'])
-    if st.checkbox('Show resaons:'):        
+    if st.checkbox('Show resaons:'):  
+        st.write("My personal favourite: \n I saw that I could get a good \
+                 workout while lying on soft mats.")
         st.table(only_answers_col('reasons_raw'))
     
     st.subheader(hd['Q19'])

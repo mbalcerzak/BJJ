@@ -281,8 +281,9 @@ from Dictionaries.colnames_dictionary import raw_colnames
 data_raw = data[raw_colnames.keys()][2:].rename(columns = raw_colnames)        
 
 def if_nothing(x):
-    list_ = ['nothing','none','nope']
-    if any(word in x for word in list_) or x.lower() == 'no':
+    x_low = x.lower()
+    list_ = ['nothing','none','nope','nah']
+    if any(word in x_low for word in list_) or x_low.strip() == 'no':
         return 'no answer'       
     else:
         return x
