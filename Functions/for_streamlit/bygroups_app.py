@@ -162,3 +162,4 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
     norm_barchart(data, 'Q67.1', 'preferred_style','count(preferred_style)') 
     
     # Q68: What is your favorite submission?
+    norm_barchart(data, 'Q69', 'choke','count(choke)')

@@ -244,4 +244,4 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # Q68: What is your favorite submission?
     bar_plot(data_subs, 'Q68', 'technique') 
     
-    pie_chart(data_subs,'choke','Is your favourite submission a choke?')  
+    pie_chart(data,'Q69')  

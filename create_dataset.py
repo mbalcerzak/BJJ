@@ -100,11 +100,10 @@ data_submissions = dictionary_processing(
                        dictionary = submissions_dictionary,
                        new_names = ['technique'])
 
-
 from Functions.functions import is_choke
-
 data_submissions['choke'] = data_submissions['technique']. \
                                             apply(lambda x: is_choke(x))
+
 
 ######################   Gi & NoGi favourite brands  #########################
 
@@ -342,6 +341,7 @@ training_info = ['training_years',
                  'country',
                  'instrutor_encourages_competition',
                  'competed',
+                 'choke'
                  #'medals'
                  ]
 
@@ -353,7 +353,7 @@ reasons_info = ['reasons']
 
 least_f_info = ['least_favourite']
 
-subs_info = ['choke','technique']
+subs_info = ['technique']
  
 injury_info = ['injuries']
 

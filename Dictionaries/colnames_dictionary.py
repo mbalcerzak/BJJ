@@ -38,7 +38,8 @@ colnames_dictionary = {
 'Q62':'have_fav_athlete',
 'Q66.1':'leg_lock_friendly',
 'Q67':'nationality',
-'Q67.1':'preferred_style'
+'Q67.1':'preferred_style',
+'Q69':'choke'
 }
 
 raw_colnames = {
@@ -105,5 +106,6 @@ header_dictionary = {
 'Q66.1':'Is your gym "leg lock friendly"?',
 'Q67':'What is your nationality?',
 'Q67.1':'What is your preferred "style"?',
-'Q68':'What is your favorite submission?'
+'Q68':'What is your favorite submission?',
+'Q69':'Is your favourite submission a choke?'
 }
