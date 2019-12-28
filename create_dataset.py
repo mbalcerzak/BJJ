@@ -47,6 +47,15 @@ data_q['Q2'][(data_q['Q2'] == 'no rank') & \
 data_q['Q2'][(data_q['Q2'] == 'no rank') & \
              (data_q['Q12'] == 'Gi')] = 'white belt'
 
+#####################  gym focus on self-defence  ############################      
+    
+defense_dict= {'Self-defense is one of several focuses':'one of the focuses',
+               'Self-defense is not a focus at my academy':'not a focus',
+               'Self-defense is the primary focus':'primary focus',
+               'no answer':'no answer'}
+    
+data_q['Q13'] = data['Q13'].apply(lambda x: defense_dict[x])
+   
 ##########################  nationality  #####################################
 
 from Dictionaries.country_dictionary import country_dictionary
