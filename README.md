@@ -46,7 +46,6 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 Most of the questions were not processed by me in any way. I mostly cleaned the freetext ones. Here are the details:
 
 'Q2':'What is your current rank in jiu jitsu?'
-- changed to lowercase
 - if the person answered that they train in a gi I changed 'no rank' to 'white belt'
 
 'Q3':'How long have you been training jiu jitsu?',
@@ -141,7 +140,7 @@ Most of the questions were not processed by me in any way. I mostly cleaned the 
 'Q56':'What is your education level? Please select the highest degree you've completed.',
 
 'Q57':'What is your age?',
-- used that variable to create the 'age_cat' column with age categories (by 5 years, e.g. 20-25, 25-30, ...)
+- used that variable to create the 'age_cat' column with age categories (every 5 years, e.g. 20-25, 25-30, ..., 50+)
 
 'Q57.1':'What is your income?',
 
@@ -150,6 +149,7 @@ Most of the questions were not processed by me in any way. I mostly cleaned the 
 'Q60':'Do you watch sport jiu jitsu?',
 
 'Q61':'How would you describe yourself in terms of political ideology?',
+- I decided not to visualise that question on purpose
 
 'Q61.1':'If you do watch sport jiu jitsu, what do you watch and where do you watch it? For instance, do you watch PPVs?  If so, which organizations--EBI, Metamoris, Polaris, etc.',
 - created a dictionary after cleaning the data
@@ -174,4 +174,5 @@ Most of the questions were not processed by me in any way. I mostly cleaned the 
 'Q67.1':'What is your preferred "style"?',
 
 'Q68':'What is your favorite submission?',
-- created a dictionary after cleaning the data
+- wrote a dictionary after cleaning the data
+- created another variable out of the answers: "Is your favourite technique a choke"
