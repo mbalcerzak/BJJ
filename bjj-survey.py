@@ -73,6 +73,7 @@ belts = ['all belts',
 
 genders = ['Every gender', 'Male', 'Female']
 
+def only_answers(column, data):
     return data[data[column] != 'no answer']
 
 if all_or_not == 'Show by groups':
