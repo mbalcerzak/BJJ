@@ -161,19 +161,19 @@ elif all_or_not == 'Interesting raw data':
         return data[column][data[column] != 'no answer']
     
     st.subheader(hd['Q18'])
-    if st.checkbox('Show answers:'):        
+    if st.checkbox('Show resaons:'):        
         st.table(only_answers_col('reasons_raw'))
     
     st.subheader(hd['Q19'])
-    if st.checkbox('Show answers:'):
+    if st.checkbox('Show favourite:'):
         st.table(only_answers_col('favourite_raw'))
     
     st.subheader(hd['Q20'])
-    if st.checkbox('Show answers:'):
+    if st.checkbox('Show least favourite:'):
         st.table(only_answers_col('least_fav_raw'))
     
     st.subheader(hd['Q44'])
-    if st.checkbox('Show answers:'):
+    if st.checkbox('Show problems with manufacturers:'):
         st.table(only_answers_col('brand_problem'))
 
 
