@@ -49,7 +49,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
         count = [int(v) for v in counts.values()]
         
         fig = px.pie(data, values = count, names = category, title = title_,
-                     color_discrete_sequence = px.colors.sequential.YlGnBu[::-1])
+                     color_discrete_sequence=px.colors.sequential.YlGnBu[::-1])
         
         fig.update_layout(autosize = False, width = 600, height = 400)
     
@@ -244,4 +244,5 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     # Q68: What is your favorite submission?
     bar_plot(data_subs, 'Q68', 'technique') 
     
+    # Q69: Is your favourite sumbission a choke?
     pie_chart(data,'Q69')  

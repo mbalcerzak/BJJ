@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import altair as alt
 from collections import Counter, OrderedDict
-import altair as alt
 #alt.renderers.enable('html')
 #path = os.getcwd()
 data = pd.read_csv(r'C:\Users\malgo_000\Documents\GitHub\BJJ\data_bjj.csv', sep = ';')
