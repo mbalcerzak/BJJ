@@ -57,7 +57,7 @@ st.sidebar.header("Overall results or for a selected group?")
 all_or_not = st.sidebar.selectbox("",["Overall",
                                   'Show by groups',
                                   'Select one group',
-                                  'Interesing raw data'])
+                                  'Interesting raw data'])
 
 col_dictionary = {'white belt':'gray',
                   'blue belt':'steelblue', 
@@ -69,20 +69,28 @@ col_dictionary = {'white belt':'gray',
 
 belts = ['all belts', 
          'white belt','blue belt', 'purple belt', 'brown belt', 'black belt', 
-         'no rank']  
+         'no rank'] 
 
 genders = ['Every gender', 'Male', 'Female']
 
+    return data[data[column] != 'no answer']
 
 if all_or_not == 'Show by groups':
+    
+    by_group = 'Current rank'
     
     st.sidebar.header("Split the answers by ...")
     by_group = st.sidebar.radio("",['Current rank','Gender'])
 
     by_gr_dict = {'Current rank':['current_belt', belts[1:6]],
-                  'Gender':['gender', None]}    
+                  'Gender':['gender', None]}  
+    
+    
+    data1 = only_answers(by_gr_dict[by_group][0], data)
+    data_back_ma1 = only_answers(by_gr_dict[by_group][0], data_back_ma)
+    data_current_ma1 = only_answers(by_gr_dict[by_group][0], data_current_ma)
 
-    bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group)
+    bygroups_show(data1, data_back_ma1, data_current_ma1, by_gr_dict, by_group)
 
 
 elif all_or_not == 'Select one group':
@@ -145,27 +153,27 @@ elif all_or_not == 'Select one group':
                      colour, by_gender, by_belt, selected = True)
 
 
-elif all_or_not == 'Interesing raw data':
+elif all_or_not == 'Interesting raw data':
     data_raw = load_data("data_raw")
     
-    def only_answers(column, data = data_raw):
-        data[column][data[column] != 'no anwer']
+    def only_answers_col(column, data = data_raw):
+        return data[column][data[column] != 'no answer']
     
     st.subheader(hd['Q18'])
     if st.checkbox('Show answers:'):        
-        st.table(only_answers('reasons_raw'))
+        st.table(only_answers_col('reasons_raw'))
     
     st.subheader(hd['Q19'])
     if st.checkbox('Show answers:'):
-        st.table(only_answers('favourite_raw'))
+        st.table(only_answers_col('favourite_raw'))
     
     st.subheader(hd['Q20'])
     if st.checkbox('Show answers:'):
-        st.table(only_answers('least_fav_raw'))
+        st.table(only_answers_col('least_fav_raw'))
     
     st.subheader(hd['Q44'])
     if st.checkbox('Show answers:'):
-        st.table(only_answers('brand_problem'))
+        st.table(only_answers_col('brand_problem'))
 
 
 else:   
@@ -174,7 +182,9 @@ else:
         st.subheader('Answers')
         st.write(data_view)
         
-    colour = 'olivedrab'   
+    colour = 'steelblue'
+    
+    #st.sidebar.radio("",['royalblue','midnightblue','navy','steelblue'])
 
     overall_show(data, data_current_ma, data_back_ma, data_reasons, 
                  data_least_f, data_subs, data_podcast, data_web, data_gi, 

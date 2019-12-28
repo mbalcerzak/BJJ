@@ -45,7 +45,7 @@ organisation_dictionary = {
 'iscbjj':['iscbjj'],
 'iska':['iska'],
 'keystone games':['keystone games'],
-'local':['local'],
+'some local tournaments':['local'],
 'midwest submission challenge':['midwest submission challenge'],
 'mnbjjf':['mnbjjf'],
 'nabjjf':['nabjjf'],

@@ -146,6 +146,8 @@ data_injuries = dictionary_processing(
                 dictionary = injuries_dictionary,
                 new_names = ['injuries'])
 
+#data_injuries
+
 ############################   organisations  ################################
 
 from Dictionaries.organisation_dictionary import organisation_dictionary
@@ -396,4 +398,3 @@ for dataset, name in zip(to_explode, explode_names):
     
     data_save.to_csv(path + r'\Data\info\{}.csv'.format(name), header = True, 
                    index = None, sep = ';')
-

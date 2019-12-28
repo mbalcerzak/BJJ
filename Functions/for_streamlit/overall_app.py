@@ -13,18 +13,21 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
                  by_belt = False, selected = False):
  
     def bar_plot(data, q, column, colour = colour):    
-    
-        data_bars = len(list(set(data[column].to_list())))    
+          
+        counts = data[column].value_counts()[:15].index.tolist()          
+        data = data[data[column].isin(counts)]        
+        
+        data_bars = len(data[column].unique())   
         
         bars = alt.Chart(data, height = data_bars * 16).mark_bar( \
-                            color = colour , opacity = 0.9).encode( \
+                            color = colour).encode( #, opacity = 0.8
                             x = alt.X('count(current_belt)', 
                                       title = 'Number of times mentioned'),
                             y = alt.Y(column, 
                                       sort = alt.EncodingSortField(
                                                   field='current_belt', 
                                                   op="count", 
-                                                  order='ascending'),
+                                                  order='descending'),
                                       title = '' ),
                             tooltip = 'count(current_belt)')
         
@@ -42,17 +45,18 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
             
         counts = Counter(data[question].to_list())
         
-        labels_ = [str(k) for k in counts.keys()]
-        values_ = [int(v) for v in counts.values()]
+        category = [str(k) for k in counts.keys()]
+        count = [int(v) for v in counts.values()]
         
-        if title_ == None:
-            title_ = hd[q]
-        
-        fig = px.pie(data, values = values_, names = labels_, title = title_,
-                     color_discrete_sequence = px.colors.sequential.RdBu)
+        fig = px.pie(data, values = count, names = category, title = title_,
+                     color_discrete_sequence = px.colors.sequential.YlGnBu[::-1])
         
         fig.update_layout(autosize = False, width = 600, height = 400)
     
+        if title_ == None:
+            title_ = hd[q]
+    
+        st.subheader(title_)
         st.plotly_chart(fig) 
     
     
@@ -62,7 +66,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     
     # Q3: How long have you been training jiu jitsu?
     pie_chart(data,'Q3')
-    
+    bar_plot(data_least_f, 'Q20', 'least_favourite') 
     if by_belt == False: 
         # Q6: How long did it take you to go from white belt to blue belt?
         pie_chart(data,'Q6')

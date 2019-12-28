@@ -34,7 +34,7 @@ injuries_dictionary = {
 'mat burn':['mat burn'],
 'meniscus':['meniscus'],
 'neck':['neck'],
-'no injuries':['nope', 'no', 'none', 'no injuries', 'never', 'nothing'],
+'no injuries':['nope', 'none', 'no injuries', 'never', 'nothing'],
 'nose':['nose'],
 'nothing serious':['nothing serious', 'no serious','minor'],
 'popped':['popped'],
