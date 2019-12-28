@@ -24,6 +24,8 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 ### Directiories and files
 - **Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)
 - **Functions** - functions I used to process the data with
+-**Data** - datasets (original and final), images and aprogram that helped me create the dictionaries
+
 
 <div align="center">
   <br>
@@ -39,6 +41,12 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
 
 ```python
 
+import pandas as pd
+import streamlit as st
+import altair as alt
+import plotly.express as px
+from collections import Counter, OrderedDict
+import nltk
 
 ```
 ### Methodology used to clean each question
