@@ -22,9 +22,9 @@ I visualised my favourite quesiton ('Q19':'What is your favorite part about trai
   e.g. "Elbow tendinitis that I am currently working through." --> "ELBOW" or "ELBOW TENDINITIS"
 
 ### Directiories and files
-- **Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)
-- **Functions** - functions I used to process the data with
--**Data** - datasets (original and final), images and aprogram that helped me create the dictionaries
+- **Dctionaries** - contains .py files with dictionaries (feel free to message me if you think the list is incomplete or there is a mistake)  
+- **Functions** - functions I used to process the data with  
+- **Data** - datasets (original and final), images and aprogram that helped me create the dictionaries
 
 
 <div align="center">
