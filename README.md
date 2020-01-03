@@ -1,5 +1,5 @@
-link to the app: [BJJ Survey Results](https://bjj-survey.herokuapp.com/)
-Survey's author: [link](https://philosophycommons.typepad.com/the_grumpy_grappler/bjj-survey/)
+link to the app: [BJJ Survey Results](https://bjj-survey.herokuapp.com/)  
+Survey's author: [link](https://philosophycommons.typepad.com/the_grumpy_grappler/bjj-survey/)  
 
 # Brazilian Jiu Jitsu Survey Results
 
