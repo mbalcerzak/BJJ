@@ -48,7 +48,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
         category = [str(k) for k in counts.keys()]
         count = [int(v) for v in counts.values()]
         
-        fig = px.pie(data, values = count, names = category, title = title_,
+        fig = px.pie(data, values = count, names = category,
                      color_discrete_sequence=px.colors.sequential.YlGnBu[::-1])
         
         fig.update_layout(autosize = False, width = 600, height = 400)
@@ -66,7 +66,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     
     # Q3: How long have you been training jiu jitsu?
     pie_chart(data,'Q3')
-    bar_plot(data_least_f, 'Q20', 'least_favourite') 
+ 
     if by_belt == False: 
         # Q6: How long did it take you to go from white belt to blue belt?
         pie_chart(data,'Q6')
@@ -200,7 +200,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     
     # Q57: What is your age?
     #pie_chart(data,'Q57') 
-    pie_chart(data,'age_cat','What is your age?')
+    pie_chart(data,'age_cat','How old are you?')
      
     # Q57.1: What is your income?
     pie_chart(data,'Q57.1') 
@@ -228,7 +228,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
     bar_plot(data_podcast, 'Q65', 'podcast')
     
     # Q66: To which academy do you belong? If it is affiliated, what is the 
-    # affiliation?
+    # affiliation?REAMLIT 
     #pie_chart(data,'Q66') 
     
     if selected == False:

@@ -13,7 +13,8 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
 #        if yn == True:
 #            color_ = alt.Color('{}:N'.format(column),
 #                               scale=alt.Scale(domain=['No', 'Yes'], 
-#                                               range=['darkorange', 'olivedrab']),
+#                                               range=['darkorange', 
+#                                                      'olivedrab']),
 #                               legend=alt.Legend(title=''))
 #        elif order == True:
 #            color_ = alt.Color('{}:O'.format(column),
