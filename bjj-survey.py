@@ -206,5 +206,5 @@ else:
     #st.image("Data\jonathan-borba-Yf1SegAI84o-unsplash.jpg", width = 300,
             # caption = "Photo by Jonathan Borba on Unsplash")        
             
-    st.image("Data\samuel-castro-g6lq1z1BS2g-unsplash.jpg", 
+    st.image("https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data/samuel-castro-g6lq1z1BS2g-unsplash.jpg", 
                use_column_width=True , caption="Photo by Samuel Castro on Unsplash")
