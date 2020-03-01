@@ -4,8 +4,6 @@ from Functions.for_streamlit.bygroups_app import bygroups_show
 from Functions.for_streamlit.overall_app import overall_show
 from Dictionaries.colnames_dictionary import header_dictionary as hd
 
-st.title('BJJ  Survey Results')
-
 DATA_URL = ('https://raw.githubusercontent.com/mbalcerzak/BJJ/master/Data')
 
 #@st.cache
@@ -24,7 +22,7 @@ def load_data(file_name):
     
     return data
 
-data_load_state = st.text('Loading data...')
+#data_load_state = st.text('Loading data...')
 
 data_view = load_data("data_bjj") # the one that has a pre-view
 
@@ -46,7 +44,7 @@ data_athlete = load_data("info/athlete_info")
 data_watch = load_data("info/watch_info")
 
 
-data_load_state.text('Loading data... done!')
+#data_load_state.text('Loading data... done!')
 
 # ----------------- FINISHED LOADING DATA FROM GITHUB ---------------------- #
 
@@ -54,7 +52,8 @@ st.sidebar.text("github.com/mbalcerzak")
 
 st.sidebar.header("Overall results or for a selected group?")
 
-all_or_not = st.sidebar.selectbox("",["Overall",
+all_or_not = st.sidebar.radio("",["Introduction",
+                                  "Overall",
                                   'Show by groups',
                                   'Select one group',
                                   'Interesting raw data'])
@@ -161,7 +160,7 @@ elif all_or_not == 'Interesting raw data':
         return data[column][data[column] != 'no answer']
     
     st.subheader(hd['Q18'])
-    if st.checkbox('Show resaons:'):  
+    if st.checkbox('Show reasons:'):  
         st.write("My personal favourite: \n I saw that I could get a good \
                  workout while lying on soft mats.")
         st.table(only_answers_col('reasons_raw'))
@@ -179,7 +178,7 @@ elif all_or_not == 'Interesting raw data':
         st.table(only_answers_col('brand_problem'))
 
 
-else:   
+elif all_or_not == "Overall":   
     
     if st.checkbox('Show the data used for analysis'):
         st.subheader('Answers')
@@ -194,4 +193,18 @@ else:
                  data_rash, data_shorts, data_apparel, data_comp, data_injury, 
                  data_athlete, data_watch, colour, by_gender = False, 
                  by_belt= False, selected = False)
+   
+else:
+    st.title("Brazilian jiu-jitsu survey analysis")
     
+    st.markdown("Data comes from a survey about Brazilian jiu-jitsu (BJJ) created by \
+                [Grumpy Grappler Blog](https://philosophycommons.typepad.com/the_grumpy_grappler/bjj-survey/). \
+                The app is a summary of 807 answers. The free-text \
+                answers have been cleaned, you can check out the methodology \
+                and my code on my [GitHub](https://github.com/mbalcerzak/BJJ)")
+                
+    #st.image("Data\jonathan-borba-Yf1SegAI84o-unsplash.jpg", width = 300,
+            # caption = "Photo by Jonathan Borba on Unsplash")        
+            
+    st.image("Data\samuel-castro-g6lq1z1BS2g-unsplash.jpg", 
+               use_column_width=True , caption="Photo by Samuel Castro on Unsplash")

@@ -19,7 +19,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
         
         data_bars = len(data[column].unique())   
         
-        bars = alt.Chart(data, height = data_bars * 16).mark_bar( \
+        bars = alt.Chart(data, height = data_bars * 20).mark_bar( \
                             color = colour).encode( #, opacity = 0.8
                             x = alt.X('count(current_belt)', 
                                       title = 'Number of times mentioned'),
@@ -29,9 +29,12 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
                                                   op="count", 
                                                   order='descending'),
                                       title = '' ),
-                            tooltip = 'count(current_belt)')
+                            tooltip = 'count(current_belt)'). \
+                            configure_axis(labelFontSize=15,
+                                           titleFontSize=15)
         
         st.subheader(hd[q])
+        bars.width = 660
         st.altair_chart(bars)
     
     def pie_chart(data, q, title_ = None):

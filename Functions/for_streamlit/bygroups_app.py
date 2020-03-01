@@ -38,9 +38,13 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
             color = color_,
             tooltip = count_,
             order=alt.Order(column,sort = 'ascending')
-            )
+            ). configure_axis(labelFontSize=15,
+                              titleFontSize=15) \
+            .configure_legend(
+                    labelFontSize=13)
     
         st.subheader(hd[q])
+        norm_bar.width = 660
         st.altair_chart(norm_bar)
         
     #-----------------------------------------------------------------------#
