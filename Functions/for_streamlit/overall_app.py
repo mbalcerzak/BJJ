@@ -34,7 +34,7 @@ def overall_show(data, data_current_ma, data_back_ma, data_reasons,
                                            titleFontSize=15)
         
         st.subheader(hd[q])
-        bars.width = 660
+        bars.width = 500
         st.altair_chart(bars)
     
     def pie_chart(data, q, title_ = None):

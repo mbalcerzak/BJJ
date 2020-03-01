@@ -44,7 +44,7 @@ def bygroups_show(data, data_back_ma, data_current_ma, by_gr_dict, by_group):
                     labelFontSize=13)
     
         st.subheader(hd[q])
-        norm_bar.width = 660
+        norm_bar.width = 500
         st.altair_chart(norm_bar)
         
     #-----------------------------------------------------------------------#
