@@ -106,11 +106,11 @@ app.layout = html.Div([
                            'padding-top': '15px'},
                     ),
             html.Div([
-                html.Label('Select district'),
+                html.Label('Select a belt'),
                 dcc.Dropdown(
                     id='district-dropdown',
                     options=districts,
-                    value='Mokotów',
+                    value='blue belt',
                     multi=False,
                     clearable=True,
                     searchable=True,

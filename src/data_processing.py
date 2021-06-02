@@ -28,6 +28,12 @@ def get_age_brackets(age:str = None) -> str:
     return cat.strip()
 
 
+def get_belt_colours():
+    with open('../Dictionaries/belt_colours.json', 'r') as f:
+        file = json.load(f)
+    return file["belts"]
+
+
 def get_counts(data: pd.DataFrame = None, json_name: str = None) -> None:
     final_json = {}
     data["current_age"] = data["age"].apply(get_age_brackets)
@@ -50,17 +56,16 @@ def main():
 
     get_counts(all_belts, "bjj_overall")
 
-    belt_colours = ['brown belt', 'black belt', 'blue belt', 'white belt', 'no rank', 'purple belt']
+    belt_colours = get_belt_colours()
 
-    for belt in belt_colours:
+    for belt in belt_colours.keys():
 
         belt_df = df.loc[df['current_belt'] == belt]
         belt_df = belt_df.drop(columns=['current_belt'])
 
         assert len(belt_df) > 0
 
-        json_name = belt.replace("_", " ")
-        get_counts(belt_df, json_name)
+        get_counts(belt_df, belt_colours[belt])
 
 
 if __name__ == "__main__":
