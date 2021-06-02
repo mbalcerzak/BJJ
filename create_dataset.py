@@ -1,12 +1,9 @@
-import pandas as pd
 import os
-from nltk.corpus import stopwords
-sw = stopwords.words("english")
+import pandas as pd
 from Functions.functions import dictionary_processing
 
 path = os.getcwd()
 
-############################################################################## 
 # getting the data and deleting unimportant columns
 data = pd.read_csv(path + r'\BJJ1.csv')
 

@@ -1,4 +1,4 @@
-reasons_dictionary = {
+"reasons_dictionary": {
 'anger management':['fuck people up', 'anger', 'angry'],
 'bad relationship':['toxic', 'bad relationship'],
 'become a more rounded fighter':['rounded'],
@@ -44,4 +44,4 @@ reasons_dictionary = {
 'wanted to compete':['compete', 'competition', 'competitive', 'championship', 'competitiob'],
 'work':['work'],
 'no answer':['no answer']
-        }
+}

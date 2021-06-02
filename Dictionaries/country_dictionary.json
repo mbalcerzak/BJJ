@@ -1,4 +1,4 @@
-country_dictionary = { 
+"country_dictionary":{
     'Australia':['Australian', 'Austtalian', 'Australia'],
     'Austria':['Austria', 'Austrian'],
     'Bosnia':['Bosniak', 'Bosnian', 'Bosnia'],

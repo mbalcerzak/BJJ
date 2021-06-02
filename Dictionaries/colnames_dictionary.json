@@ -1,4 +1,4 @@
-colnames_dictionary = {
+{"colnames_dictionary": {
 'Q2':'current_belt',
 'Q3':'training_years',
 'Q6':'white_blue',
@@ -40,18 +40,18 @@ colnames_dictionary = {
 'Q67':'nationality',
 'Q67.1':'preferred_style',
 'Q69':'choke'
-}
+},
 
-raw_colnames = {
+"raw_colnames": {
 'Q44':'brand_problem',
 'Q18':'reasons_raw',
 'Q19':'favourite_raw',
 'Q20':'least_fav_raw',
 'Q61.1':'watch_raw',
 'Q63':'favourite_athletes_raw'
-}
+},
 
-header_dictionary = {
+"header_dictionary": {
 'Q2':'What is your current rank in jiu jitsu?',
 'Q3':'How long have you been training jiu jitsu?',
 'Q6':'How long did it take you to go from white belt to blue belt?',
@@ -108,4 +108,5 @@ header_dictionary = {
 'Q67.1':'What is your preferred "style"?',
 'Q68':'What is your favorite submission?',
 'Q69':'Is your favourite submission a choke?'
+}
 }
