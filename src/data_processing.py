@@ -29,7 +29,7 @@ def get_age_brackets(age:str = None) -> str:
 
 
 def get_belt_colours():
-    with open('../Dictionaries/belt_colours.json', 'r') as f:
+    with open('../Dictionaries/belts.json', 'r') as f:
         file = json.load(f)
     return file["belts"]
 

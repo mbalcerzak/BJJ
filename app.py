@@ -4,22 +4,16 @@ import dash_html_components as html
 import pandas as pd
 import plotly.express as px
 from dash.dependencies import Output, Input
-import urllib.request as request
 import json
-from datetime import date
+from skimage import io
 
 
-def get_json():
-    link = "https://raw.githubusercontent.com/mbalcerzak/warsaw_flats_api/main/json_dir/flats.json"
-    with request.urlopen(link) as url:
-        data = json.loads(url.read().decode())
+def get_list(name: str) -> dict:
+    with open(f'Dictionaries/{name}.json', 'r') as f:
+        file = json.load(f)
 
-    return data
+    sorted_list = sorted(file[name])
 
-
-def get_list(label: str) -> dict:
-    data = get_json()
-    sorted_list = sorted(data[label].keys())
     options = []
     for key in sorted_list:
         options.append({'label': key, 'value': key})
@@ -27,56 +21,103 @@ def get_list(label: str) -> dict:
     return options
 
 
-def today_str():
-    return date.today().strftime("%Y-%m-%d")
+belts = get_list("belts")
+genders = get_list("genders")
 
-
-today = today_str()
-
-districts = get_list("flats_per_location")
-flat_sizes = get_list("flats_per_area_cat")
-
+path_bjj_image_intro = '../assets/jonathan-borba-Yf1SegAI84o-unsplash.jpg'
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-# --- initialize the app ---
+
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
-# --- layout the dashboard ---
+
 app.layout = html.Div([
     html.Div([
-        html.Div([
-            html.H1('Brasilian Jiu Jitsu survey results',
-                    style={'textAlign': 'center',
-                           'color': '#FFFFFF',
-                           'fontSize': '36px',
-                           'padding-top': '0px'},
-                    ),
+        html.H1('Brasilian Jiu Jitsu survey results',
+                style={'textAlign': 'center',
+                       'color': '#FFFFFF',
+                       'fontSize': '36px',
+                       'padding-top': '0px'},
+                ),
 
-            html.P('By MAB', style={'textAlign': 'center',
-                                    'color': '#FFFFFF',
-                                    'fontSize': '24px'},
-                   ),
-            html.P('''An interactive visualisation of a BJJ survey conducted online in 2017''',
-                   style={'textAlign': 'center',
-                          'color': '#FFFFFF',
-                          'fontSize': '16px'},
-                   ),
+        html.P('By MAB', style={'textAlign': 'center',
+                                'color': '#FFFFFF',
+                                'fontSize': '24px'},
+               ),
+        html.P('''An interactive visualisation of a BJJ survey conducted online in 2017''',
+               style={'textAlign': 'center',
+                      'color': '#FFFFFF',
+                      'fontSize': '16px'},
+               ),
+    ],
+        style={'backgroundColor': '#1f3b4d',
+               'height': '200px',
+               'display': 'flex',
+               'flexDirection': 'column',
+               'justifyContent': 'center'},
+    ),
+    dcc.Tabs(id='tabs-example', value='tab-overall', children=[
+        dcc.Tab(label='Intro', value='tab-description'),
+        dcc.Tab(label='See all answers', value='tab-overall'),
+        dcc.Tab(label='Select a group', value='tab-grouped'),
+    ]),
+    html.Div(id='tabs-example-content')
+])
+
+
+@app.callback(
+    Output('pie-chart', 'figure'),
+    [Input('belt_dropdown', "value"),
+     Input('gender_dropdown', "value")])
+def update_figure(belt, gender):
+    with open(f'Data/bjj_overall.json', 'r') as f:
+        file = json.load(f)
+        training_yrs = file["training_years"]
+
+    df = pd.DataFrame(training_yrs.items(), columns=['Years', 'Count'])
+    df = df.sort_values(by=['Years'])
+
+    fig = px.pie(df, values='Count', names='Years')
+
+    return fig
+
+
+
+@app.callback(Output('tabs-example-content', 'children'),
+              Input('tabs-example', 'value'))
+def render_content(tab):
+    if tab == 'tab-description':
+        return html.Div([
+            html.Div([
+                html.H1('About the project',
+                        style={'textAlign': 'center',
+                               'color': '#1f3b4d',
+                               'fontSize': '30px',
+                               'padding-top': '15px'},
+                        ),
+            ]),
+            html.Div([
+                html.Div([
+                    html.Img(src=app.get_asset_url(path_bjj_image_intro),
+                             style={'height': '50%', 'width': '50%'})
+                ], className="six columns"),
+                html.Div([
+                    html.P('''Data comes from a survey about Brazilian jiu-jitsu (BJJ) created by Grumpy Grappler Blog. 
+                    The app is a summary of 807 answers. The free-text answers have been cleaned, you can check out
+                     the methodology and my code on my GitHub''',
+                       style={'textAlign': 'center',
+                              'color': '#1f3b4d',
+                              'fontSize': '16px'},
+                       ),
+                ], className="six columns"),
+            ], className="row"),
+
         ],
-            style={'backgroundColor': '#1f3b4d',
-                   'height': '200px',
-                   'display': 'flex',
-                   'flexDirection': 'column',
-                   'justifyContent': 'center'},
         ),
-        html.Div([
-            html.H1('Overall statistics',
-                    style={'textAlign': 'center',
-                           'color': '#1f3b4d',
-                           'fontSize': '30px',
-                           'padding-top': '15px'},
-                    ),
-            # two pie charts in a row
+
+    elif tab == 'tab-overall':
+        return html.Div([
             html.Div([
                 html.Div([
                     html.H4('Number of flats in each district', style={'textAlign': 'center'}),
@@ -89,17 +130,20 @@ app.layout = html.Div([
                               style={'padding': '25px'}),
                 ], className="six columns"),
             ], className="row"),
-            html.Div(
-                dcc.Graph(id='scraped-per-day',
-                          style={'padding': '25px'}),
-            ),
-            html.Div(
-                dcc.Graph(id='all-districts-prices',
-                          style={'padding': '25px'}),
-            ),
-        ]),
-        html.Div([
-            html.H1('Select district and flat area to see average prices',
+            html.Div([
+                html.H1('Overall statistics',
+                        style={'textAlign': 'center',
+                               'color': '#1f3b4d',
+                               'fontSize': '30px',
+                               'padding-top': '15px'},
+                        ),
+            ]),
+
+        ],
+        ),
+    elif tab == 'tab-grouped':
+        return html.Div([
+            html.H1('You can filter the data by belt colour, gender or both',
                     style={'textAlign': 'center',
                            'color': '#1f3b4d',
                            'fontSize': '30px',
@@ -108,13 +152,13 @@ app.layout = html.Div([
             html.Div([
                 html.Label('Select a belt'),
                 dcc.Dropdown(
-                    id='district-dropdown',
-                    options=districts,
+                    id='belt_dropdown',
+                    options=belts,
                     value='blue belt',
                     multi=False,
                     clearable=True,
                     searchable=True,
-                    placeholder='Choose a City...',
+                    placeholder='Choose a belt colour...',
                 ),
             ],
                 style={'width': '25%',
@@ -123,15 +167,15 @@ app.layout = html.Div([
                        'padding-top': '20px'}
             ),
             html.Div([
-                html.Label('Select a flat size (square metres)'),
+                html.Label('Select gender'),
                 dcc.Dropdown(
-                    id='area-dropdown',
-                    options=flat_sizes,
-                    value='40_50',
+                    id='gender_dropdown',
+                    options=genders,
+                    value='Male',
                     multi=False,
                     clearable=True,
                     searchable=True,
-                    placeholder='Choose a City...',
+                    placeholder='Choose a gender...',
                 ),
             ],
                 style={'width': '25%',
@@ -140,137 +184,10 @@ app.layout = html.Div([
                        'padding-top': '20px'}
             ),
             html.Div(
-                dcc.Graph(id='district-area-price',
+                dcc.Graph(id='pie-chart',
                           style={'padding': '25px'}),
             ),
         ]),
-        html.Div([
-            html.Label('Useful links:',
-                       style={'padding': '10px'}
-                       ),
-            html.Label(' - JSON data',
-                       style={'padding-left': '25px'}),
-            html.A('https://raw.githubusercontent.com/mbalcerzak/warsaw_flats_api/main/json_dir/flats.json',
-                   style={'padding-left': '25px'}),
-            html.Label('- code for this thing',
-                       style={'padding-left': '25px'}),
-            html.A('https://github.com/mbalcerzak/warsaw_flats_dashboard',
-                   style={'padding-left': '25px'}),
-        ],
-        ),
-    ],
-    ),
-],
-)
-
-
-@app.callback(
-    Output('district-area-price', 'figure'),
-    [Input('district-dropdown', "value"),
-     Input('area-dropdown', "value")])
-def update_figure(location, area):
-    data = get_json()
-
-    dff = data["price_m_loc_area_cat"]
-    dff = pd.DataFrame.from_dict(dff)
-    dff = dff[dff['location'] == location]
-    dff = dff[dff['area_category'] == area]
-    num_flats = sum(dff['num_flats'])
-
-    dff = dff.sort_values(by=['month_num'])
-    fig = px.line(dff, x='month', y='avg_price_per_m')
-
-    fig.update_layout(template='xgridoff',
-                      yaxis={'title': 'Price per m2 (PLN)'},
-                      xaxis={'title': 'Month'},
-                      title={'text': f'Prices in {location} for flats of size {area} ({num_flats} flats)',
-                             'font': {'size': 24}, 'x': 0.5, 'xanchor': 'center'},
-                      )
-    fig.update_traces(mode="markers+lines")
-
-    return fig
-
-
-@app.callback(
-    Output('all-districts-prices', 'figure'),
-    Input('area-dropdown', 'value'))
-def update_figure(area):
-    data = get_json()
-    dff = data["price_m_location"]
-
-    dff = pd.DataFrame(dff)
-
-    dff = dff.sort_values(by=['month_num'])
-
-    fig = px.line(dff, x='month', y='avg_price_per_m', color='location')
-
-    fig.update_layout(template='xgridoff',
-                      yaxis={'title': 'Average price per m2 (PLN)'},
-                      xaxis={'title': 'Month'},
-                      title={'text': f'Average prices per m2 for each district',
-                             'font': {'size': 24}, 'x': 0.5, 'xanchor': 'center'}
-                      )
-
-    return fig
-
-
-# --- dropdown callback ---
-@app.callback(
-    Output('scraped-per-day', 'figure'),
-    Input('area-dropdown', 'value'))
-def update_figure(area):
-    data = get_json()
-    dff = data["scraped_per_day"]
-    dff = pd.DataFrame(dff.items(), columns=['Date', 'Value'])
-
-    dff['Type'] = 'Value'
-
-    dff_ma = data["scraped_per_day_m_avg"]
-    dff_ma = pd.DataFrame(dff_ma.items(), columns=['Date', 'Value'])
-    dff_ma['Type'] = 'Moving Average (7 days)'
-
-    df = dff.append(dff_ma, ignore_index=True)
-    df = df.sort_values(by=['Date'])
-
-    df = df.loc[df['Date'] != today]
-    date_first = min(df['Date'])
-    date_last = max(df['Date'])
-
-    fig = px.line(df, x='Date', y='Value', color='Type')
-
-    fig.update_layout(template='xgridoff',
-                      yaxis={'title': 'Number of ads scraped'},
-                      xaxis={'title': 'Date'},
-                      title={'text': f'Ads scraped between {date_first} and {date_last}',
-                             'font': {'size': 24}, 'x': 0.5, 'xanchor': 'center'}
-                      )
-    return fig
-
-
-@app.callback(
-    Output('pie_flats_per_location', 'figure'),
-    Input('area-dropdown', 'value'))
-def update_figure(selected_city):
-    data = get_json()
-    dff = data["flats_per_location"]
-    dff = pd.DataFrame(dff.items(), columns=['Location', 'Value'])
-
-    fig = px.pie(dff, values='Value', names='Location')
-
-    return fig
-
-
-@app.callback(
-    Output('pie_flats_per_area_cat', 'figure'),
-    Input('area-dropdown', 'value'))
-def update_figure(selected_city):
-    data = get_json()
-    dff = data["flats_per_area_cat"]
-    dff = pd.DataFrame(dff.items(), columns=['Area', 'Value'])
-
-    fig = px.pie(dff, values='Value', names='Area')
-
-    return fig
 
 
 if __name__ == '__main__':
