@@ -29,7 +29,7 @@ def get_age_brackets(age:str = None) -> str:
 
 
 def get_belt_colours():
-    with open('../Dictionaries/belts.json', 'r') as f:
+    with open('Dictionaries/belts.json', 'r') as f:
         file = json.load(f)
     return file["belts"]
 
@@ -50,7 +50,7 @@ def get_counts(data: pd.DataFrame = None, json_name: str = None) -> None:
         json.dump(final_json, outfile)
 
 
-def main():
+def create_belts_jsons():
     df = pd.read_csv('../Data/data_bjj_no_brackets.csv', sep=";", index_col=[0])
     all_belts = df.copy()
 
@@ -68,5 +68,27 @@ def main():
         get_counts(belt_df, belt_colours[belt])
 
 
+def create_belt_gender_summaries():
+    df = pd.read_csv('../Data/data_bjj_no_brackets.csv', sep=";", index_col=[0])
+
+    df_copy = df.copy()
+
+    belt_colours = get_belt_colours()
+    genders = ["Female", "Male"]
+
+    for gender in genders:
+        gender_df = df.loc[df['gender'] == gender]
+        gender_df = gender_df.drop(columns=['gender'])
+
+        get_counts(gender_df, gender)
+
+        for belt in belt_colours.keys():
+            belt_df = df_copy.loc[(df_copy['current_belt'] == belt)]
+            belt_df = belt_df.drop(columns=['current_belt'])
+
+            if len(belt_df) > 0:
+                get_counts(belt_df, f"{gender}_{belt_colours[belt]}")
+
+
 if __name__ == "__main__":
-    main()
+    create_belt_gender_summaries()

@@ -4,3 +4,4 @@ Datasets/unmatched.xlsx
 Dictionaries/Questions.txt
 .idea/
 venv/
+__pycache__

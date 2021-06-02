@@ -27,7 +27,6 @@ def wordcloud_from_column(column):
     for val in value_list:
         val = str(val)
         tokens = val.split(',')
-        print(tokens)
 
         for i in range(len(tokens)):
             tokens[i] = tokens[i].lower()
@@ -45,7 +44,3 @@ def wordcloud_from_column(column):
     plt.tight_layout(pad=0)
 
     plt.savefig(f'images/wordcloud_{column}.png')
-
-
-if __name__ == '__main__':
-    pass
